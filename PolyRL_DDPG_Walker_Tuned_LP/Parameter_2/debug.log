@@ -18302,3 +18302,282 @@
 2017-05-06 16:28:04.080927 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #599 | Training started
 2017-05-06 16:28:04.096009 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #599 | Populating workers...
 2017-05-06 16:28:04.096504 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #599 | Populated
+2017-05-06 16:29:54.401637 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #599 | Training finished
+2017-05-06 16:29:54.407424 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #599 | Collecting samples for evaluation
+2017-05-06 16:30:12.566363 EDT | -----------------------  -------------
+2017-05-06 16:30:12.567457 EDT | Epoch                    599
+2017-05-06 16:30:12.567898 EDT | AverageReturn             -0.461657
+2017-05-06 16:30:12.568324 EDT | StdReturn                  1.78933
+2017-05-06 16:30:12.568747 EDT | MaxReturn                  4.95364
+2017-05-06 16:30:12.569170 EDT | MinReturn                 -6.39611
+2017-05-06 16:30:12.569590 EDT | AverageEsReturn           -0.322956
+2017-05-06 16:30:12.570010 EDT | StdEsReturn                1.84215
+2017-05-06 16:30:12.570427 EDT | MaxEsReturn                4.32137
+2017-05-06 16:30:12.570844 EDT | MinEsReturn               -3.91459
+2017-05-06 16:30:12.571262 EDT | AverageDiscountedReturn   -0.440092
+2017-05-06 16:30:12.571691 EDT | AverageQLoss               5.97326e-06
+2017-05-06 16:30:12.572107 EDT | AveragePolicySurr         -0.00274063
+2017-05-06 16:30:12.572521 EDT | AverageQ                   0.00221387
+2017-05-06 16:30:12.572956 EDT | AverageAbsQ                0.00797245
+2017-05-06 16:30:12.573369 EDT | AverageY                   0.00220537
+2017-05-06 16:30:12.573784 EDT | AverageAbsY                0.00824246
+2017-05-06 16:30:12.574198 EDT | AverageAbsQYDiff           0.00149458
+2017-05-06 16:30:12.574614 EDT | AverageAction              1
+2017-05-06 16:30:12.575029 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:30:12.575457 EDT | QFunRegParamNorm          30.1684
+2017-05-06 16:30:12.575871 EDT | AverageForwardProgress     0.00776418
+2017-05-06 16:30:12.576286 EDT | MaxForwardProgress         0.0322283
+2017-05-06 16:30:12.576698 EDT | MinForwardProgress        -0.0196126
+2017-05-06 16:30:12.577110 EDT | StdForwardProgress         0.00836553
+2017-05-06 16:30:12.577525 EDT | -----------------------  -------------
+2017-05-06 16:30:12.578212 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #600 | Training started
+2017-05-06 16:30:12.581851 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #600 | Populating workers...
+2017-05-06 16:30:12.582294 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #600 | Populated
+2017-05-06 16:31:49.663183 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #600 | Training finished
+2017-05-06 16:31:49.667368 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #600 | Collecting samples for evaluation
+2017-05-06 16:32:08.243215 EDT | -----------------------  ------------
+2017-05-06 16:32:08.244283 EDT | Epoch                    600
+2017-05-06 16:32:08.244769 EDT | AverageReturn             -0.427246
+2017-05-06 16:32:08.245256 EDT | StdReturn                  1.8167
+2017-05-06 16:32:08.245735 EDT | MaxReturn                  4.86603
+2017-05-06 16:32:08.246213 EDT | MinReturn                 -5.27956
+2017-05-06 16:32:08.246692 EDT | AverageEsReturn           -0.450112
+2017-05-06 16:32:08.247163 EDT | StdEsReturn                1.78427
+2017-05-06 16:32:08.247909 EDT | MaxEsReturn                4.20172
+2017-05-06 16:32:08.248384 EDT | MinEsReturn               -4.84585
+2017-05-06 16:32:08.248864 EDT | AverageDiscountedReturn   -0.4092
+2017-05-06 16:32:08.249335 EDT | AverageQLoss               6.2365e-06
+2017-05-06 16:32:08.249813 EDT | AveragePolicySurr         -0.00398257
+2017-05-06 16:32:08.250288 EDT | AverageQ                   0.00347675
+2017-05-06 16:32:08.250762 EDT | AverageAbsQ                0.00818341
+2017-05-06 16:32:08.251239 EDT | AverageY                   0.00346794
+2017-05-06 16:32:08.251720 EDT | AverageAbsY                0.00834455
+2017-05-06 16:32:08.252199 EDT | AverageAbsQYDiff           0.00145684
+2017-05-06 16:32:08.252670 EDT | AverageAction              1
+2017-05-06 16:32:08.253147 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:32:08.253625 EDT | QFunRegParamNorm          30.1977
+2017-05-06 16:32:08.254095 EDT | AverageForwardProgress     0.00789394
+2017-05-06 16:32:08.254567 EDT | MaxForwardProgress         0.0310856
+2017-05-06 16:32:08.255034 EDT | MinForwardProgress        -0.0149417
+2017-05-06 16:32:08.255518 EDT | StdForwardProgress         0.00849202
+2017-05-06 16:32:08.255995 EDT | -----------------------  ------------
+2017-05-06 16:32:08.256825 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #601 | Training started
+2017-05-06 16:32:08.259011 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #601 | Populating workers...
+2017-05-06 16:32:08.259586 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #601 | Populated
+2017-05-06 16:33:36.516903 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #601 | Training finished
+2017-05-06 16:33:36.531493 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #601 | Collecting samples for evaluation
+2017-05-06 16:33:58.688149 EDT | -----------------------  -------------
+2017-05-06 16:33:58.689089 EDT | Epoch                    601
+2017-05-06 16:33:58.689451 EDT | AverageReturn             -0.369256
+2017-05-06 16:33:58.689800 EDT | StdReturn                  1.7435
+2017-05-06 16:33:58.690146 EDT | MaxReturn                  4.78141
+2017-05-06 16:33:58.690491 EDT | MinReturn                 -5.82968
+2017-05-06 16:33:58.690930 EDT | AverageEsReturn           -0.849783
+2017-05-06 16:33:58.691621 EDT | StdEsReturn                1.7297
+2017-05-06 16:33:58.692313 EDT | MaxEsReturn                3.40408
+2017-05-06 16:33:58.693005 EDT | MinEsReturn               -4.20451
+2017-05-06 16:33:58.693712 EDT | AverageDiscountedReturn   -0.354415
+2017-05-06 16:33:58.694396 EDT | AverageQLoss               7.67694e-06
+2017-05-06 16:33:58.695089 EDT | AveragePolicySurr         -0.00466812
+2017-05-06 16:33:58.695792 EDT | AverageQ                   0.00418123
+2017-05-06 16:33:58.696485 EDT | AverageAbsQ                0.00805706
+2017-05-06 16:33:58.697167 EDT | AverageY                   0.00418761
+2017-05-06 16:33:58.697859 EDT | AverageAbsY                0.00816732
+2017-05-06 16:33:58.698540 EDT | AverageAbsQYDiff           0.00154227
+2017-05-06 16:33:58.699219 EDT | AverageAction              1
+2017-05-06 16:33:58.699948 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:33:58.700665 EDT | QFunRegParamNorm          30.3011
+2017-05-06 16:33:58.701359 EDT | AverageForwardProgress     0.00820079
+2017-05-06 16:33:58.702042 EDT | MaxForwardProgress         0.0320335
+2017-05-06 16:33:58.702733 EDT | MinForwardProgress        -0.0172903
+2017-05-06 16:33:58.703419 EDT | StdForwardProgress         0.00815785
+2017-05-06 16:33:58.704111 EDT | -----------------------  -------------
+2017-05-06 16:33:58.705000 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #602 | Training started
+2017-05-06 16:33:58.707872 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #602 | Populating workers...
+2017-05-06 16:33:58.710684 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #602 | Populated
+2017-05-06 16:35:25.537979 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #602 | Training finished
+2017-05-06 16:35:25.539156 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #602 | Collecting samples for evaluation
+2017-05-06 16:35:51.084954 EDT | -----------------------  -------------
+2017-05-06 16:35:51.086186 EDT | Epoch                    602
+2017-05-06 16:35:51.086548 EDT | AverageReturn             -0.194584
+2017-05-06 16:35:51.086897 EDT | StdReturn                  1.72366
+2017-05-06 16:35:51.087240 EDT | MaxReturn                  4.66575
+2017-05-06 16:35:51.087594 EDT | MinReturn                 -5.2149
+2017-05-06 16:35:51.087936 EDT | AverageEsReturn           -0.230377
+2017-05-06 16:35:51.088277 EDT | StdEsReturn                1.72776
+2017-05-06 16:35:51.088619 EDT | MaxEsReturn                2.79191
+2017-05-06 16:35:51.088962 EDT | MinEsReturn               -4.66772
+2017-05-06 16:35:51.089303 EDT | AverageDiscountedReturn   -0.192473
+2017-05-06 16:35:51.089644 EDT | AverageQLoss               9.63274e-06
+2017-05-06 16:35:51.089986 EDT | AveragePolicySurr         -0.00234696
+2017-05-06 16:35:51.090327 EDT | AverageQ                   0.0019418
+2017-05-06 16:35:51.090667 EDT | AverageAbsQ                0.00705857
+2017-05-06 16:35:51.091006 EDT | AverageY                   0.00192788
+2017-05-06 16:35:51.091354 EDT | AverageAbsY                0.00732189
+2017-05-06 16:35:51.091696 EDT | AverageAbsQYDiff           0.00183146
+2017-05-06 16:35:51.092037 EDT | AverageAction              1
+2017-05-06 16:35:51.092376 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:35:51.092717 EDT | QFunRegParamNorm          30.3764
+2017-05-06 16:35:51.093056 EDT | AverageForwardProgress     0.00899267
+2017-05-06 16:35:51.093396 EDT | MaxForwardProgress         0.0316514
+2017-05-06 16:35:51.093735 EDT | MinForwardProgress        -0.0140344
+2017-05-06 16:35:51.094074 EDT | StdForwardProgress         0.00807061
+2017-05-06 16:35:51.094414 EDT | -----------------------  -------------
+2017-05-06 16:35:51.094973 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #603 | Training started
+2017-05-06 16:35:51.098188 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #603 | Populating workers...
+2017-05-06 16:35:51.098642 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #603 | Populated
+2017-05-06 16:37:35.518779 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #603 | Training finished
+2017-05-06 16:37:35.519853 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #603 | Collecting samples for evaluation
+2017-05-06 16:37:54.630875 EDT | -----------------------  -------------
+2017-05-06 16:37:54.631936 EDT | Epoch                    603
+2017-05-06 16:37:54.632374 EDT | AverageReturn             -0.294061
+2017-05-06 16:37:54.632809 EDT | StdReturn                  1.73112
+2017-05-06 16:37:54.633246 EDT | MaxReturn                  4.51054
+2017-05-06 16:37:54.633672 EDT | MinReturn                 -5.89743
+2017-05-06 16:37:54.634110 EDT | AverageEsReturn           -0.0732909
+2017-05-06 16:37:54.634543 EDT | StdEsReturn                1.52167
+2017-05-06 16:37:54.634981 EDT | MaxEsReturn                3.32435
+2017-05-06 16:37:54.635425 EDT | MinEsReturn               -3.48972
+2017-05-06 16:37:54.635851 EDT | AverageDiscountedReturn   -0.284273
+2017-05-06 16:37:54.636285 EDT | AverageQLoss               6.62318e-06
+2017-05-06 16:37:54.636712 EDT | AveragePolicySurr         -0.000591497
+2017-05-06 16:37:54.637140 EDT | AverageQ                   0.000130107
+2017-05-06 16:37:54.637579 EDT | AverageAbsQ                0.00701667
+2017-05-06 16:37:54.638007 EDT | AverageY                   0.000150965
+2017-05-06 16:37:54.638432 EDT | AverageAbsY                0.00711675
+2017-05-06 16:37:54.638847 EDT | AverageAbsQYDiff           0.00162554
+2017-05-06 16:37:54.639270 EDT | AverageAction              1
+2017-05-06 16:37:54.639712 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:37:54.640146 EDT | QFunRegParamNorm          30.4143
+2017-05-06 16:37:54.640566 EDT | AverageForwardProgress     0.00857299
+2017-05-06 16:37:54.641005 EDT | MaxForwardProgress         0.031134
+2017-05-06 16:37:54.641430 EDT | MinForwardProgress        -0.0175072
+2017-05-06 16:37:54.641858 EDT | StdForwardProgress         0.00809738
+2017-05-06 16:37:54.642294 EDT | -----------------------  -------------
+2017-05-06 16:37:54.642939 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #604 | Training started
+2017-05-06 16:37:54.646028 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #604 | Populating workers...
+2017-05-06 16:37:54.646568 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #604 | Populated
+2017-05-06 16:39:22.661941 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #604 | Training finished
+2017-05-06 16:39:22.662981 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #604 | Collecting samples for evaluation
+2017-05-06 16:39:49.780847 EDT | -----------------------  -------------
+2017-05-06 16:39:49.795458 EDT | Epoch                    604
+2017-05-06 16:39:49.796220 EDT | AverageReturn             -0.413299
+2017-05-06 16:39:49.811405 EDT | StdReturn                  1.82791
+2017-05-06 16:39:49.811775 EDT | MaxReturn                  4.11555
+2017-05-06 16:39:49.812119 EDT | MinReturn                 -5.54765
+2017-05-06 16:39:49.812459 EDT | AverageEsReturn           -0.343151
+2017-05-06 16:39:49.812793 EDT | StdEsReturn                1.64466
+2017-05-06 16:39:49.813126 EDT | MaxEsReturn                2.95604
+2017-05-06 16:39:49.813457 EDT | MinEsReturn               -3.88659
+2017-05-06 16:39:49.813836 EDT | AverageDiscountedReturn   -0.394562
+2017-05-06 16:39:49.814254 EDT | AverageQLoss               4.44851e-06
+2017-05-06 16:39:49.814654 EDT | AveragePolicySurr          0.000173008
+2017-05-06 16:39:49.815077 EDT | AverageQ                  -0.00059984
+2017-05-06 16:39:49.815514 EDT | AverageAbsQ                0.00622693
+2017-05-06 16:39:49.815938 EDT | AverageY                  -0.000610496
+2017-05-06 16:39:49.816336 EDT | AverageAbsY                0.00636314
+2017-05-06 16:39:49.816756 EDT | AverageAbsQYDiff           0.00131036
+2017-05-06 16:39:49.817180 EDT | AverageAction              1
+2017-05-06 16:39:49.817597 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:39:49.818005 EDT | QFunRegParamNorm          30.4444
+2017-05-06 16:39:49.818407 EDT | AverageForwardProgress     0.0080123
+2017-05-06 16:39:49.818844 EDT | MaxForwardProgress         0.0293253
+2017-05-06 16:39:49.819281 EDT | MinForwardProgress        -0.0165779
+2017-05-06 16:39:49.819716 EDT | StdForwardProgress         0.00856541
+2017-05-06 16:39:49.820149 EDT | -----------------------  -------------
+2017-05-06 16:39:49.820831 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #605 | Training started
+2017-05-06 16:39:49.822751 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #605 | Populating workers...
+2017-05-06 16:39:49.823247 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #605 | Populated
+2017-05-06 16:41:36.558283 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #605 | Training finished
+2017-05-06 16:41:36.559402 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #605 | Collecting samples for evaluation
+2017-05-06 16:41:54.252325 EDT | -----------------------  -------------
+2017-05-06 16:41:54.253257 EDT | Epoch                    605
+2017-05-06 16:41:54.253744 EDT | AverageReturn             -0.335312
+2017-05-06 16:41:54.254192 EDT | StdReturn                  1.73252
+2017-05-06 16:41:54.254627 EDT | MaxReturn                  5.65962
+2017-05-06 16:41:54.255068 EDT | MinReturn                 -5.25005
+2017-05-06 16:41:54.255522 EDT | AverageEsReturn           -0.534579
+2017-05-06 16:41:54.255959 EDT | StdEsReturn                1.61885
+2017-05-06 16:41:54.256410 EDT | MaxEsReturn                3.02891
+2017-05-06 16:41:54.256859 EDT | MinEsReturn               -3.58086
+2017-05-06 16:41:54.257299 EDT | AverageDiscountedReturn   -0.322317
+2017-05-06 16:41:54.257737 EDT | AverageQLoss               4.49922e-06
+2017-05-06 16:41:54.258180 EDT | AveragePolicySurr          3.10335e-05
+2017-05-06 16:41:54.258622 EDT | AverageQ                  -0.000370382
+2017-05-06 16:41:54.259070 EDT | AverageAbsQ                0.00621463
+2017-05-06 16:41:54.259507 EDT | AverageY                  -0.000373368
+2017-05-06 16:41:54.259939 EDT | AverageAbsY                0.00632722
+2017-05-06 16:41:54.260365 EDT | AverageAbsQYDiff           0.00129191
+2017-05-06 16:41:54.260825 EDT | AverageAction              1
+2017-05-06 16:41:54.261202 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:41:54.261611 EDT | QFunRegParamNorm          30.4986
+2017-05-06 16:41:54.262035 EDT | AverageForwardProgress     0.00836625
+2017-05-06 16:41:54.262472 EDT | MaxForwardProgress         0.0362782
+2017-05-06 16:41:54.262917 EDT | MinForwardProgress        -0.0150209
+2017-05-06 16:41:54.263403 EDT | StdForwardProgress         0.00810805
+2017-05-06 16:41:54.263875 EDT | -----------------------  -------------
+2017-05-06 16:41:54.264575 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #606 | Training started
+2017-05-06 16:41:54.267983 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #606 | Populating workers...
+2017-05-06 16:41:54.268497 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #606 | Populated
+2017-05-06 16:43:07.844822 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #606 | Training finished
+2017-05-06 16:43:07.845905 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #606 | Collecting samples for evaluation
+2017-05-06 16:43:28.124880 EDT | -----------------------  -------------
+2017-05-06 16:43:28.126069 EDT | Epoch                    606
+2017-05-06 16:43:28.126487 EDT | AverageReturn             -0.416979
+2017-05-06 16:43:28.126911 EDT | StdReturn                  1.73963
+2017-05-06 16:43:28.127358 EDT | MaxReturn                  6.26539
+2017-05-06 16:43:28.127802 EDT | MinReturn                 -6.29807
+2017-05-06 16:43:28.128263 EDT | AverageEsReturn           -0.37402
+2017-05-06 16:43:28.128711 EDT | StdEsReturn                1.6365
+2017-05-06 16:43:28.129154 EDT | MaxEsReturn                3.40077
+2017-05-06 16:43:28.133233 EDT | MinEsReturn               -4.34419
+2017-05-06 16:43:28.133748 EDT | AverageDiscountedReturn   -0.399462
+2017-05-06 16:43:28.134206 EDT | AverageQLoss               8.40769e-06
+2017-05-06 16:43:28.134666 EDT | AveragePolicySurr         -0.00105767
+2017-05-06 16:43:28.135104 EDT | AverageQ                   0.000750557
+2017-05-06 16:43:28.135573 EDT | AverageAbsQ                0.00560024
+2017-05-06 16:43:28.136030 EDT | AverageY                   0.000777247
+2017-05-06 16:43:28.136481 EDT | AverageAbsY                0.00583091
+2017-05-06 16:43:28.136939 EDT | AverageAbsQYDiff           0.00167414
+2017-05-06 16:43:28.137396 EDT | AverageAction              1
+2017-05-06 16:43:28.137845 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:43:28.138280 EDT | QFunRegParamNorm          30.4997
+2017-05-06 16:43:28.138722 EDT | AverageForwardProgress     0.00796192
+2017-05-06 16:43:28.139149 EDT | MaxForwardProgress         0.0373412
+2017-05-06 16:43:28.139605 EDT | MinForwardProgress        -0.0196817
+2017-05-06 16:43:28.140047 EDT | StdForwardProgress         0.00814572
+2017-05-06 16:43:28.140487 EDT | -----------------------  -------------
+2017-05-06 16:43:28.141169 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #607 | Training started
+2017-05-06 16:43:28.142331 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #607 | Populating workers...
+2017-05-06 16:43:28.142772 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #607 | Populated
+2017-05-06 16:45:08.587375 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #607 | Training finished
+2017-05-06 16:45:08.588708 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #607 | Collecting samples for evaluation
+2017-05-06 16:45:27.624986 EDT | -----------------------  -------------
+2017-05-06 16:45:27.625988 EDT | Epoch                    607
+2017-05-06 16:45:27.626335 EDT | AverageReturn             -0.300039
+2017-05-06 16:45:27.626670 EDT | StdReturn                  1.7719
+2017-05-06 16:45:27.627003 EDT | MaxReturn                  5.05572
+2017-05-06 16:45:27.627349 EDT | MinReturn                 -5.72939
+2017-05-06 16:45:27.627686 EDT | AverageEsReturn           -0.311077
+2017-05-06 16:45:27.628017 EDT | StdEsReturn                1.69402
+2017-05-06 16:45:27.628347 EDT | MaxEsReturn                3.39173
+2017-05-06 16:45:27.628679 EDT | MinEsReturn               -4.02411
+2017-05-06 16:45:27.629009 EDT | AverageDiscountedReturn   -0.288781
+2017-05-06 16:45:27.629340 EDT | AverageQLoss               4.81882e-06
+2017-05-06 16:45:27.629669 EDT | AveragePolicySurr         -0.000594665
+2017-05-06 16:45:27.629997 EDT | AverageQ                   0.000204381
+2017-05-06 16:45:27.630328 EDT | AverageAbsQ                0.0054092
+2017-05-06 16:45:27.630659 EDT | AverageY                   0.000216703
+2017-05-06 16:45:27.630988 EDT | AverageAbsY                0.00549591
+2017-05-06 16:45:27.631317 EDT | AverageAbsQYDiff           0.00131926
+2017-05-06 16:45:27.631656 EDT | AverageAction              1
+2017-05-06 16:45:27.632008 EDT | PolicyRegParamNorm        13.9826
+2017-05-06 16:45:27.632338 EDT | QFunRegParamNorm          30.6841
+2017-05-06 16:45:27.632667 EDT | AverageForwardProgress     0.00854662
+2017-05-06 16:45:27.632996 EDT | MaxForwardProgress         0.0335837
+2017-05-06 16:45:27.633328 EDT | MinForwardProgress        -0.0182895
+2017-05-06 16:45:27.633657 EDT | StdForwardProgress         0.00829923
+2017-05-06 16:45:27.633988 EDT | -----------------------  -------------
+2017-05-06 16:45:27.634511 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #608 | Training started
+2017-05-06 16:45:27.637584 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #608 | Populating workers...
+2017-05-06 16:45:27.638031 EDT | [PolyRL_DDPG_Walker_Tuned_LP/Parameter_2] epoch #608 | Populated
