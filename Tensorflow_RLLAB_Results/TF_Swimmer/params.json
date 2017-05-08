@@ -1,0 +1,130 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAQAAABhcmdzcQcpWAYAAABrd2FyZ3NxCH1xCShYBAAAAHBsb3RxColYEAAAAHFmX2xlYXJuaW5nX3JhdGVxC0c/UGJN0vGp/FgNAAAAbWluX3Bvb2xfc2l6ZXEMTRAnWAwAAABzY2FsZV9yZXdhcmRxDUc/8AAAAAAAAFgIAAAAbl9lcG9jaHNxDk3oA1gIAAAAZGlzY291bnRxD0c/764UeuFHrlgCAAAAcWZxEGgEKYFxEX1xEihoByloCH1xEyhYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxFGN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnEVWAwAAABoaWRkZW5fc2l6ZXNxFktkS2SGcRdYCAAAAGVudl9zcGVjcRhjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEZKYFxGn1xGyhYBAAAAF9vYmpxHGgEKYFxHX1xHihoByloCH1xH1gLAAAAd3JhcHBlZF9lbnZxIGgEKYFxIX1xIihoByloCH1xI1gDAAAAZW52cSRoBCmBcSV9cSYoaAcpaAh9cScoWAsAAABmb3JjZV9yZXNldHEoiFgKAAAAcmVjb3JkX2xvZ3EpiVgIAAAAZW52X25hbWVxKlgKAAAAU3dpbW1lci12MXErWAwAAAByZWNvcmRfdmlkZW9xLIl1WAsAAABwcm94eV9jbGFzc3EtY3JsbGFiLmVudnMuZ3ltX2VudgpHeW1FbnYKcS51YnNoLWNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcS91YnNoLWNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMHViWAoAAABfYXR0cl9uYW1lcTFYBAAAAHNwZWNxMnVidWgtY3NhbmRib3gucm9ja3kudGYucV9mdW5jdGlvbnMuY29udGludW91c19tbHBfcV9mdW5jdGlvbgpDb250aW51b3VzTUxQUUZ1bmN0aW9uCnEzdWJoJGgdWAIAAABlc3E0aAQpgXE1fXE2KGgHKWgIfXE3aBhoGSmBcTh9cTkoaBxoHWgxaDJ1YnNoLWNybGxhYi5leHBsb3JhdGlvbl9zdHJhdGVnaWVzLm91X3N0cmF0ZWd5Ck9VU3RyYXRlZ3kKcTp1YlgUAAAAcG9saWN5X2xlYXJuaW5nX3JhdGVxO0c/Gjbi6xxDLVgGAAAAcG9saWN5cTxoBCmBcT19cT4oaAcpaAh9cT8oaBRoFVgEAAAAbmFtZXFAaDxoFktkSzJLGYdxQWgYaBkpgXFCfXFDKGgcaB1oMWgydWJ1aC1jc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5kZXRlcm1pbmlzdGljX21scF9wb2xpY3kKRGV0ZXJtaW5pc3RpY01MUFBvbGljeQpxRHViWAwAAABlcG9jaF9sZW5ndGhxRU3oA1gKAAAAYmF0Y2hfc2l6ZXFGSyBYDwAAAG1heF9wYXRoX2xlbmd0aHFHaBkpgXFIfXFJKGgcaB1oMVgHAAAAaG9yaXpvbnFKdWJ1aC1jdW5pZnlpbmdfcG9saWN5X2dyYWRpZW50LmRkcGcKRERQRwpxS3ViWAUAAAB0cmFpbnFMKX1xTXRxTlgIAAAAX19rd2FyZ3NxT31xUHViLg==",
+  "exp_name": "Unified_DDPG_CartPole",
+  "json_args": {
+    "algo": {
+      "_name": "unifying_policy_gradient.ddpg.DDPG",
+      "batch_size": 32,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "es": {
+        "_name": "rllab.exploration_strategies.ou_strategy.OUStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Swimmer-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Swimmer-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 1000,
+      "plot": false,
+      "policy_learning_rate": 0.0001,
+      "qf": {
+        "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Swimmer-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "qf_learning_rate": 0.001,
+      "scale_reward": 1.0
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "Swimmer-v1",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Swimmer-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        50,
+        25
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "./TF_Swimmer/",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
