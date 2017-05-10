@@ -1,0 +1,205 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAYAAABrd2FyZ3NxCX1xCihYAgAAAHFmcQtoBimBcQx9cQ0oaAl9cQ4oWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cQ9jdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxEFgIAAAAZW52X3NwZWNxEWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcRIpgXETfXEUKFgKAAAAX2F0dHJfbmFtZXEVWAQAAABzcGVjcRZYBAAAAF9vYmpxF2gGKYFxGH1xGShoCX1xGlgLAAAAd3JhcHBlZF9lbnZxG2gGKYFxHH1xHShoCX1xHlgDAAAAZW52cR9oBimBcSB9cSEoaAl9cSIoWAoAAAByZWNvcmRfbG9ncSOJWAsAAABmb3JjZV9yZXNldHEkiFgIAAAAZW52X25hbWVxJVgKAAAAUmVhY2hlci12MXEmWAwAAAByZWNvcmRfdmlkZW9xJ4l1WAsAAABwcm94eV9jbGFzc3EoY3JsbGFiLmVudnMuZ3ltX2VudgpHeW1FbnYKcSlYBAAAAGFyZ3NxKil1YnNoKGNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcStoKil1YnNoKGNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxLGgqKXVidWJYDAAAAGhpZGRlbl9zaXplc3EtS2RLZIZxLnVoKGNzYW5kYm94LnJvY2t5LnRmLnFfZnVuY3Rpb25zLmNvbnRpbnVvdXNfbWxwX3FfZnVuY3Rpb24KQ29udGludW91c01MUFFGdW5jdGlvbgpxL2gqKXViWAIAAABscHEwaAYpgXExfXEyKGgJfXEzKGgLaAxoH2gYWAsAAABiX3N0ZXBfc2l6ZXE0Rz86NuLrHEMtWAoAAABiYXRjaF9zaXplcTVLIFgFAAAAc2lnbWFxNkc/uZmZmZmZmlgIAAAAbl9lcG9jaHNxN02IE1gQAAAAcWZfbGVhcm5pbmdfcmF0ZXE4Rz9QYk3S8an8WAMAAABMX3BxOUc/yZmZmZmZmlgUAAAAcG9saWN5X2xlYXJuaW5nX3JhdGVxOkc/Gjbi6xxDLVgVAAAAbWF4X2V4cGxvcmF0b3J5X3N0ZXBzcTtLC1gGAAAAcG9saWN5cTxoBimBcT19cT4oaAl9cT8oaA9oEGgRaBIpgXFAfXFBKGgVaBZoF2gYdWJYBAAAAG5hbWVxQmg8aC1LZEsySxmHcUN1aChjc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5kZXRlcm1pbmlzdGljX21scF9wb2xpY3kKRGV0ZXJtaW5pc3RpY01MUFBvbGljeQpxRGgqKXViWAwAAABzY2FsZV9yZXdhcmRxRUc/8AAAAAAAAHVoKGNleHBsb3JhdGlvbl9zdHJhdGVnaWVzX3RlbnNvcmZsb3cucGVyc2lzdGVuY2VfbGVuZ3RoX2xvd2VyX2RpbWVuc2lvbnMKUGVyc2lzdGVuY2VfTGVuZ3RoX0V4cGxvcmF0aW9uCnFGaCopdWJoH2gYWAQAAABwbG90cUeJaDpHPxo24uscQy1oNUsgWA8AAABtYXhfcGF0aF9sZW5ndGhxSGgSKYFxSX1xSihoFVgHAAAAaG9yaXpvbnFLaBdoGHViWA0AAABtaW5fcG9vbF9zaXplcUxNECdoN02IE2g4Rz9QYk3S8an8WAIAAABlc3FNaAYpgXFOfXFPKGgJfXFQaBFoEimBcVF9cVIoaBVoFmgXaBh1YnNoKGNybGxhYi5leHBsb3JhdGlvbl9zdHJhdGVnaWVzLm91X3N0cmF0ZWd5Ck9VU3RyYXRlZ3kKcVNoKil1YlgIAAAAZGlzY291bnRxVEc/764UeuFHrlgMAAAAZXBvY2hfbGVuZ3RocVVN6ANoPGg9aEVHP/AAAAAAAAB1aChjZGRwZ190ZW5zb3JmbG93LmRkcGdfcG9seVJMCkREUEcKcVZoKil1YlgFAAAAdHJhaW5xVyl9cVh0cVl1Yi4=",
+  "exp_name": "Tensorflow_RLLAB_Results/PolyRL/Reacher_Lab_Run/",
+  "json_args": {
+    "algo": {
+      "_name": "ddpg_tensorflow.ddpg_polyRL.DDPG",
+      "batch_size": 32,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "es": {
+        "_name": "rllab.exploration_strategies.ou_strategy.OUStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Reacher-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "lp": {
+        "L_p": 0.2,
+        "_name": "exploration_strategies_tensorflow.persistence_length_lower_dimensions.Persistence_Length_Exploration",
+        "b_step_size": 0.0004,
+        "batch_size": 32,
+        "env": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Reacher-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        },
+        "max_exploratory_steps": 11,
+        "n_epochs": 5000,
+        "policy": {
+          "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+          "env_spec": {
+            "attr": "spec",
+            "obj": {
+              "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+              "wrapped_env": {
+                "_name": "rllab.envs.normalized_env.NormalizedEnv",
+                "env": {
+                  "_name": "rllab.envs.gym_env.GymEnv",
+                  "env_name": "Reacher-v1",
+                  "force_reset": true,
+                  "record_log": false,
+                  "record_video": false
+                }
+              }
+            }
+          },
+          "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+          "hidden_sizes": [
+            100,
+            50,
+            25
+          ],
+          "name": "policy"
+        },
+        "policy_learning_rate": 0.0001,
+        "qf": {
+          "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+          "env_spec": {
+            "attr": "spec",
+            "obj": {
+              "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+              "wrapped_env": {
+                "_name": "rllab.envs.normalized_env.NormalizedEnv",
+                "env": {
+                  "_name": "rllab.envs.gym_env.GymEnv",
+                  "env_name": "Reacher-v1",
+                  "force_reset": true,
+                  "record_log": false,
+                  "record_video": false
+                }
+              }
+            }
+          },
+          "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+          "hidden_sizes": [
+            100,
+            100
+          ]
+        },
+        "qf_learning_rate": 0.001,
+        "scale_reward": 1.0,
+        "sigma": 0.1
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Reacher-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 5000,
+      "plot": false,
+      "policy_learning_rate": 0.0001,
+      "qf": {
+        "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Reacher-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "qf_learning_rate": 0.001,
+      "scale_reward": 1.0
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "Reacher-v1",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Reacher-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        50,
+        25
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/ml/rislam4/Documents/RLLAB/rllab/data/local/experiment/Tensorflow_RLLAB_Results/PolyRL/Reacher_Lab_Run/",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

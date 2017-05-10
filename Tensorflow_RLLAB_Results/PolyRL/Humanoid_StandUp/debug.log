@@ -14231,3 +14231,815 @@
 2017-05-10 07:17:51.799369 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Training started
 2017-05-10 07:18:17.542193 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Populating workers...
 2017-05-10 07:18:17.542835 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Populated
+2017-05-10 07:26:58.659711 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Training finished
+2017-05-10 07:26:58.660553 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 07:26:58.660989 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #498 | Collecting samples for evaluation
+2017-05-10 07:27:31.311180 EDT | -----------------------  -----------
+2017-05-10 07:27:31.311539 EDT | Epoch                       498
+2017-05-10 07:27:31.311747 EDT | Iteration                   498
+2017-05-10 07:27:31.311945 EDT | AverageReturn             92364.5
+2017-05-10 07:27:31.312145 EDT | StdReturn                 20351.9
+2017-05-10 07:27:31.312339 EDT | MaxReturn                117507
+2017-05-10 07:27:31.312597 EDT | MinReturn                 57378.5
+2017-05-10 07:27:31.312798 EDT | AverageEsReturn           49715.4
+2017-05-10 07:27:31.322054 EDT | StdEsReturn                   0
+2017-05-10 07:27:31.322290 EDT | MaxEsReturn               49715.4
+2017-05-10 07:27:31.322530 EDT | MinEsReturn               49715.4
+2017-05-10 07:27:31.322721 EDT | AverageDiscountedReturn    7377.9
+2017-05-10 07:27:31.322908 EDT | AverageQLoss              83577.3
+2017-05-10 07:27:31.323099 EDT | AveragePolicySurr         -6503.9
+2017-05-10 07:27:31.323304 EDT | AverageQ                   6499.62
+2017-05-10 07:27:31.345243 EDT | AverageAbsQ                6499.66
+2017-05-10 07:27:31.345494 EDT | AverageY                   6500.13
+2017-05-10 07:27:31.345729 EDT | AverageAbsY                6500.21
+2017-05-10 07:27:31.345923 EDT | AverageAbsQYDiff            118.555
+2017-05-10 07:27:31.346112 EDT | AverageAction                 1
+2017-05-10 07:27:31.346305 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 07:27:31.346523 EDT | QFunRegParamNorm            563.453
+2017-05-10 07:27:31.346762 EDT | -----------------------  -----------
+2017-05-10 07:27:31.347090 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Training started
+2017-05-10 07:27:55.697040 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Populating workers...
+2017-05-10 07:27:55.698266 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Populated
+2017-05-10 07:36:52.181589 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Training finished
+2017-05-10 07:36:52.184027 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 07:36:52.184310 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #499 | Collecting samples for evaluation
+2017-05-10 07:37:27.998247 EDT | -----------------------  -----------
+2017-05-10 07:37:27.999040 EDT | Epoch                       499
+2017-05-10 07:37:27.999348 EDT | Iteration                   499
+2017-05-10 07:37:27.999625 EDT | AverageReturn             86431.7
+2017-05-10 07:37:27.999889 EDT | StdReturn                 18517.6
+2017-05-10 07:37:28.000154 EDT | MaxReturn                117232
+2017-05-10 07:37:28.000413 EDT | MinReturn                 67953.2
+2017-05-10 07:37:28.000688 EDT | AverageEsReturn           62285.8
+2017-05-10 07:37:28.003387 EDT | StdEsReturn                   0
+2017-05-10 07:37:28.004289 EDT | MaxEsReturn               62285.8
+2017-05-10 07:37:28.004988 EDT | MinEsReturn               62285.8
+2017-05-10 07:37:28.005617 EDT | AverageDiscountedReturn    7094.26
+2017-05-10 07:37:28.007445 EDT | AverageQLoss              98694
+2017-05-10 07:37:28.007776 EDT | AveragePolicySurr         -6527.48
+2017-05-10 07:37:28.008045 EDT | AverageQ                   6522.9
+2017-05-10 07:37:28.008304 EDT | AverageAbsQ                6522.91
+2017-05-10 07:37:28.008591 EDT | AverageY                   6523.25
+2017-05-10 07:37:28.008982 EDT | AverageAbsY                6523.25
+2017-05-10 07:37:28.013293 EDT | AverageAbsQYDiff            119.38
+2017-05-10 07:37:28.013883 EDT | AverageAction                 1
+2017-05-10 07:37:28.014363 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 07:37:28.014833 EDT | QFunRegParamNorm            564.033
+2017-05-10 07:37:28.015292 EDT | -----------------------  -----------
+2017-05-10 07:37:28.015894 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Training started
+2017-05-10 07:37:52.924163 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Populating workers...
+2017-05-10 07:37:52.926859 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Populated
+2017-05-10 07:46:31.861722 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Training finished
+2017-05-10 07:46:31.862328 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 07:46:31.862571 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #500 | Collecting samples for evaluation
+2017-05-10 07:47:03.905162 EDT | -----------------------  -----------
+2017-05-10 07:47:03.905947 EDT | Epoch                       500
+2017-05-10 07:47:03.906233 EDT | Iteration                   500
+2017-05-10 07:47:03.906503 EDT | AverageReturn            101257
+2017-05-10 07:47:03.906799 EDT | StdReturn                 20831.8
+2017-05-10 07:47:03.907071 EDT | MaxReturn                117903
+2017-05-10 07:47:03.907404 EDT | MinReturn                 70019.2
+2017-05-10 07:47:03.908078 EDT | AverageEsReturn           98719.5
+2017-05-10 07:47:03.908801 EDT | StdEsReturn                   0
+2017-05-10 07:47:03.909584 EDT | MaxEsReturn               98719.5
+2017-05-10 07:47:03.910291 EDT | MinEsReturn               98719.5
+2017-05-10 07:47:03.910956 EDT | AverageDiscountedReturn    7886.34
+2017-05-10 07:47:03.911624 EDT | AverageQLoss              87751.8
+2017-05-10 07:47:03.912275 EDT | AveragePolicySurr         -6528.46
+2017-05-10 07:47:03.912979 EDT | AverageQ                   6523.92
+2017-05-10 07:47:03.913738 EDT | AverageAbsQ                6523.92
+2017-05-10 07:47:03.914429 EDT | AverageY                   6524.27
+2017-05-10 07:47:03.915098 EDT | AverageAbsY                6524.27
+2017-05-10 07:47:03.915763 EDT | AverageAbsQYDiff            119.003
+2017-05-10 07:47:03.916437 EDT | AverageAction                 1
+2017-05-10 07:47:03.917101 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 07:47:03.917801 EDT | QFunRegParamNorm            564.642
+2017-05-10 07:47:03.918470 EDT | -----------------------  -----------
+2017-05-10 07:47:03.919231 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Training started
+2017-05-10 07:47:29.913881 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Populating workers...
+2017-05-10 07:47:29.914495 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Populated
+2017-05-10 07:56:09.094568 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Training finished
+2017-05-10 07:56:09.095225 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 07:56:09.095454 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #501 | Collecting samples for evaluation
+2017-05-10 07:56:41.242941 EDT | -----------------------  -----------
+2017-05-10 07:56:41.245069 EDT | Epoch                       501
+2017-05-10 07:56:41.245355 EDT | Iteration                   501
+2017-05-10 07:56:41.245636 EDT | AverageReturn             89232.8
+2017-05-10 07:56:41.245912 EDT | StdReturn                 17417.5
+2017-05-10 07:56:41.246183 EDT | MaxReturn                117248
+2017-05-10 07:56:41.246445 EDT | MinReturn                 69804.1
+2017-05-10 07:56:41.246715 EDT | AverageEsReturn           53720.2
+2017-05-10 07:56:41.246976 EDT | StdEsReturn                   0
+2017-05-10 07:56:41.247240 EDT | MaxEsReturn               53720.2
+2017-05-10 07:56:41.247499 EDT | MinEsReturn               53720.2
+2017-05-10 07:56:41.247765 EDT | AverageDiscountedReturn    7352.79
+2017-05-10 07:56:41.248025 EDT | AverageQLoss              72985.3
+2017-05-10 07:56:41.248310 EDT | AveragePolicySurr         -6520.88
+2017-05-10 07:56:41.248576 EDT | AverageQ                   6516.77
+2017-05-10 07:56:41.248862 EDT | AverageAbsQ                6516.77
+2017-05-10 07:56:41.249135 EDT | AverageY                   6517.21
+2017-05-10 07:56:41.249403 EDT | AverageAbsY                6517.21
+2017-05-10 07:56:41.249662 EDT | AverageAbsQYDiff            114.223
+2017-05-10 07:56:41.249971 EDT | AverageAction                 1
+2017-05-10 07:56:41.250233 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 07:56:41.250502 EDT | QFunRegParamNorm            565.303
+2017-05-10 07:56:41.250761 EDT | -----------------------  -----------
+2017-05-10 07:56:41.251139 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Training started
+2017-05-10 07:57:07.430937 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Populating workers...
+2017-05-10 07:57:07.431611 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Populated
+2017-05-10 08:05:51.565663 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Training finished
+2017-05-10 08:05:51.566329 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:05:51.566665 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #502 | Collecting samples for evaluation
+2017-05-10 08:06:26.839977 EDT | -----------------------  -----------
+2017-05-10 08:06:26.841873 EDT | Epoch                       502
+2017-05-10 08:06:26.842385 EDT | Iteration                   502
+2017-05-10 08:06:26.842863 EDT | AverageReturn             91265.5
+2017-05-10 08:06:26.843328 EDT | StdReturn                 19811.7
+2017-05-10 08:06:26.843772 EDT | MaxReturn                117845
+2017-05-10 08:06:26.844236 EDT | MinReturn                 69578.7
+2017-05-10 08:06:26.844740 EDT | AverageEsReturn           43346.5
+2017-05-10 08:06:26.845235 EDT | StdEsReturn                   0
+2017-05-10 08:06:26.845673 EDT | MaxEsReturn               43346.5
+2017-05-10 08:06:26.847487 EDT | MinEsReturn               43346.5
+2017-05-10 08:06:26.848067 EDT | AverageDiscountedReturn    7339.21
+2017-05-10 08:06:26.848605 EDT | AverageQLoss              87339.8
+2017-05-10 08:06:26.849054 EDT | AveragePolicySurr         -6517.58
+2017-05-10 08:06:26.849544 EDT | AverageQ                   6513.49
+2017-05-10 08:06:26.850054 EDT | AverageAbsQ                6513.54
+2017-05-10 08:06:26.850524 EDT | AverageY                   6513.78
+2017-05-10 08:06:26.851048 EDT | AverageAbsY                6513.89
+2017-05-10 08:06:26.851516 EDT | AverageAbsQYDiff            120.118
+2017-05-10 08:06:26.851992 EDT | AverageAction                 1
+2017-05-10 08:06:26.853029 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:06:26.853507 EDT | QFunRegParamNorm            565.979
+2017-05-10 08:06:26.854007 EDT | -----------------------  -----------
+2017-05-10 08:06:26.854615 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Training started
+2017-05-10 08:06:52.321212 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Populating workers...
+2017-05-10 08:06:52.321566 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Populated
+2017-05-10 08:15:35.662190 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Training finished
+2017-05-10 08:15:35.662799 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:15:35.663021 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #503 | Collecting samples for evaluation
+2017-05-10 08:16:07.181923 EDT | -----------------------  -----------
+2017-05-10 08:16:07.182423 EDT | Epoch                       503
+2017-05-10 08:16:07.182696 EDT | Iteration                   503
+2017-05-10 08:16:07.182961 EDT | AverageReturn             97329.8
+2017-05-10 08:16:07.183227 EDT | StdReturn                 22370.7
+2017-05-10 08:16:07.183506 EDT | MaxReturn                117841
+2017-05-10 08:16:07.183779 EDT | MinReturn                 59730.5
+2017-05-10 08:16:07.184038 EDT | AverageEsReturn           59570.5
+2017-05-10 08:16:07.184299 EDT | StdEsReturn                   0
+2017-05-10 08:16:07.184571 EDT | MaxEsReturn               59570.5
+2017-05-10 08:16:07.184851 EDT | MinEsReturn               59570.5
+2017-05-10 08:16:07.185141 EDT | AverageDiscountedReturn    7569.83
+2017-05-10 08:16:07.185415 EDT | AverageQLoss             100261
+2017-05-10 08:16:07.185693 EDT | AveragePolicySurr         -6487.58
+2017-05-10 08:16:07.185956 EDT | AverageQ                   6483.5
+2017-05-10 08:16:07.186223 EDT | AverageAbsQ                6483.56
+2017-05-10 08:16:07.186479 EDT | AverageY                   6484.2
+2017-05-10 08:16:07.186749 EDT | AverageAbsY                6484.21
+2017-05-10 08:16:07.187006 EDT | AverageAbsQYDiff            121.063
+2017-05-10 08:16:07.187302 EDT | AverageAction                 1
+2017-05-10 08:16:07.187559 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:16:07.187833 EDT | QFunRegParamNorm            566.628
+2017-05-10 08:16:07.188091 EDT | -----------------------  -----------
+2017-05-10 08:16:07.188468 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Training started
+2017-05-10 08:16:31.322264 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Populating workers...
+2017-05-10 08:16:31.330595 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Populated
+2017-05-10 08:25:24.035093 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Training finished
+2017-05-10 08:25:24.035706 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:25:24.035931 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #504 | Collecting samples for evaluation
+2017-05-10 08:25:57.552327 EDT | -----------------------  -----------
+2017-05-10 08:25:57.552944 EDT | Epoch                       504
+2017-05-10 08:25:57.553551 EDT | Iteration                   504
+2017-05-10 08:25:57.553920 EDT | AverageReturn            100753
+2017-05-10 08:25:57.554414 EDT | StdReturn                 18571.9
+2017-05-10 08:25:57.554790 EDT | MaxReturn                117703
+2017-05-10 08:25:57.555140 EDT | MinReturn                 69686.6
+2017-05-10 08:25:57.555537 EDT | AverageEsReturn           55153.3
+2017-05-10 08:25:57.557882 EDT | StdEsReturn                   0
+2017-05-10 08:25:57.558270 EDT | MaxEsReturn               55153.3
+2017-05-10 08:25:57.558630 EDT | MinEsReturn               55153.3
+2017-05-10 08:25:57.558993 EDT | AverageDiscountedReturn    7768.82
+2017-05-10 08:25:57.559379 EDT | AverageQLoss              81669.1
+2017-05-10 08:25:57.560034 EDT | AveragePolicySurr         -6508.4
+2017-05-10 08:25:57.560391 EDT | AverageQ                   6504.18
+2017-05-10 08:25:57.561084 EDT | AverageAbsQ                6504.2
+2017-05-10 08:25:57.561448 EDT | AverageY                   6504.64
+2017-05-10 08:25:57.561804 EDT | AverageAbsY                6504.82
+2017-05-10 08:25:57.562165 EDT | AverageAbsQYDiff            119.391
+2017-05-10 08:25:57.563419 EDT | AverageAction                 1
+2017-05-10 08:25:57.563774 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:25:57.564464 EDT | QFunRegParamNorm            567.299
+2017-05-10 08:25:57.565103 EDT | -----------------------  -----------
+2017-05-10 08:25:57.566788 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Training started
+2017-05-10 08:26:22.196348 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Populating workers...
+2017-05-10 08:26:22.197028 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Populated
+2017-05-10 08:35:22.627241 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Training finished
+2017-05-10 08:35:22.627918 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:35:22.628246 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #505 | Collecting samples for evaluation
+2017-05-10 08:35:56.713181 EDT | -----------------------  -----------
+2017-05-10 08:35:56.713651 EDT | Epoch                       505
+2017-05-10 08:35:56.713942 EDT | Iteration                   505
+2017-05-10 08:35:56.714227 EDT | AverageReturn             98392
+2017-05-10 08:35:56.714498 EDT | StdReturn                 20797.6
+2017-05-10 08:35:56.714760 EDT | MaxReturn                117851
+2017-05-10 08:35:56.715024 EDT | MinReturn                 69343.3
+2017-05-10 08:35:56.715305 EDT | AverageEsReturn           67615.3
+2017-05-10 08:35:56.715566 EDT | StdEsReturn                   0
+2017-05-10 08:35:56.715827 EDT | MaxEsReturn               67615.3
+2017-05-10 08:35:56.716133 EDT | MinEsReturn               67615.3
+2017-05-10 08:35:56.716409 EDT | AverageDiscountedReturn    7644.77
+2017-05-10 08:35:56.716665 EDT | AverageQLoss              77576.2
+2017-05-10 08:35:56.716943 EDT | AveragePolicySurr         -6526.29
+2017-05-10 08:35:56.717206 EDT | AverageQ                   6522.11
+2017-05-10 08:35:56.717490 EDT | AverageAbsQ                6522.11
+2017-05-10 08:35:56.717750 EDT | AverageY                   6522.41
+2017-05-10 08:35:56.718016 EDT | AverageAbsY                6522.41
+2017-05-10 08:35:56.718278 EDT | AverageAbsQYDiff            116.543
+2017-05-10 08:35:56.718551 EDT | AverageAction                 1
+2017-05-10 08:35:56.718823 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:35:56.719083 EDT | QFunRegParamNorm            568.108
+2017-05-10 08:35:56.719341 EDT | -----------------------  -----------
+2017-05-10 08:35:56.719723 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Training started
+2017-05-10 08:36:22.165718 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Populating workers...
+2017-05-10 08:36:22.166365 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Populated
+2017-05-10 08:45:11.693269 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Training finished
+2017-05-10 08:45:11.697850 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:45:11.698265 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #506 | Collecting samples for evaluation
+2017-05-10 08:45:46.180677 EDT | -----------------------  -----------
+2017-05-10 08:45:46.185024 EDT | Epoch                       506
+2017-05-10 08:45:46.185336 EDT | Iteration                   506
+2017-05-10 08:45:46.185561 EDT | AverageReturn             91338.1
+2017-05-10 08:45:46.185782 EDT | StdReturn                 19824.7
+2017-05-10 08:45:46.186093 EDT | MaxReturn                117889
+2017-05-10 08:45:46.186388 EDT | MinReturn                 69261.4
+2017-05-10 08:45:46.186679 EDT | AverageEsReturn           69044.6
+2017-05-10 08:45:46.186971 EDT | StdEsReturn                   0
+2017-05-10 08:45:46.187277 EDT | MaxEsReturn               69044.6
+2017-05-10 08:45:46.187564 EDT | MinEsReturn               69044.6
+2017-05-10 08:45:46.189000 EDT | AverageDiscountedReturn    7368.29
+2017-05-10 08:45:46.189323 EDT | AverageQLoss              87600.4
+2017-05-10 08:45:46.193017 EDT | AveragePolicySurr         -6490.18
+2017-05-10 08:45:46.193350 EDT | AverageQ                   6486.26
+2017-05-10 08:45:46.193651 EDT | AverageAbsQ                6486.29
+2017-05-10 08:45:46.193944 EDT | AverageY                   6486.66
+2017-05-10 08:45:46.194255 EDT | AverageAbsY                6486.66
+2017-05-10 08:45:46.197010 EDT | AverageAbsQYDiff            118.595
+2017-05-10 08:45:46.197343 EDT | AverageAction                 1
+2017-05-10 08:45:46.197642 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:45:46.199964 EDT | QFunRegParamNorm            568.731
+2017-05-10 08:45:46.200289 EDT | -----------------------  -----------
+2017-05-10 08:45:46.200707 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Training started
+2017-05-10 08:46:12.180154 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Populating workers...
+2017-05-10 08:46:12.180977 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Populated
+2017-05-10 08:55:04.998310 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Training finished
+2017-05-10 08:55:04.998932 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 08:55:04.999176 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #507 | Collecting samples for evaluation
+2017-05-10 08:55:35.892943 EDT | -----------------------  -----------
+2017-05-10 08:55:35.893706 EDT | Epoch                       507
+2017-05-10 08:55:35.894003 EDT | Iteration                   507
+2017-05-10 08:55:35.894292 EDT | AverageReturn             98560.3
+2017-05-10 08:55:35.894570 EDT | StdReturn                 17629.1
+2017-05-10 08:55:35.894844 EDT | MaxReturn                117828
+2017-05-10 08:55:35.895118 EDT | MinReturn                 70197.1
+2017-05-10 08:55:35.895406 EDT | AverageEsReturn           64965.3
+2017-05-10 08:55:35.895683 EDT | StdEsReturn                   0
+2017-05-10 08:55:35.895960 EDT | MaxEsReturn               64965.3
+2017-05-10 08:55:35.896233 EDT | MinEsReturn               64965.3
+2017-05-10 08:55:35.896519 EDT | AverageDiscountedReturn    7738.16
+2017-05-10 08:55:35.896796 EDT | AverageQLoss              82902.5
+2017-05-10 08:55:35.897088 EDT | AveragePolicySurr         -6516.74
+2017-05-10 08:55:35.897364 EDT | AverageQ                   6512.79
+2017-05-10 08:55:35.897651 EDT | AverageAbsQ                6512.85
+2017-05-10 08:55:35.897924 EDT | AverageY                   6513.07
+2017-05-10 08:55:35.898222 EDT | AverageAbsY                6513.19
+2017-05-10 08:55:35.898497 EDT | AverageAbsQYDiff            117.541
+2017-05-10 08:55:35.898783 EDT | AverageAction                 1
+2017-05-10 08:55:35.899058 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 08:55:35.899336 EDT | QFunRegParamNorm            569.457
+2017-05-10 08:55:35.899613 EDT | -----------------------  -----------
+2017-05-10 08:55:35.900004 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Training started
+2017-05-10 08:56:01.190088 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Populating workers...
+2017-05-10 08:56:01.191217 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Populated
+2017-05-10 09:04:35.774439 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Training finished
+2017-05-10 09:04:35.775204 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:04:35.775440 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #508 | Collecting samples for evaluation
+2017-05-10 09:05:09.279692 EDT | -----------------------  -----------
+2017-05-10 09:05:09.280219 EDT | Epoch                       508
+2017-05-10 09:05:09.280539 EDT | Iteration                   508
+2017-05-10 09:05:09.280827 EDT | AverageReturn             92163
+2017-05-10 09:05:09.281770 EDT | StdReturn                 23059.7
+2017-05-10 09:05:09.282155 EDT | MaxReturn                117609
+2017-05-10 09:05:09.282421 EDT | MinReturn                 57010.7
+2017-05-10 09:05:09.282687 EDT | AverageEsReturn           80182.3
+2017-05-10 09:05:09.282952 EDT | StdEsReturn                   0
+2017-05-10 09:05:09.283288 EDT | MaxEsReturn               80182.3
+2017-05-10 09:05:09.283580 EDT | MinEsReturn               80182.3
+2017-05-10 09:05:09.283854 EDT | AverageDiscountedReturn    7271.15
+2017-05-10 09:05:09.284165 EDT | AverageQLoss              97489.7
+2017-05-10 09:05:09.284465 EDT | AveragePolicySurr         -6515.24
+2017-05-10 09:05:09.284803 EDT | AverageQ                   6511.18
+2017-05-10 09:05:09.285183 EDT | AverageAbsQ                6511.18
+2017-05-10 09:05:09.285455 EDT | AverageY                   6512.04
+2017-05-10 09:05:09.285717 EDT | AverageAbsY                6512.05
+2017-05-10 09:05:09.285979 EDT | AverageAbsQYDiff            121.271
+2017-05-10 09:05:09.286269 EDT | AverageAction                 1
+2017-05-10 09:05:09.287415 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:05:09.287711 EDT | QFunRegParamNorm            570.101
+2017-05-10 09:05:09.288620 EDT | -----------------------  -----------
+2017-05-10 09:05:09.289224 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Training started
+2017-05-10 09:05:34.477072 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Populating workers...
+2017-05-10 09:05:34.477786 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Populated
+2017-05-10 09:14:16.854170 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Training finished
+2017-05-10 09:14:16.855013 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:14:16.855323 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #509 | Collecting samples for evaluation
+2017-05-10 09:14:50.839451 EDT | -----------------------  -----------
+2017-05-10 09:14:50.840205 EDT | Epoch                       509
+2017-05-10 09:14:50.840411 EDT | Iteration                   509
+2017-05-10 09:14:50.840612 EDT | AverageReturn            101042
+2017-05-10 09:14:50.840810 EDT | StdReturn                 20963.6
+2017-05-10 09:14:50.841030 EDT | MaxReturn                117736
+2017-05-10 09:14:50.841226 EDT | MinReturn                 69281.2
+2017-05-10 09:14:50.841420 EDT | AverageEsReturn           89491
+2017-05-10 09:14:50.841613 EDT | StdEsReturn                   0
+2017-05-10 09:14:50.841808 EDT | MaxEsReturn               89491
+2017-05-10 09:14:50.842004 EDT | MinEsReturn               89491
+2017-05-10 09:14:50.842197 EDT | AverageDiscountedReturn    7803.5
+2017-05-10 09:14:50.842390 EDT | AverageQLoss              83388.8
+2017-05-10 09:14:50.842581 EDT | AveragePolicySurr         -6551.18
+2017-05-10 09:14:50.842773 EDT | AverageQ                   6547.22
+2017-05-10 09:14:50.842992 EDT | AverageAbsQ                6547.22
+2017-05-10 09:14:50.843185 EDT | AverageY                   6547.74
+2017-05-10 09:14:50.843377 EDT | AverageAbsY                6547.74
+2017-05-10 09:14:50.843569 EDT | AverageAbsQYDiff            117.339
+2017-05-10 09:14:50.843772 EDT | AverageAction                 1
+2017-05-10 09:14:50.843990 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:14:50.844233 EDT | QFunRegParamNorm            570.681
+2017-05-10 09:14:50.844459 EDT | -----------------------  -----------
+2017-05-10 09:14:50.844833 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Training started
+2017-05-10 09:15:16.479058 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Populating workers...
+2017-05-10 09:15:16.480293 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Populated
+2017-05-10 09:24:01.242098 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Training finished
+2017-05-10 09:24:01.242768 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:24:01.243047 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #510 | Collecting samples for evaluation
+2017-05-10 09:24:34.930437 EDT | -----------------------  -----------
+2017-05-10 09:24:34.930952 EDT | Epoch                       510
+2017-05-10 09:24:34.931252 EDT | Iteration                   510
+2017-05-10 09:24:34.931542 EDT | AverageReturn             98361.4
+2017-05-10 09:24:34.931814 EDT | StdReturn                 17898.1
+2017-05-10 09:24:34.932109 EDT | MaxReturn                117604
+2017-05-10 09:24:34.932484 EDT | MinReturn                 69621.3
+2017-05-10 09:24:34.932763 EDT | AverageEsReturn           69205
+2017-05-10 09:24:34.933043 EDT | StdEsReturn                   0
+2017-05-10 09:24:34.933320 EDT | MaxEsReturn               69205
+2017-05-10 09:24:34.933591 EDT | MinEsReturn               69205
+2017-05-10 09:24:34.933856 EDT | AverageDiscountedReturn    7667.96
+2017-05-10 09:24:34.934239 EDT | AverageQLoss             106476
+2017-05-10 09:24:34.934626 EDT | AveragePolicySurr         -6518.4
+2017-05-10 09:24:34.934899 EDT | AverageQ                   6514.71
+2017-05-10 09:24:34.935290 EDT | AverageAbsQ                6514.88
+2017-05-10 09:24:34.935679 EDT | AverageY                   6515.24
+2017-05-10 09:24:34.937760 EDT | AverageAbsY                6515.44
+2017-05-10 09:24:34.938099 EDT | AverageAbsQYDiff            124.837
+2017-05-10 09:24:34.938373 EDT | AverageAction                 1
+2017-05-10 09:24:34.938643 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:24:34.939698 EDT | QFunRegParamNorm            571.406
+2017-05-10 09:24:34.940017 EDT | -----------------------  -----------
+2017-05-10 09:24:34.940415 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Training started
+2017-05-10 09:25:01.339404 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Populating workers...
+2017-05-10 09:25:01.340122 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Populated
+2017-05-10 09:33:34.912908 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Training finished
+2017-05-10 09:33:34.913517 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:33:34.913825 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #511 | Collecting samples for evaluation
+2017-05-10 09:34:09.704258 EDT | -----------------------  -----------
+2017-05-10 09:34:09.705067 EDT | Epoch                       511
+2017-05-10 09:34:09.705309 EDT | Iteration                   511
+2017-05-10 09:34:09.705513 EDT | AverageReturn             86491.7
+2017-05-10 09:34:09.705718 EDT | StdReturn                 15288.3
+2017-05-10 09:34:09.705910 EDT | MaxReturn                117591
+2017-05-10 09:34:09.706108 EDT | MinReturn                 69621.9
+2017-05-10 09:34:09.706297 EDT | AverageEsReturn           74204.6
+2017-05-10 09:34:09.706493 EDT | StdEsReturn                   0
+2017-05-10 09:34:09.706689 EDT | MaxEsReturn               74204.6
+2017-05-10 09:34:09.706883 EDT | MinEsReturn               74204.6
+2017-05-10 09:34:09.707081 EDT | AverageDiscountedReturn    7138.49
+2017-05-10 09:34:09.707274 EDT | AverageQLoss              80505.9
+2017-05-10 09:34:09.707463 EDT | AveragePolicySurr         -6545.38
+2017-05-10 09:34:09.708205 EDT | AverageQ                   6541.66
+2017-05-10 09:34:09.708492 EDT | AverageAbsQ                6541.66
+2017-05-10 09:34:09.708757 EDT | AverageY                   6542.12
+2017-05-10 09:34:09.709063 EDT | AverageAbsY                6542.12
+2017-05-10 09:34:09.709338 EDT | AverageAbsQYDiff            115.478
+2017-05-10 09:34:09.709580 EDT | AverageAction                 1
+2017-05-10 09:34:09.709823 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:34:09.710580 EDT | QFunRegParamNorm            572.006
+2017-05-10 09:34:09.710776 EDT | -----------------------  -----------
+2017-05-10 09:34:09.711082 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Training started
+2017-05-10 09:34:35.715515 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Populating workers...
+2017-05-10 09:34:35.716161 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Populated
+2017-05-10 09:43:16.212451 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Training finished
+2017-05-10 09:43:16.213125 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:43:16.213425 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #512 | Collecting samples for evaluation
+2017-05-10 09:43:49.851335 EDT | -----------------------  -----------
+2017-05-10 09:43:49.851825 EDT | Epoch                       512
+2017-05-10 09:43:49.852132 EDT | Iteration                   512
+2017-05-10 09:43:49.852422 EDT | AverageReturn             90361.9
+2017-05-10 09:43:49.852725 EDT | StdReturn                 20987.4
+2017-05-10 09:43:49.853007 EDT | MaxReturn                117819
+2017-05-10 09:43:49.853264 EDT | MinReturn                 59851.2
+2017-05-10 09:43:49.853524 EDT | AverageEsReturn           46377
+2017-05-10 09:43:49.853797 EDT | StdEsReturn                   0
+2017-05-10 09:43:49.854061 EDT | MaxEsReturn               46377
+2017-05-10 09:43:49.854354 EDT | MinEsReturn               46377
+2017-05-10 09:43:49.854618 EDT | AverageDiscountedReturn    7323.02
+2017-05-10 09:43:49.854895 EDT | AverageQLoss              96434.1
+2017-05-10 09:43:49.855152 EDT | AveragePolicySurr         -6537.5
+2017-05-10 09:43:49.855403 EDT | AverageQ                   6533.66
+2017-05-10 09:43:49.855662 EDT | AverageAbsQ                6533.66
+2017-05-10 09:43:49.855929 EDT | AverageY                   6534.05
+2017-05-10 09:43:49.856180 EDT | AverageAbsY                6534.05
+2017-05-10 09:43:49.856431 EDT | AverageAbsQYDiff            122.044
+2017-05-10 09:43:49.856775 EDT | AverageAction                 1
+2017-05-10 09:43:49.857601 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:43:49.858310 EDT | QFunRegParamNorm            572.621
+2017-05-10 09:43:49.858986 EDT | -----------------------  -----------
+2017-05-10 09:43:49.859759 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Training started
+2017-05-10 09:44:14.770527 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Populating workers...
+2017-05-10 09:44:14.771138 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Populated
+2017-05-10 09:52:56.930542 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Training finished
+2017-05-10 09:52:56.931796 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 09:52:56.932092 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #513 | Collecting samples for evaluation
+2017-05-10 09:53:31.077429 EDT | -----------------------  -----------
+2017-05-10 09:53:31.085124 EDT | Epoch                       513
+2017-05-10 09:53:31.085496 EDT | Iteration                   513
+2017-05-10 09:53:31.085754 EDT | AverageReturn             81439.4
+2017-05-10 09:53:31.086023 EDT | StdReturn                 21647.5
+2017-05-10 09:53:31.086290 EDT | MaxReturn                117570
+2017-05-10 09:53:31.086592 EDT | MinReturn                 55913.1
+2017-05-10 09:53:31.086869 EDT | AverageEsReturn           68398.3
+2017-05-10 09:53:31.087135 EDT | StdEsReturn                   0
+2017-05-10 09:53:31.087378 EDT | MaxEsReturn               68398.3
+2017-05-10 09:53:31.087641 EDT | MinEsReturn               68398.3
+2017-05-10 09:53:31.087902 EDT | AverageDiscountedReturn    6847.88
+2017-05-10 09:53:31.088189 EDT | AverageQLoss              85175.8
+2017-05-10 09:53:31.088462 EDT | AveragePolicySurr         -6512.67
+2017-05-10 09:53:31.088731 EDT | AverageQ                   6508.94
+2017-05-10 09:53:31.111086 EDT | AverageAbsQ                6508.94
+2017-05-10 09:53:31.112482 EDT | AverageY                   6509.24
+2017-05-10 09:53:31.113944 EDT | AverageAbsY                6509.24
+2017-05-10 09:53:31.115571 EDT | AverageAbsQYDiff            114.814
+2017-05-10 09:53:31.117248 EDT | AverageAction                 1
+2017-05-10 09:53:31.121040 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 09:53:31.123649 EDT | QFunRegParamNorm            573.311
+2017-05-10 09:53:31.125952 EDT | -----------------------  -----------
+2017-05-10 09:53:31.128439 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Training started
+2017-05-10 09:53:57.249043 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Populating workers...
+2017-05-10 09:53:57.249712 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Populated
+2017-05-10 10:02:46.585932 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Training finished
+2017-05-10 10:02:46.587556 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:02:46.587852 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #514 | Collecting samples for evaluation
+2017-05-10 10:03:20.203682 EDT | -----------------------  -----------
+2017-05-10 10:03:20.204533 EDT | Epoch                       514
+2017-05-10 10:03:20.204929 EDT | Iteration                   514
+2017-05-10 10:03:20.205272 EDT | AverageReturn             88827.3
+2017-05-10 10:03:20.205624 EDT | StdReturn                 17950.1
+2017-05-10 10:03:20.205986 EDT | MaxReturn                117565
+2017-05-10 10:03:20.206328 EDT | MinReturn                 69354.3
+2017-05-10 10:03:20.206678 EDT | AverageEsReturn           90182.7
+2017-05-10 10:03:20.207033 EDT | StdEsReturn                   0
+2017-05-10 10:03:20.207398 EDT | MaxEsReturn               90182.7
+2017-05-10 10:03:20.207767 EDT | MinEsReturn               90182.7
+2017-05-10 10:03:20.208110 EDT | AverageDiscountedReturn    7211.16
+2017-05-10 10:03:20.208456 EDT | AverageQLoss              71889.7
+2017-05-10 10:03:20.208821 EDT | AveragePolicySurr         -6510.16
+2017-05-10 10:03:20.209181 EDT | AverageQ                   6506.72
+2017-05-10 10:03:20.209525 EDT | AverageAbsQ                6506.72
+2017-05-10 10:03:20.209880 EDT | AverageY                   6507.02
+2017-05-10 10:03:20.210265 EDT | AverageAbsY                6507.02
+2017-05-10 10:03:20.210609 EDT | AverageAbsQYDiff            112.475
+2017-05-10 10:03:20.210985 EDT | AverageAction                 1
+2017-05-10 10:03:20.211344 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:03:20.211712 EDT | QFunRegParamNorm            573.923
+2017-05-10 10:03:20.212057 EDT | -----------------------  -----------
+2017-05-10 10:03:20.212756 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Training started
+2017-05-10 10:03:45.258407 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Populating workers...
+2017-05-10 10:03:45.259318 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Populated
+2017-05-10 10:12:25.826208 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Training finished
+2017-05-10 10:12:25.829480 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:12:25.829741 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #515 | Collecting samples for evaluation
+2017-05-10 10:12:59.301307 EDT | -----------------------  -----------
+2017-05-10 10:12:59.301974 EDT | Epoch                       515
+2017-05-10 10:12:59.302192 EDT | Iteration                   515
+2017-05-10 10:12:59.302392 EDT | AverageReturn            105313
+2017-05-10 10:12:59.302585 EDT | StdReturn                 15889.6
+2017-05-10 10:12:59.302763 EDT | MaxReturn                117619
+2017-05-10 10:12:59.302974 EDT | MinReturn                 69547.9
+2017-05-10 10:12:59.303190 EDT | AverageEsReturn           94395.8
+2017-05-10 10:12:59.303379 EDT | StdEsReturn                   0
+2017-05-10 10:12:59.303566 EDT | MaxEsReturn               94395.8
+2017-05-10 10:12:59.303756 EDT | MinEsReturn               94395.8
+2017-05-10 10:12:59.303945 EDT | AverageDiscountedReturn    7906.89
+2017-05-10 10:12:59.304134 EDT | AverageQLoss              90655.2
+2017-05-10 10:12:59.304341 EDT | AveragePolicySurr         -6529.64
+2017-05-10 10:12:59.304538 EDT | AverageQ                   6526.14
+2017-05-10 10:12:59.304750 EDT | AverageAbsQ                6526.17
+2017-05-10 10:12:59.304966 EDT | AverageY                   6526.29
+2017-05-10 10:12:59.305203 EDT | AverageAbsY                6526.42
+2017-05-10 10:12:59.305401 EDT | AverageAbsQYDiff            118.742
+2017-05-10 10:12:59.305619 EDT | AverageAction                 1
+2017-05-10 10:12:59.309066 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:12:59.309340 EDT | QFunRegParamNorm            574.53
+2017-05-10 10:12:59.309539 EDT | -----------------------  -----------
+2017-05-10 10:12:59.309839 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Training started
+2017-05-10 10:13:25.702881 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Populating workers...
+2017-05-10 10:13:25.703963 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Populated
+2017-05-10 10:22:04.183660 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Training finished
+2017-05-10 10:22:04.184566 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:22:04.184796 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #516 | Collecting samples for evaluation
+2017-05-10 10:22:35.732968 EDT | -----------------------  -----------
+2017-05-10 10:22:35.733764 EDT | Epoch                       516
+2017-05-10 10:22:35.733974 EDT | Iteration                   516
+2017-05-10 10:22:35.734246 EDT | AverageReturn             91274.6
+2017-05-10 10:22:35.734524 EDT | StdReturn                 22300.5
+2017-05-10 10:22:35.734789 EDT | MaxReturn                117671
+2017-05-10 10:22:35.735054 EDT | MinReturn                 69574
+2017-05-10 10:22:35.735352 EDT | AverageEsReturn           86388.2
+2017-05-10 10:22:35.735623 EDT | StdEsReturn                   0
+2017-05-10 10:22:35.735879 EDT | MaxEsReturn               86388.2
+2017-05-10 10:22:35.736139 EDT | MinEsReturn               86388.2
+2017-05-10 10:22:35.736398 EDT | AverageDiscountedReturn    7319.38
+2017-05-10 10:22:35.736662 EDT | AverageQLoss              93191.9
+2017-05-10 10:22:35.736963 EDT | AveragePolicySurr         -6543.27
+2017-05-10 10:22:35.737221 EDT | AverageQ                   6539.58
+2017-05-10 10:22:35.737502 EDT | AverageAbsQ                6539.62
+2017-05-10 10:22:35.737756 EDT | AverageY                   6540.37
+2017-05-10 10:22:35.738033 EDT | AverageAbsY                6540.37
+2017-05-10 10:22:35.738319 EDT | AverageAbsQYDiff            121.457
+2017-05-10 10:22:35.738587 EDT | AverageAction                 1
+2017-05-10 10:22:35.738838 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:22:35.739096 EDT | QFunRegParamNorm            575.181
+2017-05-10 10:22:35.739354 EDT | -----------------------  -----------
+2017-05-10 10:22:35.739714 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Training started
+2017-05-10 10:23:01.849526 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Populating workers...
+2017-05-10 10:23:01.850258 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Populated
+2017-05-10 10:31:34.837996 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Training finished
+2017-05-10 10:31:34.838737 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:31:34.839112 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #517 | Collecting samples for evaluation
+2017-05-10 10:32:08.935056 EDT | -----------------------  -----------
+2017-05-10 10:32:08.936097 EDT | Epoch                       517
+2017-05-10 10:32:08.936521 EDT | Iteration                   517
+2017-05-10 10:32:08.936853 EDT | AverageReturn             88626.7
+2017-05-10 10:32:08.937732 EDT | StdReturn                 21055.5
+2017-05-10 10:32:08.938023 EDT | MaxReturn                117717
+2017-05-10 10:32:08.938573 EDT | MinReturn                 66011.2
+2017-05-10 10:32:08.938848 EDT | AverageEsReturn           82791.5
+2017-05-10 10:32:08.939153 EDT | StdEsReturn                   0
+2017-05-10 10:32:08.939406 EDT | MaxEsReturn               82791.5
+2017-05-10 10:32:08.939698 EDT | MinEsReturn               82791.5
+2017-05-10 10:32:08.939967 EDT | AverageDiscountedReturn    7188.57
+2017-05-10 10:32:08.941834 EDT | AverageQLoss              89253.3
+2017-05-10 10:32:08.943127 EDT | AveragePolicySurr         -6533.11
+2017-05-10 10:32:08.943406 EDT | AverageQ                   6529.61
+2017-05-10 10:32:08.943666 EDT | AverageAbsQ                6529.61
+2017-05-10 10:32:08.943922 EDT | AverageY                   6530.21
+2017-05-10 10:32:08.946104 EDT | AverageAbsY                6530.21
+2017-05-10 10:32:08.946445 EDT | AverageAbsQYDiff            116.593
+2017-05-10 10:32:08.947669 EDT | AverageAction                 1
+2017-05-10 10:32:08.952319 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:32:08.953554 EDT | QFunRegParamNorm            575.79
+2017-05-10 10:32:08.953910 EDT | -----------------------  -----------
+2017-05-10 10:32:08.954302 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Training started
+2017-05-10 10:32:33.705229 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Populating workers...
+2017-05-10 10:32:33.705584 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Populated
+2017-05-10 10:41:25.667054 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Training finished
+2017-05-10 10:41:25.667887 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:41:25.668135 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #518 | Collecting samples for evaluation
+2017-05-10 10:41:58.872976 EDT | -----------------------  -----------
+2017-05-10 10:41:58.873319 EDT | Epoch                       518
+2017-05-10 10:41:58.873534 EDT | Iteration                   518
+2017-05-10 10:41:58.873740 EDT | AverageReturn             81569
+2017-05-10 10:41:58.873934 EDT | StdReturn                 16090.7
+2017-05-10 10:41:58.874149 EDT | MaxReturn                117576
+2017-05-10 10:41:58.874344 EDT | MinReturn                 69341.8
+2017-05-10 10:41:58.874541 EDT | AverageEsReturn           50428.8
+2017-05-10 10:41:58.874736 EDT | StdEsReturn                   0
+2017-05-10 10:41:58.874930 EDT | MaxEsReturn               50428.8
+2017-05-10 10:41:58.875126 EDT | MinEsReturn               50428.8
+2017-05-10 10:41:58.875325 EDT | AverageDiscountedReturn    6831.03
+2017-05-10 10:41:58.875539 EDT | AverageQLoss              99934.6
+2017-05-10 10:41:58.875735 EDT | AveragePolicySurr         -6517.03
+2017-05-10 10:41:58.875928 EDT | AverageQ                   6513.57
+2017-05-10 10:41:58.876128 EDT | AverageAbsQ                6513.8
+2017-05-10 10:41:58.876323 EDT | AverageY                   6514.03
+2017-05-10 10:41:58.876517 EDT | AverageAbsY                6514.23
+2017-05-10 10:41:58.876722 EDT | AverageAbsQYDiff            122.278
+2017-05-10 10:41:58.879769 EDT | AverageAction                 1
+2017-05-10 10:41:58.880328 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:41:58.881841 EDT | QFunRegParamNorm            576.433
+2017-05-10 10:41:58.882115 EDT | -----------------------  -----------
+2017-05-10 10:41:58.882559 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Training started
+2017-05-10 10:42:25.227859 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Populating workers...
+2017-05-10 10:42:25.228941 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Populated
+2017-05-10 10:51:06.640960 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Training finished
+2017-05-10 10:51:06.641607 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 10:51:06.641899 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #519 | Collecting samples for evaluation
+2017-05-10 10:51:40.166567 EDT | -----------------------  -----------
+2017-05-10 10:51:40.167061 EDT | Epoch                       519
+2017-05-10 10:51:40.167366 EDT | Iteration                   519
+2017-05-10 10:51:40.167660 EDT | AverageReturn             86923.5
+2017-05-10 10:51:40.167956 EDT | StdReturn                 18212.7
+2017-05-10 10:51:40.168248 EDT | MaxReturn                117466
+2017-05-10 10:51:40.168542 EDT | MinReturn                 69350.7
+2017-05-10 10:51:40.168836 EDT | AverageEsReturn           87739.8
+2017-05-10 10:51:40.169151 EDT | StdEsReturn                   0
+2017-05-10 10:51:40.169443 EDT | MaxEsReturn               87739.8
+2017-05-10 10:51:40.169735 EDT | MinEsReturn               87739.8
+2017-05-10 10:51:40.170028 EDT | AverageDiscountedReturn    7255.69
+2017-05-10 10:51:40.170320 EDT | AverageQLoss              85969.7
+2017-05-10 10:51:40.170604 EDT | AveragePolicySurr         -6557.13
+2017-05-10 10:51:40.170890 EDT | AverageQ                   6553.39
+2017-05-10 10:51:40.171328 EDT | AverageAbsQ                6554.02
+2017-05-10 10:51:40.171925 EDT | AverageY                   6553.84
+2017-05-10 10:51:40.172516 EDT | AverageAbsY                6554.43
+2017-05-10 10:51:40.173120 EDT | AverageAbsQYDiff            116.587
+2017-05-10 10:51:40.173723 EDT | AverageAction                 1
+2017-05-10 10:51:40.174308 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 10:51:40.174904 EDT | QFunRegParamNorm            576.977
+2017-05-10 10:51:40.175515 EDT | -----------------------  -----------
+2017-05-10 10:51:40.176236 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Training started
+2017-05-10 10:52:05.895896 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Populating workers...
+2017-05-10 10:52:05.896588 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Populated
+2017-05-10 11:00:45.952161 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Training finished
+2017-05-10 11:00:45.953020 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:00:45.953285 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #520 | Collecting samples for evaluation
+2017-05-10 11:01:20.629123 EDT | -----------------------  -----------
+2017-05-10 11:01:20.629900 EDT | Epoch                       520
+2017-05-10 11:01:20.630187 EDT | Iteration                   520
+2017-05-10 11:01:20.630462 EDT | AverageReturn             93673.9
+2017-05-10 11:01:20.630784 EDT | StdReturn                 18315.6
+2017-05-10 11:01:20.631183 EDT | MaxReturn                117537
+2017-05-10 11:01:20.631537 EDT | MinReturn                 69353
+2017-05-10 11:01:20.631850 EDT | AverageEsReturn           93175.6
+2017-05-10 11:01:20.632146 EDT | StdEsReturn                   0
+2017-05-10 11:01:20.632439 EDT | MaxEsReturn               93175.6
+2017-05-10 11:01:20.632736 EDT | MinEsReturn               93175.6
+2017-05-10 11:01:20.633039 EDT | AverageDiscountedReturn    7470.23
+2017-05-10 11:01:20.633885 EDT | AverageQLoss              86371
+2017-05-10 11:01:20.634952 EDT | AveragePolicySurr         -6531.81
+2017-05-10 11:01:20.636133 EDT | AverageQ                   6528.07
+2017-05-10 11:01:20.637093 EDT | AverageAbsQ                6528.47
+2017-05-10 11:01:20.638057 EDT | AverageY                   6528.7
+2017-05-10 11:01:20.639035 EDT | AverageAbsY                6528.96
+2017-05-10 11:01:20.640013 EDT | AverageAbsQYDiff            115.506
+2017-05-10 11:01:20.640986 EDT | AverageAction                 1
+2017-05-10 11:01:20.641758 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:01:20.642478 EDT | QFunRegParamNorm            577.533
+2017-05-10 11:01:20.643160 EDT | -----------------------  -----------
+2017-05-10 11:01:20.643948 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Training started
+2017-05-10 11:01:48.348058 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Populating workers...
+2017-05-10 11:01:48.348382 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Populated
+2017-05-10 11:11:13.630149 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Training finished
+2017-05-10 11:11:13.630738 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:11:13.630972 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #521 | Collecting samples for evaluation
+2017-05-10 11:11:46.297930 EDT | -----------------------  -----------
+2017-05-10 11:11:46.299420 EDT | Epoch                       521
+2017-05-10 11:11:46.300216 EDT | Iteration                   521
+2017-05-10 11:11:46.300979 EDT | AverageReturn             91380.9
+2017-05-10 11:11:46.301653 EDT | StdReturn                 16344.6
+2017-05-10 11:11:46.302376 EDT | MaxReturn                117256
+2017-05-10 11:11:46.303063 EDT | MinReturn                 69617.8
+2017-05-10 11:11:46.303715 EDT | AverageEsReturn           47719.2
+2017-05-10 11:11:46.304366 EDT | StdEsReturn                   0
+2017-05-10 11:11:46.305020 EDT | MaxEsReturn               47719.2
+2017-05-10 11:11:46.305687 EDT | MinEsReturn               47719.2
+2017-05-10 11:11:46.306356 EDT | AverageDiscountedReturn    7410.63
+2017-05-10 11:11:46.307023 EDT | AverageQLoss              76194.7
+2017-05-10 11:11:46.307660 EDT | AveragePolicySurr         -6543.39
+2017-05-10 11:11:46.308389 EDT | AverageQ                   6539.72
+2017-05-10 11:11:46.309076 EDT | AverageAbsQ                6539.81
+2017-05-10 11:11:46.309712 EDT | AverageY                   6540.03
+2017-05-10 11:11:46.310349 EDT | AverageAbsY                6540.03
+2017-05-10 11:11:46.310992 EDT | AverageAbsQYDiff            114.204
+2017-05-10 11:11:46.311667 EDT | AverageAction                 1
+2017-05-10 11:11:46.312319 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:11:46.312951 EDT | QFunRegParamNorm            578.09
+2017-05-10 11:11:46.313603 EDT | -----------------------  -----------
+2017-05-10 11:11:46.314377 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Training started
+2017-05-10 11:12:12.051658 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Populating workers...
+2017-05-10 11:12:12.052797 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Populated
+2017-05-10 11:20:49.177616 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Training finished
+2017-05-10 11:20:49.178435 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:20:49.178648 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #522 | Collecting samples for evaluation
+2017-05-10 11:21:20.791386 EDT | -----------------------  -----------
+2017-05-10 11:21:20.792492 EDT | Epoch                       522
+2017-05-10 11:21:20.792852 EDT | Iteration                   522
+2017-05-10 11:21:20.793360 EDT | AverageReturn             98522
+2017-05-10 11:21:20.793710 EDT | StdReturn                 17860.8
+2017-05-10 11:21:20.794034 EDT | MaxReturn                117594
+2017-05-10 11:21:20.794364 EDT | MinReturn                 69591.5
+2017-05-10 11:21:20.794736 EDT | AverageEsReturn           56813.8
+2017-05-10 11:21:20.795996 EDT | StdEsReturn                   0
+2017-05-10 11:21:20.796328 EDT | MaxEsReturn               56813.8
+2017-05-10 11:21:20.797237 EDT | MinEsReturn               56813.8
+2017-05-10 11:21:20.797542 EDT | AverageDiscountedReturn    7702.96
+2017-05-10 11:21:20.797841 EDT | AverageQLoss              68745
+2017-05-10 11:21:20.798180 EDT | AveragePolicySurr         -6541.29
+2017-05-10 11:21:20.798503 EDT | AverageQ                   6537.84
+2017-05-10 11:21:20.798834 EDT | AverageAbsQ                6537.84
+2017-05-10 11:21:20.799666 EDT | AverageY                   6538.16
+2017-05-10 11:21:20.800107 EDT | AverageAbsY                6538.16
+2017-05-10 11:21:20.800463 EDT | AverageAbsQYDiff            112.467
+2017-05-10 11:21:20.800876 EDT | AverageAction                 1
+2017-05-10 11:21:20.801217 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:21:20.801565 EDT | QFunRegParamNorm            578.66
+2017-05-10 11:21:20.801919 EDT | -----------------------  -----------
+2017-05-10 11:21:20.802498 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Training started
+2017-05-10 11:21:46.751797 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Populating workers...
+2017-05-10 11:21:46.752531 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Populated
+2017-05-10 11:30:27.722240 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Training finished
+2017-05-10 11:30:27.722850 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:30:27.723083 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #523 | Collecting samples for evaluation
+2017-05-10 11:31:02.719968 EDT | -----------------------  -----------
+2017-05-10 11:31:02.721474 EDT | Epoch                       523
+2017-05-10 11:31:02.721934 EDT | Iteration                   523
+2017-05-10 11:31:02.722411 EDT | AverageReturn             93515.9
+2017-05-10 11:31:02.722735 EDT | StdReturn                 21353.9
+2017-05-10 11:31:02.723057 EDT | MaxReturn                117646
+2017-05-10 11:31:02.723421 EDT | MinReturn                 69163.7
+2017-05-10 11:31:02.724389 EDT | AverageEsReturn           95420.2
+2017-05-10 11:31:02.724774 EDT | StdEsReturn                   0
+2017-05-10 11:31:02.729344 EDT | MaxEsReturn               95420.2
+2017-05-10 11:31:02.730436 EDT | MinEsReturn               95420.2
+2017-05-10 11:31:02.731832 EDT | AverageDiscountedReturn    7380.64
+2017-05-10 11:31:02.735173 EDT | AverageQLoss              87066.4
+2017-05-10 11:31:02.736535 EDT | AveragePolicySurr         -6545.18
+2017-05-10 11:31:02.737854 EDT | AverageQ                   6541.51
+2017-05-10 11:31:02.738868 EDT | AverageAbsQ                6541.51
+2017-05-10 11:31:02.741099 EDT | AverageY                   6542.01
+2017-05-10 11:31:02.742355 EDT | AverageAbsY                6542.01
+2017-05-10 11:31:02.743625 EDT | AverageAbsQYDiff            118.237
+2017-05-10 11:31:02.744428 EDT | AverageAction                 1
+2017-05-10 11:31:02.746115 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:31:02.747600 EDT | QFunRegParamNorm            579.314
+2017-05-10 11:31:02.748755 EDT | -----------------------  -----------
+2017-05-10 11:31:02.750317 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Training started
+2017-05-10 11:31:28.359964 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Populating workers...
+2017-05-10 11:31:28.361679 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Populated
+2017-05-10 11:40:10.841117 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Training finished
+2017-05-10 11:40:10.842087 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:40:10.842396 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #524 | Collecting samples for evaluation
+2017-05-10 11:40:43.093097 EDT | -----------------------  -----------
+2017-05-10 11:40:43.093485 EDT | Epoch                       524
+2017-05-10 11:40:43.094276 EDT | Iteration                   524
+2017-05-10 11:40:43.094589 EDT | AverageReturn            105415
+2017-05-10 11:40:43.094887 EDT | StdReturn                 19232.4
+2017-05-10 11:40:43.095192 EDT | MaxReturn                117626
+2017-05-10 11:40:43.095569 EDT | MinReturn                 69537.4
+2017-05-10 11:40:43.095873 EDT | AverageEsReturn           94058
+2017-05-10 11:40:43.098129 EDT | StdEsReturn                   0
+2017-05-10 11:40:43.098891 EDT | MaxEsReturn               94058
+2017-05-10 11:40:43.099199 EDT | MinEsReturn               94058
+2017-05-10 11:40:43.100245 EDT | AverageDiscountedReturn    7921.32
+2017-05-10 11:40:43.101807 EDT | AverageQLoss              89800.5
+2017-05-10 11:40:43.102266 EDT | AveragePolicySurr         -6543.25
+2017-05-10 11:40:43.103439 EDT | AverageQ                   6539.77
+2017-05-10 11:40:43.103776 EDT | AverageAbsQ                6539.77
+2017-05-10 11:40:43.104327 EDT | AverageY                   6540.14
+2017-05-10 11:40:43.104633 EDT | AverageAbsY                6540.14
+2017-05-10 11:40:43.105526 EDT | AverageAbsQYDiff            119.612
+2017-05-10 11:40:43.105997 EDT | AverageAction                 1
+2017-05-10 11:40:43.106266 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:40:43.106942 EDT | QFunRegParamNorm            580.014
+2017-05-10 11:40:43.107295 EDT | -----------------------  -----------
+2017-05-10 11:40:43.109113 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Training started
+2017-05-10 11:41:09.840751 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Populating workers...
+2017-05-10 11:41:09.841443 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Populated
+2017-05-10 11:49:54.549527 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Training finished
+2017-05-10 11:49:54.550139 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:49:54.550382 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #525 | Collecting samples for evaluation
+2017-05-10 11:50:29.585417 EDT | -----------------------  -----------
+2017-05-10 11:50:29.585931 EDT | Epoch                       525
+2017-05-10 11:50:29.586205 EDT | Iteration                   525
+2017-05-10 11:50:29.586500 EDT | AverageReturn             95957.6
+2017-05-10 11:50:29.586791 EDT | StdReturn                 19766.8
+2017-05-10 11:50:29.587052 EDT | MaxReturn                117653
+2017-05-10 11:50:29.587347 EDT | MinReturn                 69326.1
+2017-05-10 11:50:29.587606 EDT | AverageEsReturn           62067
+2017-05-10 11:50:29.587881 EDT | StdEsReturn                   0
+2017-05-10 11:50:29.588143 EDT | MaxEsReturn               62067
+2017-05-10 11:50:29.588408 EDT | MinEsReturn               62067
+2017-05-10 11:50:29.588667 EDT | AverageDiscountedReturn    7534.51
+2017-05-10 11:50:29.588959 EDT | AverageQLoss              76814.3
+2017-05-10 11:50:29.589219 EDT | AveragePolicySurr         -6538.84
+2017-05-10 11:50:29.589480 EDT | AverageQ                   6535
+2017-05-10 11:50:29.589739 EDT | AverageAbsQ                6535.21
+2017-05-10 11:50:29.590006 EDT | AverageY                   6535.66
+2017-05-10 11:50:29.590274 EDT | AverageAbsY                6535.69
+2017-05-10 11:50:29.590533 EDT | AverageAbsQYDiff            115.08
+2017-05-10 11:50:29.590788 EDT | AverageAction                 1
+2017-05-10 11:50:29.591061 EDT | PolicyRegParamNorm           16.8941
+2017-05-10 11:50:29.591316 EDT | QFunRegParamNorm            580.59
+2017-05-10 11:50:29.591572 EDT | -----------------------  -----------
+2017-05-10 11:50:29.592087 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #526 | Training started
+2017-05-10 11:50:56.026035 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #526 | Populating workers...
+2017-05-10 11:50:56.026759 EDT | [Tensorflow_RLLAB_Results/PolyRL/Humanoid_StandUp/] epoch #526 | Populated
