@@ -2399,3 +2399,2323 @@
 2017-05-10 11:52:34.630871 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Training started
 2017-05-10 11:52:40.008070 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Populating workers...
 2017-05-10 11:52:40.008734 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Populated
+2017-05-10 11:54:19.303246 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Training finished
+2017-05-10 11:54:19.304249 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:54:19.304633 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #90 | Collecting samples for evaluation
+2017-05-10 11:54:35.507657 EDT | -----------------------  -----------
+2017-05-10 11:54:35.508609 EDT | Epoch                      90
+2017-05-10 11:54:35.508963 EDT | Iteration                  90
+2017-05-10 11:54:35.509306 EDT | AverageReturn            3816.3
+2017-05-10 11:54:35.509644 EDT | StdReturn                  60.7548
+2017-05-10 11:54:35.509979 EDT | MaxReturn                3913.54
+2017-05-10 11:54:35.510314 EDT | MinReturn                3738.66
+2017-05-10 11:54:35.510648 EDT | AverageEsReturn          2748.63
+2017-05-10 11:54:35.510982 EDT | StdEsReturn                 0
+2017-05-10 11:54:35.511329 EDT | MaxEsReturn              2748.63
+2017-05-10 11:54:35.511676 EDT | MinEsReturn              2748.63
+2017-05-10 11:54:35.512011 EDT | AverageDiscountedReturn   321.532
+2017-05-10 11:54:35.512346 EDT | AverageQLoss               27.0267
+2017-05-10 11:54:35.512683 EDT | AveragePolicySurr        -103.976
+2017-05-10 11:54:35.513018 EDT | AverageQ                  102.12
+2017-05-10 11:54:35.513354 EDT | AverageAbsQ               102.12
+2017-05-10 11:54:35.513689 EDT | AverageY                  102.141
+2017-05-10 11:54:35.514027 EDT | AverageAbsY               102.142
+2017-05-10 11:54:35.514360 EDT | AverageAbsQYDiff            2.04759
+2017-05-10 11:54:35.514695 EDT | AverageAction               0.939828
+2017-05-10 11:54:35.515028 EDT | PolicyRegParamNorm         42.4915
+2017-05-10 11:54:35.518084 EDT | QFunRegParamNorm           50.3814
+2017-05-10 11:54:35.518458 EDT | -----------------------  -----------
+2017-05-10 11:54:35.518985 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Training started
+2017-05-10 11:54:40.660860 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Populating workers...
+2017-05-10 11:54:40.661377 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Populated
+2017-05-10 11:56:21.390790 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Training finished
+2017-05-10 11:56:21.391767 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:56:21.392296 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #91 | Collecting samples for evaluation
+2017-05-10 11:56:36.869868 EDT | -----------------------  -----------
+2017-05-10 11:56:36.870717 EDT | Epoch                      91
+2017-05-10 11:56:36.870976 EDT | Iteration                  91
+2017-05-10 11:56:36.871246 EDT | AverageReturn            3520.72
+2017-05-10 11:56:36.871541 EDT | StdReturn                 712.456
+2017-05-10 11:56:36.871801 EDT | MaxReturn                3937.39
+2017-05-10 11:56:36.872052 EDT | MinReturn                1514.35
+2017-05-10 11:56:36.872308 EDT | AverageEsReturn          2496.81
+2017-05-10 11:56:36.872559 EDT | StdEsReturn                 0
+2017-05-10 11:56:36.872820 EDT | MaxEsReturn              2496.81
+2017-05-10 11:56:36.873069 EDT | MinEsReturn              2496.81
+2017-05-10 11:56:36.873328 EDT | AverageDiscountedReturn   313.13
+2017-05-10 11:56:36.873575 EDT | AverageQLoss               26.8598
+2017-05-10 11:56:36.873835 EDT | AveragePolicySurr        -107.776
+2017-05-10 11:56:36.874084 EDT | AverageQ                  105.88
+2017-05-10 11:56:36.874343 EDT | AverageAbsQ               105.88
+2017-05-10 11:56:36.874591 EDT | AverageY                  105.904
+2017-05-10 11:56:36.874851 EDT | AverageAbsY               105.905
+2017-05-10 11:56:36.875098 EDT | AverageAbsQYDiff            2.05319
+2017-05-10 11:56:36.875365 EDT | AverageAction               0.951633
+2017-05-10 11:56:36.875625 EDT | PolicyRegParamNorm         42.7123
+2017-05-10 11:56:36.875887 EDT | QFunRegParamNorm           50.7262
+2017-05-10 11:56:36.876136 EDT | -----------------------  -----------
+2017-05-10 11:56:36.876542 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Training started
+2017-05-10 11:56:42.367792 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Populating workers...
+2017-05-10 11:56:42.368382 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Populated
+2017-05-10 11:58:14.556404 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Training finished
+2017-05-10 11:58:14.557374 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 11:58:14.557764 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #92 | Collecting samples for evaluation
+2017-05-10 11:58:29.592575 EDT | -----------------------  -----------
+2017-05-10 11:58:29.593684 EDT | Epoch                      92
+2017-05-10 11:58:29.595014 EDT | Iteration                  92
+2017-05-10 11:58:29.596477 EDT | AverageReturn            4163.46
+2017-05-10 11:58:29.597887 EDT | StdReturn                  74.407
+2017-05-10 11:58:29.599286 EDT | MaxReturn                4294.4
+2017-05-10 11:58:29.600739 EDT | MinReturn                4062.09
+2017-05-10 11:58:29.602163 EDT | AverageEsReturn          2723.06
+2017-05-10 11:58:29.603412 EDT | StdEsReturn                 0
+2017-05-10 11:58:29.604103 EDT | MaxEsReturn              2723.06
+2017-05-10 11:58:29.605351 EDT | MinEsReturn              2723.06
+2017-05-10 11:58:29.606635 EDT | AverageDiscountedReturn   341.649
+2017-05-10 11:58:29.607817 EDT | AverageQLoss               27.8201
+2017-05-10 11:58:29.609067 EDT | AveragePolicySurr        -109.323
+2017-05-10 11:58:29.610314 EDT | AverageQ                  107.424
+2017-05-10 11:58:29.611412 EDT | AverageAbsQ               107.424
+2017-05-10 11:58:29.612625 EDT | AverageY                  107.442
+2017-05-10 11:58:29.613851 EDT | AverageAbsY               107.443
+2017-05-10 11:58:29.615063 EDT | AverageAbsQYDiff            2.12136
+2017-05-10 11:58:29.616322 EDT | AverageAction               0.954431
+2017-05-10 11:58:29.617561 EDT | PolicyRegParamNorm         43.0195
+2017-05-10 11:58:29.618784 EDT | QFunRegParamNorm           51.0918
+2017-05-10 11:58:29.619774 EDT | -----------------------  -----------
+2017-05-10 11:58:29.621190 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Training started
+2017-05-10 11:58:35.625973 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Populating workers...
+2017-05-10 11:58:35.626456 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Populated
+2017-05-10 12:00:04.702902 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Training finished
+2017-05-10 12:00:04.704020 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:00:04.704525 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #93 | Collecting samples for evaluation
+2017-05-10 12:00:18.343442 EDT | -----------------------  -----------
+2017-05-10 12:00:18.344831 EDT | Epoch                      93
+2017-05-10 12:00:18.345180 EDT | Iteration                  93
+2017-05-10 12:00:18.345514 EDT | AverageReturn            4097.5
+2017-05-10 12:00:18.345847 EDT | StdReturn                  62.81
+2017-05-10 12:00:18.346179 EDT | MaxReturn                4205.45
+2017-05-10 12:00:18.346504 EDT | MinReturn                3977.84
+2017-05-10 12:00:18.346830 EDT | AverageEsReturn          2824.49
+2017-05-10 12:00:18.347153 EDT | StdEsReturn                 0
+2017-05-10 12:00:18.347499 EDT | MaxEsReturn              2824.49
+2017-05-10 12:00:18.347827 EDT | MinEsReturn              2824.49
+2017-05-10 12:00:18.348152 EDT | AverageDiscountedReturn   338.019
+2017-05-10 12:00:18.348480 EDT | AverageQLoss               32.2599
+2017-05-10 12:00:18.348805 EDT | AveragePolicySurr        -112.027
+2017-05-10 12:00:18.349132 EDT | AverageQ                  110.054
+2017-05-10 12:00:18.349456 EDT | AverageAbsQ               110.055
+2017-05-10 12:00:18.349781 EDT | AverageY                  110.073
+2017-05-10 12:00:18.350104 EDT | AverageAbsY               110.074
+2017-05-10 12:00:18.350430 EDT | AverageAbsQYDiff            2.1985
+2017-05-10 12:00:18.350755 EDT | AverageAction               0.936679
+2017-05-10 12:00:18.351081 EDT | PolicyRegParamNorm         43.2525
+2017-05-10 12:00:18.351415 EDT | QFunRegParamNorm           51.4299
+2017-05-10 12:00:18.351741 EDT | -----------------------  -----------
+2017-05-10 12:00:18.352240 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Training started
+2017-05-10 12:00:22.905155 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Populating workers...
+2017-05-10 12:00:22.905883 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Populated
+2017-05-10 12:01:52.437719 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Training finished
+2017-05-10 12:01:52.438846 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:01:52.439362 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #94 | Collecting samples for evaluation
+2017-05-10 12:02:06.166139 EDT | -----------------------  -----------
+2017-05-10 12:02:06.167096 EDT | Epoch                      94
+2017-05-10 12:02:06.167437 EDT | Iteration                  94
+2017-05-10 12:02:06.167670 EDT | AverageReturn            3917.05
+2017-05-10 12:02:06.167912 EDT | StdReturn                  63.2262
+2017-05-10 12:02:06.168135 EDT | MaxReturn                4001.08
+2017-05-10 12:02:06.168358 EDT | MinReturn                3774.57
+2017-05-10 12:02:06.168646 EDT | AverageEsReturn          2693.03
+2017-05-10 12:02:06.169065 EDT | StdEsReturn                 0
+2017-05-10 12:02:06.169290 EDT | MaxEsReturn              2693.03
+2017-05-10 12:02:06.169514 EDT | MinEsReturn              2693.03
+2017-05-10 12:02:06.169735 EDT | AverageDiscountedReturn   317.467
+2017-05-10 12:02:06.169956 EDT | AverageQLoss               25.5958
+2017-05-10 12:02:06.170176 EDT | AveragePolicySurr        -113.904
+2017-05-10 12:02:06.170454 EDT | AverageQ                  111.986
+2017-05-10 12:02:06.170677 EDT | AverageAbsQ               111.986
+2017-05-10 12:02:06.170896 EDT | AverageY                  112.005
+2017-05-10 12:02:06.171116 EDT | AverageAbsY               112.005
+2017-05-10 12:02:06.171346 EDT | AverageAbsQYDiff            2.09892
+2017-05-10 12:02:06.171568 EDT | AverageAction               0.941777
+2017-05-10 12:02:06.171788 EDT | PolicyRegParamNorm         43.385
+2017-05-10 12:02:06.172110 EDT | QFunRegParamNorm           51.7572
+2017-05-10 12:02:06.172417 EDT | -----------------------  -----------
+2017-05-10 12:02:06.172777 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Training started
+2017-05-10 12:02:11.067481 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Populating workers...
+2017-05-10 12:02:11.069405 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Populated
+2017-05-10 12:03:41.804797 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Training finished
+2017-05-10 12:03:41.805981 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:03:41.806508 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #95 | Collecting samples for evaluation
+2017-05-10 12:03:57.051627 EDT | -----------------------  -----------
+2017-05-10 12:03:57.052841 EDT | Epoch                      95
+2017-05-10 12:03:57.053293 EDT | Iteration                  95
+2017-05-10 12:03:57.053718 EDT | AverageReturn            3681.25
+2017-05-10 12:03:57.054139 EDT | StdReturn                  89.9538
+2017-05-10 12:03:57.054560 EDT | MaxReturn                3810.8
+2017-05-10 12:03:57.054974 EDT | MinReturn                3543.66
+2017-05-10 12:03:57.055735 EDT | AverageEsReturn          2768.5
+2017-05-10 12:03:57.056554 EDT | StdEsReturn                 0
+2017-05-10 12:03:57.057370 EDT | MaxEsReturn              2768.5
+2017-05-10 12:03:57.058190 EDT | MinEsReturn              2768.5
+2017-05-10 12:03:57.059005 EDT | AverageDiscountedReturn   298.69
+2017-05-10 12:03:57.059818 EDT | AverageQLoss               30.7473
+2017-05-10 12:03:57.060636 EDT | AveragePolicySurr        -116.983
+2017-05-10 12:03:57.061405 EDT | AverageQ                  115.012
+2017-05-10 12:03:57.062173 EDT | AverageAbsQ               115.012
+2017-05-10 12:03:57.062967 EDT | AverageY                  115.031
+2017-05-10 12:03:57.063451 EDT | AverageAbsY               115.032
+2017-05-10 12:03:57.064250 EDT | AverageAbsQYDiff            2.20983
+2017-05-10 12:03:57.064963 EDT | AverageAction               0.948269
+2017-05-10 12:03:57.065708 EDT | PolicyRegParamNorm         43.5772
+2017-05-10 12:03:57.066542 EDT | QFunRegParamNorm           52.0873
+2017-05-10 12:03:57.067324 EDT | -----------------------  -----------
+2017-05-10 12:03:57.068354 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Training started
+2017-05-10 12:04:02.079036 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Populating workers...
+2017-05-10 12:04:02.079902 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Populated
+2017-05-10 12:05:39.463403 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Training finished
+2017-05-10 12:05:39.466305 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:05:39.466859 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #96 | Collecting samples for evaluation
+2017-05-10 12:05:55.282975 EDT | -----------------------  -----------
+2017-05-10 12:05:55.284165 EDT | Epoch                      96
+2017-05-10 12:05:55.284787 EDT | Iteration                  96
+2017-05-10 12:05:55.285363 EDT | AverageReturn            2866.14
+2017-05-10 12:05:55.285931 EDT | StdReturn                1449.88
+2017-05-10 12:05:55.286497 EDT | MaxReturn                4089.8
+2017-05-10 12:05:55.287070 EDT | MinReturn                -441.75
+2017-05-10 12:05:55.287646 EDT | AverageEsReturn          2733.67
+2017-05-10 12:05:55.288222 EDT | StdEsReturn                 0
+2017-05-10 12:05:55.288778 EDT | MaxEsReturn              2733.67
+2017-05-10 12:05:55.289338 EDT | MinEsReturn              2733.67
+2017-05-10 12:05:55.289893 EDT | AverageDiscountedReturn   259.477
+2017-05-10 12:05:55.290457 EDT | AverageQLoss               29.4767
+2017-05-10 12:05:55.291016 EDT | AveragePolicySurr        -119.587
+2017-05-10 12:05:55.291590 EDT | AverageQ                  117.535
+2017-05-10 12:05:55.292189 EDT | AverageAbsQ               117.535
+2017-05-10 12:05:55.292753 EDT | AverageY                  117.559
+2017-05-10 12:05:55.293313 EDT | AverageAbsY               117.56
+2017-05-10 12:05:55.293873 EDT | AverageAbsQYDiff            2.18378
+2017-05-10 12:05:55.294453 EDT | AverageAction               0.947132
+2017-05-10 12:05:55.295000 EDT | PolicyRegParamNorm         43.7709
+2017-05-10 12:05:55.295582 EDT | QFunRegParamNorm           52.4255
+2017-05-10 12:05:55.296127 EDT | -----------------------  -----------
+2017-05-10 12:05:55.296927 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Training started
+2017-05-10 12:06:00.199616 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Populating workers...
+2017-05-10 12:06:00.200077 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Populated
+2017-05-10 12:07:39.180805 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Training finished
+2017-05-10 12:07:39.181941 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:07:39.182461 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #97 | Collecting samples for evaluation
+2017-05-10 12:07:54.043028 EDT | -----------------------  -----------
+2017-05-10 12:07:54.047409 EDT | Epoch                      97
+2017-05-10 12:07:54.047778 EDT | Iteration                  97
+2017-05-10 12:07:54.048114 EDT | AverageReturn            4194.48
+2017-05-10 12:07:54.048445 EDT | StdReturn                 500.853
+2017-05-10 12:07:54.048774 EDT | MaxReturn                4546.15
+2017-05-10 12:07:54.049105 EDT | MinReturn                2770.16
+2017-05-10 12:07:54.049433 EDT | AverageEsReturn          2963.28
+2017-05-10 12:07:54.049764 EDT | StdEsReturn                 0
+2017-05-10 12:07:54.050092 EDT | MaxEsReturn              2963.28
+2017-05-10 12:07:54.050421 EDT | MinEsReturn              2963.28
+2017-05-10 12:07:54.050748 EDT | AverageDiscountedReturn   346.031
+2017-05-10 12:07:54.051073 EDT | AverageQLoss               29.7788
+2017-05-10 12:07:54.055464 EDT | AveragePolicySurr        -121.903
+2017-05-10 12:07:54.055812 EDT | AverageQ                  119.829
+2017-05-10 12:07:54.056153 EDT | AverageAbsQ               119.829
+2017-05-10 12:07:54.056483 EDT | AverageY                  119.852
+2017-05-10 12:07:54.056812 EDT | AverageAbsY               119.852
+2017-05-10 12:07:54.057140 EDT | AverageAbsQYDiff            2.17026
+2017-05-10 12:07:54.057468 EDT | AverageAction               0.956885
+2017-05-10 12:07:54.057796 EDT | PolicyRegParamNorm         43.9514
+2017-05-10 12:07:54.058123 EDT | QFunRegParamNorm           52.7146
+2017-05-10 12:07:54.058450 EDT | -----------------------  -----------
+2017-05-10 12:07:54.058975 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Training started
+2017-05-10 12:07:59.690798 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Populating workers...
+2017-05-10 12:07:59.691180 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Populated
+2017-05-10 12:09:37.178615 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Training finished
+2017-05-10 12:09:37.179567 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:09:37.179959 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #98 | Collecting samples for evaluation
+2017-05-10 12:09:49.903449 EDT | -----------------------  -----------
+2017-05-10 12:09:49.904728 EDT | Epoch                      98
+2017-05-10 12:09:49.905262 EDT | Iteration                  98
+2017-05-10 12:09:49.905784 EDT | AverageReturn            4057.84
+2017-05-10 12:09:49.906301 EDT | StdReturn                 177.047
+2017-05-10 12:09:49.906819 EDT | MaxReturn                4277.84
+2017-05-10 12:09:49.907332 EDT | MinReturn                3652.4
+2017-05-10 12:09:49.907864 EDT | AverageEsReturn          2899.16
+2017-05-10 12:09:49.908380 EDT | StdEsReturn                 0
+2017-05-10 12:09:49.908892 EDT | MaxEsReturn              2899.16
+2017-05-10 12:09:49.909405 EDT | MinEsReturn              2899.16
+2017-05-10 12:09:49.909918 EDT | AverageDiscountedReturn   325.71
+2017-05-10 12:09:49.910425 EDT | AverageQLoss               35.0814
+2017-05-10 12:09:49.910939 EDT | AveragePolicySurr        -124.248
+2017-05-10 12:09:49.911455 EDT | AverageQ                  122.146
+2017-05-10 12:09:49.911966 EDT | AverageAbsQ               122.146
+2017-05-10 12:09:49.912480 EDT | AverageY                  122.17
+2017-05-10 12:09:49.912991 EDT | AverageAbsY               122.17
+2017-05-10 12:09:49.913499 EDT | AverageAbsQYDiff            2.31287
+2017-05-10 12:09:49.914012 EDT | AverageAction               0.955824
+2017-05-10 12:09:49.914522 EDT | PolicyRegParamNorm         44.1868
+2017-05-10 12:09:49.915033 EDT | QFunRegParamNorm           52.9806
+2017-05-10 12:09:49.915560 EDT | -----------------------  -----------
+2017-05-10 12:09:49.916293 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Training started
+2017-05-10 12:09:55.243248 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Populating workers...
+2017-05-10 12:09:55.243776 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Populated
+2017-05-10 12:11:33.017530 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Training finished
+2017-05-10 12:11:33.018419 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:11:33.018804 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #99 | Collecting samples for evaluation
+2017-05-10 12:11:48.606696 EDT | -----------------------  -----------
+2017-05-10 12:11:48.607707 EDT | Epoch                      99
+2017-05-10 12:11:48.608072 EDT | Iteration                  99
+2017-05-10 12:11:48.608423 EDT | AverageReturn            3958.07
+2017-05-10 12:11:48.608756 EDT | StdReturn                 203.882
+2017-05-10 12:11:48.609103 EDT | MaxReturn                4192.35
+2017-05-10 12:11:48.609452 EDT | MinReturn                3476.7
+2017-05-10 12:11:48.609785 EDT | AverageEsReturn          2731.76
+2017-05-10 12:11:48.610134 EDT | StdEsReturn                 0
+2017-05-10 12:11:48.610494 EDT | MaxEsReturn              2731.76
+2017-05-10 12:11:48.610914 EDT | MinEsReturn              2731.76
+2017-05-10 12:11:48.611326 EDT | AverageDiscountedReturn   338.353
+2017-05-10 12:11:48.611742 EDT | AverageQLoss               44.6012
+2017-05-10 12:11:48.612159 EDT | AveragePolicySurr        -128.142
+2017-05-10 12:11:48.612576 EDT | AverageQ                  126.059
+2017-05-10 12:11:48.612976 EDT | AverageAbsQ               126.059
+2017-05-10 12:11:48.613398 EDT | AverageY                  126.09
+2017-05-10 12:11:48.613798 EDT | AverageAbsY               126.09
+2017-05-10 12:11:48.614210 EDT | AverageAbsQYDiff            2.44069
+2017-05-10 12:11:48.614626 EDT | AverageAction               0.946017
+2017-05-10 12:11:48.615026 EDT | PolicyRegParamNorm         44.3702
+2017-05-10 12:11:48.615450 EDT | QFunRegParamNorm           53.2936
+2017-05-10 12:11:48.615866 EDT | -----------------------  -----------
+2017-05-10 12:11:48.616477 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Training started
+2017-05-10 12:11:53.826080 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Populating workers...
+2017-05-10 12:11:53.826583 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Populated
+2017-05-10 12:13:21.019040 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Training finished
+2017-05-10 12:13:21.020630 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:13:21.021160 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #100 | Collecting samples for evaluation
+2017-05-10 12:13:34.429950 EDT | -----------------------  -----------
+2017-05-10 12:13:34.432770 EDT | Epoch                     100
+2017-05-10 12:13:34.433243 EDT | Iteration                 100
+2017-05-10 12:13:34.433658 EDT | AverageReturn            3787.97
+2017-05-10 12:13:34.434066 EDT | StdReturn                 104.787
+2017-05-10 12:13:34.434479 EDT | MaxReturn                3927.97
+2017-05-10 12:13:34.434880 EDT | MinReturn                3644.12
+2017-05-10 12:13:34.439456 EDT | AverageEsReturn          2543.86
+2017-05-10 12:13:34.439878 EDT | StdEsReturn                 0
+2017-05-10 12:13:34.440282 EDT | MaxEsReturn              2543.86
+2017-05-10 12:13:34.440691 EDT | MinEsReturn              2543.86
+2017-05-10 12:13:34.441091 EDT | AverageDiscountedReturn   313.622
+2017-05-10 12:13:34.441489 EDT | AverageQLoss               33.1689
+2017-05-10 12:13:34.441896 EDT | AveragePolicySurr        -129.693
+2017-05-10 12:13:34.442295 EDT | AverageQ                  127.561
+2017-05-10 12:13:34.442694 EDT | AverageAbsQ               127.561
+2017-05-10 12:13:34.443090 EDT | AverageY                  127.58
+2017-05-10 12:13:34.443498 EDT | AverageAbsY               127.581
+2017-05-10 12:13:34.443905 EDT | AverageAbsQYDiff            2.31079
+2017-05-10 12:13:34.444304 EDT | AverageAction               0.966107
+2017-05-10 12:13:34.444702 EDT | PolicyRegParamNorm         44.6042
+2017-05-10 12:13:34.445107 EDT | QFunRegParamNorm           53.5347
+2017-05-10 12:13:34.445507 EDT | -----------------------  -----------
+2017-05-10 12:13:34.446095 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Training started
+2017-05-10 12:13:39.526813 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Populating workers...
+2017-05-10 12:13:39.527207 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Populated
+2017-05-10 12:15:09.862338 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Training finished
+2017-05-10 12:15:09.863387 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:15:09.863791 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #101 | Collecting samples for evaluation
+2017-05-10 12:15:24.470353 EDT | -----------------------  -----------
+2017-05-10 12:15:24.475417 EDT | Epoch                     101
+2017-05-10 12:15:24.475806 EDT | Iteration                 101
+2017-05-10 12:15:24.476174 EDT | AverageReturn            3098.27
+2017-05-10 12:15:24.476539 EDT | StdReturn                1048.56
+2017-05-10 12:15:24.476901 EDT | MaxReturn                4048.88
+2017-05-10 12:15:24.477261 EDT | MinReturn                 764.482
+2017-05-10 12:15:24.477620 EDT | AverageEsReturn          2390.37
+2017-05-10 12:15:24.477979 EDT | StdEsReturn                 0
+2017-05-10 12:15:24.478339 EDT | MaxEsReturn              2390.37
+2017-05-10 12:15:24.478698 EDT | MinEsReturn              2390.37
+2017-05-10 12:15:24.479058 EDT | AverageDiscountedReturn   300.869
+2017-05-10 12:15:24.479427 EDT | AverageQLoss               30.4366
+2017-05-10 12:15:24.479791 EDT | AveragePolicySurr        -133.706
+2017-05-10 12:15:24.480165 EDT | AverageQ                  131.627
+2017-05-10 12:15:24.480527 EDT | AverageAbsQ               131.627
+2017-05-10 12:15:24.480884 EDT | AverageY                  131.651
+2017-05-10 12:15:24.481241 EDT | AverageAbsY               131.651
+2017-05-10 12:15:24.481601 EDT | AverageAbsQYDiff            2.28757
+2017-05-10 12:15:24.481958 EDT | AverageAction               0.959301
+2017-05-10 12:15:24.482314 EDT | PolicyRegParamNorm         44.8837
+2017-05-10 12:15:24.482673 EDT | QFunRegParamNorm           53.8922
+2017-05-10 12:15:24.483030 EDT | -----------------------  -----------
+2017-05-10 12:15:24.483573 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Training started
+2017-05-10 12:15:30.179908 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Populating workers...
+2017-05-10 12:15:30.180289 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Populated
+2017-05-10 12:17:07.724193 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Training finished
+2017-05-10 12:17:07.725233 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:17:07.725626 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #102 | Collecting samples for evaluation
+2017-05-10 12:17:22.242495 EDT | -----------------------  -----------
+2017-05-10 12:17:22.243424 EDT | Epoch                     102
+2017-05-10 12:17:22.243789 EDT | Iteration                 102
+2017-05-10 12:17:22.244139 EDT | AverageReturn            3991.99
+2017-05-10 12:17:22.244470 EDT | StdReturn                 310.56
+2017-05-10 12:17:22.244817 EDT | MaxReturn                4317.4
+2017-05-10 12:17:22.245161 EDT | MinReturn                3189.27
+2017-05-10 12:17:22.245488 EDT | AverageEsReturn          2660.52
+2017-05-10 12:17:22.245830 EDT | StdEsReturn                 0
+2017-05-10 12:17:22.246175 EDT | MaxEsReturn              2660.52
+2017-05-10 12:17:22.246503 EDT | MinEsReturn              2660.52
+2017-05-10 12:17:22.246843 EDT | AverageDiscountedReturn   316.44
+2017-05-10 12:17:22.247186 EDT | AverageQLoss               33.3743
+2017-05-10 12:17:22.247555 EDT | AveragePolicySurr        -136.103
+2017-05-10 12:17:22.247893 EDT | AverageQ                  133.98
+2017-05-10 12:17:22.248235 EDT | AverageAbsQ               133.981
+2017-05-10 12:17:22.248562 EDT | AverageY                  133.995
+2017-05-10 12:17:22.248887 EDT | AverageAbsY               133.996
+2017-05-10 12:17:22.249246 EDT | AverageAbsQYDiff            2.28465
+2017-05-10 12:17:22.249572 EDT | AverageAction               0.966554
+2017-05-10 12:17:22.249899 EDT | PolicyRegParamNorm         45.0448
+2017-05-10 12:17:22.250259 EDT | QFunRegParamNorm           54.21
+2017-05-10 12:17:22.250587 EDT | -----------------------  -----------
+2017-05-10 12:17:22.251119 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Training started
+2017-05-10 12:17:28.138418 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Populating workers...
+2017-05-10 12:17:28.138925 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Populated
+2017-05-10 12:19:06.981445 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Training finished
+2017-05-10 12:19:06.982264 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:19:06.982528 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #103 | Collecting samples for evaluation
+2017-05-10 12:19:21.131313 EDT | -----------------------  ----------
+2017-05-10 12:19:21.135270 EDT | Epoch                     103
+2017-05-10 12:19:21.135803 EDT | Iteration                 103
+2017-05-10 12:19:21.136270 EDT | AverageReturn            3856.23
+2017-05-10 12:19:21.136733 EDT | StdReturn                 201.895
+2017-05-10 12:19:21.137198 EDT | MaxReturn                4068.22
+2017-05-10 12:19:21.137661 EDT | MinReturn                3383.63
+2017-05-10 12:19:21.138122 EDT | AverageEsReturn          2415.62
+2017-05-10 12:19:21.138580 EDT | StdEsReturn                 0
+2017-05-10 12:19:21.139043 EDT | MaxEsReturn              2415.62
+2017-05-10 12:19:21.139519 EDT | MinEsReturn              2415.62
+2017-05-10 12:19:21.139981 EDT | AverageDiscountedReturn   307.965
+2017-05-10 12:19:21.140444 EDT | AverageQLoss               40.214
+2017-05-10 12:19:21.140903 EDT | AveragePolicySurr        -136.408
+2017-05-10 12:19:21.141360 EDT | AverageQ                  134.354
+2017-05-10 12:19:21.141817 EDT | AverageAbsQ               134.354
+2017-05-10 12:19:21.142276 EDT | AverageY                  134.378
+2017-05-10 12:19:21.142733 EDT | AverageAbsY               134.378
+2017-05-10 12:19:21.143193 EDT | AverageAbsQYDiff            2.41198
+2017-05-10 12:19:21.143667 EDT | AverageAction               0.95239
+2017-05-10 12:19:21.144130 EDT | PolicyRegParamNorm         45.2751
+2017-05-10 12:19:21.144590 EDT | QFunRegParamNorm           54.5451
+2017-05-10 12:19:21.145050 EDT | -----------------------  ----------
+2017-05-10 12:19:21.145731 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Training started
+2017-05-10 12:19:27.315421 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Populating workers...
+2017-05-10 12:19:27.316067 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Populated
+2017-05-10 12:21:11.776088 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Training finished
+2017-05-10 12:21:11.779792 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:21:11.780316 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #104 | Collecting samples for evaluation
+2017-05-10 12:21:30.863557 EDT | -----------------------  -----------
+2017-05-10 12:21:30.865646 EDT | Epoch                     104
+2017-05-10 12:21:30.866000 EDT | Iteration                 104
+2017-05-10 12:21:30.866336 EDT | AverageReturn            3689.78
+2017-05-10 12:21:30.866668 EDT | StdReturn                 231.528
+2017-05-10 12:21:30.866994 EDT | MaxReturn                4063.27
+2017-05-10 12:21:30.867319 EDT | MinReturn                3303.26
+2017-05-10 12:21:30.867657 EDT | AverageEsReturn          2896.68
+2017-05-10 12:21:30.867985 EDT | StdEsReturn                 0
+2017-05-10 12:21:30.868317 EDT | MaxEsReturn              2896.68
+2017-05-10 12:21:30.868644 EDT | MinEsReturn              2896.68
+2017-05-10 12:21:30.868971 EDT | AverageDiscountedReturn   286.061
+2017-05-10 12:21:30.869300 EDT | AverageQLoss               32.3187
+2017-05-10 12:21:30.869626 EDT | AveragePolicySurr        -140.187
+2017-05-10 12:21:30.869955 EDT | AverageQ                  138.092
+2017-05-10 12:21:30.870279 EDT | AverageAbsQ               138.092
+2017-05-10 12:21:30.870606 EDT | AverageY                  138.112
+2017-05-10 12:21:30.870930 EDT | AverageAbsY               138.112
+2017-05-10 12:21:30.871258 EDT | AverageAbsQYDiff            2.28829
+2017-05-10 12:21:30.882430 EDT | AverageAction               0.949975
+2017-05-10 12:21:30.882765 EDT | PolicyRegParamNorm         45.5171
+2017-05-10 12:21:30.883094 EDT | QFunRegParamNorm           54.8998
+2017-05-10 12:21:30.883443 EDT | -----------------------  -----------
+2017-05-10 12:21:30.883948 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Training started
+2017-05-10 12:21:37.003727 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Populating workers...
+2017-05-10 12:21:37.004354 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Populated
+2017-05-10 12:23:27.708595 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Training finished
+2017-05-10 12:23:27.709735 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:23:27.710245 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #105 | Collecting samples for evaluation
+2017-05-10 12:23:42.908356 EDT | -----------------------  -----------
+2017-05-10 12:23:42.909375 EDT | Epoch                     105
+2017-05-10 12:23:42.909757 EDT | Iteration                 105
+2017-05-10 12:23:42.910107 EDT | AverageReturn            3784.28
+2017-05-10 12:23:42.910454 EDT | StdReturn                  74.6026
+2017-05-10 12:23:42.910816 EDT | MaxReturn                3870
+2017-05-10 12:23:42.911160 EDT | MinReturn                3659.62
+2017-05-10 12:23:42.911516 EDT | AverageEsReturn          2485.12
+2017-05-10 12:23:42.911877 EDT | StdEsReturn                 0
+2017-05-10 12:23:42.912220 EDT | MaxEsReturn              2485.12
+2017-05-10 12:23:42.912564 EDT | MinEsReturn              2485.12
+2017-05-10 12:23:42.912924 EDT | AverageDiscountedReturn   304.124
+2017-05-10 12:23:42.913266 EDT | AverageQLoss               31.112
+2017-05-10 12:23:42.913607 EDT | AveragePolicySurr        -142.765
+2017-05-10 12:23:42.913968 EDT | AverageQ                  140.614
+2017-05-10 12:23:42.914310 EDT | AverageAbsQ               140.614
+2017-05-10 12:23:42.914653 EDT | AverageY                  140.632
+2017-05-10 12:23:42.915011 EDT | AverageAbsY               140.633
+2017-05-10 12:23:42.919457 EDT | AverageAbsQYDiff            2.35806
+2017-05-10 12:23:42.919944 EDT | AverageAction               0.946111
+2017-05-10 12:23:42.920299 EDT | PolicyRegParamNorm         45.6657
+2017-05-10 12:23:42.920664 EDT | QFunRegParamNorm           55.2329
+2017-05-10 12:23:42.921011 EDT | -----------------------  -----------
+2017-05-10 12:23:42.921571 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Training started
+2017-05-10 12:23:49.159550 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Populating workers...
+2017-05-10 12:23:49.160006 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Populated
+2017-05-10 12:25:35.977075 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Training finished
+2017-05-10 12:25:35.978038 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:25:35.978417 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #106 | Collecting samples for evaluation
+2017-05-10 12:25:51.530741 EDT | -----------------------  -----------
+2017-05-10 12:25:51.532109 EDT | Epoch                     106
+2017-05-10 12:25:51.532680 EDT | Iteration                 106
+2017-05-10 12:25:51.533245 EDT | AverageReturn            3757
+2017-05-10 12:25:51.533812 EDT | StdReturn                 457.392
+2017-05-10 12:25:51.534375 EDT | MaxReturn                4180.39
+2017-05-10 12:25:51.534933 EDT | MinReturn                2526.36
+2017-05-10 12:25:51.535520 EDT | AverageEsReturn          2557.17
+2017-05-10 12:25:51.536082 EDT | StdEsReturn                 0
+2017-05-10 12:25:51.536642 EDT | MaxEsReturn              2557.17
+2017-05-10 12:25:51.537199 EDT | MinEsReturn              2557.17
+2017-05-10 12:25:51.537754 EDT | AverageDiscountedReturn   297.239
+2017-05-10 12:25:51.538316 EDT | AverageQLoss               41.6612
+2017-05-10 12:25:51.538874 EDT | AveragePolicySurr        -144.282
+2017-05-10 12:25:51.539439 EDT | AverageQ                  142.16
+2017-05-10 12:25:51.540011 EDT | AverageAbsQ               142.16
+2017-05-10 12:25:51.540569 EDT | AverageY                  142.185
+2017-05-10 12:25:51.541129 EDT | AverageAbsY               142.185
+2017-05-10 12:25:51.541687 EDT | AverageAbsQYDiff            2.50201
+2017-05-10 12:25:51.542254 EDT | AverageAction               0.955165
+2017-05-10 12:25:51.542824 EDT | PolicyRegParamNorm         45.8595
+2017-05-10 12:25:51.543392 EDT | QFunRegParamNorm           55.5073
+2017-05-10 12:25:51.543954 EDT | -----------------------  -----------
+2017-05-10 12:25:51.544737 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Training started
+2017-05-10 12:25:57.036097 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Populating workers...
+2017-05-10 12:25:57.036501 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Populated
+2017-05-10 12:27:28.384688 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Training finished
+2017-05-10 12:27:28.386229 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:27:28.386745 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #107 | Collecting samples for evaluation
+2017-05-10 12:27:47.298582 EDT | -----------------------  -----------
+2017-05-10 12:27:47.299863 EDT | Epoch                     107
+2017-05-10 12:27:47.300539 EDT | Iteration                 107
+2017-05-10 12:27:47.301323 EDT | AverageReturn            3611.08
+2017-05-10 12:27:47.301851 EDT | StdReturn                 366.008
+2017-05-10 12:27:47.302378 EDT | MaxReturn                4017.6
+2017-05-10 12:27:47.302895 EDT | MinReturn                2660.39
+2017-05-10 12:27:47.303441 EDT | AverageEsReturn          2516.74
+2017-05-10 12:27:47.303958 EDT | StdEsReturn                 0
+2017-05-10 12:27:47.304479 EDT | MaxEsReturn              2516.74
+2017-05-10 12:27:47.304997 EDT | MinEsReturn              2516.74
+2017-05-10 12:27:47.305518 EDT | AverageDiscountedReturn   270.816
+2017-05-10 12:27:47.306037 EDT | AverageQLoss               45.8178
+2017-05-10 12:27:47.306555 EDT | AveragePolicySurr        -147.751
+2017-05-10 12:27:47.307070 EDT | AverageQ                  145.572
+2017-05-10 12:27:47.307597 EDT | AverageAbsQ               145.572
+2017-05-10 12:27:47.308110 EDT | AverageY                  145.602
+2017-05-10 12:27:47.308635 EDT | AverageAbsY               145.603
+2017-05-10 12:27:47.309150 EDT | AverageAbsQYDiff            2.5158
+2017-05-10 12:27:47.309664 EDT | AverageAction               0.951988
+2017-05-10 12:27:47.310179 EDT | PolicyRegParamNorm         46.0638
+2017-05-10 12:27:47.310696 EDT | QFunRegParamNorm           55.8551
+2017-05-10 12:27:47.311214 EDT | -----------------------  -----------
+2017-05-10 12:27:47.311955 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Training started
+2017-05-10 12:27:53.317121 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Populating workers...
+2017-05-10 12:27:53.317791 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Populated
+2017-05-10 12:29:41.334508 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Training finished
+2017-05-10 12:29:41.335849 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:29:41.336391 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #108 | Collecting samples for evaluation
+2017-05-10 12:29:58.316800 EDT | -----------------------  -----------
+2017-05-10 12:29:58.317963 EDT | Epoch                     108
+2017-05-10 12:29:58.318385 EDT | Iteration                 108
+2017-05-10 12:29:58.318786 EDT | AverageReturn            4206.53
+2017-05-10 12:29:58.319205 EDT | StdReturn                 103.762
+2017-05-10 12:29:58.319660 EDT | MaxReturn                4392.38
+2017-05-10 12:29:58.320070 EDT | MinReturn                4031.98
+2017-05-10 12:29:58.320477 EDT | AverageEsReturn          2497.81
+2017-05-10 12:29:58.320884 EDT | StdEsReturn                 0
+2017-05-10 12:29:58.321295 EDT | MaxEsReturn              2497.81
+2017-05-10 12:29:58.321710 EDT | MinEsReturn              2497.81
+2017-05-10 12:29:58.322105 EDT | AverageDiscountedReturn   326.413
+2017-05-10 12:29:58.322518 EDT | AverageQLoss               33.9417
+2017-05-10 12:29:58.322931 EDT | AveragePolicySurr        -149.199
+2017-05-10 12:29:58.323357 EDT | AverageQ                  147.055
+2017-05-10 12:29:58.323769 EDT | AverageAbsQ               147.055
+2017-05-10 12:29:58.324165 EDT | AverageY                  147.068
+2017-05-10 12:29:58.324574 EDT | AverageAbsY               147.068
+2017-05-10 12:29:58.324985 EDT | AverageAbsQYDiff            2.35028
+2017-05-10 12:29:58.325390 EDT | AverageAction               0.960772
+2017-05-10 12:29:58.325794 EDT | PolicyRegParamNorm         46.3198
+2017-05-10 12:29:58.326188 EDT | QFunRegParamNorm           56.1338
+2017-05-10 12:29:58.326598 EDT | -----------------------  -----------
+2017-05-10 12:29:58.327212 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Training started
+2017-05-10 12:30:04.563096 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Populating workers...
+2017-05-10 12:30:04.563673 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Populated
+2017-05-10 12:31:54.000202 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Training finished
+2017-05-10 12:31:54.001357 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:31:54.001855 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #109 | Collecting samples for evaluation
+2017-05-10 12:32:11.212685 EDT | -----------------------  -----------
+2017-05-10 12:32:11.213761 EDT | Epoch                     109
+2017-05-10 12:32:11.214053 EDT | Iteration                 109
+2017-05-10 12:32:11.214312 EDT | AverageReturn            4351.09
+2017-05-10 12:32:11.214571 EDT | StdReturn                 155.685
+2017-05-10 12:32:11.214823 EDT | MaxReturn                4621.45
+2017-05-10 12:32:11.215088 EDT | MinReturn                4055.47
+2017-05-10 12:32:11.215355 EDT | AverageEsReturn          2995.01
+2017-05-10 12:32:11.215615 EDT | StdEsReturn                 0
+2017-05-10 12:32:11.215864 EDT | MaxEsReturn              2995.01
+2017-05-10 12:32:11.216129 EDT | MinEsReturn              2995.01
+2017-05-10 12:32:11.216376 EDT | AverageDiscountedReturn   330.132
+2017-05-10 12:32:11.216634 EDT | AverageQLoss               43.5368
+2017-05-10 12:32:11.216882 EDT | AveragePolicySurr        -152.545
+2017-05-10 12:32:11.217144 EDT | AverageQ                  150.406
+2017-05-10 12:32:11.217393 EDT | AverageAbsQ               150.406
+2017-05-10 12:32:11.217649 EDT | AverageY                  150.432
+2017-05-10 12:32:11.217894 EDT | AverageAbsY               150.433
+2017-05-10 12:32:11.218156 EDT | AverageAbsQYDiff            2.5065
+2017-05-10 12:32:11.218402 EDT | AverageAction               0.957998
+2017-05-10 12:32:11.218661 EDT | PolicyRegParamNorm         46.49
+2017-05-10 12:32:11.218906 EDT | QFunRegParamNorm           56.4413
+2017-05-10 12:32:11.219159 EDT | -----------------------  -----------
+2017-05-10 12:32:11.219582 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Training started
+2017-05-10 12:32:17.252091 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Populating workers...
+2017-05-10 12:32:17.253059 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Populated
+2017-05-10 12:34:11.183718 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Training finished
+2017-05-10 12:34:11.184859 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:34:11.185367 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #110 | Collecting samples for evaluation
+2017-05-10 12:34:29.752237 EDT | -----------------------  -----------
+2017-05-10 12:34:29.753257 EDT | Epoch                     110
+2017-05-10 12:34:29.753644 EDT | Iteration                 110
+2017-05-10 12:34:29.754026 EDT | AverageReturn            3714.69
+2017-05-10 12:34:29.754401 EDT | StdReturn                1145.91
+2017-05-10 12:34:29.754771 EDT | MaxReturn                4429.84
+2017-05-10 12:34:29.755141 EDT | MinReturn                 316.45
+2017-05-10 12:34:29.755534 EDT | AverageEsReturn          2783.66
+2017-05-10 12:34:29.755905 EDT | StdEsReturn                 0
+2017-05-10 12:34:29.756274 EDT | MaxEsReturn              2783.66
+2017-05-10 12:34:29.756642 EDT | MinEsReturn              2783.66
+2017-05-10 12:34:29.757009 EDT | AverageDiscountedReturn   308.851
+2017-05-10 12:34:29.757376 EDT | AverageQLoss               49.2235
+2017-05-10 12:34:29.757743 EDT | AveragePolicySurr        -155.061
+2017-05-10 12:34:29.758110 EDT | AverageQ                  152.842
+2017-05-10 12:34:29.758475 EDT | AverageAbsQ               152.842
+2017-05-10 12:34:29.758841 EDT | AverageY                  152.86
+2017-05-10 12:34:29.759206 EDT | AverageAbsY               152.86
+2017-05-10 12:34:29.759582 EDT | AverageAbsQYDiff            2.53579
+2017-05-10 12:34:29.759948 EDT | AverageAction               0.954638
+2017-05-10 12:34:29.760317 EDT | PolicyRegParamNorm         46.7336
+2017-05-10 12:34:29.760682 EDT | QFunRegParamNorm           56.7467
+2017-05-10 12:34:29.761052 EDT | -----------------------  -----------
+2017-05-10 12:34:29.761606 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Training started
+2017-05-10 12:34:35.569549 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Populating workers...
+2017-05-10 12:34:35.569992 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Populated
+2017-05-10 12:36:26.527974 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Training finished
+2017-05-10 12:36:26.528922 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:36:26.529299 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #111 | Collecting samples for evaluation
+2017-05-10 12:36:42.787930 EDT | -----------------------  -----------
+2017-05-10 12:36:42.788902 EDT | Epoch                     111
+2017-05-10 12:36:42.789265 EDT | Iteration                 111
+2017-05-10 12:36:42.789616 EDT | AverageReturn            3959.76
+2017-05-10 12:36:42.789983 EDT | StdReturn                 492.4
+2017-05-10 12:36:42.790330 EDT | MaxReturn                4293.8
+2017-05-10 12:36:42.790675 EDT | MinReturn                2522.35
+2017-05-10 12:36:42.791036 EDT | AverageEsReturn          2395.32
+2017-05-10 12:36:42.791415 EDT | StdEsReturn                 0
+2017-05-10 12:36:42.791762 EDT | MaxEsReturn              2395.32
+2017-05-10 12:36:42.792125 EDT | MinEsReturn              2395.32
+2017-05-10 12:36:42.792473 EDT | AverageDiscountedReturn   346.485
+2017-05-10 12:36:42.792816 EDT | AverageQLoss               46.623
+2017-05-10 12:36:42.793178 EDT | AveragePolicySurr        -157.422
+2017-05-10 12:36:42.793520 EDT | AverageQ                  155.275
+2017-05-10 12:36:42.793863 EDT | AverageAbsQ               155.275
+2017-05-10 12:36:42.794222 EDT | AverageY                  155.301
+2017-05-10 12:36:42.794565 EDT | AverageAbsY               155.302
+2017-05-10 12:36:42.794909 EDT | AverageAbsQYDiff            2.55125
+2017-05-10 12:36:42.795266 EDT | AverageAction               0.949492
+2017-05-10 12:36:42.795632 EDT | PolicyRegParamNorm         46.8662
+2017-05-10 12:36:42.795974 EDT | QFunRegParamNorm           57.1442
+2017-05-10 12:36:42.796331 EDT | -----------------------  -----------
+2017-05-10 12:36:42.796856 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Training started
+2017-05-10 12:36:50.352768 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Populating workers...
+2017-05-10 12:36:50.353239 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Populated
+2017-05-10 12:38:47.825725 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Training finished
+2017-05-10 12:38:47.826861 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:38:47.827402 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #112 | Collecting samples for evaluation
+2017-05-10 12:39:05.803011 EDT | -----------------------  -----------
+2017-05-10 12:39:05.811393 EDT | Epoch                     112
+2017-05-10 12:39:05.811743 EDT | Iteration                 112
+2017-05-10 12:39:05.812085 EDT | AverageReturn            3622.79
+2017-05-10 12:39:05.812421 EDT | StdReturn                 587.715
+2017-05-10 12:39:05.812747 EDT | MaxReturn                4127.86
+2017-05-10 12:39:05.813079 EDT | MinReturn                1984.59
+2017-05-10 12:39:05.813423 EDT | AverageEsReturn          2773.71
+2017-05-10 12:39:05.813749 EDT | StdEsReturn                 0
+2017-05-10 12:39:05.814076 EDT | MaxEsReturn              2773.71
+2017-05-10 12:39:05.814409 EDT | MinEsReturn              2773.71
+2017-05-10 12:39:05.814735 EDT | AverageDiscountedReturn   307.714
+2017-05-10 12:39:05.815060 EDT | AverageQLoss               65.2039
+2017-05-10 12:39:05.815423 EDT | AveragePolicySurr        -159.31
+2017-05-10 12:39:05.815749 EDT | AverageQ                  157.11
+2017-05-10 12:39:05.816075 EDT | AverageAbsQ               157.112
+2017-05-10 12:39:05.816413 EDT | AverageY                  157.141
+2017-05-10 12:39:05.816739 EDT | AverageAbsY               157.142
+2017-05-10 12:39:05.817066 EDT | AverageAbsQYDiff            2.77997
+2017-05-10 12:39:05.817399 EDT | AverageAction               0.935093
+2017-05-10 12:39:05.817724 EDT | PolicyRegParamNorm         47.1225
+2017-05-10 12:39:05.818048 EDT | QFunRegParamNorm           57.5146
+2017-05-10 12:39:05.818377 EDT | -----------------------  -----------
+2017-05-10 12:39:05.818864 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Training started
+2017-05-10 12:39:12.681211 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Populating workers...
+2017-05-10 12:39:12.681614 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Populated
+2017-05-10 12:40:57.952506 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Training finished
+2017-05-10 12:40:57.953652 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:40:57.954259 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #113 | Collecting samples for evaluation
+2017-05-10 12:41:15.202478 EDT | -----------------------  -----------
+2017-05-10 12:41:15.203593 EDT | Epoch                     113
+2017-05-10 12:41:15.204173 EDT | Iteration                 113
+2017-05-10 12:41:15.204738 EDT | AverageReturn            3132.5
+2017-05-10 12:41:15.205306 EDT | StdReturn                1184.47
+2017-05-10 12:41:15.205873 EDT | MaxReturn                3953.8
+2017-05-10 12:41:15.206431 EDT | MinReturn                -277.092
+2017-05-10 12:41:15.206992 EDT | AverageEsReturn          2431.34
+2017-05-10 12:41:15.207565 EDT | StdEsReturn                 0
+2017-05-10 12:41:15.208120 EDT | MaxEsReturn              2431.34
+2017-05-10 12:41:15.208674 EDT | MinEsReturn              2431.34
+2017-05-10 12:41:15.209229 EDT | AverageDiscountedReturn   293.312
+2017-05-10 12:41:15.209814 EDT | AverageQLoss               55.8078
+2017-05-10 12:41:15.210370 EDT | AveragePolicySurr        -161.65
+2017-05-10 12:41:15.210924 EDT | AverageQ                  159.504
+2017-05-10 12:41:15.211487 EDT | AverageAbsQ               159.504
+2017-05-10 12:41:15.212042 EDT | AverageY                  159.526
+2017-05-10 12:41:15.212597 EDT | AverageAbsY               159.527
+2017-05-10 12:41:15.213152 EDT | AverageAbsQYDiff            2.65486
+2017-05-10 12:41:15.213761 EDT | AverageAction               0.957705
+2017-05-10 12:41:15.214329 EDT | PolicyRegParamNorm         47.3655
+2017-05-10 12:41:15.214901 EDT | QFunRegParamNorm           57.7823
+2017-05-10 12:41:15.215466 EDT | -----------------------  -----------
+2017-05-10 12:41:15.216222 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Training started
+2017-05-10 12:41:21.736926 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Populating workers...
+2017-05-10 12:41:21.737381 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Populated
+2017-05-10 12:43:04.839284 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Training finished
+2017-05-10 12:43:04.840415 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:43:04.840715 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #114 | Collecting samples for evaluation
+2017-05-10 12:43:23.590402 EDT | -----------------------  -----------
+2017-05-10 12:43:23.591526 EDT | Epoch                     114
+2017-05-10 12:43:23.591970 EDT | Iteration                 114
+2017-05-10 12:43:23.592405 EDT | AverageReturn            4033.7
+2017-05-10 12:43:23.592833 EDT | StdReturn                 165.172
+2017-05-10 12:43:23.593260 EDT | MaxReturn                4353.43
+2017-05-10 12:43:23.593685 EDT | MinReturn                3740.02
+2017-05-10 12:43:23.594110 EDT | AverageEsReturn          2685.73
+2017-05-10 12:43:23.594535 EDT | StdEsReturn                 0
+2017-05-10 12:43:23.594959 EDT | MaxEsReturn              2685.73
+2017-05-10 12:43:23.595410 EDT | MinEsReturn              2685.73
+2017-05-10 12:43:23.595835 EDT | AverageDiscountedReturn   338.434
+2017-05-10 12:43:23.596259 EDT | AverageQLoss               52.0182
+2017-05-10 12:43:23.596680 EDT | AveragePolicySurr        -164.279
+2017-05-10 12:43:23.597101 EDT | AverageQ                  162.061
+2017-05-10 12:43:23.597520 EDT | AverageAbsQ               162.061
+2017-05-10 12:43:23.597940 EDT | AverageY                  162.089
+2017-05-10 12:43:23.598363 EDT | AverageAbsY               162.089
+2017-05-10 12:43:23.598783 EDT | AverageAbsQYDiff            2.62239
+2017-05-10 12:43:23.599200 EDT | AverageAction               0.955142
+2017-05-10 12:43:23.599634 EDT | PolicyRegParamNorm         47.5697
+2017-05-10 12:43:23.600051 EDT | QFunRegParamNorm           57.9676
+2017-05-10 12:43:23.600472 EDT | -----------------------  -----------
+2017-05-10 12:43:23.601095 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Training started
+2017-05-10 12:43:29.640297 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Populating workers...
+2017-05-10 12:43:29.641052 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Populated
+2017-05-10 12:45:23.629810 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Training finished
+2017-05-10 12:45:23.630934 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:45:23.631478 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #115 | Collecting samples for evaluation
+2017-05-10 12:45:39.765519 EDT | -----------------------  -----------
+2017-05-10 12:45:39.766513 EDT | Epoch                     115
+2017-05-10 12:45:39.766888 EDT | Iteration                 115
+2017-05-10 12:45:39.767317 EDT | AverageReturn            3686.11
+2017-05-10 12:45:39.767762 EDT | StdReturn                1213.04
+2017-05-10 12:45:39.768181 EDT | MaxReturn                4230.01
+2017-05-10 12:45:39.768598 EDT | MinReturn                  58.7689
+2017-05-10 12:45:39.769014 EDT | AverageEsReturn          2844.18
+2017-05-10 12:45:39.769427 EDT | StdEsReturn                 0
+2017-05-10 12:45:39.769838 EDT | MaxEsReturn              2844.18
+2017-05-10 12:45:39.770188 EDT | MinEsReturn              2844.18
+2017-05-10 12:45:39.770531 EDT | AverageDiscountedReturn   310.704
+2017-05-10 12:45:39.770874 EDT | AverageQLoss               45.579
+2017-05-10 12:45:39.771217 EDT | AveragePolicySurr        -166.94
+2017-05-10 12:45:39.771587 EDT | AverageQ                  164.705
+2017-05-10 12:45:39.772004 EDT | AverageAbsQ               164.705
+2017-05-10 12:45:39.772403 EDT | AverageY                  164.73
+2017-05-10 12:45:39.772749 EDT | AverageAbsY               164.731
+2017-05-10 12:45:39.773161 EDT | AverageAbsQYDiff            2.59571
+2017-05-10 12:45:39.773574 EDT | AverageAction               0.961427
+2017-05-10 12:45:39.773988 EDT | PolicyRegParamNorm         47.755
+2017-05-10 12:45:39.774401 EDT | QFunRegParamNorm           58.2795
+2017-05-10 12:45:39.774813 EDT | -----------------------  -----------
+2017-05-10 12:45:39.775361 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Training started
+2017-05-10 12:45:47.288845 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Populating workers...
+2017-05-10 12:45:47.289353 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Populated
+2017-05-10 12:47:48.451586 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Training finished
+2017-05-10 12:47:48.452603 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:47:48.452973 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #116 | Collecting samples for evaluation
+2017-05-10 12:48:05.886094 EDT | -----------------------  ----------
+2017-05-10 12:48:05.887412 EDT | Epoch                     116
+2017-05-10 12:48:05.887888 EDT | Iteration                 116
+2017-05-10 12:48:05.888354 EDT | AverageReturn            4092.74
+2017-05-10 12:48:05.888821 EDT | StdReturn                 255.396
+2017-05-10 12:48:05.889287 EDT | MaxReturn                4364.16
+2017-05-10 12:48:05.889746 EDT | MinReturn                3459.46
+2017-05-10 12:48:05.890204 EDT | AverageEsReturn          2835.08
+2017-05-10 12:48:05.890671 EDT | StdEsReturn                 0
+2017-05-10 12:48:05.891133 EDT | MaxEsReturn              2835.08
+2017-05-10 12:48:05.895645 EDT | MinEsReturn              2835.08
+2017-05-10 12:48:05.896020 EDT | AverageDiscountedReturn   302.36
+2017-05-10 12:48:05.896355 EDT | AverageQLoss               47.3762
+2017-05-10 12:48:05.896688 EDT | AveragePolicySurr        -168.606
+2017-05-10 12:48:05.897062 EDT | AverageQ                  166.399
+2017-05-10 12:48:05.897489 EDT | AverageAbsQ               166.399
+2017-05-10 12:48:05.897910 EDT | AverageY                  166.415
+2017-05-10 12:48:05.898348 EDT | AverageAbsY               166.416
+2017-05-10 12:48:05.898585 EDT | AverageAbsQYDiff            2.57337
+2017-05-10 12:48:05.898810 EDT | AverageAction               0.96285
+2017-05-10 12:48:05.899247 EDT | PolicyRegParamNorm         47.9985
+2017-05-10 12:48:05.899712 EDT | QFunRegParamNorm           58.6677
+2017-05-10 12:48:05.900147 EDT | -----------------------  ----------
+2017-05-10 12:48:05.900729 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Training started
+2017-05-10 12:48:12.908413 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Populating workers...
+2017-05-10 12:48:12.909368 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Populated
+2017-05-10 12:50:17.625320 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Training finished
+2017-05-10 12:50:17.626342 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:50:17.626744 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #117 | Collecting samples for evaluation
+2017-05-10 12:50:35.518057 EDT | -----------------------  -----------
+2017-05-10 12:50:35.519229 EDT | Epoch                     117
+2017-05-10 12:50:35.519625 EDT | Iteration                 117
+2017-05-10 12:50:35.520061 EDT | AverageReturn            4214.07
+2017-05-10 12:50:35.520989 EDT | StdReturn                 207.772
+2017-05-10 12:50:35.521422 EDT | MaxReturn                4540.6
+2017-05-10 12:50:35.521843 EDT | MinReturn                3705.75
+2017-05-10 12:50:35.522829 EDT | AverageEsReturn          2978.62
+2017-05-10 12:50:35.523250 EDT | StdEsReturn                 0
+2017-05-10 12:50:35.524191 EDT | MaxEsReturn              2978.62
+2017-05-10 12:50:35.524621 EDT | MinEsReturn              2978.62
+2017-05-10 12:50:35.525047 EDT | AverageDiscountedReturn   330.644
+2017-05-10 12:50:35.526031 EDT | AverageQLoss               48.6019
+2017-05-10 12:50:35.526455 EDT | AveragePolicySurr        -171.63
+2017-05-10 12:50:35.526869 EDT | AverageQ                  169.341
+2017-05-10 12:50:35.527354 EDT | AverageAbsQ               169.341
+2017-05-10 12:50:35.527858 EDT | AverageY                  169.368
+2017-05-10 12:50:35.528271 EDT | AverageAbsY               169.368
+2017-05-10 12:50:35.528685 EDT | AverageAbsQYDiff            2.58454
+2017-05-10 12:50:35.529652 EDT | AverageAction               0.956678
+2017-05-10 12:50:35.530074 EDT | PolicyRegParamNorm         48.1482
+2017-05-10 12:50:35.530490 EDT | QFunRegParamNorm           58.9605
+2017-05-10 12:50:35.531459 EDT | -----------------------  -----------
+2017-05-10 12:50:35.532081 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Training started
+2017-05-10 12:50:42.686149 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Populating workers...
+2017-05-10 12:50:42.686652 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Populated
+2017-05-10 12:52:51.562290 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Training finished
+2017-05-10 12:52:51.563271 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:52:51.563685 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #118 | Collecting samples for evaluation
+2017-05-10 12:53:13.494177 EDT | -----------------------  -----------
+2017-05-10 12:53:13.495220 EDT | Epoch                     118
+2017-05-10 12:53:13.495657 EDT | Iteration                 118
+2017-05-10 12:53:13.496052 EDT | AverageReturn            3979.15
+2017-05-10 12:53:13.496438 EDT | StdReturn                 185.667
+2017-05-10 12:53:13.496822 EDT | MaxReturn                4214.46
+2017-05-10 12:53:13.497207 EDT | MinReturn                3606.87
+2017-05-10 12:53:13.497587 EDT | AverageEsReturn          2832.31
+2017-05-10 12:53:13.497967 EDT | StdEsReturn                 0
+2017-05-10 12:53:13.498351 EDT | MaxEsReturn              2832.31
+2017-05-10 12:53:13.498734 EDT | MinEsReturn              2832.31
+2017-05-10 12:53:13.499120 EDT | AverageDiscountedReturn   320.332
+2017-05-10 12:53:13.499513 EDT | AverageQLoss               56.3326
+2017-05-10 12:53:13.499897 EDT | AveragePolicySurr        -174.206
+2017-05-10 12:53:13.500278 EDT | AverageQ                  171.854
+2017-05-10 12:53:13.500662 EDT | AverageAbsQ               171.855
+2017-05-10 12:53:13.501044 EDT | AverageY                  171.877
+2017-05-10 12:53:13.501429 EDT | AverageAbsY               171.878
+2017-05-10 12:53:13.501809 EDT | AverageAbsQYDiff            2.71482
+2017-05-10 12:53:13.502190 EDT | AverageAction               0.955542
+2017-05-10 12:53:13.502573 EDT | PolicyRegParamNorm         48.3615
+2017-05-10 12:53:13.502952 EDT | QFunRegParamNorm           59.247
+2017-05-10 12:53:13.503333 EDT | -----------------------  -----------
+2017-05-10 12:53:13.503897 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Training started
+2017-05-10 12:53:21.058339 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Populating workers...
+2017-05-10 12:53:21.058751 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Populated
+2017-05-10 12:55:49.868281 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Training finished
+2017-05-10 12:55:49.875433 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:55:49.876094 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #119 | Collecting samples for evaluation
+2017-05-10 12:56:07.757524 EDT | -----------------------  -----------
+2017-05-10 12:56:07.758637 EDT | Epoch                     119
+2017-05-10 12:56:07.759109 EDT | Iteration                 119
+2017-05-10 12:56:07.759598 EDT | AverageReturn            4087.49
+2017-05-10 12:56:07.760061 EDT | StdReturn                 183.786
+2017-05-10 12:56:07.760521 EDT | MaxReturn                4265.83
+2017-05-10 12:56:07.760979 EDT | MinReturn                3626.61
+2017-05-10 12:56:07.761437 EDT | AverageEsReturn          2934.52
+2017-05-10 12:56:07.761895 EDT | StdEsReturn                 0
+2017-05-10 12:56:07.762353 EDT | MaxEsReturn              2934.52
+2017-05-10 12:56:07.762810 EDT | MinEsReturn              2934.52
+2017-05-10 12:56:07.763266 EDT | AverageDiscountedReturn   323.144
+2017-05-10 12:56:07.763729 EDT | AverageQLoss               43.2593
+2017-05-10 12:56:07.764184 EDT | AveragePolicySurr        -176.947
+2017-05-10 12:56:07.764640 EDT | AverageQ                  174.691
+2017-05-10 12:56:07.765093 EDT | AverageAbsQ               174.691
+2017-05-10 12:56:07.765546 EDT | AverageY                  174.714
+2017-05-10 12:56:07.766005 EDT | AverageAbsY               174.714
+2017-05-10 12:56:07.766457 EDT | AverageAbsQYDiff            2.5307
+2017-05-10 12:56:07.766910 EDT | AverageAction               0.947042
+2017-05-10 12:56:07.767372 EDT | PolicyRegParamNorm         48.5504
+2017-05-10 12:56:07.767827 EDT | QFunRegParamNorm           59.5082
+2017-05-10 12:56:07.768283 EDT | -----------------------  -----------
+2017-05-10 12:56:07.768932 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Training started
+2017-05-10 12:56:15.956123 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Populating workers...
+2017-05-10 12:56:15.956911 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Populated
+2017-05-10 12:58:14.914810 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Training finished
+2017-05-10 12:58:14.915957 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 12:58:14.916459 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #120 | Collecting samples for evaluation
+2017-05-10 12:58:31.688453 EDT | -----------------------  -----------
+2017-05-10 12:58:31.691460 EDT | Epoch                     120
+2017-05-10 12:58:31.691996 EDT | Iteration                 120
+2017-05-10 12:58:31.692509 EDT | AverageReturn            3463.42
+2017-05-10 12:58:31.692987 EDT | StdReturn                1060.44
+2017-05-10 12:58:31.693463 EDT | MaxReturn                4199.03
+2017-05-10 12:58:31.693974 EDT | MinReturn                 364.109
+2017-05-10 12:58:31.694454 EDT | AverageEsReturn          2839.05
+2017-05-10 12:58:31.694965 EDT | StdEsReturn                 0
+2017-05-10 12:58:31.699667 EDT | MaxEsReturn              2839.05
+2017-05-10 12:58:31.700193 EDT | MinEsReturn              2839.05
+2017-05-10 12:58:31.700702 EDT | AverageDiscountedReturn   296.865
+2017-05-10 12:58:31.701175 EDT | AverageQLoss               65.1589
+2017-05-10 12:58:31.701680 EDT | AveragePolicySurr        -179.195
+2017-05-10 12:58:31.702158 EDT | AverageQ                  177.02
+2017-05-10 12:58:31.702665 EDT | AverageAbsQ               177.02
+2017-05-10 12:58:31.703138 EDT | AverageY                  177.049
+2017-05-10 12:58:31.703663 EDT | AverageAbsY               177.049
+2017-05-10 12:58:31.704133 EDT | AverageAbsQYDiff            2.80088
+2017-05-10 12:58:31.704602 EDT | AverageAction               0.957335
+2017-05-10 12:58:31.705123 EDT | PolicyRegParamNorm         48.7967
+2017-05-10 12:58:31.705613 EDT | QFunRegParamNorm           59.8087
+2017-05-10 12:58:31.706112 EDT | -----------------------  -----------
+2017-05-10 12:58:31.706860 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Training started
+2017-05-10 12:58:38.088166 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Populating workers...
+2017-05-10 12:58:38.088947 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Populated
+2017-05-10 13:00:33.868939 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Training finished
+2017-05-10 13:00:33.870042 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:00:33.870531 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #121 | Collecting samples for evaluation
+2017-05-10 13:00:51.303308 EDT | -----------------------  -----------
+2017-05-10 13:00:51.304389 EDT | Epoch                     121
+2017-05-10 13:00:51.304868 EDT | Iteration                 121
+2017-05-10 13:00:51.305355 EDT | AverageReturn            4312.19
+2017-05-10 13:00:51.305823 EDT | StdReturn                 364.277
+2017-05-10 13:00:51.306309 EDT | MaxReturn                4548.09
+2017-05-10 13:00:51.306774 EDT | MinReturn                3245.38
+2017-05-10 13:00:51.307251 EDT | AverageEsReturn          2754.34
+2017-05-10 13:00:51.307727 EDT | StdEsReturn                 0
+2017-05-10 13:00:51.308190 EDT | MaxEsReturn              2754.34
+2017-05-10 13:00:51.308669 EDT | MinEsReturn              2754.34
+2017-05-10 13:00:51.309133 EDT | AverageDiscountedReturn   356.649
+2017-05-10 13:00:51.309616 EDT | AverageQLoss               50.0598
+2017-05-10 13:00:51.310075 EDT | AveragePolicySurr        -180.383
+2017-05-10 13:00:51.310558 EDT | AverageQ                  178.155
+2017-05-10 13:00:51.311019 EDT | AverageAbsQ               178.156
+2017-05-10 13:00:51.311509 EDT | AverageY                  178.18
+2017-05-10 13:00:51.311975 EDT | AverageAbsY               178.18
+2017-05-10 13:00:51.312438 EDT | AverageAbsQYDiff            2.5741
+2017-05-10 13:00:51.312920 EDT | AverageAction               0.958973
+2017-05-10 13:00:51.313382 EDT | PolicyRegParamNorm         48.9258
+2017-05-10 13:00:51.313864 EDT | QFunRegParamNorm           59.9916
+2017-05-10 13:00:51.314329 EDT | -----------------------  -----------
+2017-05-10 13:00:51.314987 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Training started
+2017-05-10 13:00:59.266037 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Populating workers...
+2017-05-10 13:00:59.266705 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Populated
+2017-05-10 13:02:41.816181 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Training finished
+2017-05-10 13:02:41.819439 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:02:41.819948 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #122 | Collecting samples for evaluation
+2017-05-10 13:02:59.449527 EDT | -----------------------  -----------
+2017-05-10 13:02:59.451360 EDT | Epoch                     122
+2017-05-10 13:02:59.451795 EDT | Iteration                 122
+2017-05-10 13:02:59.452207 EDT | AverageReturn            3801.21
+2017-05-10 13:02:59.452610 EDT | StdReturn                 347.05
+2017-05-10 13:02:59.453007 EDT | MaxReturn                4418.57
+2017-05-10 13:02:59.453404 EDT | MinReturn                3243.2
+2017-05-10 13:02:59.453799 EDT | AverageEsReturn          2659.88
+2017-05-10 13:02:59.454194 EDT | StdEsReturn                 0
+2017-05-10 13:02:59.454589 EDT | MaxEsReturn              2659.88
+2017-05-10 13:02:59.455328 EDT | MinEsReturn              2659.88
+2017-05-10 13:02:59.456261 EDT | AverageDiscountedReturn   308.428
+2017-05-10 13:02:59.456837 EDT | AverageQLoss               62.5535
+2017-05-10 13:02:59.457410 EDT | AveragePolicySurr        -183.453
+2017-05-10 13:02:59.458037 EDT | AverageQ                  181.186
+2017-05-10 13:02:59.458606 EDT | AverageAbsQ               181.186
+2017-05-10 13:02:59.459171 EDT | AverageY                  181.204
+2017-05-10 13:02:59.459748 EDT | AverageAbsY               181.204
+2017-05-10 13:02:59.460308 EDT | AverageAbsQYDiff            2.73788
+2017-05-10 13:02:59.461077 EDT | AverageAction               0.960868
+2017-05-10 13:02:59.461957 EDT | PolicyRegParamNorm         49.1516
+2017-05-10 13:02:59.462532 EDT | QFunRegParamNorm           60.304
+2017-05-10 13:02:59.463096 EDT | -----------------------  -----------
+2017-05-10 13:02:59.463903 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Training started
+2017-05-10 13:03:05.718815 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Populating workers...
+2017-05-10 13:03:05.719292 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Populated
+2017-05-10 13:05:01.184020 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Training finished
+2017-05-10 13:05:01.184983 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:05:01.185372 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #123 | Collecting samples for evaluation
+2017-05-10 13:05:17.709393 EDT | -----------------------  -----------
+2017-05-10 13:05:17.715411 EDT | Epoch                     123
+2017-05-10 13:05:17.715781 EDT | Iteration                 123
+2017-05-10 13:05:17.716121 EDT | AverageReturn            3851.55
+2017-05-10 13:05:17.716452 EDT | StdReturn                  83.2833
+2017-05-10 13:05:17.716781 EDT | MaxReturn                3965.96
+2017-05-10 13:05:17.717109 EDT | MinReturn                3693.68
+2017-05-10 13:05:17.717439 EDT | AverageEsReturn          2251.04
+2017-05-10 13:05:17.717768 EDT | StdEsReturn                 0
+2017-05-10 13:05:17.718096 EDT | MaxEsReturn              2251.04
+2017-05-10 13:05:17.718423 EDT | MinEsReturn              2251.04
+2017-05-10 13:05:17.718751 EDT | AverageDiscountedReturn   305.47
+2017-05-10 13:05:17.719076 EDT | AverageQLoss               72.7411
+2017-05-10 13:05:17.719411 EDT | AveragePolicySurr        -184.778
+2017-05-10 13:05:17.719739 EDT | AverageQ                  182.574
+2017-05-10 13:05:17.720066 EDT | AverageAbsQ               182.575
+2017-05-10 13:05:17.720390 EDT | AverageY                  182.598
+2017-05-10 13:05:17.720758 EDT | AverageAbsY               182.598
+2017-05-10 13:05:17.721083 EDT | AverageAbsQYDiff            2.83535
+2017-05-10 13:05:17.721408 EDT | AverageAction               0.939396
+2017-05-10 13:05:17.721734 EDT | PolicyRegParamNorm         49.3084
+2017-05-10 13:05:17.722059 EDT | QFunRegParamNorm           60.5322
+2017-05-10 13:05:17.722386 EDT | -----------------------  -----------
+2017-05-10 13:05:17.722899 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Training started
+2017-05-10 13:05:23.899415 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Populating workers...
+2017-05-10 13:05:23.899823 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Populated
+2017-05-10 13:07:06.842023 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Training finished
+2017-05-10 13:07:06.843044 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:07:06.843498 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #124 | Collecting samples for evaluation
+2017-05-10 13:07:22.158777 EDT | -----------------------  -----------
+2017-05-10 13:07:22.163420 EDT | Epoch                     124
+2017-05-10 13:07:22.163816 EDT | Iteration                 124
+2017-05-10 13:07:22.164162 EDT | AverageReturn            4369.23
+2017-05-10 13:07:22.164497 EDT | StdReturn                 102.333
+2017-05-10 13:07:22.164829 EDT | MaxReturn                4549.31
+2017-05-10 13:07:22.165167 EDT | MinReturn                4155.34
+2017-05-10 13:07:22.165497 EDT | AverageEsReturn          2678.03
+2017-05-10 13:07:22.165827 EDT | StdEsReturn                 0
+2017-05-10 13:07:22.166159 EDT | MaxEsReturn              2678.03
+2017-05-10 13:07:22.166491 EDT | MinEsReturn              2678.03
+2017-05-10 13:07:22.166822 EDT | AverageDiscountedReturn   338.463
+2017-05-10 13:07:22.167149 EDT | AverageQLoss               62.7585
+2017-05-10 13:07:22.167510 EDT | AveragePolicySurr        -188.089
+2017-05-10 13:07:22.167839 EDT | AverageQ                  185.794
+2017-05-10 13:07:22.168168 EDT | AverageAbsQ               185.795
+2017-05-10 13:07:22.168505 EDT | AverageY                  185.811
+2017-05-10 13:07:22.168831 EDT | AverageAbsY               185.812
+2017-05-10 13:07:22.169157 EDT | AverageAbsQYDiff            2.70615
+2017-05-10 13:07:22.169490 EDT | AverageAction               0.951913
+2017-05-10 13:07:22.169819 EDT | PolicyRegParamNorm         49.4862
+2017-05-10 13:07:22.170145 EDT | QFunRegParamNorm           60.8435
+2017-05-10 13:07:22.170480 EDT | -----------------------  -----------
+2017-05-10 13:07:22.170997 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Training started
+2017-05-10 13:07:29.592167 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Populating workers...
+2017-05-10 13:07:29.592634 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Populated
+2017-05-10 13:09:13.015715 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Training finished
+2017-05-10 13:09:13.016811 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:09:13.017209 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #125 | Collecting samples for evaluation
+2017-05-10 13:09:28.673411 EDT | -----------------------  ----------
+2017-05-10 13:09:28.679957 EDT | Epoch                     125
+2017-05-10 13:09:28.680421 EDT | Iteration                 125
+2017-05-10 13:09:28.680845 EDT | AverageReturn            3726.86
+2017-05-10 13:09:28.687450 EDT | StdReturn                1162.13
+2017-05-10 13:09:28.687824 EDT | MaxReturn                4472.45
+2017-05-10 13:09:28.688187 EDT | MinReturn                 381.44
+2017-05-10 13:09:28.688547 EDT | AverageEsReturn          2938.19
+2017-05-10 13:09:28.688906 EDT | StdEsReturn                 0
+2017-05-10 13:09:28.689262 EDT | MaxEsReturn              2938.19
+2017-05-10 13:09:28.689620 EDT | MinEsReturn              2938.19
+2017-05-10 13:09:28.689978 EDT | AverageDiscountedReturn   317.417
+2017-05-10 13:09:28.690338 EDT | AverageQLoss               54.7926
+2017-05-10 13:09:28.690694 EDT | AveragePolicySurr        -190.804
+2017-05-10 13:09:28.691053 EDT | AverageQ                  188.472
+2017-05-10 13:09:28.691420 EDT | AverageAbsQ               188.472
+2017-05-10 13:09:28.691776 EDT | AverageY                  188.502
+2017-05-10 13:09:28.692132 EDT | AverageAbsY               188.502
+2017-05-10 13:09:28.692490 EDT | AverageAbsQYDiff            2.72673
+2017-05-10 13:09:28.692847 EDT | AverageAction               0.9633
+2017-05-10 13:09:28.693205 EDT | PolicyRegParamNorm         49.7263
+2017-05-10 13:09:28.693563 EDT | QFunRegParamNorm           61.1062
+2017-05-10 13:09:28.693921 EDT | -----------------------  ----------
+2017-05-10 13:09:28.694466 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Training started
+2017-05-10 13:09:35.224749 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Populating workers...
+2017-05-10 13:09:35.225204 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Populated
+2017-05-10 13:11:15.363696 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Training finished
+2017-05-10 13:11:15.368273 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:11:15.368722 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #126 | Collecting samples for evaluation
+2017-05-10 13:11:29.791525 EDT | -----------------------  -----------
+2017-05-10 13:11:29.792677 EDT | Epoch                     126
+2017-05-10 13:11:29.793111 EDT | Iteration                 126
+2017-05-10 13:11:29.793536 EDT | AverageReturn            3800.89
+2017-05-10 13:11:29.793955 EDT | StdReturn                1149.87
+2017-05-10 13:11:29.794376 EDT | MaxReturn                4473.23
+2017-05-10 13:11:29.794804 EDT | MinReturn                 449.001
+2017-05-10 13:11:29.795223 EDT | AverageEsReturn          2666.35
+2017-05-10 13:11:29.795676 EDT | StdEsReturn                 0
+2017-05-10 13:11:29.796091 EDT | MaxEsReturn              2666.35
+2017-05-10 13:11:29.796503 EDT | MinEsReturn              2666.35
+2017-05-10 13:11:29.796916 EDT | AverageDiscountedReturn   322.508
+2017-05-10 13:11:29.797329 EDT | AverageQLoss               64.0214
+2017-05-10 13:11:29.797746 EDT | AveragePolicySurr        -192.51
+2017-05-10 13:11:29.798164 EDT | AverageQ                  190.31
+2017-05-10 13:11:29.798579 EDT | AverageAbsQ               190.311
+2017-05-10 13:11:29.798992 EDT | AverageY                  190.334
+2017-05-10 13:11:29.799417 EDT | AverageAbsY               190.335
+2017-05-10 13:11:29.799832 EDT | AverageAbsQYDiff            2.82649
+2017-05-10 13:11:29.800246 EDT | AverageAction               0.960609
+2017-05-10 13:11:29.800666 EDT | PolicyRegParamNorm         49.9006
+2017-05-10 13:11:29.801079 EDT | QFunRegParamNorm           61.4101
+2017-05-10 13:11:29.801496 EDT | -----------------------  -----------
+2017-05-10 13:11:29.802114 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Training started
+2017-05-10 13:11:36.435818 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Populating workers...
+2017-05-10 13:11:36.436290 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Populated
+2017-05-10 13:13:15.173115 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Training finished
+2017-05-10 13:13:15.176040 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:13:15.176438 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #127 | Collecting samples for evaluation
+2017-05-10 13:13:29.073367 EDT | -----------------------  ----------
+2017-05-10 13:13:29.075130 EDT | Epoch                     127
+2017-05-10 13:13:29.075505 EDT | Iteration                 127
+2017-05-10 13:13:29.075843 EDT | AverageReturn            4240.65
+2017-05-10 13:13:29.076175 EDT | StdReturn                 235.34
+2017-05-10 13:13:29.076508 EDT | MaxReturn                4471.23
+2017-05-10 13:13:29.076837 EDT | MinReturn                3689.1
+2017-05-10 13:13:29.077165 EDT | AverageEsReturn          2220.65
+2017-05-10 13:13:29.077494 EDT | StdEsReturn                 0
+2017-05-10 13:13:29.077823 EDT | MaxEsReturn              2220.65
+2017-05-10 13:13:29.078152 EDT | MinEsReturn              2220.65
+2017-05-10 13:13:29.078481 EDT | AverageDiscountedReturn   352.363
+2017-05-10 13:13:29.078809 EDT | AverageQLoss               53.7989
+2017-05-10 13:13:29.079138 EDT | AveragePolicySurr        -193.798
+2017-05-10 13:13:29.079481 EDT | AverageQ                  191.585
+2017-05-10 13:13:29.079807 EDT | AverageAbsQ               191.585
+2017-05-10 13:13:29.080137 EDT | AverageY                  191.602
+2017-05-10 13:13:29.080465 EDT | AverageAbsY               191.602
+2017-05-10 13:13:29.080795 EDT | AverageAbsQYDiff            2.67021
+2017-05-10 13:13:29.081124 EDT | AverageAction               0.9595
+2017-05-10 13:13:29.081453 EDT | PolicyRegParamNorm         50.109
+2017-05-10 13:13:29.081779 EDT | QFunRegParamNorm           61.6184
+2017-05-10 13:13:29.082108 EDT | -----------------------  ----------
+2017-05-10 13:13:29.082627 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Training started
+2017-05-10 13:13:35.669586 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Populating workers...
+2017-05-10 13:13:35.670110 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Populated
+2017-05-10 13:15:14.134159 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Training finished
+2017-05-10 13:15:14.134962 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:15:14.135210 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #128 | Collecting samples for evaluation
+2017-05-10 13:15:27.429741 EDT | -----------------------  -----------
+2017-05-10 13:15:27.430859 EDT | Epoch                     128
+2017-05-10 13:15:27.431292 EDT | Iteration                 128
+2017-05-10 13:15:27.431817 EDT | AverageReturn            3862.85
+2017-05-10 13:15:27.432285 EDT | StdReturn                 122.838
+2017-05-10 13:15:27.432748 EDT | MaxReturn                4047.91
+2017-05-10 13:15:27.433209 EDT | MinReturn                3618.22
+2017-05-10 13:15:27.433671 EDT | AverageEsReturn          2883.37
+2017-05-10 13:15:27.434128 EDT | StdEsReturn                 0
+2017-05-10 13:15:27.434583 EDT | MaxEsReturn              2883.37
+2017-05-10 13:15:27.435042 EDT | MinEsReturn              2883.37
+2017-05-10 13:15:27.435522 EDT | AverageDiscountedReturn   313.28
+2017-05-10 13:15:27.435980 EDT | AverageQLoss               67.8978
+2017-05-10 13:15:27.436439 EDT | AveragePolicySurr        -196.143
+2017-05-10 13:15:27.436896 EDT | AverageQ                  194.004
+2017-05-10 13:15:27.437357 EDT | AverageAbsQ               194.004
+2017-05-10 13:15:27.437811 EDT | AverageY                  194.034
+2017-05-10 13:15:27.438267 EDT | AverageAbsY               194.034
+2017-05-10 13:15:27.438723 EDT | AverageAbsQYDiff            2.87493
+2017-05-10 13:15:27.439180 EDT | AverageAction               0.949699
+2017-05-10 13:15:27.439648 EDT | PolicyRegParamNorm         50.2566
+2017-05-10 13:15:27.440106 EDT | QFunRegParamNorm           61.923
+2017-05-10 13:15:27.440563 EDT | -----------------------  -----------
+2017-05-10 13:15:27.441218 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Training started
+2017-05-10 13:15:33.878564 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Populating workers...
+2017-05-10 13:15:33.879325 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Populated
+2017-05-10 13:16:57.736712 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Training finished
+2017-05-10 13:16:57.737539 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:16:57.737788 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #129 | Collecting samples for evaluation
+2017-05-10 13:17:10.617594 EDT | -----------------------  ----------
+2017-05-10 13:17:10.618648 EDT | Epoch                     129
+2017-05-10 13:17:10.619131 EDT | Iteration                 129
+2017-05-10 13:17:10.619635 EDT | AverageReturn            3530.09
+2017-05-10 13:17:10.620110 EDT | StdReturn                 995.562
+2017-05-10 13:17:10.620590 EDT | MaxReturn                4247.77
+2017-05-10 13:17:10.621066 EDT | MinReturn                 640.397
+2017-05-10 13:17:10.621546 EDT | AverageEsReturn          2665.02
+2017-05-10 13:17:10.622021 EDT | StdEsReturn                 0
+2017-05-10 13:17:10.622486 EDT | MaxEsReturn              2665.02
+2017-05-10 13:17:10.622963 EDT | MinEsReturn              2665.02
+2017-05-10 13:17:10.623439 EDT | AverageDiscountedReturn   330.209
+2017-05-10 13:17:10.623916 EDT | AverageQLoss               59.2607
+2017-05-10 13:17:10.624392 EDT | AveragePolicySurr        -197.283
+2017-05-10 13:17:10.624866 EDT | AverageQ                  195.184
+2017-05-10 13:17:10.625342 EDT | AverageAbsQ               195.184
+2017-05-10 13:17:10.625808 EDT | AverageY                  195.201
+2017-05-10 13:17:10.626285 EDT | AverageAbsY               195.202
+2017-05-10 13:17:10.626755 EDT | AverageAbsQYDiff            2.79666
+2017-05-10 13:17:10.627231 EDT | AverageAction               0.95733
+2017-05-10 13:17:10.627717 EDT | PolicyRegParamNorm         50.355
+2017-05-10 13:17:10.628195 EDT | QFunRegParamNorm           62.1863
+2017-05-10 13:17:10.628670 EDT | -----------------------  ----------
+2017-05-10 13:17:10.629313 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Training started
+2017-05-10 13:17:16.587116 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Populating workers...
+2017-05-10 13:17:16.587538 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Populated
+2017-05-10 13:18:44.591534 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Training finished
+2017-05-10 13:18:44.593148 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:18:44.593648 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #130 | Collecting samples for evaluation
+2017-05-10 13:18:57.684714 EDT | -----------------------  -----------
+2017-05-10 13:18:57.685502 EDT | Epoch                     130
+2017-05-10 13:18:57.685764 EDT | Iteration                 130
+2017-05-10 13:18:57.686044 EDT | AverageReturn            3896.38
+2017-05-10 13:18:57.686301 EDT | StdReturn                 176.795
+2017-05-10 13:18:57.686555 EDT | MaxReturn                4226.05
+2017-05-10 13:18:57.686808 EDT | MinReturn                3652.85
+2017-05-10 13:18:57.687066 EDT | AverageEsReturn          2738.55
+2017-05-10 13:18:57.687313 EDT | StdEsReturn                 0
+2017-05-10 13:18:57.687590 EDT | MaxEsReturn              2738.55
+2017-05-10 13:18:57.687838 EDT | MinEsReturn              2738.55
+2017-05-10 13:18:57.688098 EDT | AverageDiscountedReturn   321.801
+2017-05-10 13:18:57.688346 EDT | AverageQLoss               68.9754
+2017-05-10 13:18:57.688594 EDT | AveragePolicySurr        -200.671
+2017-05-10 13:18:57.688840 EDT | AverageQ                  198.383
+2017-05-10 13:18:57.689098 EDT | AverageAbsQ               198.383
+2017-05-10 13:18:57.689344 EDT | AverageY                  198.418
+2017-05-10 13:18:57.689590 EDT | AverageAbsY               198.418
+2017-05-10 13:18:57.689836 EDT | AverageAbsQYDiff            2.96119
+2017-05-10 13:18:57.690082 EDT | AverageAction               0.956517
+2017-05-10 13:18:57.690333 EDT | PolicyRegParamNorm         50.5885
+2017-05-10 13:18:57.690581 EDT | QFunRegParamNorm           62.4444
+2017-05-10 13:18:57.690826 EDT | -----------------------  -----------
+2017-05-10 13:18:57.691193 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Training started
+2017-05-10 13:19:03.416174 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Populating workers...
+2017-05-10 13:19:03.416527 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Populated
+2017-05-10 13:20:30.603796 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Training finished
+2017-05-10 13:20:30.604903 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:20:30.605398 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #131 | Collecting samples for evaluation
+2017-05-10 13:20:41.669551 EDT | -----------------------  -----------
+2017-05-10 13:20:41.670607 EDT | Epoch                     131
+2017-05-10 13:20:41.671086 EDT | Iteration                 131
+2017-05-10 13:20:41.671579 EDT | AverageReturn            3894.41
+2017-05-10 13:20:41.672049 EDT | StdReturn                 127.005
+2017-05-10 13:20:41.672594 EDT | MaxReturn                4185.42
+2017-05-10 13:20:41.673077 EDT | MinReturn                3749.39
+2017-05-10 13:20:41.673555 EDT | AverageEsReturn          3176.54
+2017-05-10 13:20:41.674036 EDT | StdEsReturn                 0
+2017-05-10 13:20:41.674516 EDT | MaxEsReturn              3176.54
+2017-05-10 13:20:41.674992 EDT | MinEsReturn              3176.54
+2017-05-10 13:20:41.675478 EDT | AverageDiscountedReturn   317.163
+2017-05-10 13:20:41.675955 EDT | AverageQLoss               58.4868
+2017-05-10 13:20:41.676433 EDT | AveragePolicySurr        -202.99
+2017-05-10 13:20:41.676908 EDT | AverageQ                  200.718
+2017-05-10 13:20:41.677386 EDT | AverageAbsQ               200.718
+2017-05-10 13:20:41.677861 EDT | AverageY                  200.745
+2017-05-10 13:20:41.678340 EDT | AverageAbsY               200.745
+2017-05-10 13:20:41.678818 EDT | AverageAbsQYDiff            2.78136
+2017-05-10 13:20:41.679303 EDT | AverageAction               0.957147
+2017-05-10 13:20:41.679796 EDT | PolicyRegParamNorm         50.7118
+2017-05-10 13:20:41.680274 EDT | QFunRegParamNorm           62.7558
+2017-05-10 13:20:41.680822 EDT | -----------------------  -----------
+2017-05-10 13:20:41.681536 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Training started
+2017-05-10 13:20:48.151205 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Populating workers...
+2017-05-10 13:20:48.151656 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Populated
+2017-05-10 13:22:09.625208 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Training finished
+2017-05-10 13:22:09.626001 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:22:09.626248 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #132 | Collecting samples for evaluation
+2017-05-10 13:22:20.248118 EDT | -----------------------  ----------
+2017-05-10 13:22:20.249115 EDT | Epoch                     132
+2017-05-10 13:22:20.249529 EDT | Iteration                 132
+2017-05-10 13:22:20.249932 EDT | AverageReturn            3948.82
+2017-05-10 13:22:20.250330 EDT | StdReturn                 202.114
+2017-05-10 13:22:20.250725 EDT | MaxReturn                4140.2
+2017-05-10 13:22:20.251121 EDT | MinReturn                3422.35
+2017-05-10 13:22:20.251535 EDT | AverageEsReturn          3002.19
+2017-05-10 13:22:20.251930 EDT | StdEsReturn                 0
+2017-05-10 13:22:20.252322 EDT | MaxEsReturn              3002.19
+2017-05-10 13:22:20.252719 EDT | MinEsReturn              3002.19
+2017-05-10 13:22:20.253112 EDT | AverageDiscountedReturn   315.669
+2017-05-10 13:22:20.253506 EDT | AverageQLoss               82.1903
+2017-05-10 13:22:20.253900 EDT | AveragePolicySurr        -204.705
+2017-05-10 13:22:20.254293 EDT | AverageQ                  202.427
+2017-05-10 13:22:20.254686 EDT | AverageAbsQ               202.427
+2017-05-10 13:22:20.255079 EDT | AverageY                  202.444
+2017-05-10 13:22:20.255483 EDT | AverageAbsY               202.445
+2017-05-10 13:22:20.255879 EDT | AverageAbsQYDiff            3.00082
+2017-05-10 13:22:20.256275 EDT | AverageAction               0.9736
+2017-05-10 13:22:20.256668 EDT | PolicyRegParamNorm         50.9134
+2017-05-10 13:22:20.257061 EDT | QFunRegParamNorm           62.9622
+2017-05-10 13:22:20.257456 EDT | -----------------------  ----------
+2017-05-10 13:22:20.257997 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Training started
+2017-05-10 13:22:26.426850 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Populating workers...
+2017-05-10 13:22:26.427287 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Populated
+2017-05-10 13:23:53.703012 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Training finished
+2017-05-10 13:23:53.704102 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:23:53.704559 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #133 | Collecting samples for evaluation
+2017-05-10 13:24:05.331945 EDT | -----------------------  -----------
+2017-05-10 13:24:05.332734 EDT | Epoch                     133
+2017-05-10 13:24:05.332988 EDT | Iteration                 133
+2017-05-10 13:24:05.333245 EDT | AverageReturn            2518.49
+2017-05-10 13:24:05.333511 EDT | StdReturn                1046.67
+2017-05-10 13:24:05.333761 EDT | MaxReturn                3610.75
+2017-05-10 13:24:05.334014 EDT | MinReturn                -187.105
+2017-05-10 13:24:05.334260 EDT | AverageEsReturn          2810.68
+2017-05-10 13:24:05.334510 EDT | StdEsReturn                 0
+2017-05-10 13:24:05.334765 EDT | MaxEsReturn              2810.68
+2017-05-10 13:24:05.335022 EDT | MinEsReturn              2810.68
+2017-05-10 13:24:05.335268 EDT | AverageDiscountedReturn   238.838
+2017-05-10 13:24:05.335550 EDT | AverageQLoss               66.2313
+2017-05-10 13:24:05.335808 EDT | AveragePolicySurr        -206.913
+2017-05-10 13:24:05.336064 EDT | AverageQ                  204.682
+2017-05-10 13:24:05.336310 EDT | AverageAbsQ               204.682
+2017-05-10 13:24:05.336555 EDT | AverageY                  204.708
+2017-05-10 13:24:05.336815 EDT | AverageAbsY               204.708
+2017-05-10 13:24:05.337072 EDT | AverageAbsQYDiff            2.81905
+2017-05-10 13:24:05.337317 EDT | AverageAction               0.954221
+2017-05-10 13:24:05.337561 EDT | PolicyRegParamNorm         51.0956
+2017-05-10 13:24:05.337823 EDT | QFunRegParamNorm           63.2078
+2017-05-10 13:24:05.338084 EDT | -----------------------  -----------
+2017-05-10 13:24:05.338444 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Training started
+2017-05-10 13:24:11.350584 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Populating workers...
+2017-05-10 13:24:11.351069 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Populated
+2017-05-10 13:25:41.332383 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Training finished
+2017-05-10 13:25:41.333965 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:25:41.334212 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #134 | Collecting samples for evaluation
+2017-05-10 13:25:53.279367 EDT | -----------------------  -----------
+2017-05-10 13:25:53.280406 EDT | Epoch                     134
+2017-05-10 13:25:53.280871 EDT | Iteration                 134
+2017-05-10 13:25:53.281331 EDT | AverageReturn            4033.42
+2017-05-10 13:25:53.281792 EDT | StdReturn                 168.57
+2017-05-10 13:25:53.282249 EDT | MaxReturn                4261.46
+2017-05-10 13:25:53.282706 EDT | MinReturn                3682.56
+2017-05-10 13:25:53.283162 EDT | AverageEsReturn          3045.8
+2017-05-10 13:25:53.283642 EDT | StdEsReturn                 0
+2017-05-10 13:25:53.284097 EDT | MaxEsReturn              3045.8
+2017-05-10 13:25:53.284553 EDT | MinEsReturn              3045.8
+2017-05-10 13:25:53.285007 EDT | AverageDiscountedReturn   321.987
+2017-05-10 13:25:53.285463 EDT | AverageQLoss               82.7669
+2017-05-10 13:25:53.285916 EDT | AveragePolicySurr        -209.763
+2017-05-10 13:25:53.286367 EDT | AverageQ                  207.482
+2017-05-10 13:25:53.286822 EDT | AverageAbsQ               207.482
+2017-05-10 13:25:53.287278 EDT | AverageY                  207.517
+2017-05-10 13:25:53.287744 EDT | AverageAbsY               207.517
+2017-05-10 13:25:53.288197 EDT | AverageAbsQYDiff            3.00992
+2017-05-10 13:25:53.288653 EDT | AverageAction               0.957807
+2017-05-10 13:25:53.289109 EDT | PolicyRegParamNorm         51.2858
+2017-05-10 13:25:53.289562 EDT | QFunRegParamNorm           63.4992
+2017-05-10 13:25:53.290015 EDT | -----------------------  -----------
+2017-05-10 13:25:53.290644 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Training started
+2017-05-10 13:25:59.425884 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Populating workers...
+2017-05-10 13:25:59.426345 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Populated
+2017-05-10 13:27:33.882271 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Training finished
+2017-05-10 13:27:33.883228 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:27:33.883632 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #135 | Collecting samples for evaluation
+2017-05-10 13:27:47.443693 EDT | -----------------------  -----------
+2017-05-10 13:27:47.444647 EDT | Epoch                     135
+2017-05-10 13:27:47.444992 EDT | Iteration                 135
+2017-05-10 13:27:47.445328 EDT | AverageReturn            4402.8
+2017-05-10 13:27:47.445660 EDT | StdReturn                 293.639
+2017-05-10 13:27:47.446002 EDT | MaxReturn                4814.39
+2017-05-10 13:27:47.446333 EDT | MinReturn                4025.43
+2017-05-10 13:27:47.446662 EDT | AverageEsReturn          2852.52
+2017-05-10 13:27:47.446993 EDT | StdEsReturn                 0
+2017-05-10 13:27:47.447323 EDT | MaxEsReturn              2852.52
+2017-05-10 13:27:47.447670 EDT | MinEsReturn              2852.52
+2017-05-10 13:27:47.447999 EDT | AverageDiscountedReturn   356.885
+2017-05-10 13:27:47.448328 EDT | AverageQLoss               56.0196
+2017-05-10 13:27:47.448655 EDT | AveragePolicySurr        -211.458
+2017-05-10 13:27:47.448982 EDT | AverageQ                  209.249
+2017-05-10 13:27:47.449310 EDT | AverageAbsQ               209.249
+2017-05-10 13:27:47.449636 EDT | AverageY                  209.257
+2017-05-10 13:27:47.449965 EDT | AverageAbsY               209.257
+2017-05-10 13:27:47.450293 EDT | AverageAbsQYDiff            2.74345
+2017-05-10 13:27:47.450622 EDT | AverageAction               0.961614
+2017-05-10 13:27:47.450950 EDT | PolicyRegParamNorm         51.4846
+2017-05-10 13:27:47.451276 EDT | QFunRegParamNorm           63.7028
+2017-05-10 13:27:47.451616 EDT | -----------------------  -----------
+2017-05-10 13:27:47.452115 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Training started
+2017-05-10 13:27:54.830540 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Populating workers...
+2017-05-10 13:27:54.831010 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Populated
+2017-05-10 13:29:36.315796 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Training finished
+2017-05-10 13:29:36.316614 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:29:36.316868 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #136 | Collecting samples for evaluation
+2017-05-10 13:29:51.875760 EDT | -----------------------  -----------
+2017-05-10 13:29:51.877203 EDT | Epoch                     136
+2017-05-10 13:29:51.877703 EDT | Iteration                 136
+2017-05-10 13:29:51.878189 EDT | AverageReturn            4218.21
+2017-05-10 13:29:51.878670 EDT | StdReturn                 562.199
+2017-05-10 13:29:51.879150 EDT | MaxReturn                4871.77
+2017-05-10 13:29:51.879721 EDT | MinReturn                2663.31
+2017-05-10 13:29:51.880261 EDT | AverageEsReturn          2715.04
+2017-05-10 13:29:51.880812 EDT | StdEsReturn                 0
+2017-05-10 13:29:51.881358 EDT | MaxEsReturn              2715.04
+2017-05-10 13:29:51.881900 EDT | MinEsReturn              2715.04
+2017-05-10 13:29:51.882440 EDT | AverageDiscountedReturn   338.434
+2017-05-10 13:29:51.882984 EDT | AverageQLoss               74.6976
+2017-05-10 13:29:51.883535 EDT | AveragePolicySurr        -212.614
+2017-05-10 13:29:51.884079 EDT | AverageQ                  210.444
+2017-05-10 13:29:51.884623 EDT | AverageAbsQ               210.444
+2017-05-10 13:29:51.885164 EDT | AverageY                  210.48
+2017-05-10 13:29:51.885703 EDT | AverageAbsY               210.48
+2017-05-10 13:29:51.886245 EDT | AverageAbsQYDiff            3.00319
+2017-05-10 13:29:51.886787 EDT | AverageAction               0.945859
+2017-05-10 13:29:51.887329 EDT | PolicyRegParamNorm         51.6334
+2017-05-10 13:29:51.887874 EDT | QFunRegParamNorm           63.9973
+2017-05-10 13:29:51.888409 EDT | -----------------------  -----------
+2017-05-10 13:29:51.889179 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Training started
+2017-05-10 13:29:59.567256 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Populating workers...
+2017-05-10 13:29:59.567680 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Populated
+2017-05-10 13:31:52.162430 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Training finished
+2017-05-10 13:31:52.165124 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:31:52.165492 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #137 | Collecting samples for evaluation
+2017-05-10 13:32:07.542974 EDT | -----------------------  -----------
+2017-05-10 13:32:07.544135 EDT | Epoch                     137
+2017-05-10 13:32:07.544563 EDT | Iteration                 137
+2017-05-10 13:32:07.544975 EDT | AverageReturn            4598.65
+2017-05-10 13:32:07.545382 EDT | StdReturn                 139.473
+2017-05-10 13:32:07.545791 EDT | MaxReturn                4816.51
+2017-05-10 13:32:07.546195 EDT | MinReturn                4372.16
+2017-05-10 13:32:07.546595 EDT | AverageEsReturn          2638.7
+2017-05-10 13:32:07.546997 EDT | StdEsReturn                 0
+2017-05-10 13:32:07.547418 EDT | MaxEsReturn              2638.7
+2017-05-10 13:32:07.547818 EDT | MinEsReturn              2638.7
+2017-05-10 13:32:07.548222 EDT | AverageDiscountedReturn   360.618
+2017-05-10 13:32:07.548626 EDT | AverageQLoss               90.6463
+2017-05-10 13:32:07.549029 EDT | AveragePolicySurr        -214.302
+2017-05-10 13:32:07.549429 EDT | AverageQ                  212.15
+2017-05-10 13:32:07.549827 EDT | AverageAbsQ               212.15
+2017-05-10 13:32:07.550226 EDT | AverageY                  212.169
+2017-05-10 13:32:07.550626 EDT | AverageAbsY               212.17
+2017-05-10 13:32:07.551026 EDT | AverageAbsQYDiff            3.06485
+2017-05-10 13:32:07.551436 EDT | AverageAction               0.955338
+2017-05-10 13:32:07.551839 EDT | PolicyRegParamNorm         51.799
+2017-05-10 13:32:07.552240 EDT | QFunRegParamNorm           64.24
+2017-05-10 13:32:07.552639 EDT | -----------------------  -----------
+2017-05-10 13:32:07.553235 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Training started
+2017-05-10 13:32:14.797201 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Populating workers...
+2017-05-10 13:32:14.798265 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Populated
+2017-05-10 13:34:14.264628 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Training finished
+2017-05-10 13:34:14.265752 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:34:14.266270 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #138 | Collecting samples for evaluation
+2017-05-10 13:34:31.693433 EDT | -----------------------  -----------
+2017-05-10 13:34:31.694765 EDT | Epoch                     138
+2017-05-10 13:34:31.695332 EDT | Iteration                 138
+2017-05-10 13:34:31.695940 EDT | AverageReturn            3893.34
+2017-05-10 13:34:31.696500 EDT | StdReturn                 115.756
+2017-05-10 13:34:31.697072 EDT | MaxReturn                4124.74
+2017-05-10 13:34:31.697621 EDT | MinReturn                3680.21
+2017-05-10 13:34:31.698196 EDT | AverageEsReturn          3037.15
+2017-05-10 13:34:31.698750 EDT | StdEsReturn                 0
+2017-05-10 13:34:31.699320 EDT | MaxEsReturn              3037.15
+2017-05-10 13:34:31.699908 EDT | MinEsReturn              3037.15
+2017-05-10 13:34:31.700458 EDT | AverageDiscountedReturn   312.792
+2017-05-10 13:34:31.701021 EDT | AverageQLoss               63.8616
+2017-05-10 13:34:31.701570 EDT | AveragePolicySurr        -216.892
+2017-05-10 13:34:31.702133 EDT | AverageQ                  214.709
+2017-05-10 13:34:31.702683 EDT | AverageAbsQ               214.709
+2017-05-10 13:34:31.703250 EDT | AverageY                  214.731
+2017-05-10 13:34:31.703820 EDT | AverageAbsY               214.731
+2017-05-10 13:34:31.704387 EDT | AverageAbsQYDiff            2.79273
+2017-05-10 13:34:31.704938 EDT | AverageAction               0.951239
+2017-05-10 13:34:31.705511 EDT | PolicyRegParamNorm         51.9069
+2017-05-10 13:34:31.706060 EDT | QFunRegParamNorm           64.4427
+2017-05-10 13:34:31.706631 EDT | -----------------------  -----------
+2017-05-10 13:34:31.707427 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Training started
+2017-05-10 13:34:40.097875 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Populating workers...
+2017-05-10 13:34:40.098390 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Populated
+2017-05-10 13:36:44.187669 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Training finished
+2017-05-10 13:36:44.188643 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:36:44.189037 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #139 | Collecting samples for evaluation
+2017-05-10 13:37:00.207200 EDT | -----------------------  ----------
+2017-05-10 13:37:00.210128 EDT | Epoch                     139
+2017-05-10 13:37:00.210848 EDT | Iteration                 139
+2017-05-10 13:37:00.211428 EDT | AverageReturn            3799.09
+2017-05-10 13:37:00.211976 EDT | StdReturn                 287.551
+2017-05-10 13:37:00.212519 EDT | MaxReturn                4414.89
+2017-05-10 13:37:00.213059 EDT | MinReturn                3283.99
+2017-05-10 13:37:00.213597 EDT | AverageEsReturn          2918.7
+2017-05-10 13:37:00.214133 EDT | StdEsReturn                 0
+2017-05-10 13:37:00.214667 EDT | MaxEsReturn              2918.7
+2017-05-10 13:37:00.215196 EDT | MinEsReturn              2918.7
+2017-05-10 13:37:00.215743 EDT | AverageDiscountedReturn   318.009
+2017-05-10 13:37:00.216278 EDT | AverageQLoss               75.3607
+2017-05-10 13:37:00.216810 EDT | AveragePolicySurr        -219.223
+2017-05-10 13:37:00.217344 EDT | AverageQ                  216.946
+2017-05-10 13:37:00.217874 EDT | AverageAbsQ               216.946
+2017-05-10 13:37:00.218408 EDT | AverageY                  216.963
+2017-05-10 13:37:00.218940 EDT | AverageAbsY               216.963
+2017-05-10 13:37:00.219485 EDT | AverageAbsQYDiff            2.93881
+2017-05-10 13:37:00.220018 EDT | AverageAction               0.95371
+2017-05-10 13:37:00.220552 EDT | PolicyRegParamNorm         52.1088
+2017-05-10 13:37:00.221084 EDT | QFunRegParamNorm           64.7194
+2017-05-10 13:37:00.221621 EDT | -----------------------  ----------
+2017-05-10 13:37:00.222386 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Training started
+2017-05-10 13:37:07.577823 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Populating workers...
+2017-05-10 13:37:07.578746 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Populated
+2017-05-10 13:39:03.451522 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Training finished
+2017-05-10 13:39:03.452342 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:39:03.452601 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #140 | Collecting samples for evaluation
+2017-05-10 13:39:18.967949 EDT | -----------------------  -----------
+2017-05-10 13:39:18.969906 EDT | Epoch                     140
+2017-05-10 13:39:18.970335 EDT | Iteration                 140
+2017-05-10 13:39:18.970766 EDT | AverageReturn            4286.3
+2017-05-10 13:39:18.971173 EDT | StdReturn                 101.138
+2017-05-10 13:39:18.971619 EDT | MaxReturn                4444.64
+2017-05-10 13:39:18.972026 EDT | MinReturn                4156.92
+2017-05-10 13:39:18.972427 EDT | AverageEsReturn          2862.98
+2017-05-10 13:39:18.972848 EDT | StdEsReturn                 0
+2017-05-10 13:39:18.973247 EDT | MaxEsReturn              2862.98
+2017-05-10 13:39:18.973646 EDT | MinEsReturn              2862.98
+2017-05-10 13:39:18.974068 EDT | AverageDiscountedReturn   347.592
+2017-05-10 13:39:18.974467 EDT | AverageQLoss               54.6294
+2017-05-10 13:39:18.974878 EDT | AveragePolicySurr        -221.434
+2017-05-10 13:39:18.975276 EDT | AverageQ                  219.176
+2017-05-10 13:39:18.975688 EDT | AverageAbsQ               219.176
+2017-05-10 13:39:18.976109 EDT | AverageY                  219.197
+2017-05-10 13:39:18.976508 EDT | AverageAbsY               219.197
+2017-05-10 13:39:18.976921 EDT | AverageAbsQYDiff            2.73413
+2017-05-10 13:39:18.977337 EDT | AverageAction               0.953302
+2017-05-10 13:39:18.977738 EDT | PolicyRegParamNorm         52.3234
+2017-05-10 13:39:18.978155 EDT | QFunRegParamNorm           64.966
+2017-05-10 13:39:18.978555 EDT | -----------------------  -----------
+2017-05-10 13:39:18.979161 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Training started
+2017-05-10 13:39:27.074184 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Populating workers...
+2017-05-10 13:39:27.074719 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Populated
+2017-05-10 13:41:16.076942 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Training finished
+2017-05-10 13:41:16.079944 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:41:16.080462 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #141 | Collecting samples for evaluation
+2017-05-10 13:41:29.491326 EDT | -----------------------  -----------
+2017-05-10 13:41:29.493409 EDT | Epoch                     141
+2017-05-10 13:41:29.493973 EDT | Iteration                 141
+2017-05-10 13:41:29.494529 EDT | AverageReturn            2735.81
+2017-05-10 13:41:29.495101 EDT | StdReturn                 881.279
+2017-05-10 13:41:29.495674 EDT | MaxReturn                3450.62
+2017-05-10 13:41:29.496223 EDT | MinReturn                 298.152
+2017-05-10 13:41:29.496773 EDT | AverageEsReturn          2852.8
+2017-05-10 13:41:29.497322 EDT | StdEsReturn                 0
+2017-05-10 13:41:29.497865 EDT | MaxEsReturn              2852.8
+2017-05-10 13:41:29.498409 EDT | MinEsReturn              2852.8
+2017-05-10 13:41:29.498957 EDT | AverageDiscountedReturn   248.774
+2017-05-10 13:41:29.499511 EDT | AverageQLoss               73.1318
+2017-05-10 13:41:29.500061 EDT | AveragePolicySurr        -222.729
+2017-05-10 13:41:29.500608 EDT | AverageQ                  220.449
+2017-05-10 13:41:29.501153 EDT | AverageAbsQ               220.449
+2017-05-10 13:41:29.501701 EDT | AverageY                  220.473
+2017-05-10 13:41:29.502246 EDT | AverageAbsY               220.473
+2017-05-10 13:41:29.502793 EDT | AverageAbsQYDiff            2.91894
+2017-05-10 13:41:29.503348 EDT | AverageAction               0.950704
+2017-05-10 13:41:29.503896 EDT | PolicyRegParamNorm         52.559
+2017-05-10 13:41:29.504440 EDT | QFunRegParamNorm           65.199
+2017-05-10 13:41:29.504983 EDT | -----------------------  -----------
+2017-05-10 13:41:29.505735 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Training started
+2017-05-10 13:41:36.756120 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Populating workers...
+2017-05-10 13:41:36.756902 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Populated
+2017-05-10 13:43:16.615083 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Training finished
+2017-05-10 13:43:16.618871 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:43:16.619384 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #142 | Collecting samples for evaluation
+2017-05-10 13:43:30.027305 EDT | -----------------------  -----------
+2017-05-10 13:43:30.028380 EDT | Epoch                     142
+2017-05-10 13:43:30.028851 EDT | Iteration                 142
+2017-05-10 13:43:30.029319 EDT | AverageReturn            3545.52
+2017-05-10 13:43:30.029784 EDT | StdReturn                 344.272
+2017-05-10 13:43:30.030248 EDT | MaxReturn                3945.82
+2017-05-10 13:43:30.030709 EDT | MinReturn                2789.8
+2017-05-10 13:43:30.031173 EDT | AverageEsReturn          2732.65
+2017-05-10 13:43:30.031651 EDT | StdEsReturn                 0
+2017-05-10 13:43:30.032116 EDT | MaxEsReturn              2732.65
+2017-05-10 13:43:30.032575 EDT | MinEsReturn              2732.65
+2017-05-10 13:43:30.033046 EDT | AverageDiscountedReturn   275.929
+2017-05-10 13:43:30.033505 EDT | AverageQLoss               69.2945
+2017-05-10 13:43:30.033967 EDT | AveragePolicySurr        -225.096
+2017-05-10 13:43:30.034427 EDT | AverageQ                  222.795
+2017-05-10 13:43:30.034885 EDT | AverageAbsQ               222.796
+2017-05-10 13:43:30.035349 EDT | AverageY                  222.817
+2017-05-10 13:43:30.035811 EDT | AverageAbsY               222.817
+2017-05-10 13:43:30.036268 EDT | AverageAbsQYDiff            2.87558
+2017-05-10 13:43:30.036730 EDT | AverageAction               0.953698
+2017-05-10 13:43:30.037193 EDT | PolicyRegParamNorm         52.714
+2017-05-10 13:43:30.037657 EDT | QFunRegParamNorm           65.4284
+2017-05-10 13:43:30.038118 EDT | -----------------------  -----------
+2017-05-10 13:43:30.038752 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Training started
+2017-05-10 13:43:37.040642 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Populating workers...
+2017-05-10 13:43:37.041040 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Populated
+2017-05-10 13:45:14.717180 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Training finished
+2017-05-10 13:45:14.720475 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:45:14.720742 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #143 | Collecting samples for evaluation
+2017-05-10 13:45:27.325544 EDT | -----------------------  -----------
+2017-05-10 13:45:27.326700 EDT | Epoch                     143
+2017-05-10 13:45:27.327253 EDT | Iteration                 143
+2017-05-10 13:45:27.327794 EDT | AverageReturn            3718.79
+2017-05-10 13:45:27.328261 EDT | StdReturn                 987.852
+2017-05-10 13:45:27.328722 EDT | MaxReturn                4473.72
+2017-05-10 13:45:27.329185 EDT | MinReturn                1157.13
+2017-05-10 13:45:27.329643 EDT | AverageEsReturn          2806.17
+2017-05-10 13:45:27.330104 EDT | StdEsReturn                 0
+2017-05-10 13:45:27.330563 EDT | MaxEsReturn              2806.17
+2017-05-10 13:45:27.331021 EDT | MinEsReturn              2806.17
+2017-05-10 13:45:27.331500 EDT | AverageDiscountedReturn   345.494
+2017-05-10 13:45:27.331957 EDT | AverageQLoss               98.3464
+2017-05-10 13:45:27.332412 EDT | AveragePolicySurr        -228.076
+2017-05-10 13:45:27.332870 EDT | AverageQ                  225.755
+2017-05-10 13:45:27.333327 EDT | AverageAbsQ               225.756
+2017-05-10 13:45:27.333782 EDT | AverageY                  225.775
+2017-05-10 13:45:27.334235 EDT | AverageAbsY               225.775
+2017-05-10 13:45:27.334689 EDT | AverageAbsQYDiff            3.22875
+2017-05-10 13:45:27.335143 EDT | AverageAction               0.948376
+2017-05-10 13:45:27.335616 EDT | PolicyRegParamNorm         52.8658
+2017-05-10 13:45:27.336069 EDT | QFunRegParamNorm           65.6763
+2017-05-10 13:45:27.336523 EDT | -----------------------  -----------
+2017-05-10 13:45:27.337151 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Training started
+2017-05-10 13:45:34.501388 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Populating workers...
+2017-05-10 13:45:34.501886 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Populated
+2017-05-10 13:47:13.190575 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Training finished
+2017-05-10 13:47:13.194268 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:47:13.194765 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #144 | Collecting samples for evaluation
+2017-05-10 13:47:27.834972 EDT | -----------------------  -----------
+2017-05-10 13:47:27.836187 EDT | Epoch                     144
+2017-05-10 13:47:27.836591 EDT | Iteration                 144
+2017-05-10 13:47:27.836958 EDT | AverageReturn            4107.14
+2017-05-10 13:47:27.837294 EDT | StdReturn                 451.476
+2017-05-10 13:47:27.837656 EDT | MaxReturn                4560.09
+2017-05-10 13:47:27.838000 EDT | MinReturn                2907.59
+2017-05-10 13:47:27.838325 EDT | AverageEsReturn          2911.63
+2017-05-10 13:47:27.838666 EDT | StdEsReturn                 0
+2017-05-10 13:47:27.839010 EDT | MaxEsReturn              2911.63
+2017-05-10 13:47:27.839351 EDT | MinEsReturn              2911.63
+2017-05-10 13:47:27.839696 EDT | AverageDiscountedReturn   351.867
+2017-05-10 13:47:27.840042 EDT | AverageQLoss               83.5712
+2017-05-10 13:47:27.840368 EDT | AveragePolicySurr        -229.717
+2017-05-10 13:47:27.840712 EDT | AverageQ                  227.415
+2017-05-10 13:47:27.841039 EDT | AverageAbsQ               227.415
+2017-05-10 13:47:27.841365 EDT | AverageY                  227.447
+2017-05-10 13:47:27.841707 EDT | AverageAbsY               227.447
+2017-05-10 13:47:27.842032 EDT | AverageAbsQYDiff            3.07733
+2017-05-10 13:47:27.842356 EDT | AverageAction               0.943478
+2017-05-10 13:47:27.842698 EDT | PolicyRegParamNorm         53.119
+2017-05-10 13:47:27.843024 EDT | QFunRegParamNorm           65.8886
+2017-05-10 13:47:27.843357 EDT | -----------------------  -----------
+2017-05-10 13:47:27.843842 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Training started
+2017-05-10 13:47:35.327416 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Populating workers...
+2017-05-10 13:47:35.327992 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Populated
+2017-05-10 13:49:18.417335 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Training finished
+2017-05-10 13:49:18.418414 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:49:18.418908 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #145 | Collecting samples for evaluation
+2017-05-10 13:49:34.165839 EDT | -----------------------  -----------
+2017-05-10 13:49:34.169530 EDT | Epoch                     145
+2017-05-10 13:49:34.170023 EDT | Iteration                 145
+2017-05-10 13:49:34.170497 EDT | AverageReturn            4087.86
+2017-05-10 13:49:34.170974 EDT | StdReturn                 927.103
+2017-05-10 13:49:34.171464 EDT | MaxReturn                4510.66
+2017-05-10 13:49:34.171931 EDT | MinReturn                1315.18
+2017-05-10 13:49:34.172400 EDT | AverageEsReturn          3118.26
+2017-05-10 13:49:34.172871 EDT | StdEsReturn                 0
+2017-05-10 13:49:34.173338 EDT | MaxEsReturn              3118.26
+2017-05-10 13:49:34.173806 EDT | MinEsReturn              3118.26
+2017-05-10 13:49:34.174273 EDT | AverageDiscountedReturn   352.849
+2017-05-10 13:49:34.174737 EDT | AverageQLoss              107.771
+2017-05-10 13:49:34.175205 EDT | AveragePolicySurr        -232.232
+2017-05-10 13:49:34.175681 EDT | AverageQ                  229.812
+2017-05-10 13:49:34.176146 EDT | AverageAbsQ               229.812
+2017-05-10 13:49:34.176614 EDT | AverageY                  229.841
+2017-05-10 13:49:34.177084 EDT | AverageAbsY               229.841
+2017-05-10 13:49:34.177549 EDT | AverageAbsQYDiff            3.2157
+2017-05-10 13:49:34.178012 EDT | AverageAction               0.948094
+2017-05-10 13:49:34.178477 EDT | PolicyRegParamNorm         53.2208
+2017-05-10 13:49:34.178940 EDT | QFunRegParamNorm           66.1347
+2017-05-10 13:49:34.179414 EDT | -----------------------  -----------
+2017-05-10 13:49:34.180053 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Training started
+2017-05-10 13:49:41.706351 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Populating workers...
+2017-05-10 13:49:41.706757 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Populated
+2017-05-10 13:51:24.678279 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Training finished
+2017-05-10 13:51:24.679206 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:51:24.679515 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #146 | Collecting samples for evaluation
+2017-05-10 13:51:40.709855 EDT | -----------------------  -----------
+2017-05-10 13:51:40.711003 EDT | Epoch                     146
+2017-05-10 13:51:40.711571 EDT | Iteration                 146
+2017-05-10 13:51:40.712113 EDT | AverageReturn            3309.33
+2017-05-10 13:51:40.712654 EDT | StdReturn                1152.91
+2017-05-10 13:51:40.713193 EDT | MaxReturn                4211.08
+2017-05-10 13:51:40.713739 EDT | MinReturn                 703.596
+2017-05-10 13:51:40.714277 EDT | AverageEsReturn          2854.09
+2017-05-10 13:51:40.714817 EDT | StdEsReturn                 0
+2017-05-10 13:51:40.715359 EDT | MaxEsReturn              2854.09
+2017-05-10 13:51:40.715898 EDT | MinEsReturn              2854.09
+2017-05-10 13:51:40.716438 EDT | AverageDiscountedReturn   336.885
+2017-05-10 13:51:40.716981 EDT | AverageQLoss              108.404
+2017-05-10 13:51:40.717515 EDT | AveragePolicySurr        -233.209
+2017-05-10 13:51:40.718049 EDT | AverageQ                  230.878
+2017-05-10 13:51:40.718583 EDT | AverageAbsQ               230.878
+2017-05-10 13:51:40.719117 EDT | AverageY                  230.91
+2017-05-10 13:51:40.719662 EDT | AverageAbsY               230.911
+2017-05-10 13:51:40.720196 EDT | AverageAbsQYDiff            3.25452
+2017-05-10 13:51:40.720732 EDT | AverageAction               0.946777
+2017-05-10 13:51:40.721265 EDT | PolicyRegParamNorm         53.4126
+2017-05-10 13:51:40.721809 EDT | QFunRegParamNorm           66.4158
+2017-05-10 13:51:40.722338 EDT | -----------------------  -----------
+2017-05-10 13:51:40.723041 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Training started
+2017-05-10 13:51:47.473372 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Populating workers...
+2017-05-10 13:51:47.474015 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Populated
+2017-05-10 13:53:32.931158 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Training finished
+2017-05-10 13:53:32.932281 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:53:32.932775 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #147 | Collecting samples for evaluation
+2017-05-10 13:53:48.265547 EDT | -----------------------  ----------
+2017-05-10 13:53:48.269399 EDT | Epoch                     147
+2017-05-10 13:53:48.269758 EDT | Iteration                 147
+2017-05-10 13:53:48.270108 EDT | AverageReturn            4228.59
+2017-05-10 13:53:48.270454 EDT | StdReturn                  57.8676
+2017-05-10 13:53:48.270799 EDT | MaxReturn                4338.17
+2017-05-10 13:53:48.271142 EDT | MinReturn                4128.19
+2017-05-10 13:53:48.271504 EDT | AverageEsReturn          2849.06
+2017-05-10 13:53:48.271846 EDT | StdEsReturn                 0
+2017-05-10 13:53:48.272188 EDT | MaxEsReturn              2849.06
+2017-05-10 13:53:48.272532 EDT | MinEsReturn              2849.06
+2017-05-10 13:53:48.272873 EDT | AverageDiscountedReturn   352.109
+2017-05-10 13:53:48.273216 EDT | AverageQLoss               93.4322
+2017-05-10 13:53:48.273559 EDT | AveragePolicySurr        -235.594
+2017-05-10 13:53:48.273901 EDT | AverageQ                  233.166
+2017-05-10 13:53:48.274243 EDT | AverageAbsQ               233.166
+2017-05-10 13:53:48.274585 EDT | AverageY                  233.166
+2017-05-10 13:53:48.274929 EDT | AverageAbsY               233.167
+2017-05-10 13:53:48.275270 EDT | AverageAbsQYDiff            3.00999
+2017-05-10 13:53:48.275623 EDT | AverageAction               0.95387
+2017-05-10 13:53:48.275965 EDT | PolicyRegParamNorm         53.5466
+2017-05-10 13:53:48.276307 EDT | QFunRegParamNorm           66.6785
+2017-05-10 13:53:48.276648 EDT | -----------------------  ----------
+2017-05-10 13:53:48.277150 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Training started
+2017-05-10 13:53:54.977742 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Populating workers...
+2017-05-10 13:53:54.978156 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Populated
+2017-05-10 13:55:44.830666 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Training finished
+2017-05-10 13:55:44.833169 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:55:44.833439 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #148 | Collecting samples for evaluation
+2017-05-10 13:55:59.771770 EDT | -----------------------  -----------
+2017-05-10 13:55:59.773090 EDT | Epoch                     148
+2017-05-10 13:55:59.773576 EDT | Iteration                 148
+2017-05-10 13:55:59.774050 EDT | AverageReturn            4372.97
+2017-05-10 13:55:59.774520 EDT | StdReturn                 166.189
+2017-05-10 13:55:59.774993 EDT | MaxReturn                4589.83
+2017-05-10 13:55:59.775482 EDT | MinReturn                4067.61
+2017-05-10 13:55:59.775952 EDT | AverageEsReturn          3175.36
+2017-05-10 13:55:59.776421 EDT | StdEsReturn                 0
+2017-05-10 13:55:59.776891 EDT | MaxEsReturn              3175.36
+2017-05-10 13:55:59.777362 EDT | MinEsReturn              3175.36
+2017-05-10 13:55:59.777829 EDT | AverageDiscountedReturn   360.169
+2017-05-10 13:55:59.778293 EDT | AverageQLoss               70.2117
+2017-05-10 13:55:59.778763 EDT | AveragePolicySurr        -237.467
+2017-05-10 13:55:59.779239 EDT | AverageQ                  234.99
+2017-05-10 13:55:59.779714 EDT | AverageAbsQ               234.99
+2017-05-10 13:55:59.780178 EDT | AverageY                  235.036
+2017-05-10 13:55:59.780646 EDT | AverageAbsY               235.037
+2017-05-10 13:55:59.781112 EDT | AverageAbsQYDiff            3.0029
+2017-05-10 13:55:59.781579 EDT | AverageAction               0.955505
+2017-05-10 13:55:59.782044 EDT | PolicyRegParamNorm         53.7199
+2017-05-10 13:55:59.782509 EDT | QFunRegParamNorm           66.8879
+2017-05-10 13:55:59.782974 EDT | -----------------------  -----------
+2017-05-10 13:55:59.783634 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Training started
+2017-05-10 13:56:09.348938 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Populating workers...
+2017-05-10 13:56:09.349345 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Populated
+2017-05-10 13:57:57.847425 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Training finished
+2017-05-10 13:57:57.848501 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 13:57:57.848973 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #149 | Collecting samples for evaluation
+2017-05-10 13:58:12.647946 EDT | -----------------------  -----------
+2017-05-10 13:58:12.649127 EDT | Epoch                     149
+2017-05-10 13:58:12.649691 EDT | Iteration                 149
+2017-05-10 13:58:12.650247 EDT | AverageReturn            4038.12
+2017-05-10 13:58:12.650804 EDT | StdReturn                 103.788
+2017-05-10 13:58:12.651372 EDT | MaxReturn                4226.34
+2017-05-10 13:58:12.651928 EDT | MinReturn                3874
+2017-05-10 13:58:12.652480 EDT | AverageEsReturn          2810.45
+2017-05-10 13:58:12.653026 EDT | StdEsReturn                 0
+2017-05-10 13:58:12.653573 EDT | MaxEsReturn              2810.45
+2017-05-10 13:58:12.654126 EDT | MinEsReturn              2810.45
+2017-05-10 13:58:12.654676 EDT | AverageDiscountedReturn   320.987
+2017-05-10 13:58:12.655226 EDT | AverageQLoss               90.1376
+2017-05-10 13:58:12.655790 EDT | AveragePolicySurr        -238.463
+2017-05-10 13:58:12.656338 EDT | AverageQ                  236.112
+2017-05-10 13:58:12.656886 EDT | AverageAbsQ               236.112
+2017-05-10 13:58:12.657433 EDT | AverageY                  236.136
+2017-05-10 13:58:12.657987 EDT | AverageAbsY               236.136
+2017-05-10 13:58:12.658536 EDT | AverageAbsQYDiff            3.05301
+2017-05-10 13:58:12.659083 EDT | AverageAction               0.950838
+2017-05-10 13:58:12.659639 EDT | PolicyRegParamNorm         53.873
+2017-05-10 13:58:12.660185 EDT | QFunRegParamNorm           67.1597
+2017-05-10 13:58:12.660735 EDT | -----------------------  -----------
+2017-05-10 13:58:12.661452 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Training started
+2017-05-10 13:58:19.373413 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Populating workers...
+2017-05-10 13:58:19.373829 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Populated
+2017-05-10 14:00:05.109924 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Training finished
+2017-05-10 14:00:05.110876 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:00:05.111153 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #150 | Collecting samples for evaluation
+2017-05-10 14:00:19.858056 EDT | -----------------------  -----------
+2017-05-10 14:00:19.861133 EDT | Epoch                     150
+2017-05-10 14:00:19.861639 EDT | Iteration                 150
+2017-05-10 14:00:19.862159 EDT | AverageReturn            3725.49
+2017-05-10 14:00:19.862670 EDT | StdReturn                 840.564
+2017-05-10 14:00:19.863175 EDT | MaxReturn                4426.02
+2017-05-10 14:00:19.863688 EDT | MinReturn                1803.74
+2017-05-10 14:00:19.864187 EDT | AverageEsReturn          2856.48
+2017-05-10 14:00:19.864686 EDT | StdEsReturn                 0
+2017-05-10 14:00:19.865187 EDT | MaxEsReturn              2856.48
+2017-05-10 14:00:19.865689 EDT | MinEsReturn              2856.48
+2017-05-10 14:00:19.866178 EDT | AverageDiscountedReturn   338.626
+2017-05-10 14:00:19.866664 EDT | AverageQLoss              103.048
+2017-05-10 14:00:19.867162 EDT | AveragePolicySurr        -239.91
+2017-05-10 14:00:19.867659 EDT | AverageQ                  237.621
+2017-05-10 14:00:19.868142 EDT | AverageAbsQ               237.621
+2017-05-10 14:00:19.868622 EDT | AverageY                  237.657
+2017-05-10 14:00:19.869100 EDT | AverageAbsY               237.657
+2017-05-10 14:00:19.869585 EDT | AverageAbsQYDiff            3.22612
+2017-05-10 14:00:19.870068 EDT | AverageAction               0.955574
+2017-05-10 14:00:19.870564 EDT | PolicyRegParamNorm         54.0218
+2017-05-10 14:00:19.871046 EDT | QFunRegParamNorm           67.4255
+2017-05-10 14:00:19.871552 EDT | -----------------------  -----------
+2017-05-10 14:00:19.872227 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Training started
+2017-05-10 14:00:27.641773 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Populating workers...
+2017-05-10 14:00:27.642435 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Populated
+2017-05-10 14:02:21.183873 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Training finished
+2017-05-10 14:02:21.184994 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:02:21.185517 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #151 | Collecting samples for evaluation
+2017-05-10 14:02:39.604276 EDT | -----------------------  -----------
+2017-05-10 14:02:39.605375 EDT | Epoch                     151
+2017-05-10 14:02:39.605887 EDT | Iteration                 151
+2017-05-10 14:02:39.606384 EDT | AverageReturn            3954.2
+2017-05-10 14:02:39.606880 EDT | StdReturn                 210.525
+2017-05-10 14:02:39.607391 EDT | MaxReturn                4370.93
+2017-05-10 14:02:39.607882 EDT | MinReturn                3652.44
+2017-05-10 14:02:39.608376 EDT | AverageEsReturn          2851.16
+2017-05-10 14:02:39.608871 EDT | StdEsReturn                 0
+2017-05-10 14:02:39.609360 EDT | MaxEsReturn              2851.16
+2017-05-10 14:02:39.609859 EDT | MinEsReturn              2851.16
+2017-05-10 14:02:39.610351 EDT | AverageDiscountedReturn   338.433
+2017-05-10 14:02:39.610846 EDT | AverageQLoss               88.38
+2017-05-10 14:02:39.611344 EDT | AveragePolicySurr        -241.775
+2017-05-10 14:02:39.611836 EDT | AverageQ                  239.439
+2017-05-10 14:02:39.612325 EDT | AverageAbsQ               239.439
+2017-05-10 14:02:39.612813 EDT | AverageY                  239.463
+2017-05-10 14:02:39.613299 EDT | AverageAbsY               239.463
+2017-05-10 14:02:39.613787 EDT | AverageAbsQYDiff            3.03048
+2017-05-10 14:02:39.614277 EDT | AverageAction               0.947124
+2017-05-10 14:02:39.614770 EDT | PolicyRegParamNorm         54.187
+2017-05-10 14:02:39.615260 EDT | QFunRegParamNorm           67.6472
+2017-05-10 14:02:39.615760 EDT | -----------------------  -----------
+2017-05-10 14:02:39.616426 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Training started
+2017-05-10 14:02:48.513253 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Populating workers...
+2017-05-10 14:02:48.514035 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Populated
+2017-05-10 14:04:50.986853 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Training finished
+2017-05-10 14:04:50.987668 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:04:50.987928 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #152 | Collecting samples for evaluation
+2017-05-10 14:05:08.696979 EDT | -----------------------  -----------
+2017-05-10 14:05:08.698162 EDT | Epoch                     152
+2017-05-10 14:05:08.698724 EDT | Iteration                 152
+2017-05-10 14:05:08.699273 EDT | AverageReturn            3716.06
+2017-05-10 14:05:08.699839 EDT | StdReturn                  86.2285
+2017-05-10 14:05:08.700386 EDT | MaxReturn                3844.7
+2017-05-10 14:05:08.700927 EDT | MinReturn                3577.98
+2017-05-10 14:05:08.701467 EDT | AverageEsReturn          2948.32
+2017-05-10 14:05:08.702008 EDT | StdEsReturn                 0
+2017-05-10 14:05:08.702547 EDT | MaxEsReturn              2948.32
+2017-05-10 14:05:08.703086 EDT | MinEsReturn              2948.32
+2017-05-10 14:05:08.703634 EDT | AverageDiscountedReturn   307.111
+2017-05-10 14:05:08.704174 EDT | AverageQLoss               77.6435
+2017-05-10 14:05:08.704715 EDT | AveragePolicySurr        -244.698
+2017-05-10 14:05:08.705255 EDT | AverageQ                  242.422
+2017-05-10 14:05:08.705796 EDT | AverageAbsQ               242.422
+2017-05-10 14:05:08.706336 EDT | AverageY                  242.438
+2017-05-10 14:05:08.706876 EDT | AverageAbsY               242.439
+2017-05-10 14:05:08.707422 EDT | AverageAbsQYDiff            2.9691
+2017-05-10 14:05:08.707962 EDT | AverageAction               0.936424
+2017-05-10 14:05:08.708501 EDT | PolicyRegParamNorm         54.3286
+2017-05-10 14:05:08.709039 EDT | QFunRegParamNorm           67.8901
+2017-05-10 14:05:08.709588 EDT | -----------------------  -----------
+2017-05-10 14:05:08.710301 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Training started
+2017-05-10 14:05:17.080511 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Populating workers...
+2017-05-10 14:05:17.080979 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Populated
+2017-05-10 14:07:26.503020 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Training finished
+2017-05-10 14:07:26.507910 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:07:26.508387 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #153 | Collecting samples for evaluation
+2017-05-10 14:07:42.916000 EDT | -----------------------  -----------
+2017-05-10 14:07:42.924472 EDT | Epoch                     153
+2017-05-10 14:07:42.925078 EDT | Iteration                 153
+2017-05-10 14:07:42.925583 EDT | AverageReturn            4009.39
+2017-05-10 14:07:42.926071 EDT | StdReturn                  58.6264
+2017-05-10 14:07:42.926559 EDT | MaxReturn                4104.65
+2017-05-10 14:07:42.927044 EDT | MinReturn                3904
+2017-05-10 14:07:42.927560 EDT | AverageEsReturn          2980.4
+2017-05-10 14:07:42.928041 EDT | StdEsReturn                 0
+2017-05-10 14:07:42.928525 EDT | MaxEsReturn              2980.4
+2017-05-10 14:07:42.929003 EDT | MinEsReturn              2980.4
+2017-05-10 14:07:42.929483 EDT | AverageDiscountedReturn   323.599
+2017-05-10 14:07:42.929963 EDT | AverageQLoss               86.9739
+2017-05-10 14:07:42.930445 EDT | AveragePolicySurr        -246.592
+2017-05-10 14:07:42.930924 EDT | AverageQ                  244.243
+2017-05-10 14:07:42.931409 EDT | AverageAbsQ               244.243
+2017-05-10 14:07:42.931894 EDT | AverageY                  244.267
+2017-05-10 14:07:42.932375 EDT | AverageAbsY               244.267
+2017-05-10 14:07:42.932856 EDT | AverageAbsQYDiff            3.03707
+2017-05-10 14:07:42.933336 EDT | AverageAction               0.946696
+2017-05-10 14:07:42.933814 EDT | PolicyRegParamNorm         54.5148
+2017-05-10 14:07:42.934294 EDT | QFunRegParamNorm           68.1222
+2017-05-10 14:07:42.934773 EDT | -----------------------  -----------
+2017-05-10 14:07:42.935485 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Training started
+2017-05-10 14:07:54.111608 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Populating workers...
+2017-05-10 14:07:54.112409 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Populated
+2017-05-10 14:10:08.928392 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Training finished
+2017-05-10 14:10:08.935450 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:10:08.935871 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #154 | Collecting samples for evaluation
+2017-05-10 14:10:29.179701 EDT | -----------------------  -----------
+2017-05-10 14:10:29.182449 EDT | Epoch                     154
+2017-05-10 14:10:29.182808 EDT | Iteration                 154
+2017-05-10 14:10:29.183156 EDT | AverageReturn            4358.32
+2017-05-10 14:10:29.183523 EDT | StdReturn                 110.445
+2017-05-10 14:10:29.186920 EDT | MaxReturn                4552.33
+2017-05-10 14:10:29.187324 EDT | MinReturn                4168.02
+2017-05-10 14:10:29.190689 EDT | AverageEsReturn          2886.53
+2017-05-10 14:10:29.191058 EDT | StdEsReturn                 0
+2017-05-10 14:10:29.191424 EDT | MaxEsReturn              2886.53
+2017-05-10 14:10:29.191781 EDT | MinEsReturn              2886.53
+2017-05-10 14:10:29.192851 EDT | AverageDiscountedReturn   342.835
+2017-05-10 14:10:29.194016 EDT | AverageQLoss               96.8138
+2017-05-10 14:10:29.195210 EDT | AveragePolicySurr        -248.306
+2017-05-10 14:10:29.196416 EDT | AverageQ                  246.085
+2017-05-10 14:10:29.197550 EDT | AverageAbsQ               246.085
+2017-05-10 14:10:29.198673 EDT | AverageY                  246.111
+2017-05-10 14:10:29.203402 EDT | AverageAbsY               246.112
+2017-05-10 14:10:29.203760 EDT | AverageAbsQYDiff            3.10737
+2017-05-10 14:10:29.204097 EDT | AverageAction               0.947735
+2017-05-10 14:10:29.204435 EDT | PolicyRegParamNorm         54.6612
+2017-05-10 14:10:29.204772 EDT | QFunRegParamNorm           68.3026
+2017-05-10 14:10:29.205108 EDT | -----------------------  -----------
+2017-05-10 14:10:29.205638 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Training started
+2017-05-10 14:10:40.262129 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Populating workers...
+2017-05-10 14:10:40.262912 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Populated
+2017-05-10 14:12:45.528147 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Training finished
+2017-05-10 14:12:45.529306 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:12:45.529810 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #155 | Collecting samples for evaluation
+2017-05-10 14:13:02.332440 EDT | -----------------------  -----------
+2017-05-10 14:13:02.335789 EDT | Epoch                     155
+2017-05-10 14:13:02.336231 EDT | Iteration                 155
+2017-05-10 14:13:02.336636 EDT | AverageReturn            2652.01
+2017-05-10 14:13:02.337040 EDT | StdReturn                1650.86
+2017-05-10 14:13:02.337454 EDT | MaxReturn                4097.96
+2017-05-10 14:13:02.337855 EDT | MinReturn                -190.975
+2017-05-10 14:13:02.338265 EDT | AverageEsReturn          3073.13
+2017-05-10 14:13:02.338662 EDT | StdEsReturn                 0
+2017-05-10 14:13:02.339059 EDT | MaxEsReturn              3073.13
+2017-05-10 14:13:02.339505 EDT | MinEsReturn              3073.13
+2017-05-10 14:13:02.339902 EDT | AverageDiscountedReturn   293.85
+2017-05-10 14:13:02.340322 EDT | AverageQLoss              129.434
+2017-05-10 14:13:02.340721 EDT | AveragePolicySurr        -251.287
+2017-05-10 14:13:02.341117 EDT | AverageQ                  248.91
+2017-05-10 14:13:02.341526 EDT | AverageAbsQ               248.91
+2017-05-10 14:13:02.341920 EDT | AverageY                  248.954
+2017-05-10 14:13:02.342315 EDT | AverageAbsY               248.954
+2017-05-10 14:13:02.342727 EDT | AverageAbsQYDiff            3.49892
+2017-05-10 14:13:02.343122 EDT | AverageAction               0.944343
+2017-05-10 14:13:02.343551 EDT | PolicyRegParamNorm         54.8443
+2017-05-10 14:13:02.343947 EDT | QFunRegParamNorm           68.5872
+2017-05-10 14:13:02.344340 EDT | -----------------------  -----------
+2017-05-10 14:13:02.344938 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Training started
+2017-05-10 14:13:10.472392 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Populating workers...
+2017-05-10 14:13:10.473057 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Populated
+2017-05-10 14:15:13.444785 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Training finished
+2017-05-10 14:15:13.445782 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:15:13.446165 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #156 | Collecting samples for evaluation
+2017-05-10 14:15:28.660733 EDT | -----------------------  -----------
+2017-05-10 14:15:28.661897 EDT | Epoch                     156
+2017-05-10 14:15:28.662363 EDT | Iteration                 156
+2017-05-10 14:15:28.662824 EDT | AverageReturn            3904.08
+2017-05-10 14:15:28.663123 EDT | StdReturn                 180.04
+2017-05-10 14:15:28.663377 EDT | MaxReturn                4094.6
+2017-05-10 14:15:28.663645 EDT | MinReturn                3457.3
+2017-05-10 14:15:28.663916 EDT | AverageEsReturn          2843.85
+2017-05-10 14:15:28.664139 EDT | StdEsReturn                 0
+2017-05-10 14:15:28.664360 EDT | MaxEsReturn              2843.85
+2017-05-10 14:15:28.664581 EDT | MinEsReturn              2843.85
+2017-05-10 14:15:28.664932 EDT | AverageDiscountedReturn   316.909
+2017-05-10 14:15:28.665154 EDT | AverageQLoss              111.588
+2017-05-10 14:15:28.665375 EDT | AveragePolicySurr        -252.611
+2017-05-10 14:15:28.665593 EDT | AverageQ                  250.241
+2017-05-10 14:15:28.665813 EDT | AverageAbsQ               250.241
+2017-05-10 14:15:28.666033 EDT | AverageY                  250.265
+2017-05-10 14:15:28.666252 EDT | AverageAbsY               250.265
+2017-05-10 14:15:28.666470 EDT | AverageAbsQYDiff            3.287
+2017-05-10 14:15:28.666744 EDT | AverageAction               0.952357
+2017-05-10 14:15:28.667063 EDT | PolicyRegParamNorm         54.9694
+2017-05-10 14:15:28.667444 EDT | QFunRegParamNorm           68.7936
+2017-05-10 14:15:28.667782 EDT | -----------------------  -----------
+2017-05-10 14:15:28.668358 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Training started
+2017-05-10 14:15:38.094926 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Populating workers...
+2017-05-10 14:15:38.095368 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Populated
+2017-05-10 14:17:38.266918 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Training finished
+2017-05-10 14:17:38.269427 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:17:38.269935 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #157 | Collecting samples for evaluation
+2017-05-10 14:17:55.459330 EDT | -----------------------  -----------
+2017-05-10 14:17:55.460367 EDT | Epoch                     157
+2017-05-10 14:17:55.460722 EDT | Iteration                 157
+2017-05-10 14:17:55.461083 EDT | AverageReturn            4028.95
+2017-05-10 14:17:55.461423 EDT | StdReturn                 138.945
+2017-05-10 14:17:55.461760 EDT | MaxReturn                4223.47
+2017-05-10 14:17:55.462117 EDT | MinReturn                3784.21
+2017-05-10 14:17:55.462450 EDT | AverageEsReturn          2943.43
+2017-05-10 14:17:55.462784 EDT | StdEsReturn                 0
+2017-05-10 14:17:55.463138 EDT | MaxEsReturn              2943.43
+2017-05-10 14:17:55.463489 EDT | MinEsReturn              2943.43
+2017-05-10 14:17:55.463824 EDT | AverageDiscountedReturn   314.171
+2017-05-10 14:17:55.464668 EDT | AverageQLoss               83.8799
+2017-05-10 14:17:55.465004 EDT | AveragePolicySurr        -253.659
+2017-05-10 14:17:55.465337 EDT | AverageQ                  251.306
+2017-05-10 14:17:55.466591 EDT | AverageAbsQ               251.306
+2017-05-10 14:17:55.466927 EDT | AverageY                  251.323
+2017-05-10 14:17:55.467262 EDT | AverageAbsY               251.323
+2017-05-10 14:17:55.468537 EDT | AverageAbsQYDiff            2.97788
+2017-05-10 14:17:55.468874 EDT | AverageAction               0.955356
+2017-05-10 14:17:55.469212 EDT | PolicyRegParamNorm         55.1299
+2017-05-10 14:17:55.470470 EDT | QFunRegParamNorm           68.9522
+2017-05-10 14:17:55.470808 EDT | -----------------------  -----------
+2017-05-10 14:17:55.472563 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Training started
+2017-05-10 14:18:05.466967 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Populating workers...
+2017-05-10 14:18:05.467497 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Populated
+2017-05-10 14:19:59.982578 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Training finished
+2017-05-10 14:19:59.983635 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:19:59.984094 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #158 | Collecting samples for evaluation
+2017-05-10 14:20:15.381682 EDT | -----------------------  -----------
+2017-05-10 14:20:15.382657 EDT | Epoch                     158
+2017-05-10 14:20:15.383036 EDT | Iteration                 158
+2017-05-10 14:20:15.383406 EDT | AverageReturn            4290.08
+2017-05-10 14:20:15.383756 EDT | StdReturn                  80.1472
+2017-05-10 14:20:15.384126 EDT | MaxReturn                4436.54
+2017-05-10 14:20:15.384470 EDT | MinReturn                4159.95
+2017-05-10 14:20:15.384812 EDT | AverageEsReturn          2995.82
+2017-05-10 14:20:15.385178 EDT | StdEsReturn                 0
+2017-05-10 14:20:15.385522 EDT | MaxEsReturn              2995.82
+2017-05-10 14:20:15.385861 EDT | MinEsReturn              2995.82
+2017-05-10 14:20:15.386226 EDT | AverageDiscountedReturn   349.166
+2017-05-10 14:20:15.386565 EDT | AverageQLoss               77.5532
+2017-05-10 14:20:15.386904 EDT | AveragePolicySurr        -256.131
+2017-05-10 14:20:15.387268 EDT | AverageQ                  253.714
+2017-05-10 14:20:15.387618 EDT | AverageAbsQ               253.714
+2017-05-10 14:20:15.387963 EDT | AverageY                  253.742
+2017-05-10 14:20:15.388326 EDT | AverageAbsY               253.742
+2017-05-10 14:20:15.388666 EDT | AverageAbsQYDiff            2.94268
+2017-05-10 14:20:15.389007 EDT | AverageAction               0.948741
+2017-05-10 14:20:15.389375 EDT | PolicyRegParamNorm         55.3109
+2017-05-10 14:20:15.389711 EDT | QFunRegParamNorm           69.1247
+2017-05-10 14:20:15.390050 EDT | -----------------------  -----------
+2017-05-10 14:20:15.390574 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Training started
+2017-05-10 14:20:23.669382 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Populating workers...
+2017-05-10 14:20:23.669828 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Populated
+2017-05-10 14:22:05.721293 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Training finished
+2017-05-10 14:22:05.722415 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:22:05.722918 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #159 | Collecting samples for evaluation
+2017-05-10 14:22:20.081611 EDT | -----------------------  -----------
+2017-05-10 14:22:20.082809 EDT | Epoch                     159
+2017-05-10 14:22:20.083283 EDT | Iteration                 159
+2017-05-10 14:22:20.083770 EDT | AverageReturn            4420.96
+2017-05-10 14:22:20.084239 EDT | StdReturn                 112.903
+2017-05-10 14:22:20.084705 EDT | MaxReturn                4526.78
+2017-05-10 14:22:20.085168 EDT | MinReturn                4139.64
+2017-05-10 14:22:20.085629 EDT | AverageEsReturn          2987.57
+2017-05-10 14:22:20.086090 EDT | StdEsReturn                 0
+2017-05-10 14:22:20.086553 EDT | MaxEsReturn              2987.57
+2017-05-10 14:22:20.087018 EDT | MinEsReturn              2987.57
+2017-05-10 14:22:20.087498 EDT | AverageDiscountedReturn   360.12
+2017-05-10 14:22:20.087964 EDT | AverageQLoss              115.783
+2017-05-10 14:22:20.088429 EDT | AveragePolicySurr        -258.242
+2017-05-10 14:22:20.088891 EDT | AverageQ                  255.887
+2017-05-10 14:22:20.089353 EDT | AverageAbsQ               255.887
+2017-05-10 14:22:20.089818 EDT | AverageY                  255.913
+2017-05-10 14:22:20.090278 EDT | AverageAbsY               255.913
+2017-05-10 14:22:20.090739 EDT | AverageAbsQYDiff            3.26004
+2017-05-10 14:22:20.091199 EDT | AverageAction               0.938784
+2017-05-10 14:22:20.091674 EDT | PolicyRegParamNorm         55.4421
+2017-05-10 14:22:20.092132 EDT | QFunRegParamNorm           69.3149
+2017-05-10 14:22:20.092592 EDT | -----------------------  -----------
+2017-05-10 14:22:20.093280 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Training started
+2017-05-10 14:22:27.868149 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Populating workers...
+2017-05-10 14:22:27.868807 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Populated
+2017-05-10 14:24:01.641321 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Training finished
+2017-05-10 14:24:01.642110 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:24:01.642357 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #160 | Collecting samples for evaluation
+2017-05-10 14:24:12.874651 EDT | -----------------------  -----------
+2017-05-10 14:24:12.875440 EDT | Epoch                     160
+2017-05-10 14:24:12.875830 EDT | Iteration                 160
+2017-05-10 14:24:12.876215 EDT | AverageReturn            4573.79
+2017-05-10 14:24:12.876646 EDT | StdReturn                 283.579
+2017-05-10 14:24:12.877082 EDT | MaxReturn                5007.69
+2017-05-10 14:24:12.877515 EDT | MinReturn                4063.46
+2017-05-10 14:24:12.877942 EDT | AverageEsReturn          3085.93
+2017-05-10 14:24:12.878366 EDT | StdEsReturn                 0
+2017-05-10 14:24:12.878796 EDT | MaxEsReturn              3085.93
+2017-05-10 14:24:12.879220 EDT | MinEsReturn              3085.93
+2017-05-10 14:24:12.879667 EDT | AverageDiscountedReturn   378.688
+2017-05-10 14:24:12.880090 EDT | AverageQLoss               64.1014
+2017-05-10 14:24:12.880513 EDT | AveragePolicySurr        -258.096
+2017-05-10 14:24:12.880938 EDT | AverageQ                  255.858
+2017-05-10 14:24:12.881362 EDT | AverageAbsQ               255.858
+2017-05-10 14:24:12.881784 EDT | AverageY                  255.872
+2017-05-10 14:24:12.882210 EDT | AverageAbsY               255.872
+2017-05-10 14:24:12.882634 EDT | AverageAbsQYDiff            2.80452
+2017-05-10 14:24:12.883059 EDT | AverageAction               0.959093
+2017-05-10 14:24:12.883491 EDT | PolicyRegParamNorm         55.6376
+2017-05-10 14:24:12.883918 EDT | QFunRegParamNorm           69.4995
+2017-05-10 14:24:12.884340 EDT | -----------------------  -----------
+2017-05-10 14:24:12.884942 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Training started
+2017-05-10 14:24:19.939643 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Populating workers...
+2017-05-10 14:24:19.940082 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Populated
+2017-05-10 14:25:48.425456 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Training finished
+2017-05-10 14:25:48.426243 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:25:48.426492 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #161 | Collecting samples for evaluation
+2017-05-10 14:25:58.824977 EDT | -----------------------  -----------
+2017-05-10 14:25:58.825762 EDT | Epoch                     161
+2017-05-10 14:25:58.825996 EDT | Iteration                 161
+2017-05-10 14:25:58.826237 EDT | AverageReturn            3687.27
+2017-05-10 14:25:58.826459 EDT | StdReturn                1075.12
+2017-05-10 14:25:58.826681 EDT | MaxReturn                4311.72
+2017-05-10 14:25:58.826902 EDT | MinReturn                 497.603
+2017-05-10 14:25:58.827131 EDT | AverageEsReturn          2617.35
+2017-05-10 14:25:58.827379 EDT | StdEsReturn                 0
+2017-05-10 14:25:58.827602 EDT | MaxEsReturn              2617.35
+2017-05-10 14:25:58.827823 EDT | MinEsReturn              2617.35
+2017-05-10 14:25:58.828075 EDT | AverageDiscountedReturn   336.122
+2017-05-10 14:25:58.828312 EDT | AverageQLoss               91.2525
+2017-05-10 14:25:58.828533 EDT | AveragePolicySurr        -260.604
+2017-05-10 14:25:58.828753 EDT | AverageQ                  258.461
+2017-05-10 14:25:58.828971 EDT | AverageAbsQ               258.462
+2017-05-10 14:25:58.829197 EDT | AverageY                  258.494
+2017-05-10 14:25:58.829498 EDT | AverageAbsY               258.494
+2017-05-10 14:25:58.829718 EDT | AverageAbsQYDiff            3.18845
+2017-05-10 14:25:58.829937 EDT | AverageAction               0.948816
+2017-05-10 14:25:58.830157 EDT | PolicyRegParamNorm         55.784
+2017-05-10 14:25:58.830391 EDT | QFunRegParamNorm           69.8314
+2017-05-10 14:25:58.830610 EDT | -----------------------  -----------
+2017-05-10 14:25:58.830940 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Training started
+2017-05-10 14:26:06.271443 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Populating workers...
+2017-05-10 14:26:06.272038 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Populated
+2017-05-10 14:27:42.837984 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Training finished
+2017-05-10 14:27:42.843195 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:27:42.843489 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #162 | Collecting samples for evaluation
+2017-05-10 14:27:53.763453 EDT | -----------------------  ----------
+2017-05-10 14:27:53.764555 EDT | Epoch                     162
+2017-05-10 14:27:53.765077 EDT | Iteration                 162
+2017-05-10 14:27:53.765575 EDT | AverageReturn            4107.72
+2017-05-10 14:27:53.766072 EDT | StdReturn                 136.898
+2017-05-10 14:27:53.766568 EDT | MaxReturn                4276.13
+2017-05-10 14:27:53.767060 EDT | MinReturn                3877.41
+2017-05-10 14:27:53.767572 EDT | AverageEsReturn          3066.08
+2017-05-10 14:27:53.768071 EDT | StdEsReturn                 0
+2017-05-10 14:27:53.768564 EDT | MaxEsReturn              3066.08
+2017-05-10 14:27:53.769057 EDT | MinEsReturn              3066.08
+2017-05-10 14:27:53.769553 EDT | AverageDiscountedReturn   315.772
+2017-05-10 14:27:53.770056 EDT | AverageQLoss              128.201
+2017-05-10 14:27:53.770551 EDT | AveragePolicySurr        -261.582
+2017-05-10 14:27:53.771051 EDT | AverageQ                  259.26
+2017-05-10 14:27:53.771554 EDT | AverageAbsQ               259.26
+2017-05-10 14:27:53.772042 EDT | AverageY                  259.289
+2017-05-10 14:27:53.772528 EDT | AverageAbsY               259.289
+2017-05-10 14:27:53.773019 EDT | AverageAbsQYDiff            3.41441
+2017-05-10 14:27:53.773509 EDT | AverageAction               0.94911
+2017-05-10 14:27:53.773997 EDT | PolicyRegParamNorm         55.9544
+2017-05-10 14:27:53.774483 EDT | QFunRegParamNorm           70.028
+2017-05-10 14:27:53.774970 EDT | -----------------------  ----------
+2017-05-10 14:27:53.775653 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Training started
+2017-05-10 14:28:01.317424 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Populating workers...
+2017-05-10 14:28:01.317881 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Populated
+2017-05-10 14:29:37.631134 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Training finished
+2017-05-10 14:29:37.632702 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:29:37.633211 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #163 | Collecting samples for evaluation
+2017-05-10 14:29:51.430218 EDT | -----------------------  ----------
+2017-05-10 14:29:51.431024 EDT | Epoch                     163
+2017-05-10 14:29:51.431279 EDT | Iteration                 163
+2017-05-10 14:29:51.431567 EDT | AverageReturn            4277.25
+2017-05-10 14:29:51.431823 EDT | StdReturn                 166.776
+2017-05-10 14:29:51.432076 EDT | MaxReturn                4484.69
+2017-05-10 14:29:51.432331 EDT | MinReturn                3917.35
+2017-05-10 14:29:51.432583 EDT | AverageEsReturn          2739.97
+2017-05-10 14:29:51.432834 EDT | StdEsReturn                 0
+2017-05-10 14:29:51.433083 EDT | MaxEsReturn              2739.97
+2017-05-10 14:29:51.433325 EDT | MinEsReturn              2739.97
+2017-05-10 14:29:51.433566 EDT | AverageDiscountedReturn   335.68
+2017-05-10 14:29:51.433808 EDT | AverageQLoss              113.561
+2017-05-10 14:29:51.434050 EDT | AveragePolicySurr        -262.503
+2017-05-10 14:29:51.434290 EDT | AverageQ                  260.194
+2017-05-10 14:29:51.434531 EDT | AverageAbsQ               260.194
+2017-05-10 14:29:51.434772 EDT | AverageY                  260.219
+2017-05-10 14:29:51.435013 EDT | AverageAbsY               260.219
+2017-05-10 14:29:51.435257 EDT | AverageAbsQYDiff            3.15575
+2017-05-10 14:29:51.435516 EDT | AverageAction               0.96286
+2017-05-10 14:29:51.435758 EDT | PolicyRegParamNorm         56.0746
+2017-05-10 14:29:51.436000 EDT | QFunRegParamNorm           70.2077
+2017-05-10 14:29:51.436245 EDT | -----------------------  ----------
+2017-05-10 14:29:51.436605 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Training started
+2017-05-10 14:29:58.504247 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Populating workers...
+2017-05-10 14:29:58.504694 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Populated
+2017-05-10 14:31:29.507796 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Training finished
+2017-05-10 14:31:29.508609 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:31:29.508856 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #164 | Collecting samples for evaluation
+2017-05-10 14:31:42.395808 EDT | -----------------------  -----------
+2017-05-10 14:31:42.396969 EDT | Epoch                     164
+2017-05-10 14:31:42.397227 EDT | Iteration                 164
+2017-05-10 14:31:42.397500 EDT | AverageReturn            4171.99
+2017-05-10 14:31:42.397767 EDT | StdReturn                 214.588
+2017-05-10 14:31:42.398018 EDT | MaxReturn                4422.65
+2017-05-10 14:31:42.398267 EDT | MinReturn                3581.85
+2017-05-10 14:31:42.398525 EDT | AverageEsReturn          2907.27
+2017-05-10 14:31:42.398783 EDT | StdEsReturn                 0
+2017-05-10 14:31:42.399027 EDT | MaxEsReturn              2907.27
+2017-05-10 14:31:42.399271 EDT | MinEsReturn              2907.27
+2017-05-10 14:31:42.399548 EDT | AverageDiscountedReturn   331.081
+2017-05-10 14:31:42.399810 EDT | AverageQLoss              110.099
+2017-05-10 14:31:42.400053 EDT | AveragePolicySurr        -265.73
+2017-05-10 14:31:42.400298 EDT | AverageQ                  263.357
+2017-05-10 14:31:42.400542 EDT | AverageAbsQ               263.357
+2017-05-10 14:31:42.400804 EDT | AverageY                  263.368
+2017-05-10 14:31:42.401048 EDT | AverageAbsY               263.368
+2017-05-10 14:31:42.401291 EDT | AverageAbsQYDiff            3.19678
+2017-05-10 14:31:42.401533 EDT | AverageAction               0.951987
+2017-05-10 14:31:42.401789 EDT | PolicyRegParamNorm         56.3215
+2017-05-10 14:31:42.402037 EDT | QFunRegParamNorm           70.4173
+2017-05-10 14:31:42.402280 EDT | -----------------------  -----------
+2017-05-10 14:31:42.402644 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Training started
+2017-05-10 14:31:50.207214 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Populating workers...
+2017-05-10 14:31:50.207619 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Populated
+2017-05-10 14:33:34.369431 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Training finished
+2017-05-10 14:33:34.372239 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:33:34.372501 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #165 | Collecting samples for evaluation
+2017-05-10 14:33:48.790082 EDT | -----------------------  -----------
+2017-05-10 14:33:48.792801 EDT | Epoch                     165
+2017-05-10 14:33:48.793281 EDT | Iteration                 165
+2017-05-10 14:33:48.793766 EDT | AverageReturn            3904.39
+2017-05-10 14:33:48.794253 EDT | StdReturn                 159.464
+2017-05-10 14:33:48.794739 EDT | MaxReturn                4100.45
+2017-05-10 14:33:48.795220 EDT | MinReturn                3626.54
+2017-05-10 14:33:48.795720 EDT | AverageEsReturn          2830.6
+2017-05-10 14:33:48.796199 EDT | StdEsReturn                 0
+2017-05-10 14:33:48.796658 EDT | MaxEsReturn              2830.6
+2017-05-10 14:33:48.797157 EDT | MinEsReturn              2830.6
+2017-05-10 14:33:48.797617 EDT | AverageDiscountedReturn   326.529
+2017-05-10 14:33:48.798112 EDT | AverageQLoss              116.932
+2017-05-10 14:33:48.798577 EDT | AveragePolicySurr        -267.452
+2017-05-10 14:33:48.799058 EDT | AverageQ                  265.026
+2017-05-10 14:33:48.799544 EDT | AverageAbsQ               265.027
+2017-05-10 14:33:48.800021 EDT | AverageY                  265.073
+2017-05-10 14:33:48.800501 EDT | AverageAbsY               265.074
+2017-05-10 14:33:48.800957 EDT | AverageAbsQYDiff            3.1715
+2017-05-10 14:33:48.801450 EDT | AverageAction               0.952529
+2017-05-10 14:33:48.801909 EDT | PolicyRegParamNorm         56.4526
+2017-05-10 14:33:48.802400 EDT | QFunRegParamNorm           70.6118
+2017-05-10 14:33:48.802865 EDT | -----------------------  -----------
+2017-05-10 14:33:48.803534 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Training started
+2017-05-10 14:33:56.773781 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Populating workers...
+2017-05-10 14:33:56.774243 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Populated
+2017-05-10 14:35:42.569102 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Training finished
+2017-05-10 14:35:42.569901 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:35:42.570153 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #166 | Collecting samples for evaluation
+2017-05-10 14:35:58.100668 EDT | -----------------------  -----------
+2017-05-10 14:35:58.101558 EDT | Epoch                     166
+2017-05-10 14:35:58.101909 EDT | Iteration                 166
+2017-05-10 14:35:58.102243 EDT | AverageReturn            3579.95
+2017-05-10 14:35:58.102574 EDT | StdReturn                  79.7518
+2017-05-10 14:35:58.102902 EDT | MaxReturn                3660.99
+2017-05-10 14:35:58.103230 EDT | MinReturn                3371.01
+2017-05-10 14:35:58.103568 EDT | AverageEsReturn          2913.41
+2017-05-10 14:35:58.103895 EDT | StdEsReturn                 0
+2017-05-10 14:35:58.104222 EDT | MaxEsReturn              2913.41
+2017-05-10 14:35:58.104548 EDT | MinEsReturn              2913.41
+2017-05-10 14:35:58.104874 EDT | AverageDiscountedReturn   284.353
+2017-05-10 14:35:58.105200 EDT | AverageQLoss              115.953
+2017-05-10 14:35:58.105525 EDT | AveragePolicySurr        -268.283
+2017-05-10 14:35:58.105850 EDT | AverageQ                  265.952
+2017-05-10 14:35:58.106177 EDT | AverageAbsQ               265.952
+2017-05-10 14:35:58.106502 EDT | AverageY                  265.964
+2017-05-10 14:35:58.106828 EDT | AverageAbsY               265.964
+2017-05-10 14:35:58.107152 EDT | AverageAbsQYDiff            3.21452
+2017-05-10 14:35:58.111535 EDT | AverageAction               0.948555
+2017-05-10 14:35:58.111868 EDT | PolicyRegParamNorm         56.5864
+2017-05-10 14:35:58.112196 EDT | QFunRegParamNorm           70.8607
+2017-05-10 14:35:58.112523 EDT | -----------------------  -----------
+2017-05-10 14:35:58.112995 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Training started
+2017-05-10 14:36:05.641028 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Populating workers...
+2017-05-10 14:36:05.641427 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Populated
+2017-05-10 14:37:55.036682 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Training finished
+2017-05-10 14:37:55.037787 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:37:55.038297 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #167 | Collecting samples for evaluation
+2017-05-10 14:38:10.212939 EDT | -----------------------  -----------
+2017-05-10 14:38:10.214040 EDT | Epoch                     167
+2017-05-10 14:38:10.214531 EDT | Iteration                 167
+2017-05-10 14:38:10.215000 EDT | AverageReturn            4242.32
+2017-05-10 14:38:10.215512 EDT | StdReturn                 336.061
+2017-05-10 14:38:10.215997 EDT | MaxReturn                4653.1
+2017-05-10 14:38:10.216482 EDT | MinReturn                3687.52
+2017-05-10 14:38:10.216969 EDT | AverageEsReturn          2788.12
+2017-05-10 14:38:10.217446 EDT | StdEsReturn                 0
+2017-05-10 14:38:10.217925 EDT | MaxEsReturn              2788.12
+2017-05-10 14:38:10.218402 EDT | MinEsReturn              2788.12
+2017-05-10 14:38:10.218882 EDT | AverageDiscountedReturn   337.734
+2017-05-10 14:38:10.219370 EDT | AverageQLoss              105.784
+2017-05-10 14:38:10.219847 EDT | AveragePolicySurr        -271.062
+2017-05-10 14:38:10.220307 EDT | AverageQ                  268.789
+2017-05-10 14:38:10.220795 EDT | AverageAbsQ               268.789
+2017-05-10 14:38:10.221274 EDT | AverageY                  268.806
+2017-05-10 14:38:10.221757 EDT | AverageAbsY               268.806
+2017-05-10 14:38:10.222237 EDT | AverageAbsQYDiff            3.17603
+2017-05-10 14:38:10.222803 EDT | AverageAction               0.947478
+2017-05-10 14:38:10.223285 EDT | PolicyRegParamNorm         56.8099
+2017-05-10 14:38:10.223586 EDT | QFunRegParamNorm           71.0355
+2017-05-10 14:38:10.223828 EDT | -----------------------  -----------
+2017-05-10 14:38:10.224172 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Training started
+2017-05-10 14:38:18.006517 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Populating workers...
+2017-05-10 14:38:18.007256 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Populated
+2017-05-10 14:40:08.416885 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Training finished
+2017-05-10 14:40:08.417981 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:40:08.418477 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #168 | Collecting samples for evaluation
+2017-05-10 14:40:22.830701 EDT | -----------------------  -----------
+2017-05-10 14:40:22.831499 EDT | Epoch                     168
+2017-05-10 14:40:22.831736 EDT | Iteration                 168
+2017-05-10 14:40:22.831961 EDT | AverageReturn            3866.95
+2017-05-10 14:40:22.832217 EDT | StdReturn                 199.08
+2017-05-10 14:40:22.832440 EDT | MaxReturn                4156.64
+2017-05-10 14:40:22.832661 EDT | MinReturn                3598.81
+2017-05-10 14:40:22.832880 EDT | AverageEsReturn          2968.5
+2017-05-10 14:40:22.833100 EDT | StdEsReturn                 0
+2017-05-10 14:40:22.833355 EDT | MaxEsReturn              2968.5
+2017-05-10 14:40:22.833574 EDT | MinEsReturn              2968.5
+2017-05-10 14:40:22.833793 EDT | AverageDiscountedReturn   328.074
+2017-05-10 14:40:22.834012 EDT | AverageQLoss               90.6011
+2017-05-10 14:40:22.834250 EDT | AveragePolicySurr        -272.638
+2017-05-10 14:40:22.834484 EDT | AverageQ                  270.316
+2017-05-10 14:40:22.834703 EDT | AverageAbsQ               270.316
+2017-05-10 14:40:22.834923 EDT | AverageY                  270.343
+2017-05-10 14:40:22.835141 EDT | AverageAbsY               270.343
+2017-05-10 14:40:22.835418 EDT | AverageAbsQYDiff            3.03475
+2017-05-10 14:40:22.835639 EDT | AverageAction               0.962139
+2017-05-10 14:40:22.835859 EDT | PolicyRegParamNorm         56.9154
+2017-05-10 14:40:22.836078 EDT | QFunRegParamNorm           71.2318
+2017-05-10 14:40:22.836302 EDT | -----------------------  -----------
+2017-05-10 14:40:22.836654 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Training started
+2017-05-10 14:40:31.853840 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Populating workers...
+2017-05-10 14:40:31.854613 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Populated
+2017-05-10 14:42:27.684418 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Training finished
+2017-05-10 14:42:27.685404 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Trained qf 1000 steps, policy 1000 steps
+2017-05-10 14:42:27.685888 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #169 | Collecting samples for evaluation
+2017-05-10 14:42:45.230112 EDT | -----------------------  -----------
+2017-05-10 14:42:45.231164 EDT | Epoch                     169
+2017-05-10 14:42:45.231745 EDT | Iteration                 169
+2017-05-10 14:42:45.232297 EDT | AverageReturn            4034.92
+2017-05-10 14:42:45.232846 EDT | StdReturn                 149.938
+2017-05-10 14:42:45.233391 EDT | MaxReturn                4296.61
+2017-05-10 14:42:45.233931 EDT | MinReturn                3681.81
+2017-05-10 14:42:45.234467 EDT | AverageEsReturn          2857.64
+2017-05-10 14:42:45.235016 EDT | StdEsReturn                 0
+2017-05-10 14:42:45.235566 EDT | MaxEsReturn              2857.64
+2017-05-10 14:42:45.236105 EDT | MinEsReturn              2857.64
+2017-05-10 14:42:45.236649 EDT | AverageDiscountedReturn   324.615
+2017-05-10 14:42:45.237120 EDT | AverageQLoss              123.961
+2017-05-10 14:42:45.237584 EDT | AveragePolicySurr        -273.345
+2017-05-10 14:42:45.238045 EDT | AverageQ                  271.037
+2017-05-10 14:42:45.238507 EDT | AverageAbsQ               271.037
+2017-05-10 14:42:45.238970 EDT | AverageY                  271.061
+2017-05-10 14:42:45.239441 EDT | AverageAbsY               271.061
+2017-05-10 14:42:45.239903 EDT | AverageAbsQYDiff            3.26865
+2017-05-10 14:42:45.240363 EDT | AverageAction               0.952064
+2017-05-10 14:42:45.240824 EDT | PolicyRegParamNorm         57.1026
+2017-05-10 14:42:45.241284 EDT | QFunRegParamNorm           71.4492
+2017-05-10 14:42:45.241743 EDT | -----------------------  -----------
+2017-05-10 14:42:45.242377 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #170 | Training started
+2017-05-10 14:42:54.545241 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #170 | Populating workers...
+2017-05-10 14:42:54.546299 EDT | [Tensorflow_RLLAB_Results/PolyRL/HalfCheetah_Lab_Run/] epoch #170 | Populated
