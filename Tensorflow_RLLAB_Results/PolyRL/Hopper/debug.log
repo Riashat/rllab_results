@@ -34058,3 +34058,728 @@
 2017-05-11 08:56:41.931402 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Training started
 2017-05-11 08:57:20.430080 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Populating workers...
 2017-05-11 08:57:20.430748 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Populated
+2017-05-11 09:02:32.955308 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Training finished
+2017-05-11 09:02:32.956112 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:02:32.956399 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #763 | Collecting samples for evaluation
+2017-05-11 09:02:50.660500 EDT | -----------------------  -----------
+2017-05-11 09:02:50.661060 EDT | Epoch                     763
+2017-05-11 09:02:50.661371 EDT | Iteration                 763
+2017-05-11 09:02:50.661670 EDT | AverageReturn            1496.18
+2017-05-11 09:02:50.661974 EDT | StdReturn                 507.38
+2017-05-11 09:02:50.662322 EDT | MaxReturn                2648.21
+2017-05-11 09:02:50.662660 EDT | MinReturn                 667.834
+2017-05-11 09:02:50.663059 EDT | AverageEsReturn           142.248
+2017-05-11 09:02:50.663434 EDT | StdEsReturn               206.251
+2017-05-11 09:02:50.663735 EDT | MaxEsReturn               674.02
+2017-05-11 09:02:50.664032 EDT | MinEsReturn                 7.50788
+2017-05-11 09:02:50.664349 EDT | AverageDiscountedReturn   184.177
+2017-05-11 09:02:50.664643 EDT | AverageQLoss              320.59
+2017-05-11 09:02:50.664968 EDT | AveragePolicySurr        -358.145
+2017-05-11 09:02:50.665304 EDT | AverageQ                  352.807
+2017-05-11 09:02:50.665646 EDT | AverageAbsQ               353.182
+2017-05-11 09:02:50.665978 EDT | AverageY                  352.834
+2017-05-11 09:02:50.666332 EDT | AverageAbsY               352.918
+2017-05-11 09:02:50.666639 EDT | AverageAbsQYDiff            6.76039
+2017-05-11 09:02:50.666938 EDT | AverageAction               0.885195
+2017-05-11 09:02:50.667236 EDT | PolicyRegParamNorm         91.5251
+2017-05-11 09:02:50.667606 EDT | QFunRegParamNorm          190.429
+2017-05-11 09:02:50.667922 EDT | -----------------------  -----------
+2017-05-11 09:02:50.668367 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Training started
+2017-05-11 09:03:28.622332 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Populating workers...
+2017-05-11 09:03:28.624712 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Populated
+2017-05-11 09:08:36.850146 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Training finished
+2017-05-11 09:08:36.850910 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:08:36.851256 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #764 | Collecting samples for evaluation
+2017-05-11 09:08:54.144666 EDT | -----------------------  ----------
+2017-05-11 09:08:54.145360 EDT | Epoch                     764
+2017-05-11 09:08:54.145575 EDT | Iteration                 764
+2017-05-11 09:08:54.145778 EDT | AverageReturn            1447.24
+2017-05-11 09:08:54.145972 EDT | StdReturn                 623.1
+2017-05-11 09:08:54.146179 EDT | MaxReturn                2342.33
+2017-05-11 09:08:54.146376 EDT | MinReturn                 321.591
+2017-05-11 09:08:54.146568 EDT | AverageEsReturn           110.23
+2017-05-11 09:08:54.146775 EDT | StdEsReturn               148.77
+2017-05-11 09:08:54.146967 EDT | MaxEsReturn               462.049
+2017-05-11 09:08:54.147159 EDT | MinEsReturn                 5.67063
+2017-05-11 09:08:54.147369 EDT | AverageDiscountedReturn   165.776
+2017-05-11 09:08:54.147566 EDT | AverageQLoss              300.369
+2017-05-11 09:08:54.147757 EDT | AveragePolicySurr        -359.202
+2017-05-11 09:08:54.147947 EDT | AverageQ                  354.079
+2017-05-11 09:08:54.148136 EDT | AverageAbsQ               354.349
+2017-05-11 09:08:54.148342 EDT | AverageY                  354.107
+2017-05-11 09:08:54.148562 EDT | AverageAbsY               354.217
+2017-05-11 09:08:54.148758 EDT | AverageAbsQYDiff            6.48839
+2017-05-11 09:08:54.148982 EDT | AverageAction               0.81977
+2017-05-11 09:08:54.149182 EDT | PolicyRegParamNorm         91.57
+2017-05-11 09:08:54.149394 EDT | QFunRegParamNorm          190.536
+2017-05-11 09:08:54.149593 EDT | -----------------------  ----------
+2017-05-11 09:08:54.149904 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Training started
+2017-05-11 09:09:34.350206 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Populating workers...
+2017-05-11 09:09:34.353365 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Populated
+2017-05-11 09:14:56.440670 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Training finished
+2017-05-11 09:14:56.441547 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:14:56.441823 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #765 | Collecting samples for evaluation
+2017-05-11 09:15:15.731084 EDT | -----------------------  -----------
+2017-05-11 09:15:15.732142 EDT | Epoch                     765
+2017-05-11 09:15:15.732531 EDT | Iteration                 765
+2017-05-11 09:15:15.732985 EDT | AverageReturn            1064.85
+2017-05-11 09:15:15.733423 EDT | StdReturn                 689.105
+2017-05-11 09:15:15.733887 EDT | MaxReturn                2759.77
+2017-05-11 09:15:15.734450 EDT | MinReturn                 333.463
+2017-05-11 09:15:15.734941 EDT | AverageEsReturn           121.135
+2017-05-11 09:15:15.735476 EDT | StdEsReturn               164.546
+2017-05-11 09:15:15.736036 EDT | MaxEsReturn               589.499
+2017-05-11 09:15:15.736547 EDT | MinEsReturn                 5.52181
+2017-05-11 09:15:15.737074 EDT | AverageDiscountedReturn   170.219
+2017-05-11 09:15:15.737637 EDT | AverageQLoss              287.25
+2017-05-11 09:15:15.738119 EDT | AveragePolicySurr        -358.922
+2017-05-11 09:15:15.738625 EDT | AverageQ                  353.985
+2017-05-11 09:15:15.739007 EDT | AverageAbsQ               354.287
+2017-05-11 09:15:15.739420 EDT | AverageY                  353.984
+2017-05-11 09:15:15.739785 EDT | AverageAbsY               354.057
+2017-05-11 09:15:15.740305 EDT | AverageAbsQYDiff            6.47059
+2017-05-11 09:15:15.740695 EDT | AverageAction               0.861568
+2017-05-11 09:15:15.741061 EDT | PolicyRegParamNorm         91.6092
+2017-05-11 09:15:15.741433 EDT | QFunRegParamNorm          190.65
+2017-05-11 09:15:15.741789 EDT | -----------------------  -----------
+2017-05-11 09:15:15.742317 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Training started
+2017-05-11 09:15:55.777413 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Populating workers...
+2017-05-11 09:15:55.778356 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Populated
+2017-05-11 09:21:12.847441 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Training finished
+2017-05-11 09:21:12.848191 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:21:12.848426 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #766 | Collecting samples for evaluation
+2017-05-11 09:21:30.002287 EDT | -----------------------  -----------
+2017-05-11 09:21:30.003409 EDT | Epoch                     766
+2017-05-11 09:21:30.003880 EDT | Iteration                 766
+2017-05-11 09:21:30.004284 EDT | AverageReturn            1507.39
+2017-05-11 09:21:30.004657 EDT | StdReturn                 449.419
+2017-05-11 09:21:30.005056 EDT | MaxReturn                2647.6
+2017-05-11 09:21:30.005518 EDT | MinReturn                 782.628
+2017-05-11 09:21:30.005885 EDT | AverageEsReturn           118.657
+2017-05-11 09:21:30.006243 EDT | StdEsReturn               217.26
+2017-05-11 09:21:30.006617 EDT | MaxEsReturn               858.486
+2017-05-11 09:21:30.006987 EDT | MinEsReturn                 6.30196
+2017-05-11 09:21:30.007454 EDT | AverageDiscountedReturn   178.607
+2017-05-11 09:21:30.007808 EDT | AverageQLoss              312.289
+2017-05-11 09:21:30.008154 EDT | AveragePolicySurr        -358.638
+2017-05-11 09:21:30.008492 EDT | AverageQ                  353.692
+2017-05-11 09:21:30.008857 EDT | AverageAbsQ               354.032
+2017-05-11 09:21:30.009265 EDT | AverageY                  353.716
+2017-05-11 09:21:30.009609 EDT | AverageAbsY               353.823
+2017-05-11 09:21:30.009970 EDT | AverageAbsQYDiff            6.71678
+2017-05-11 09:21:30.010320 EDT | AverageAction               0.858536
+2017-05-11 09:21:30.010667 EDT | PolicyRegParamNorm         91.6452
+2017-05-11 09:21:30.011078 EDT | QFunRegParamNorm          190.777
+2017-05-11 09:21:30.011431 EDT | -----------------------  -----------
+2017-05-11 09:21:30.011912 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Training started
+2017-05-11 09:22:08.724016 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Populating workers...
+2017-05-11 09:22:08.728402 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Populated
+2017-05-11 09:27:26.420762 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Training finished
+2017-05-11 09:27:26.428899 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:27:26.429271 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #767 | Collecting samples for evaluation
+2017-05-11 09:27:43.149883 EDT | -----------------------  -----------
+2017-05-11 09:27:43.150880 EDT | Epoch                     767
+2017-05-11 09:27:43.151109 EDT | Iteration                 767
+2017-05-11 09:27:43.151306 EDT | AverageReturn            1761.4
+2017-05-11 09:27:43.151496 EDT | StdReturn                 521.716
+2017-05-11 09:27:43.151685 EDT | MaxReturn                2722.9
+2017-05-11 09:27:43.151871 EDT | MinReturn                 973.611
+2017-05-11 09:27:43.152303 EDT | AverageEsReturn           216.655
+2017-05-11 09:27:43.152567 EDT | StdEsReturn               396.43
+2017-05-11 09:27:43.152860 EDT | MaxEsReturn              1380.14
+2017-05-11 09:27:43.153142 EDT | MinEsReturn                 7.59133
+2017-05-11 09:27:43.153412 EDT | AverageDiscountedReturn   175.788
+2017-05-11 09:27:43.153672 EDT | AverageQLoss              318.367
+2017-05-11 09:27:43.154072 EDT | AveragePolicySurr        -358.678
+2017-05-11 09:27:43.154350 EDT | AverageQ                  353.591
+2017-05-11 09:27:43.154612 EDT | AverageAbsQ               353.945
+2017-05-11 09:27:43.155190 EDT | AverageY                  353.6
+2017-05-11 09:27:43.155480 EDT | AverageAbsY               353.755
+2017-05-11 09:27:43.155745 EDT | AverageAbsQYDiff            6.71389
+2017-05-11 09:27:43.156010 EDT | AverageAction               0.895959
+2017-05-11 09:27:43.156295 EDT | PolicyRegParamNorm         91.7256
+2017-05-11 09:27:43.156558 EDT | QFunRegParamNorm          190.859
+2017-05-11 09:27:43.156820 EDT | -----------------------  -----------
+2017-05-11 09:27:43.157215 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Training started
+2017-05-11 09:28:20.522175 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Populating workers...
+2017-05-11 09:28:20.522845 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Populated
+2017-05-11 09:33:35.755678 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Training finished
+2017-05-11 09:33:35.756691 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:33:35.757101 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #768 | Collecting samples for evaluation
+2017-05-11 09:33:51.327257 EDT | -----------------------  -----------
+2017-05-11 09:33:51.328055 EDT | Epoch                     768
+2017-05-11 09:33:51.328393 EDT | Iteration                 768
+2017-05-11 09:33:51.328682 EDT | AverageReturn            1466.58
+2017-05-11 09:33:51.328972 EDT | StdReturn                 805.5
+2017-05-11 09:33:51.329238 EDT | MaxReturn                2624.42
+2017-05-11 09:33:51.329511 EDT | MinReturn                 306.311
+2017-05-11 09:33:51.329775 EDT | AverageEsReturn           118.203
+2017-05-11 09:33:51.330058 EDT | StdEsReturn               136.016
+2017-05-11 09:33:51.330321 EDT | MaxEsReturn               494.832
+2017-05-11 09:33:51.330599 EDT | MinEsReturn                 7.75133
+2017-05-11 09:33:51.330863 EDT | AverageDiscountedReturn   165.953
+2017-05-11 09:33:51.331144 EDT | AverageQLoss              293.234
+2017-05-11 09:33:51.331404 EDT | AveragePolicySurr        -357.51
+2017-05-11 09:33:51.331680 EDT | AverageQ                  352.42
+2017-05-11 09:33:51.331938 EDT | AverageAbsQ               352.823
+2017-05-11 09:33:51.332225 EDT | AverageY                  352.443
+2017-05-11 09:33:51.332486 EDT | AverageAbsY               352.58
+2017-05-11 09:33:51.332763 EDT | AverageAbsQYDiff            6.60259
+2017-05-11 09:33:51.333074 EDT | AverageAction               0.876069
+2017-05-11 09:33:51.333361 EDT | PolicyRegParamNorm         91.7759
+2017-05-11 09:33:51.333624 EDT | QFunRegParamNorm          190.918
+2017-05-11 09:33:51.333908 EDT | -----------------------  -----------
+2017-05-11 09:33:51.334310 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Training started
+2017-05-11 09:34:31.841342 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Populating workers...
+2017-05-11 09:34:31.842215 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Populated
+2017-05-11 09:39:49.051071 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Training finished
+2017-05-11 09:39:49.051833 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:39:49.052140 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #769 | Collecting samples for evaluation
+2017-05-11 09:40:07.533737 EDT | -----------------------  -----------
+2017-05-11 09:40:07.537004 EDT | Epoch                     769
+2017-05-11 09:40:07.537231 EDT | Iteration                 769
+2017-05-11 09:40:07.537438 EDT | AverageReturn            1747.08
+2017-05-11 09:40:07.537645 EDT | StdReturn                 725.38
+2017-05-11 09:40:07.537846 EDT | MaxReturn                2693
+2017-05-11 09:40:07.538063 EDT | MinReturn                 594.47
+2017-05-11 09:40:07.538267 EDT | AverageEsReturn            77.3619
+2017-05-11 09:40:07.538466 EDT | StdEsReturn                80.3973
+2017-05-11 09:40:07.538666 EDT | MaxEsReturn               291.137
+2017-05-11 09:40:07.538864 EDT | MinEsReturn                 5.6406
+2017-05-11 09:40:07.539079 EDT | AverageDiscountedReturn   182.61
+2017-05-11 09:40:07.539283 EDT | AverageQLoss              286.856
+2017-05-11 09:40:07.539511 EDT | AveragePolicySurr        -357.531
+2017-05-11 09:40:07.539716 EDT | AverageQ                  352.458
+2017-05-11 09:40:07.539931 EDT | AverageAbsQ               352.837
+2017-05-11 09:40:07.540182 EDT | AverageY                  352.479
+2017-05-11 09:40:07.540395 EDT | AverageAbsY               352.608
+2017-05-11 09:40:07.540613 EDT | AverageAbsQYDiff            6.5294
+2017-05-11 09:40:07.540840 EDT | AverageAction               0.894198
+2017-05-11 09:40:07.542433 EDT | PolicyRegParamNorm         91.8463
+2017-05-11 09:40:07.542660 EDT | QFunRegParamNorm          191.026
+2017-05-11 09:40:07.542864 EDT | -----------------------  -----------
+2017-05-11 09:40:07.543205 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Training started
+2017-05-11 09:40:44.739956 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Populating workers...
+2017-05-11 09:40:44.740594 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Populated
+2017-05-11 09:46:05.147985 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Training finished
+2017-05-11 09:46:05.148778 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:46:05.149006 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #770 | Collecting samples for evaluation
+2017-05-11 09:46:22.006478 EDT | -----------------------  ----------
+2017-05-11 09:46:22.007258 EDT | Epoch                     770
+2017-05-11 09:46:22.007538 EDT | Iteration                 770
+2017-05-11 09:46:22.007807 EDT | AverageReturn            1147.18
+2017-05-11 09:46:22.008079 EDT | StdReturn                 619.831
+2017-05-11 09:46:22.008341 EDT | MaxReturn                2819.39
+2017-05-11 09:46:22.008599 EDT | MinReturn                 612.536
+2017-05-11 09:46:22.008858 EDT | AverageEsReturn           286.272
+2017-05-11 09:46:22.009078 EDT | StdEsReturn               225.837
+2017-05-11 09:46:22.009287 EDT | MaxEsReturn               645.241
+2017-05-11 09:46:22.009482 EDT | MinEsReturn                 9.84526
+2017-05-11 09:46:22.009669 EDT | AverageDiscountedReturn   164.891
+2017-05-11 09:46:22.009856 EDT | AverageQLoss              283.27
+2017-05-11 09:46:22.010043 EDT | AveragePolicySurr        -358.716
+2017-05-11 09:46:22.010261 EDT | AverageQ                  353.52
+2017-05-11 09:46:22.010448 EDT | AverageAbsQ               353.876
+2017-05-11 09:46:22.010639 EDT | AverageY                  353.519
+2017-05-11 09:46:22.010825 EDT | AverageAbsY               353.641
+2017-05-11 09:46:22.011017 EDT | AverageAbsQYDiff            6.56904
+2017-05-11 09:46:22.011212 EDT | AverageAction               0.90727
+2017-05-11 09:46:22.011406 EDT | PolicyRegParamNorm         91.8912
+2017-05-11 09:46:22.011598 EDT | QFunRegParamNorm          191.179
+2017-05-11 09:46:22.011784 EDT | -----------------------  ----------
+2017-05-11 09:46:22.012081 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Training started
+2017-05-11 09:46:59.913045 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Populating workers...
+2017-05-11 09:46:59.913906 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Populated
+2017-05-11 09:52:22.372264 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Training finished
+2017-05-11 09:52:22.373369 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:52:22.374084 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #771 | Collecting samples for evaluation
+2017-05-11 09:52:41.126916 EDT | -----------------------  -----------
+2017-05-11 09:52:41.127715 EDT | Epoch                     771
+2017-05-11 09:52:41.127924 EDT | Iteration                 771
+2017-05-11 09:52:41.128114 EDT | AverageReturn            1438.2
+2017-05-11 09:52:41.128299 EDT | StdReturn                 845.251
+2017-05-11 09:52:41.128489 EDT | MaxReturn                2752.22
+2017-05-11 09:52:41.128677 EDT | MinReturn                 588.392
+2017-05-11 09:52:41.128859 EDT | AverageEsReturn           128.17
+2017-05-11 09:52:41.129058 EDT | StdEsReturn               222.507
+2017-05-11 09:52:41.129241 EDT | MaxEsReturn               895.114
+2017-05-11 09:52:41.129422 EDT | MinEsReturn                 6.92965
+2017-05-11 09:52:41.129603 EDT | AverageDiscountedReturn   184.353
+2017-05-11 09:52:41.129784 EDT | AverageQLoss              299.967
+2017-05-11 09:52:41.129966 EDT | AveragePolicySurr        -358.327
+2017-05-11 09:52:41.130148 EDT | AverageQ                  353.341
+2017-05-11 09:52:41.130329 EDT | AverageAbsQ               353.696
+2017-05-11 09:52:41.130512 EDT | AverageY                  353.359
+2017-05-11 09:52:41.130696 EDT | AverageAbsY               353.489
+2017-05-11 09:52:41.130877 EDT | AverageAbsQYDiff            6.77173
+2017-05-11 09:52:41.131058 EDT | AverageAction               0.901046
+2017-05-11 09:52:41.131238 EDT | PolicyRegParamNorm         91.9525
+2017-05-11 09:52:41.131418 EDT | QFunRegParamNorm          191.267
+2017-05-11 09:52:41.131600 EDT | -----------------------  -----------
+2017-05-11 09:52:41.131885 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Training started
+2017-05-11 09:53:19.430913 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Populating workers...
+2017-05-11 09:53:19.431602 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Populated
+2017-05-11 09:58:27.853577 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Training finished
+2017-05-11 09:58:27.854340 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 09:58:27.854593 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #772 | Collecting samples for evaluation
+2017-05-11 09:58:45.170863 EDT | -----------------------  -----------
+2017-05-11 09:58:45.171674 EDT | Epoch                     772
+2017-05-11 09:58:45.172032 EDT | Iteration                 772
+2017-05-11 09:58:45.172381 EDT | AverageReturn            1610.49
+2017-05-11 09:58:45.172719 EDT | StdReturn                 495.644
+2017-05-11 09:58:45.173049 EDT | MaxReturn                2493.06
+2017-05-11 09:58:45.173340 EDT | MinReturn                 347.898
+2017-05-11 09:58:45.173629 EDT | AverageEsReturn           110.918
+2017-05-11 09:58:45.173931 EDT | StdEsReturn               239.305
+2017-05-11 09:58:45.174222 EDT | MaxEsReturn              1046.46
+2017-05-11 09:58:45.174510 EDT | MinEsReturn                 9.24088
+2017-05-11 09:58:45.174797 EDT | AverageDiscountedReturn   185.697
+2017-05-11 09:58:45.175119 EDT | AverageQLoss              361.99
+2017-05-11 09:58:45.175443 EDT | AveragePolicySurr        -356.756
+2017-05-11 09:58:45.175777 EDT | AverageQ                  351.537
+2017-05-11 09:58:45.176122 EDT | AverageAbsQ               351.973
+2017-05-11 09:58:45.176456 EDT | AverageY                  351.564
+2017-05-11 09:58:45.176762 EDT | AverageAbsY               351.698
+2017-05-11 09:58:45.177064 EDT | AverageAbsQYDiff            7.14868
+2017-05-11 09:58:45.177381 EDT | AverageAction               0.871195
+2017-05-11 09:58:45.177668 EDT | PolicyRegParamNorm         91.9932
+2017-05-11 09:58:45.177958 EDT | QFunRegParamNorm          191.337
+2017-05-11 09:58:45.178256 EDT | -----------------------  -----------
+2017-05-11 09:58:45.178653 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Training started
+2017-05-11 09:59:24.252574 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Populating workers...
+2017-05-11 09:59:24.257284 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Populated
+2017-05-11 10:04:35.400869 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Training finished
+2017-05-11 10:04:35.401472 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:04:35.401700 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #773 | Collecting samples for evaluation
+2017-05-11 10:04:51.876658 EDT | -----------------------  -----------
+2017-05-11 10:04:51.877526 EDT | Epoch                     773
+2017-05-11 10:04:51.877755 EDT | Iteration                 773
+2017-05-11 10:04:51.878055 EDT | AverageReturn            1211.24
+2017-05-11 10:04:51.878339 EDT | StdReturn                 605.771
+2017-05-11 10:04:51.878629 EDT | MaxReturn                2344.57
+2017-05-11 10:04:51.878915 EDT | MinReturn                 238.924
+2017-05-11 10:04:51.879212 EDT | AverageEsReturn            89.3642
+2017-05-11 10:04:51.879502 EDT | StdEsReturn               171.939
+2017-05-11 10:04:51.879781 EDT | MaxEsReturn               804.705
+2017-05-11 10:04:51.880065 EDT | MinEsReturn                 9.5162
+2017-05-11 10:04:51.880350 EDT | AverageDiscountedReturn   186.837
+2017-05-11 10:04:51.880628 EDT | AverageQLoss              271.09
+2017-05-11 10:04:51.880941 EDT | AveragePolicySurr        -356.766
+2017-05-11 10:04:51.881234 EDT | AverageQ                  351.855
+2017-05-11 10:04:51.881507 EDT | AverageAbsQ               352.234
+2017-05-11 10:04:51.881781 EDT | AverageY                  351.842
+2017-05-11 10:04:51.882078 EDT | AverageAbsY               352.009
+2017-05-11 10:04:51.882360 EDT | AverageAbsQYDiff            6.43485
+2017-05-11 10:04:51.882643 EDT | AverageAction               0.908074
+2017-05-11 10:04:51.882921 EDT | PolicyRegParamNorm         92.0765
+2017-05-11 10:04:51.883206 EDT | QFunRegParamNorm          191.431
+2017-05-11 10:04:51.883488 EDT | -----------------------  -----------
+2017-05-11 10:04:51.883892 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Training started
+2017-05-11 10:05:30.979066 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Populating workers...
+2017-05-11 10:05:30.979777 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Populated
+2017-05-11 10:10:43.645732 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Training finished
+2017-05-11 10:10:43.646364 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:10:43.646592 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #774 | Collecting samples for evaluation
+2017-05-11 10:11:02.228424 EDT | -----------------------  -----------
+2017-05-11 10:11:02.229180 EDT | Epoch                     774
+2017-05-11 10:11:02.229425 EDT | Iteration                 774
+2017-05-11 10:11:02.229648 EDT | AverageReturn             866.118
+2017-05-11 10:11:02.229893 EDT | StdReturn                 647.464
+2017-05-11 10:11:02.230152 EDT | MaxReturn                2286.56
+2017-05-11 10:11:02.230410 EDT | MinReturn                 290.894
+2017-05-11 10:11:02.230679 EDT | AverageEsReturn           145.016
+2017-05-11 10:11:02.230911 EDT | StdEsReturn               200.95
+2017-05-11 10:11:02.231140 EDT | MaxEsReturn               701.428
+2017-05-11 10:11:02.231417 EDT | MinEsReturn                 9.76391
+2017-05-11 10:11:02.231637 EDT | AverageDiscountedReturn   194.552
+2017-05-11 10:11:02.231850 EDT | AverageQLoss              333.224
+2017-05-11 10:11:02.232065 EDT | AveragePolicySurr        -356.414
+2017-05-11 10:11:02.232292 EDT | AverageQ                  351.222
+2017-05-11 10:11:02.232508 EDT | AverageAbsQ               351.639
+2017-05-11 10:11:02.232728 EDT | AverageY                  351.228
+2017-05-11 10:11:02.232962 EDT | AverageAbsY               351.369
+2017-05-11 10:11:02.233172 EDT | AverageAbsQYDiff            6.61423
+2017-05-11 10:11:02.233415 EDT | AverageAction               0.868933
+2017-05-11 10:11:02.233652 EDT | PolicyRegParamNorm         92.0994
+2017-05-11 10:11:02.233903 EDT | QFunRegParamNorm          191.507
+2017-05-11 10:11:02.234165 EDT | -----------------------  -----------
+2017-05-11 10:11:02.234560 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Training started
+2017-05-11 10:11:43.470816 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Populating workers...
+2017-05-11 10:11:43.471479 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Populated
+2017-05-11 10:16:56.907065 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Training finished
+2017-05-11 10:16:56.907865 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:16:56.908159 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #775 | Collecting samples for evaluation
+2017-05-11 10:17:15.796261 EDT | -----------------------  -----------
+2017-05-11 10:17:15.799795 EDT | Epoch                     775
+2017-05-11 10:17:15.800206 EDT | Iteration                 775
+2017-05-11 10:17:15.800533 EDT | AverageReturn            1609.39
+2017-05-11 10:17:15.800892 EDT | StdReturn                 844.572
+2017-05-11 10:17:15.801273 EDT | MaxReturn                2850.1
+2017-05-11 10:17:15.801607 EDT | MinReturn                 309.27
+2017-05-11 10:17:15.801953 EDT | AverageEsReturn           170.576
+2017-05-11 10:17:15.802246 EDT | StdEsReturn               308.977
+2017-05-11 10:17:15.811661 EDT | MaxEsReturn              1270.06
+2017-05-11 10:17:15.812026 EDT | MinEsReturn                 6.24043
+2017-05-11 10:17:15.812342 EDT | AverageDiscountedReturn   227.71
+2017-05-11 10:17:15.812643 EDT | AverageQLoss              299.58
+2017-05-11 10:17:15.812942 EDT | AveragePolicySurr        -356.831
+2017-05-11 10:17:15.813265 EDT | AverageQ                  351.79
+2017-05-11 10:17:15.815147 EDT | AverageAbsQ               352.145
+2017-05-11 10:17:15.815473 EDT | AverageY                  351.82
+2017-05-11 10:17:15.815775 EDT | AverageAbsY               351.93
+2017-05-11 10:17:15.816102 EDT | AverageAbsQYDiff            6.4711
+2017-05-11 10:17:15.816472 EDT | AverageAction               0.873532
+2017-05-11 10:17:15.816815 EDT | PolicyRegParamNorm         92.1213
+2017-05-11 10:17:15.817143 EDT | QFunRegParamNorm          191.586
+2017-05-11 10:17:15.817496 EDT | -----------------------  -----------
+2017-05-11 10:17:15.817915 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Training started
+2017-05-11 10:17:56.775219 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Populating workers...
+2017-05-11 10:17:56.779081 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Populated
+2017-05-11 10:23:15.692627 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Training finished
+2017-05-11 10:23:15.693322 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:23:15.693630 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #776 | Collecting samples for evaluation
+2017-05-11 10:23:30.338045 EDT | -----------------------  -----------
+2017-05-11 10:23:30.338863 EDT | Epoch                     776
+2017-05-11 10:23:30.339145 EDT | Iteration                 776
+2017-05-11 10:23:30.339410 EDT | AverageReturn            1126.33
+2017-05-11 10:23:30.339672 EDT | StdReturn                 696.792
+2017-05-11 10:23:30.339936 EDT | MaxReturn                2504.41
+2017-05-11 10:23:30.340199 EDT | MinReturn                 292.172
+2017-05-11 10:23:30.340461 EDT | AverageEsReturn           112.338
+2017-05-11 10:23:30.340718 EDT | StdEsReturn               126.065
+2017-05-11 10:23:30.340992 EDT | MaxEsReturn               433.943
+2017-05-11 10:23:30.341258 EDT | MinEsReturn                 9.89916
+2017-05-11 10:23:30.341514 EDT | AverageDiscountedReturn   202.579
+2017-05-11 10:23:30.341769 EDT | AverageQLoss              314.167
+2017-05-11 10:23:30.342027 EDT | AveragePolicySurr        -355.389
+2017-05-11 10:23:30.342292 EDT | AverageQ                  350.471
+2017-05-11 10:23:30.342547 EDT | AverageAbsQ               350.852
+2017-05-11 10:23:30.342801 EDT | AverageY                  350.476
+2017-05-11 10:23:30.343056 EDT | AverageAbsY               350.598
+2017-05-11 10:23:30.343315 EDT | AverageAbsQYDiff            6.71282
+2017-05-11 10:23:30.343585 EDT | AverageAction               0.857787
+2017-05-11 10:23:30.343846 EDT | PolicyRegParamNorm         92.1869
+2017-05-11 10:23:30.344100 EDT | QFunRegParamNorm          191.664
+2017-05-11 10:23:30.344368 EDT | -----------------------  -----------
+2017-05-11 10:23:30.344738 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Training started
+2017-05-11 10:24:10.693028 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Populating workers...
+2017-05-11 10:24:10.694021 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Populated
+2017-05-11 10:29:32.260891 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Training finished
+2017-05-11 10:29:32.261559 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:29:32.261858 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #777 | Collecting samples for evaluation
+2017-05-11 10:29:49.358972 EDT | -----------------------  -----------
+2017-05-11 10:29:49.359723 EDT | Epoch                     777
+2017-05-11 10:29:49.360011 EDT | Iteration                 777
+2017-05-11 10:29:49.360267 EDT | AverageReturn             893.362
+2017-05-11 10:29:49.360566 EDT | StdReturn                 582.221
+2017-05-11 10:29:49.360786 EDT | MaxReturn                2552.5
+2017-05-11 10:29:49.361042 EDT | MinReturn                 294.725
+2017-05-11 10:29:49.361285 EDT | AverageEsReturn           132.976
+2017-05-11 10:29:49.361523 EDT | StdEsReturn               169.348
+2017-05-11 10:29:49.361736 EDT | MaxEsReturn               557.189
+2017-05-11 10:29:49.361983 EDT | MinEsReturn                 5.54884
+2017-05-11 10:29:49.362244 EDT | AverageDiscountedReturn   198.31
+2017-05-11 10:29:49.362468 EDT | AverageQLoss              353.492
+2017-05-11 10:29:49.362682 EDT | AveragePolicySurr        -355.943
+2017-05-11 10:29:49.362913 EDT | AverageQ                  351.043
+2017-05-11 10:29:49.363205 EDT | AverageAbsQ               351.379
+2017-05-11 10:29:49.363468 EDT | AverageY                  351.055
+2017-05-11 10:29:49.363731 EDT | AverageAbsY               351.162
+2017-05-11 10:29:49.363993 EDT | AverageAbsQYDiff            7.02039
+2017-05-11 10:29:49.364269 EDT | AverageAction               0.874301
+2017-05-11 10:29:49.364529 EDT | PolicyRegParamNorm         92.2295
+2017-05-11 10:29:49.364787 EDT | QFunRegParamNorm          191.714
+2017-05-11 10:29:49.365055 EDT | -----------------------  -----------
+2017-05-11 10:29:49.365443 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Training started
+2017-05-11 10:30:29.332599 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Populating workers...
+2017-05-11 10:30:29.333328 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Populated
+2017-05-11 10:35:43.681278 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Training finished
+2017-05-11 10:35:43.682122 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:35:43.682337 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #778 | Collecting samples for evaluation
+2017-05-11 10:35:58.563659 EDT | -----------------------  -----------
+2017-05-11 10:35:58.564335 EDT | Epoch                     778
+2017-05-11 10:35:58.564552 EDT | Iteration                 778
+2017-05-11 10:35:58.564746 EDT | AverageReturn             843.58
+2017-05-11 10:35:58.564959 EDT | StdReturn                 472.612
+2017-05-11 10:35:58.565334 EDT | MaxReturn                1874.45
+2017-05-11 10:35:58.565597 EDT | MinReturn                 298.333
+2017-05-11 10:35:58.565856 EDT | AverageEsReturn           233.003
+2017-05-11 10:35:58.566115 EDT | StdEsReturn               251.775
+2017-05-11 10:35:58.566391 EDT | MaxEsReturn               641.75
+2017-05-11 10:35:58.566652 EDT | MinEsReturn                 7.57973
+2017-05-11 10:35:58.566917 EDT | AverageDiscountedReturn   204.063
+2017-05-11 10:35:58.567172 EDT | AverageQLoss              285.265
+2017-05-11 10:35:58.567446 EDT | AveragePolicySurr        -354.633
+2017-05-11 10:35:58.567719 EDT | AverageQ                  349.643
+2017-05-11 10:35:58.567977 EDT | AverageAbsQ               350.03
+2017-05-11 10:35:58.568231 EDT | AverageY                  349.645
+2017-05-11 10:35:58.568507 EDT | AverageAbsY               349.75
+2017-05-11 10:35:58.568768 EDT | AverageAbsQYDiff            6.50576
+2017-05-11 10:35:58.569040 EDT | AverageAction               0.868645
+2017-05-11 10:35:58.569308 EDT | PolicyRegParamNorm         92.2928
+2017-05-11 10:35:58.569593 EDT | QFunRegParamNorm          191.805
+2017-05-11 10:35:58.569852 EDT | -----------------------  -----------
+2017-05-11 10:35:58.570225 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Training started
+2017-05-11 10:36:38.568330 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Populating workers...
+2017-05-11 10:36:38.569883 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Populated
+2017-05-11 10:41:55.923557 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Training finished
+2017-05-11 10:41:55.924189 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:41:55.924447 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #779 | Collecting samples for evaluation
+2017-05-11 10:42:12.265323 EDT | -----------------------  -----------
+2017-05-11 10:42:12.266155 EDT | Epoch                     779
+2017-05-11 10:42:12.266459 EDT | Iteration                 779
+2017-05-11 10:42:12.266747 EDT | AverageReturn             828.702
+2017-05-11 10:42:12.267050 EDT | StdReturn                 369.799
+2017-05-11 10:42:12.267347 EDT | MaxReturn                1786.5
+2017-05-11 10:42:12.267672 EDT | MinReturn                 445.921
+2017-05-11 10:42:12.268035 EDT | AverageEsReturn           174.226
+2017-05-11 10:42:12.268377 EDT | StdEsReturn               201.39
+2017-05-11 10:42:12.268719 EDT | MaxEsReturn               690.036
+2017-05-11 10:42:12.269039 EDT | MinEsReturn                 6.81463
+2017-05-11 10:42:12.269355 EDT | AverageDiscountedReturn   200.041
+2017-05-11 10:42:12.269658 EDT | AverageQLoss              276.647
+2017-05-11 10:42:12.269942 EDT | AveragePolicySurr        -356.113
+2017-05-11 10:42:12.270224 EDT | AverageQ                  351.134
+2017-05-11 10:42:12.270504 EDT | AverageAbsQ               351.479
+2017-05-11 10:42:12.270804 EDT | AverageY                  351.151
+2017-05-11 10:42:12.271086 EDT | AverageAbsY               351.281
+2017-05-11 10:42:12.271385 EDT | AverageAbsQYDiff            6.36109
+2017-05-11 10:42:12.271725 EDT | AverageAction               0.893906
+2017-05-11 10:42:12.272066 EDT | PolicyRegParamNorm         92.3651
+2017-05-11 10:42:12.272419 EDT | QFunRegParamNorm          191.869
+2017-05-11 10:42:12.272744 EDT | -----------------------  -----------
+2017-05-11 10:42:12.273195 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Training started
+2017-05-11 10:42:51.924328 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Populating workers...
+2017-05-11 10:42:51.925472 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Populated
+2017-05-11 10:48:17.422028 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Training finished
+2017-05-11 10:48:17.427189 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:48:17.427533 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #780 | Collecting samples for evaluation
+2017-05-11 10:48:34.930674 EDT | -----------------------  -----------
+2017-05-11 10:48:34.933961 EDT | Epoch                     780
+2017-05-11 10:48:34.934193 EDT | Iteration                 780
+2017-05-11 10:48:34.934391 EDT | AverageReturn            1178.35
+2017-05-11 10:48:34.936221 EDT | StdReturn                 631.104
+2017-05-11 10:48:34.938042 EDT | MaxReturn                2787.35
+2017-05-11 10:48:34.938328 EDT | MinReturn                 305.598
+2017-05-11 10:48:34.940332 EDT | AverageEsReturn           150.448
+2017-05-11 10:48:34.942212 EDT | StdEsReturn               191.217
+2017-05-11 10:48:34.942742 EDT | MaxEsReturn               679.035
+2017-05-11 10:48:34.943029 EDT | MinEsReturn                12.4789
+2017-05-11 10:48:34.945036 EDT | AverageDiscountedReturn   219.628
+2017-05-11 10:48:34.946748 EDT | AverageQLoss              320.763
+2017-05-11 10:48:34.948565 EDT | AveragePolicySurr        -355.895
+2017-05-11 10:48:34.949665 EDT | AverageQ                  350.675
+2017-05-11 10:48:34.950181 EDT | AverageAbsQ               351.036
+2017-05-11 10:48:34.950464 EDT | AverageY                  350.683
+2017-05-11 10:48:34.954550 EDT | AverageAbsY               350.806
+2017-05-11 10:48:34.955145 EDT | AverageAbsQYDiff            6.73118
+2017-05-11 10:48:34.955456 EDT | AverageAction               0.850725
+2017-05-11 10:48:34.957586 EDT | PolicyRegParamNorm         92.432
+2017-05-11 10:48:34.957894 EDT | QFunRegParamNorm          191.989
+2017-05-11 10:48:34.960008 EDT | -----------------------  -----------
+2017-05-11 10:48:34.961957 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Training started
+2017-05-11 10:49:12.623935 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Populating workers...
+2017-05-11 10:49:12.624622 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Populated
+2017-05-11 10:54:26.895177 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Training finished
+2017-05-11 10:54:26.896026 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 10:54:26.896441 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #781 | Collecting samples for evaluation
+2017-05-11 10:54:45.935530 EDT | -----------------------  -----------
+2017-05-11 10:54:45.936250 EDT | Epoch                     781
+2017-05-11 10:54:45.936472 EDT | Iteration                 781
+2017-05-11 10:54:45.936660 EDT | AverageReturn            1640.72
+2017-05-11 10:54:45.936841 EDT | StdReturn                 496.944
+2017-05-11 10:54:45.937039 EDT | MaxReturn                2652.75
+2017-05-11 10:54:45.937225 EDT | MinReturn                1094.73
+2017-05-11 10:54:45.937627 EDT | AverageEsReturn           219.358
+2017-05-11 10:54:45.937906 EDT | StdEsReturn               231.15
+2017-05-11 10:54:45.938161 EDT | MaxEsReturn               718.032
+2017-05-11 10:54:45.938418 EDT | MinEsReturn                 7.80616
+2017-05-11 10:54:45.938685 EDT | AverageDiscountedReturn   230.711
+2017-05-11 10:54:45.938943 EDT | AverageQLoss              312.041
+2017-05-11 10:54:45.939200 EDT | AveragePolicySurr        -354.494
+2017-05-11 10:54:45.939460 EDT | AverageQ                  349.36
+2017-05-11 10:54:45.939729 EDT | AverageAbsQ               349.726
+2017-05-11 10:54:45.939979 EDT | AverageY                  349.381
+2017-05-11 10:54:45.940235 EDT | AverageAbsY               349.536
+2017-05-11 10:54:45.940504 EDT | AverageAbsQYDiff            6.5826
+2017-05-11 10:54:45.940768 EDT | AverageAction               0.888401
+2017-05-11 10:54:45.941037 EDT | PolicyRegParamNorm         92.4652
+2017-05-11 10:54:45.941291 EDT | QFunRegParamNorm          192.122
+2017-05-11 10:54:45.941561 EDT | -----------------------  -----------
+2017-05-11 10:54:45.941946 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Training started
+2017-05-11 10:55:23.154916 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Populating workers...
+2017-05-11 10:55:23.159966 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Populated
+2017-05-11 11:00:49.062551 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Training finished
+2017-05-11 11:00:49.063204 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:00:49.063520 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #782 | Collecting samples for evaluation
+2017-05-11 11:01:06.623520 EDT | -----------------------  -----------
+2017-05-11 11:01:06.624282 EDT | Epoch                     782
+2017-05-11 11:01:06.624567 EDT | Iteration                 782
+2017-05-11 11:01:06.624797 EDT | AverageReturn             438.646
+2017-05-11 11:01:06.625103 EDT | StdReturn                 533.678
+2017-05-11 11:01:06.625359 EDT | MaxReturn                2619.18
+2017-05-11 11:01:06.625591 EDT | MinReturn                 241.671
+2017-05-11 11:01:06.625850 EDT | AverageEsReturn           330.668
+2017-05-11 11:01:06.626091 EDT | StdEsReturn               360.314
+2017-05-11 11:01:06.626321 EDT | MaxEsReturn              1010.69
+2017-05-11 11:01:06.626575 EDT | MinEsReturn                 9.56865
+2017-05-11 11:01:06.626829 EDT | AverageDiscountedReturn   145.662
+2017-05-11 11:01:06.627078 EDT | AverageQLoss              326.361
+2017-05-11 11:01:06.627346 EDT | AveragePolicySurr        -355.323
+2017-05-11 11:01:06.627560 EDT | AverageQ                  350.261
+2017-05-11 11:01:06.627783 EDT | AverageAbsQ               350.578
+2017-05-11 11:01:06.628031 EDT | AverageY                  350.289
+2017-05-11 11:01:06.628308 EDT | AverageAbsY               350.376
+2017-05-11 11:01:06.628550 EDT | AverageAbsQYDiff            6.77189
+2017-05-11 11:01:06.628810 EDT | AverageAction               0.795213
+2017-05-11 11:01:06.629037 EDT | PolicyRegParamNorm         92.5184
+2017-05-11 11:01:06.629287 EDT | QFunRegParamNorm          192.192
+2017-05-11 11:01:06.629541 EDT | -----------------------  -----------
+2017-05-11 11:01:06.629922 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Training started
+2017-05-11 11:01:48.326436 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Populating workers...
+2017-05-11 11:01:48.327117 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Populated
+2017-05-11 11:07:15.232861 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Training finished
+2017-05-11 11:07:15.233532 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:07:15.233773 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #783 | Collecting samples for evaluation
+2017-05-11 11:07:31.380256 EDT | -----------------------  ----------
+2017-05-11 11:07:31.380792 EDT | Epoch                     783
+2017-05-11 11:07:31.381092 EDT | Iteration                 783
+2017-05-11 11:07:31.381372 EDT | AverageReturn            1289
+2017-05-11 11:07:31.381635 EDT | StdReturn                 923.525
+2017-05-11 11:07:31.381896 EDT | MaxReturn                2797.35
+2017-05-11 11:07:31.382156 EDT | MinReturn                 314.74
+2017-05-11 11:07:31.382416 EDT | AverageEsReturn           219.126
+2017-05-11 11:07:31.382674 EDT | StdEsReturn               282.025
+2017-05-11 11:07:31.382932 EDT | MaxEsReturn               794.213
+2017-05-11 11:07:31.383195 EDT | MinEsReturn                 7.66708
+2017-05-11 11:07:31.383461 EDT | AverageDiscountedReturn   202.022
+2017-05-11 11:07:31.383718 EDT | AverageQLoss              323.839
+2017-05-11 11:07:31.383976 EDT | AveragePolicySurr        -354.935
+2017-05-11 11:07:31.384239 EDT | AverageQ                  349.834
+2017-05-11 11:07:31.384498 EDT | AverageAbsQ               350.227
+2017-05-11 11:07:31.384753 EDT | AverageY                  349.838
+2017-05-11 11:07:31.385019 EDT | AverageAbsY               349.936
+2017-05-11 11:07:31.385284 EDT | AverageAbsQYDiff            6.79656
+2017-05-11 11:07:31.385557 EDT | AverageAction               0.85348
+2017-05-11 11:07:31.385809 EDT | PolicyRegParamNorm         92.5478
+2017-05-11 11:07:31.386088 EDT | QFunRegParamNorm          192.368
+2017-05-11 11:07:31.386345 EDT | -----------------------  ----------
+2017-05-11 11:07:31.386732 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Training started
+2017-05-11 11:08:11.830307 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Populating workers...
+2017-05-11 11:08:11.834020 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Populated
+2017-05-11 11:13:40.382288 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Training finished
+2017-05-11 11:13:40.386157 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:13:40.386469 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #784 | Collecting samples for evaluation
+2017-05-11 11:13:58.948643 EDT | -----------------------  -----------
+2017-05-11 11:13:58.949398 EDT | Epoch                     784
+2017-05-11 11:13:58.949716 EDT | Iteration                 784
+2017-05-11 11:13:58.950006 EDT | AverageReturn             892.079
+2017-05-11 11:13:58.950318 EDT | StdReturn                 716.54
+2017-05-11 11:13:58.950632 EDT | MaxReturn                2312.19
+2017-05-11 11:13:58.950968 EDT | MinReturn                 240.984
+2017-05-11 11:13:58.951300 EDT | AverageEsReturn           141.669
+2017-05-11 11:13:58.951636 EDT | StdEsReturn               182.11
+2017-05-11 11:13:58.951964 EDT | MaxEsReturn               627.931
+2017-05-11 11:13:58.952252 EDT | MinEsReturn                 6.12801
+2017-05-11 11:13:58.952537 EDT | AverageDiscountedReturn   175.772
+2017-05-11 11:13:58.952840 EDT | AverageQLoss              329.594
+2017-05-11 11:13:58.953129 EDT | AveragePolicySurr        -354.333
+2017-05-11 11:13:58.953409 EDT | AverageQ                  349.197
+2017-05-11 11:13:58.953701 EDT | AverageAbsQ               349.593
+2017-05-11 11:13:58.953984 EDT | AverageY                  349.208
+2017-05-11 11:13:58.954263 EDT | AverageAbsY               349.317
+2017-05-11 11:13:58.954539 EDT | AverageAbsQYDiff            6.62084
+2017-05-11 11:13:58.954837 EDT | AverageAction               0.853227
+2017-05-11 11:13:58.955213 EDT | PolicyRegParamNorm         92.6243
+2017-05-11 11:13:58.955682 EDT | QFunRegParamNorm          192.442
+2017-05-11 11:13:58.956174 EDT | -----------------------  -----------
+2017-05-11 11:13:58.956748 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Training started
+2017-05-11 11:14:40.092164 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Populating workers...
+2017-05-11 11:14:40.092951 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Populated
+2017-05-11 11:20:05.047441 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Training finished
+2017-05-11 11:20:05.049200 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:20:05.049423 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #785 | Collecting samples for evaluation
+2017-05-11 11:20:21.114366 EDT | -----------------------  -----------
+2017-05-11 11:20:21.115055 EDT | Epoch                     785
+2017-05-11 11:20:21.115269 EDT | Iteration                 785
+2017-05-11 11:20:21.115463 EDT | AverageReturn            1012.74
+2017-05-11 11:20:21.115667 EDT | StdReturn                 755.193
+2017-05-11 11:20:21.115851 EDT | MaxReturn                2716.65
+2017-05-11 11:20:21.116034 EDT | MinReturn                 268.939
+2017-05-11 11:20:21.116243 EDT | AverageEsReturn           219.197
+2017-05-11 11:20:21.116428 EDT | StdEsReturn               281.987
+2017-05-11 11:20:21.116610 EDT | MaxEsReturn               818.085
+2017-05-11 11:20:21.116828 EDT | MinEsReturn                 8.14011
+2017-05-11 11:20:21.117037 EDT | AverageDiscountedReturn   191.965
+2017-05-11 11:20:21.117258 EDT | AverageQLoss              275.528
+2017-05-11 11:20:21.117448 EDT | AveragePolicySurr        -354.142
+2017-05-11 11:20:21.117640 EDT | AverageQ                  348.977
+2017-05-11 11:20:21.117831 EDT | AverageAbsQ               349.317
+2017-05-11 11:20:21.118017 EDT | AverageY                  349.009
+2017-05-11 11:20:21.118221 EDT | AverageAbsY               349.109
+2017-05-11 11:20:21.118425 EDT | AverageAbsQYDiff            6.49051
+2017-05-11 11:20:21.118611 EDT | AverageAction               0.848177
+2017-05-11 11:20:21.118796 EDT | PolicyRegParamNorm         92.6759
+2017-05-11 11:20:21.118979 EDT | QFunRegParamNorm          192.521
+2017-05-11 11:20:21.119163 EDT | -----------------------  -----------
+2017-05-11 11:20:21.119478 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Training started
+2017-05-11 11:20:59.958144 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Populating workers...
+2017-05-11 11:20:59.958831 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Populated
+2017-05-11 11:26:22.316142 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Training finished
+2017-05-11 11:26:22.316731 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:26:22.316987 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #786 | Collecting samples for evaluation
+2017-05-11 11:26:40.092521 EDT | -----------------------  -----------
+2017-05-11 11:26:40.093352 EDT | Epoch                     786
+2017-05-11 11:26:40.093585 EDT | Iteration                 786
+2017-05-11 11:26:40.093781 EDT | AverageReturn            1676.39
+2017-05-11 11:26:40.093974 EDT | StdReturn                 613.594
+2017-05-11 11:26:40.094163 EDT | MaxReturn                2484.38
+2017-05-11 11:26:40.094349 EDT | MinReturn                 764.503
+2017-05-11 11:26:40.094538 EDT | AverageEsReturn           120.31
+2017-05-11 11:26:40.094960 EDT | StdEsReturn               230.031
+2017-05-11 11:26:40.095224 EDT | MaxEsReturn               924.277
+2017-05-11 11:26:40.095486 EDT | MinEsReturn                 7.23359
+2017-05-11 11:26:40.095761 EDT | AverageDiscountedReturn   194.794
+2017-05-11 11:26:40.096024 EDT | AverageQLoss              340.491
+2017-05-11 11:26:40.096283 EDT | AveragePolicySurr        -353.618
+2017-05-11 11:26:40.096548 EDT | AverageQ                  348.688
+2017-05-11 11:26:40.096887 EDT | AverageAbsQ               349.034
+2017-05-11 11:26:40.097238 EDT | AverageY                  348.684
+2017-05-11 11:26:40.097501 EDT | AverageAbsY               348.798
+2017-05-11 11:26:40.097761 EDT | AverageAbsQYDiff            6.72067
+2017-05-11 11:26:40.098045 EDT | AverageAction               0.884188
+2017-05-11 11:26:40.098313 EDT | PolicyRegParamNorm         92.7649
+2017-05-11 11:26:40.098579 EDT | QFunRegParamNorm          192.612
+2017-05-11 11:26:40.098871 EDT | -----------------------  -----------
+2017-05-11 11:26:40.099254 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Training started
+2017-05-11 11:27:21.018071 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Populating workers...
+2017-05-11 11:27:21.018766 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Populated
+2017-05-11 11:32:45.330409 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Training finished
+2017-05-11 11:32:45.331008 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Trained qf 1000 steps, policy 1000 steps
+2017-05-11 11:32:45.331250 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #787 | Collecting samples for evaluation
+2017-05-11 11:33:00.460883 EDT | -----------------------  -----------
+2017-05-11 11:33:00.461779 EDT | Epoch                     787
+2017-05-11 11:33:00.462144 EDT | Iteration                 787
+2017-05-11 11:33:00.462446 EDT | AverageReturn            1264.53
+2017-05-11 11:33:00.462747 EDT | StdReturn                 556.655
+2017-05-11 11:33:00.463064 EDT | MaxReturn                2632.48
+2017-05-11 11:33:00.463359 EDT | MinReturn                 762.213
+2017-05-11 11:33:00.463656 EDT | AverageEsReturn           186.818
+2017-05-11 11:33:00.463990 EDT | StdEsReturn               248.731
+2017-05-11 11:33:00.464336 EDT | MaxEsReturn               760.606
+2017-05-11 11:33:00.464689 EDT | MinEsReturn                 8.35554
+2017-05-11 11:33:00.465072 EDT | AverageDiscountedReturn   209.422
+2017-05-11 11:33:00.465486 EDT | AverageQLoss              302.99
+2017-05-11 11:33:00.465878 EDT | AveragePolicySurr        -352.945
+2017-05-11 11:33:00.466195 EDT | AverageQ                  348.193
+2017-05-11 11:33:00.466519 EDT | AverageAbsQ               348.518
+2017-05-11 11:33:00.466843 EDT | AverageY                  348.201
+2017-05-11 11:33:00.467157 EDT | AverageAbsY               348.286
+2017-05-11 11:33:00.467463 EDT | AverageAbsQYDiff            6.50068
+2017-05-11 11:33:00.467759 EDT | AverageAction               0.876534
+2017-05-11 11:33:00.468060 EDT | PolicyRegParamNorm         92.8227
+2017-05-11 11:33:00.468362 EDT | QFunRegParamNorm          192.632
+2017-05-11 11:33:00.468686 EDT | -----------------------  -----------
+2017-05-11 11:33:00.469161 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #788 | Training started
+2017-05-11 11:33:43.470514 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #788 | Populating workers...
+2017-05-11 11:33:43.471190 EDT | [Tensorflow_RLLAB_Results/PolyRL/Hopper/] epoch #788 | Populated
