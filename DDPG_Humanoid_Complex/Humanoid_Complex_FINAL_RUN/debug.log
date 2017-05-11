@@ -1,0 +1,2461 @@
+2017-05-10 21:22:39.285262 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] Populating workers...
+2017-05-10 21:22:39.286023 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] Populated
+2017-05-10 21:22:44.066728 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #0 | Training started
+2017-05-10 21:22:46.817052 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #0 | Training finished
+2017-05-10 21:22:46.817409 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #1 | Training started
+2017-05-10 21:22:49.378739 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #1 | Training finished
+2017-05-10 21:22:49.379086 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #2 | Training started
+2017-05-10 21:22:52.011261 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #2 | Training finished
+2017-05-10 21:22:52.012074 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #3 | Training started
+2017-05-10 21:22:54.543810 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #3 | Training finished
+2017-05-10 21:22:54.544132 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #4 | Training started
+2017-05-10 21:22:56.980587 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #4 | Training finished
+2017-05-10 21:22:56.980869 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #5 | Training started
+2017-05-10 21:22:59.415994 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #5 | Training finished
+2017-05-10 21:22:59.416277 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #6 | Training started
+2017-05-10 21:23:01.820528 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #6 | Training finished
+2017-05-10 21:23:01.820834 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #7 | Training started
+2017-05-10 21:23:04.429523 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #7 | Training finished
+2017-05-10 21:23:04.431350 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #8 | Training started
+2017-05-10 21:23:07.107825 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #8 | Training finished
+2017-05-10 21:23:07.108132 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #9 | Training started
+2017-05-10 21:23:09.791541 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #9 | Training finished
+2017-05-10 21:23:09.791882 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #10 | Training started
+2017-05-10 21:23:20.838812 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #10 | Training finished
+2017-05-10 21:23:20.839596 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #10 | Collecting samples for evaluation
+2017-05-10 21:23:49.319788 EDT | -----------------------  -------------
+2017-05-10 21:23:49.320494 EDT | Epoch                     10
+2017-05-10 21:23:49.320731 EDT | AverageReturn              6.14134
+2017-05-10 21:23:49.320946 EDT | StdReturn                  3.62228
+2017-05-10 21:23:49.322322 EDT | MaxReturn                 16.4576
+2017-05-10 21:23:49.322602 EDT | MinReturn                 -4.35452
+2017-05-10 21:23:49.322888 EDT | AverageEsReturn           11.6339
+2017-05-10 21:23:49.329683 EDT | StdEsReturn               14.453
+2017-05-10 21:23:49.329979 EDT | MaxEsReturn               92.7597
+2017-05-10 21:23:49.330266 EDT | MinEsReturn              -30.4045
+2017-05-10 21:23:49.334283 EDT | AverageDiscountedReturn    5.2808
+2017-05-10 21:23:49.339384 EDT | AverageQLoss               4.05535e-05
+2017-05-10 21:23:49.339671 EDT | AveragePolicySurr         -0.0161242
+2017-05-10 21:23:49.339937 EDT | AverageQ                   0.00740756
+2017-05-10 21:23:49.345637 EDT | AverageAbsQ                0.0103835
+2017-05-10 21:23:49.345919 EDT | AverageY                   0.00745502
+2017-05-10 21:23:49.350944 EDT | AverageAbsY                0.0112245
+2017-05-10 21:23:49.351249 EDT | AverageAbsQYDiff           0.00483944
+2017-05-10 21:23:49.351520 EDT | AverageAction              0.947004
+2017-05-10 21:23:49.358243 EDT | PolicyRegParamNorm        14.5507
+2017-05-10 21:23:49.358648 EDT | QFunRegParamNorm           8.88648
+2017-05-10 21:23:49.358924 EDT | AverageForwardProgress     0.00224882
+2017-05-10 21:23:49.359190 EDT | MaxForwardProgress         0.0808962
+2017-05-10 21:23:49.366055 EDT | MinForwardProgress        -0.0765737
+2017-05-10 21:23:49.366268 EDT | StdForwardProgress         0.0278652
+2017-05-10 21:23:49.366477 EDT | -----------------------  -------------
+2017-05-10 21:23:49.373442 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #11 | Training started
+2017-05-10 21:24:00.071866 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #11 | Training finished
+2017-05-10 21:24:00.072611 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #11 | Collecting samples for evaluation
+2017-05-10 21:24:31.840980 EDT | -----------------------  ------------
+2017-05-10 21:24:31.841582 EDT | Epoch                    11
+2017-05-10 21:24:31.841793 EDT | AverageReturn            39.9983
+2017-05-10 21:24:31.841990 EDT | StdReturn                 6.18587
+2017-05-10 21:24:31.842185 EDT | MaxReturn                68.9177
+2017-05-10 21:24:31.842375 EDT | MinReturn                22.7477
+2017-05-10 21:24:31.842565 EDT | AverageEsReturn          30.9501
+2017-05-10 21:24:31.842755 EDT | StdEsReturn              22.403
+2017-05-10 21:24:31.842946 EDT | MaxEsReturn              77.6163
+2017-05-10 21:24:31.843139 EDT | MinEsReturn               0.222621
+2017-05-10 21:24:31.843329 EDT | AverageDiscountedReturn  27.7327
+2017-05-10 21:24:31.843518 EDT | AverageQLoss              2.54692e-05
+2017-05-10 21:24:31.843705 EDT | AveragePolicySurr        -0.0301123
+2017-05-10 21:24:31.843892 EDT | AverageQ                  0.0211424
+2017-05-10 21:24:31.844087 EDT | AverageAbsQ               0.0212201
+2017-05-10 21:24:31.848145 EDT | AverageY                  0.0211603
+2017-05-10 21:24:31.848353 EDT | AverageAbsY               0.0213213
+2017-05-10 21:24:31.848545 EDT | AverageAbsQYDiff          0.00380744
+2017-05-10 21:24:31.848738 EDT | AverageAction             0.954975
+2017-05-10 21:24:31.848933 EDT | PolicyRegParamNorm       14.8122
+2017-05-10 21:24:31.849127 EDT | QFunRegParamNorm         10.3802
+2017-05-10 21:24:31.849315 EDT | AverageForwardProgress    0.22435
+2017-05-10 21:24:31.849507 EDT | MaxForwardProgress        0.435278
+2017-05-10 21:24:31.849695 EDT | MinForwardProgress        0.0945928
+2017-05-10 21:24:31.849896 EDT | StdForwardProgress        0.0455657
+2017-05-10 21:24:31.850082 EDT | -----------------------  ------------
+2017-05-10 21:24:31.850401 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #12 | Training started
+2017-05-10 21:24:44.105758 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #12 | Training finished
+2017-05-10 21:24:44.106100 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #12 | Collecting samples for evaluation
+2017-05-10 21:25:18.823443 EDT | -----------------------  ------------
+2017-05-10 21:25:18.824368 EDT | Epoch                    12
+2017-05-10 21:25:18.824737 EDT | AverageReturn            38.3945
+2017-05-10 21:25:18.825097 EDT | StdReturn                10.5238
+2017-05-10 21:25:18.825408 EDT | MaxReturn                68.7988
+2017-05-10 21:25:18.825676 EDT | MinReturn                10.1313
+2017-05-10 21:25:18.825936 EDT | AverageEsReturn          48.9156
+2017-05-10 21:25:18.826198 EDT | StdEsReturn              20.7256
+2017-05-10 21:25:18.826472 EDT | MaxEsReturn              81.7941
+2017-05-10 21:25:18.826729 EDT | MinEsReturn              23.5317
+2017-05-10 21:25:18.826997 EDT | AverageDiscountedReturn  25.748
+2017-05-10 21:25:18.827265 EDT | AverageQLoss              2.74352e-05
+2017-05-10 21:25:18.827524 EDT | AveragePolicySurr        -0.0391157
+2017-05-10 21:25:18.827782 EDT | AverageQ                  0.0310384
+2017-05-10 21:25:18.828038 EDT | AverageAbsQ               0.0310562
+2017-05-10 21:25:18.828307 EDT | AverageY                  0.03105
+2017-05-10 21:25:18.828555 EDT | AverageAbsY               0.0310952
+2017-05-10 21:25:18.828809 EDT | AverageAbsQYDiff          0.00377432
+2017-05-10 21:25:18.829073 EDT | AverageAction             0.954573
+2017-05-10 21:25:18.829324 EDT | PolicyRegParamNorm       15.1733
+2017-05-10 21:25:18.829601 EDT | QFunRegParamNorm         11.6563
+2017-05-10 21:25:18.829850 EDT | AverageForwardProgress    0.191073
+2017-05-10 21:25:18.830101 EDT | MaxForwardProgress        0.428014
+2017-05-10 21:25:18.830351 EDT | MinForwardProgress       -0.0313144
+2017-05-10 21:25:18.830601 EDT | StdForwardProgress        0.08168
+2017-05-10 21:25:18.830849 EDT | -----------------------  ------------
+2017-05-10 21:25:18.831203 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #13 | Training started
+2017-05-10 21:25:31.215044 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #13 | Training finished
+2017-05-10 21:25:31.215960 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #13 | Collecting samples for evaluation
+2017-05-10 21:26:05.498728 EDT | -----------------------  ------------
+2017-05-10 21:26:05.499312 EDT | Epoch                    13
+2017-05-10 21:26:05.499528 EDT | AverageReturn            57.0414
+2017-05-10 21:26:05.499727 EDT | StdReturn                 8.19061
+2017-05-10 21:26:05.499928 EDT | MaxReturn                77.4731
+2017-05-10 21:26:05.500136 EDT | MinReturn                37.1651
+2017-05-10 21:26:05.500334 EDT | AverageEsReturn          36.6059
+2017-05-10 21:26:05.500522 EDT | StdEsReturn              25.1909
+2017-05-10 21:26:05.500710 EDT | MaxEsReturn              81.654
+2017-05-10 21:26:05.500900 EDT | MinEsReturn              -0.696935
+2017-05-10 21:26:05.501105 EDT | AverageDiscountedReturn  37.6417
+2017-05-10 21:26:05.503885 EDT | AverageQLoss              3.52424e-05
+2017-05-10 21:26:05.504095 EDT | AveragePolicySurr        -0.0482436
+2017-05-10 21:26:05.504292 EDT | AverageQ                  0.0407565
+2017-05-10 21:26:05.506204 EDT | AverageAbsQ               0.0407857
+2017-05-10 21:26:05.506403 EDT | AverageY                  0.0407681
+2017-05-10 21:26:05.507925 EDT | AverageAbsY               0.0408152
+2017-05-10 21:26:05.508123 EDT | AverageAbsQYDiff          0.0041267
+2017-05-10 21:26:05.508320 EDT | AverageAction             0.981373
+2017-05-10 21:26:05.508515 EDT | PolicyRegParamNorm       15.6577
+2017-05-10 21:26:05.511205 EDT | QFunRegParamNorm         12.6841
+2017-05-10 21:26:05.511410 EDT | AverageForwardProgress    0.34117
+2017-05-10 21:26:05.511612 EDT | MaxForwardProgress        0.497781
+2017-05-10 21:26:05.514446 EDT | MinForwardProgress        0.198463
+2017-05-10 21:26:05.514661 EDT | StdForwardProgress        0.0603357
+2017-05-10 21:26:05.514855 EDT | -----------------------  ------------
+2017-05-10 21:26:05.516650 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #14 | Training started
+2017-05-10 21:26:18.582423 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #14 | Training finished
+2017-05-10 21:26:18.583201 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #14 | Collecting samples for evaluation
+2017-05-10 21:26:48.845872 EDT | -----------------------  ------------
+2017-05-10 21:26:48.846579 EDT | Epoch                    14
+2017-05-10 21:26:48.846917 EDT | AverageReturn            39.3127
+2017-05-10 21:26:48.847252 EDT | StdReturn                 8.17727
+2017-05-10 21:26:48.847564 EDT | MaxReturn                57.6307
+2017-05-10 21:26:48.847892 EDT | MinReturn                12.3227
+2017-05-10 21:26:48.848180 EDT | AverageEsReturn          36.3288
+2017-05-10 21:26:48.848532 EDT | StdEsReturn              19.1935
+2017-05-10 21:26:48.848868 EDT | MaxEsReturn              66.3381
+2017-05-10 21:26:48.849208 EDT | MinEsReturn               2.93203
+2017-05-10 21:26:48.849512 EDT | AverageDiscountedReturn  27.2301
+2017-05-10 21:26:48.849828 EDT | AverageQLoss              4.48581e-05
+2017-05-10 21:26:48.850122 EDT | AveragePolicySurr        -0.0548997
+2017-05-10 21:26:48.850571 EDT | AverageQ                  0.048934
+2017-05-10 21:26:48.850876 EDT | AverageAbsQ               0.048968
+2017-05-10 21:26:48.851180 EDT | AverageY                  0.0489428
+2017-05-10 21:26:48.851520 EDT | AverageAbsY               0.0489875
+2017-05-10 21:26:48.851850 EDT | AverageAbsQYDiff          0.0045485
+2017-05-10 21:26:48.852187 EDT | AverageAction             0.971527
+2017-05-10 21:26:48.852512 EDT | PolicyRegParamNorm       16.075
+2017-05-10 21:26:48.852797 EDT | QFunRegParamNorm         13.6001
+2017-05-10 21:26:48.853092 EDT | AverageForwardProgress    0.219575
+2017-05-10 21:26:48.853430 EDT | MaxForwardProgress        0.353117
+2017-05-10 21:26:48.853747 EDT | MinForwardProgress        0.0209512
+2017-05-10 21:26:48.854039 EDT | StdForwardProgress        0.0597819
+2017-05-10 21:26:48.854330 EDT | -----------------------  ------------
+2017-05-10 21:26:48.854783 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #15 | Training started
+2017-05-10 21:27:00.389084 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #15 | Training finished
+2017-05-10 21:27:00.398941 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #15 | Collecting samples for evaluation
+2017-05-10 21:27:30.971150 EDT | -----------------------  ------------
+2017-05-10 21:27:30.971840 EDT | Epoch                    15
+2017-05-10 21:27:30.972118 EDT | AverageReturn             9.38212
+2017-05-10 21:27:30.972385 EDT | StdReturn                 4.14071
+2017-05-10 21:27:30.972667 EDT | MaxReturn                24.5074
+2017-05-10 21:27:30.972951 EDT | MinReturn                -2.35134
+2017-05-10 21:27:30.973238 EDT | AverageEsReturn          16.2501
+2017-05-10 21:27:30.973504 EDT | StdEsReturn              15.659
+2017-05-10 21:27:30.973773 EDT | MaxEsReturn              61.5938
+2017-05-10 21:27:30.974058 EDT | MinEsReturn               1.58446
+2017-05-10 21:27:30.974343 EDT | AverageDiscountedReturn   7.57336
+2017-05-10 21:27:30.974602 EDT | AverageQLoss              5.62575e-05
+2017-05-10 21:27:30.974869 EDT | AveragePolicySurr        -0.0620595
+2017-05-10 21:27:30.975130 EDT | AverageQ                  0.0557544
+2017-05-10 21:27:30.975397 EDT | AverageAbsQ               0.0558057
+2017-05-10 21:27:30.975684 EDT | AverageY                  0.0557578
+2017-05-10 21:27:30.975945 EDT | AverageAbsY               0.0558136
+2017-05-10 21:27:30.976237 EDT | AverageAbsQYDiff          0.00502841
+2017-05-10 21:27:30.976509 EDT | AverageAction             0.972595
+2017-05-10 21:27:30.976787 EDT | PolicyRegParamNorm       16.4531
+2017-05-10 21:27:30.977071 EDT | QFunRegParamNorm         14.4082
+2017-05-10 21:27:30.977334 EDT | AverageForwardProgress    0.0181671
+2017-05-10 21:27:30.977609 EDT | MaxForwardProgress        0.133961
+2017-05-10 21:27:30.977868 EDT | MinForwardProgress       -0.0689792
+2017-05-10 21:27:30.978122 EDT | StdForwardProgress        0.031828
+2017-05-10 21:27:30.978404 EDT | -----------------------  ------------
+2017-05-10 21:27:30.978778 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #16 | Training started
+2017-05-10 21:27:42.550171 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #16 | Training finished
+2017-05-10 21:27:42.550811 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #16 | Collecting samples for evaluation
+2017-05-10 21:28:12.026959 EDT | -----------------------  ------------
+2017-05-10 21:28:12.028693 EDT | Epoch                    16
+2017-05-10 21:28:12.029033 EDT | AverageReturn             6.12509
+2017-05-10 21:28:12.029314 EDT | StdReturn                 4.04629
+2017-05-10 21:28:12.029582 EDT | MaxReturn                19.5617
+2017-05-10 21:28:12.029858 EDT | MinReturn                -3.56457
+2017-05-10 21:28:12.030123 EDT | AverageEsReturn           9.32457
+2017-05-10 21:28:12.030412 EDT | StdEsReturn               9.65675
+2017-05-10 21:28:12.030722 EDT | MaxEsReturn              41.9287
+2017-05-10 21:28:12.030999 EDT | MinEsReturn              -2.62003
+2017-05-10 21:28:12.031295 EDT | AverageDiscountedReturn   5.22009
+2017-05-10 21:28:12.031590 EDT | AverageQLoss              6.69235e-05
+2017-05-10 21:28:12.031882 EDT | AveragePolicySurr        -0.0671239
+2017-05-10 21:28:12.032154 EDT | AverageQ                  0.0616858
+2017-05-10 21:28:12.032412 EDT | AverageAbsQ               0.0617575
+2017-05-10 21:28:12.032675 EDT | AverageY                  0.0616915
+2017-05-10 21:28:12.032943 EDT | AverageAbsY               0.0617667
+2017-05-10 21:28:12.033201 EDT | AverageAbsQYDiff          0.00553545
+2017-05-10 21:28:12.033464 EDT | AverageAction             0.984732
+2017-05-10 21:28:12.033791 EDT | PolicyRegParamNorm       16.7762
+2017-05-10 21:28:12.034087 EDT | QFunRegParamNorm         15.212
+2017-05-10 21:28:12.034377 EDT | AverageForwardProgress   -0.000641049
+2017-05-10 21:28:12.034634 EDT | MaxForwardProgress        0.103823
+2017-05-10 21:28:12.035258 EDT | MinForwardProgress       -0.0769548
+2017-05-10 21:28:12.036368 EDT | StdForwardProgress        0.0316222
+2017-05-10 21:28:12.037542 EDT | -----------------------  ------------
+2017-05-10 21:28:12.038698 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #17 | Training started
+2017-05-10 21:28:24.147053 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #17 | Training finished
+2017-05-10 21:28:24.147691 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #17 | Collecting samples for evaluation
+2017-05-10 21:28:54.944679 EDT | -----------------------  ------------
+2017-05-10 21:28:54.945496 EDT | Epoch                    17
+2017-05-10 21:28:54.945813 EDT | AverageReturn             6.27755
+2017-05-10 21:28:54.946119 EDT | StdReturn                 3.90979
+2017-05-10 21:28:54.946420 EDT | MaxReturn                16.4557
+2017-05-10 21:28:54.946745 EDT | MinReturn                -2.69622
+2017-05-10 21:28:54.947076 EDT | AverageEsReturn           7.05683
+2017-05-10 21:28:54.947420 EDT | StdEsReturn               5.44388
+2017-05-10 21:28:54.947787 EDT | MaxEsReturn              25.1169
+2017-05-10 21:28:54.948054 EDT | MinEsReturn              -4.6246
+2017-05-10 21:28:54.948306 EDT | AverageDiscountedReturn   5.32705
+2017-05-10 21:28:54.948554 EDT | AverageQLoss              7.55705e-05
+2017-05-10 21:28:54.948828 EDT | AveragePolicySurr        -0.0727043
+2017-05-10 21:28:54.949089 EDT | AverageQ                  0.0665205
+2017-05-10 21:28:54.949434 EDT | AverageAbsQ               0.0665998
+2017-05-10 21:28:54.949729 EDT | AverageY                  0.0665216
+2017-05-10 21:28:54.957047 EDT | AverageAbsY               0.066601
+2017-05-10 21:28:54.957388 EDT | AverageAbsQYDiff          0.00583405
+2017-05-10 21:28:54.957650 EDT | AverageAction             0.953727
+2017-05-10 21:28:54.957945 EDT | PolicyRegParamNorm       17.0877
+2017-05-10 21:28:54.958238 EDT | QFunRegParamNorm         15.8213
+2017-05-10 21:28:54.958547 EDT | AverageForwardProgress   -0.000554571
+2017-05-10 21:28:54.958840 EDT | MaxForwardProgress        0.0799666
+2017-05-10 21:28:54.959078 EDT | MinForwardProgress       -0.0762115
+2017-05-10 21:28:54.959329 EDT | StdForwardProgress        0.0304976
+2017-05-10 21:28:54.959548 EDT | -----------------------  ------------
+2017-05-10 21:28:54.959874 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #18 | Training started
+2017-05-10 21:29:06.376191 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #18 | Training finished
+2017-05-10 21:29:06.376988 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #18 | Collecting samples for evaluation
+2017-05-10 21:29:39.211217 EDT | -----------------------  ------------
+2017-05-10 21:29:39.214507 EDT | Epoch                    18
+2017-05-10 21:29:39.214876 EDT | AverageReturn             6.19415
+2017-05-10 21:29:39.215145 EDT | StdReturn                 4.2604
+2017-05-10 21:29:39.215397 EDT | MaxReturn                17.3824
+2017-05-10 21:29:39.215644 EDT | MinReturn                -5.39606
+2017-05-10 21:29:39.215918 EDT | AverageEsReturn           6.7246
+2017-05-10 21:29:39.216205 EDT | StdEsReturn               3.9417
+2017-05-10 21:29:39.216462 EDT | MaxEsReturn              18.2799
+2017-05-10 21:29:39.216727 EDT | MinEsReturn               0.175716
+2017-05-10 21:29:39.217061 EDT | AverageDiscountedReturn   5.24045
+2017-05-10 21:29:39.217266 EDT | AverageQLoss              8.88789e-05
+2017-05-10 21:29:39.217455 EDT | AveragePolicySurr        -0.0759495
+2017-05-10 21:29:39.217642 EDT | AverageQ                  0.0710893
+2017-05-10 21:29:39.217827 EDT | AverageAbsQ               0.0711769
+2017-05-10 21:29:39.218010 EDT | AverageY                  0.0711037
+2017-05-10 21:29:39.218194 EDT | AverageAbsY               0.0711923
+2017-05-10 21:29:39.218380 EDT | AverageAbsQYDiff          0.00632158
+2017-05-10 21:29:39.218564 EDT | AverageAction             0.97372
+2017-05-10 21:29:39.218749 EDT | PolicyRegParamNorm       17.4501
+2017-05-10 21:29:39.218931 EDT | QFunRegParamNorm         16.3501
+2017-05-10 21:29:39.219115 EDT | AverageForwardProgress   -0.00203867
+2017-05-10 21:29:39.219298 EDT | MaxForwardProgress        0.084793
+2017-05-10 21:29:39.219480 EDT | MinForwardProgress       -0.0893227
+2017-05-10 21:29:39.219662 EDT | StdForwardProgress        0.0330128
+2017-05-10 21:29:39.219844 EDT | -----------------------  ------------
+2017-05-10 21:29:39.220134 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #19 | Training started
+2017-05-10 21:29:51.074593 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #19 | Training finished
+2017-05-10 21:29:51.079243 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #19 | Collecting samples for evaluation
+2017-05-10 21:30:25.646067 EDT | -----------------------  ------------
+2017-05-10 21:30:25.646822 EDT | Epoch                    19
+2017-05-10 21:30:25.647105 EDT | AverageReturn             7.03472
+2017-05-10 21:30:25.647386 EDT | StdReturn                 4.24404
+2017-05-10 21:30:25.647685 EDT | MaxReturn                19.4804
+2017-05-10 21:30:25.647950 EDT | MinReturn                -5.19686
+2017-05-10 21:30:25.648222 EDT | AverageEsReturn           6.70361
+2017-05-10 21:30:25.648503 EDT | StdEsReturn               3.42914
+2017-05-10 21:30:25.648767 EDT | MaxEsReturn              14.5623
+2017-05-10 21:30:25.649043 EDT | MinEsReturn               0.93836
+2017-05-10 21:30:25.649309 EDT | AverageDiscountedReturn   5.93826
+2017-05-10 21:30:25.649826 EDT | AverageQLoss              0.000107636
+2017-05-10 21:30:25.651763 EDT | AveragePolicySurr        -0.0813748
+2017-05-10 21:30:25.652865 EDT | AverageQ                  0.0760937
+2017-05-10 21:30:25.653947 EDT | AverageAbsQ               0.0761635
+2017-05-10 21:30:25.654959 EDT | AverageY                  0.076097
+2017-05-10 21:30:25.656531 EDT | AverageAbsY               0.0761711
+2017-05-10 21:30:25.657624 EDT | AverageAbsQYDiff          0.00701442
+2017-05-10 21:30:25.659620 EDT | AverageAction             0.94753
+2017-05-10 21:30:25.660740 EDT | PolicyRegParamNorm       17.7498
+2017-05-10 21:30:25.661797 EDT | QFunRegParamNorm         16.8464
+2017-05-10 21:30:25.663479 EDT | AverageForwardProgress    0.00386048
+2017-05-10 21:30:25.664585 EDT | MaxForwardProgress        0.100843
+2017-05-10 21:30:25.665615 EDT | MinForwardProgress       -0.0906282
+2017-05-10 21:30:25.667031 EDT | StdForwardProgress        0.0332017
+2017-05-10 21:30:25.668615 EDT | -----------------------  ------------
+2017-05-10 21:30:25.669854 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #20 | Training started
+2017-05-10 21:30:40.304419 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #20 | Training finished
+2017-05-10 21:30:40.312329 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #20 | Collecting samples for evaluation
+2017-05-10 21:31:13.433926 EDT | -----------------------  ------------
+2017-05-10 21:31:13.434558 EDT | Epoch                    20
+2017-05-10 21:31:13.434779 EDT | AverageReturn            12.99
+2017-05-10 21:31:13.434983 EDT | StdReturn                 4.99417
+2017-05-10 21:31:13.435179 EDT | MaxReturn                24.9315
+2017-05-10 21:31:13.435372 EDT | MinReturn                -3.4783
+2017-05-10 21:31:13.435573 EDT | AverageEsReturn           5.53062
+2017-05-10 21:31:13.435777 EDT | StdEsReturn               4.18174
+2017-05-10 21:31:13.435972 EDT | MaxEsReturn              15.634
+2017-05-10 21:31:13.436175 EDT | MinEsReturn              -3.10796
+2017-05-10 21:31:13.436373 EDT | AverageDiscountedReturn  10.0566
+2017-05-10 21:31:13.436562 EDT | AverageQLoss              0.000125392
+2017-05-10 21:31:13.436751 EDT | AveragePolicySurr        -0.085538
+2017-05-10 21:31:13.436948 EDT | AverageQ                  0.0789864
+2017-05-10 21:31:13.437140 EDT | AverageAbsQ               0.0790691
+2017-05-10 21:31:13.437332 EDT | AverageY                  0.078983
+2017-05-10 21:31:13.437525 EDT | AverageAbsY               0.0790601
+2017-05-10 21:31:13.437713 EDT | AverageAbsQYDiff          0.00750186
+2017-05-10 21:31:13.437902 EDT | AverageAction             0.918346
+2017-05-10 21:31:13.438090 EDT | PolicyRegParamNorm       17.978
+2017-05-10 21:31:13.438277 EDT | QFunRegParamNorm         17.2803
+2017-05-10 21:31:13.438464 EDT | AverageForwardProgress    0.0382976
+2017-05-10 21:31:13.438660 EDT | MaxForwardProgress        0.130696
+2017-05-10 21:31:13.438862 EDT | MinForwardProgress       -0.101742
+2017-05-10 21:31:13.439051 EDT | StdForwardProgress        0.0387712
+2017-05-10 21:31:13.439242 EDT | -----------------------  ------------
+2017-05-10 21:31:13.439541 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #21 | Training started
+2017-05-10 21:31:24.759108 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #21 | Training finished
+2017-05-10 21:31:24.759836 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #21 | Collecting samples for evaluation
+2017-05-10 21:31:58.634632 EDT | -----------------------  -------------
+2017-05-10 21:31:58.635318 EDT | Epoch                     21
+2017-05-10 21:31:58.635598 EDT | AverageReturn             52.6066
+2017-05-10 21:31:58.635864 EDT | StdReturn                 14.6761
+2017-05-10 21:31:58.636127 EDT | MaxReturn                 82.6154
+2017-05-10 21:31:58.636398 EDT | MinReturn                 12.9043
+2017-05-10 21:31:58.636653 EDT | AverageEsReturn           17.7601
+2017-05-10 21:31:58.636909 EDT | StdEsReturn               28.6828
+2017-05-10 21:31:58.637179 EDT | MaxEsReturn               79.6881
+2017-05-10 21:31:58.637432 EDT | MinEsReturn              -37.702
+2017-05-10 21:31:58.637699 EDT | AverageDiscountedReturn   29.2118
+2017-05-10 21:31:58.637954 EDT | AverageQLoss               0.000132187
+2017-05-10 21:31:58.638214 EDT | AveragePolicySurr         -0.0908659
+2017-05-10 21:31:58.638472 EDT | AverageQ                   0.0824748
+2017-05-10 21:31:58.638730 EDT | AverageAbsQ                0.0825533
+2017-05-10 21:31:58.639055 EDT | AverageY                   0.0824926
+2017-05-10 21:31:58.639388 EDT | AverageAbsY                0.0825814
+2017-05-10 21:31:58.639741 EDT | AverageAbsQYDiff           0.00770334
+2017-05-10 21:31:58.640083 EDT | AverageAction              0.89743
+2017-05-10 21:31:58.640431 EDT | PolicyRegParamNorm        18.0953
+2017-05-10 21:31:58.640775 EDT | QFunRegParamNorm          17.6404
+2017-05-10 21:31:58.641126 EDT | AverageForwardProgress     0.265586
+2017-05-10 21:31:58.641471 EDT | MaxForwardProgress         0.500219
+2017-05-10 21:31:58.641812 EDT | MinForwardProgress         0.00602435
+2017-05-10 21:31:58.642163 EDT | StdForwardProgress         0.111807
+2017-05-10 21:31:58.642503 EDT | -----------------------  -------------
+2017-05-10 21:31:58.642964 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #22 | Training started
+2017-05-10 21:32:10.291760 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #22 | Training finished
+2017-05-10 21:32:10.300912 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #22 | Collecting samples for evaluation
+2017-05-10 21:32:41.939382 EDT | -----------------------  ------------
+2017-05-10 21:32:41.940007 EDT | Epoch                    22
+2017-05-10 21:32:41.940224 EDT | AverageReturn            17.4667
+2017-05-10 21:32:41.940424 EDT | StdReturn                 4.9749
+2017-05-10 21:32:41.940620 EDT | MaxReturn                32.3597
+2017-05-10 21:32:41.941065 EDT | MinReturn                 5.89805
+2017-05-10 21:32:41.941269 EDT | AverageEsReturn          16.6148
+2017-05-10 21:32:41.942761 EDT | StdEsReturn              10.7637
+2017-05-10 21:32:41.943803 EDT | MaxEsReturn              46.7783
+2017-05-10 21:32:41.944762 EDT | MinEsReturn              -1.20739
+2017-05-10 21:32:41.945757 EDT | AverageDiscountedReturn  13.0267
+2017-05-10 21:32:41.946650 EDT | AverageQLoss              0.000174239
+2017-05-10 21:32:41.947515 EDT | AveragePolicySurr        -0.103812
+2017-05-10 21:32:41.948502 EDT | AverageQ                  0.0930124
+2017-05-10 21:32:41.949373 EDT | AverageAbsQ               0.093085
+2017-05-10 21:32:41.950243 EDT | AverageY                  0.0930199
+2017-05-10 21:32:41.951162 EDT | AverageAbsY               0.0930981
+2017-05-10 21:32:41.952105 EDT | AverageAbsQYDiff          0.00893995
+2017-05-10 21:32:41.952976 EDT | AverageAction             0.975354
+2017-05-10 21:32:41.953820 EDT | PolicyRegParamNorm       18.2595
+2017-05-10 21:32:41.954653 EDT | QFunRegParamNorm         18.0833
+2017-05-10 21:32:41.955456 EDT | AverageForwardProgress    0.0661959
+2017-05-10 21:32:41.956052 EDT | MaxForwardProgress        0.178963
+2017-05-10 21:32:41.956247 EDT | MinForwardProgress       -0.0255912
+2017-05-10 21:32:41.956442 EDT | StdForwardProgress        0.0377392
+2017-05-10 21:32:41.958441 EDT | -----------------------  ------------
+2017-05-10 21:32:41.959349 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #23 | Training started
+2017-05-10 21:32:53.685587 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #23 | Training finished
+2017-05-10 21:32:53.686188 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #23 | Collecting samples for evaluation
+2017-05-10 21:33:20.505561 EDT | -----------------------  ------------
+2017-05-10 21:33:20.506318 EDT | Epoch                    23
+2017-05-10 21:33:20.506689 EDT | AverageReturn             6.2307
+2017-05-10 21:33:20.507014 EDT | StdReturn                 3.9043
+2017-05-10 21:33:20.507301 EDT | MaxReturn                16.9328
+2017-05-10 21:33:20.507580 EDT | MinReturn                -4.22107
+2017-05-10 21:33:20.507939 EDT | AverageEsReturn           8.24655
+2017-05-10 21:33:20.508271 EDT | StdEsReturn               5.82384
+2017-05-10 21:33:20.508604 EDT | MaxEsReturn              24.401
+2017-05-10 21:33:20.508901 EDT | MinEsReturn               0.440077
+2017-05-10 21:33:20.509237 EDT | AverageDiscountedReturn   5.29498
+2017-05-10 21:33:20.509522 EDT | AverageQLoss              0.000229518
+2017-05-10 21:33:20.509867 EDT | AveragePolicySurr        -0.118022
+2017-05-10 21:33:20.510142 EDT | AverageQ                  0.10363
+2017-05-10 21:33:20.510438 EDT | AverageAbsQ               0.103709
+2017-05-10 21:33:20.510727 EDT | AverageY                  0.103666
+2017-05-10 21:33:20.511072 EDT | AverageAbsY               0.103727
+2017-05-10 21:33:20.511390 EDT | AverageAbsQYDiff          0.0102072
+2017-05-10 21:33:20.511723 EDT | AverageAction             0.961997
+2017-05-10 21:33:20.512030 EDT | PolicyRegParamNorm       18.4275
+2017-05-10 21:33:20.512339 EDT | QFunRegParamNorm         18.5204
+2017-05-10 21:33:20.512703 EDT | AverageForwardProgress   -0.000536561
+2017-05-10 21:33:20.513010 EDT | MaxForwardProgress        0.0798401
+2017-05-10 21:33:20.513302 EDT | MinForwardProgress       -0.0849473
+2017-05-10 21:33:20.513634 EDT | StdForwardProgress        0.0303303
+2017-05-10 21:33:20.513979 EDT | -----------------------  ------------
+2017-05-10 21:33:20.514433 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #24 | Training started
+2017-05-10 21:33:31.689784 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #24 | Training finished
+2017-05-10 21:33:31.693980 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #24 | Collecting samples for evaluation
+2017-05-10 21:34:01.957279 EDT | -----------------------  ------------
+2017-05-10 21:34:01.958057 EDT | Epoch                    24
+2017-05-10 21:34:01.958353 EDT | AverageReturn             6.85904
+2017-05-10 21:34:01.958622 EDT | StdReturn                 4.43254
+2017-05-10 21:34:01.958907 EDT | MaxReturn                17.276
+2017-05-10 21:34:01.959177 EDT | MinReturn                -4.14185
+2017-05-10 21:34:01.959446 EDT | AverageEsReturn           5.04067
+2017-05-10 21:34:01.959708 EDT | StdEsReturn               4.63404
+2017-05-10 21:34:01.959981 EDT | MaxEsReturn              15.2995
+2017-05-10 21:34:01.960238 EDT | MinEsReturn              -4.75099
+2017-05-10 21:34:01.960503 EDT | AverageDiscountedReturn   5.77247
+2017-05-10 21:34:01.960764 EDT | AverageQLoss              0.000303344
+2017-05-10 21:34:01.961063 EDT | AveragePolicySurr        -0.127376
+2017-05-10 21:34:01.961332 EDT | AverageQ                  0.115446
+2017-05-10 21:34:01.961598 EDT | AverageAbsQ               0.115512
+2017-05-10 21:34:01.961851 EDT | AverageY                  0.115479
+2017-05-10 21:34:01.962125 EDT | AverageAbsY               0.11553
+2017-05-10 21:34:01.962379 EDT | AverageAbsQYDiff          0.0115571
+2017-05-10 21:34:01.962647 EDT | AverageAction             0.973597
+2017-05-10 21:34:01.962901 EDT | PolicyRegParamNorm       18.5226
+2017-05-10 21:34:01.963174 EDT | QFunRegParamNorm         19.0722
+2017-05-10 21:34:01.963425 EDT | AverageForwardProgress    0.00182835
+2017-05-10 21:34:01.963691 EDT | MaxForwardProgress        0.0829874
+2017-05-10 21:34:01.963950 EDT | MinForwardProgress       -0.0836847
+2017-05-10 21:34:01.964219 EDT | StdForwardProgress        0.0343973
+2017-05-10 21:34:01.964469 EDT | -----------------------  ------------
+2017-05-10 21:34:01.964841 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #25 | Training started
+2017-05-10 21:34:12.803135 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #25 | Training finished
+2017-05-10 21:34:12.803401 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #25 | Collecting samples for evaluation
+2017-05-10 21:34:46.279960 EDT | -----------------------  ------------
+2017-05-10 21:34:46.280582 EDT | Epoch                    25
+2017-05-10 21:34:46.280897 EDT | AverageReturn            22.2356
+2017-05-10 21:34:46.281204 EDT | StdReturn                 5.38409
+2017-05-10 21:34:46.282060 EDT | MaxReturn                38.5714
+2017-05-10 21:34:46.283205 EDT | MinReturn                 9.29588
+2017-05-10 21:34:46.284441 EDT | AverageEsReturn          17.3456
+2017-05-10 21:34:46.285699 EDT | StdEsReturn              12.6532
+2017-05-10 21:34:46.286932 EDT | MaxEsReturn              45.7173
+2017-05-10 21:34:46.288268 EDT | MinEsReturn               1.22541
+2017-05-10 21:34:46.289457 EDT | AverageDiscountedReturn  15.8338
+2017-05-10 21:34:46.290671 EDT | AverageQLoss              0.000377535
+2017-05-10 21:34:46.291839 EDT | AveragePolicySurr        -0.143905
+2017-05-10 21:34:46.293041 EDT | AverageQ                  0.125177
+2017-05-10 21:34:46.294249 EDT | AverageAbsQ               0.125271
+2017-05-10 21:34:46.295422 EDT | AverageY                  0.125215
+2017-05-10 21:34:46.296509 EDT | AverageAbsY               0.125279
+2017-05-10 21:34:46.297720 EDT | AverageAbsQYDiff          0.0128316
+2017-05-10 21:34:46.299067 EDT | AverageAction             0.959999
+2017-05-10 21:34:46.300305 EDT | PolicyRegParamNorm       18.6618
+2017-05-10 21:34:46.301542 EDT | QFunRegParamNorm         19.5356
+2017-05-10 21:34:46.302880 EDT | AverageForwardProgress    0.0934232
+2017-05-10 21:34:46.304312 EDT | MaxForwardProgress        0.215911
+2017-05-10 21:34:46.305506 EDT | MinForwardProgress       -0.00919309
+2017-05-10 21:34:46.306922 EDT | StdForwardProgress        0.0413829
+2017-05-10 21:34:46.308690 EDT | -----------------------  ------------
+2017-05-10 21:34:46.310338 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #26 | Training started
+2017-05-10 21:34:58.009373 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #26 | Training finished
+2017-05-10 21:34:58.010988 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #26 | Collecting samples for evaluation
+2017-05-10 21:35:34.420188 EDT | -----------------------  ------------
+2017-05-10 21:35:34.420927 EDT | Epoch                    26
+2017-05-10 21:35:34.421289 EDT | AverageReturn            51.7462
+2017-05-10 21:35:34.421647 EDT | StdReturn                 9.74712
+2017-05-10 21:35:34.421992 EDT | MaxReturn                73.1641
+2017-05-10 21:35:34.422341 EDT | MinReturn                24.2745
+2017-05-10 21:35:34.422682 EDT | AverageEsReturn          18.0105
+2017-05-10 21:35:34.423023 EDT | StdEsReturn              13.3012
+2017-05-10 21:35:34.423358 EDT | MaxEsReturn              47.0058
+2017-05-10 21:35:34.423702 EDT | MinEsReturn              -3.28302
+2017-05-10 21:35:34.424044 EDT | AverageDiscountedReturn  32.5676
+2017-05-10 21:35:34.424388 EDT | AverageQLoss              0.000450218
+2017-05-10 21:35:34.424733 EDT | AveragePolicySurr        -0.156175
+2017-05-10 21:35:34.425108 EDT | AverageQ                  0.138717
+2017-05-10 21:35:34.425443 EDT | AverageAbsQ               0.138805
+2017-05-10 21:35:34.425798 EDT | AverageY                  0.138752
+2017-05-10 21:35:34.426151 EDT | AverageAbsY               0.138793
+2017-05-10 21:35:34.426509 EDT | AverageAbsQYDiff          0.0139902
+2017-05-10 21:35:34.426864 EDT | AverageAction             0.988452
+2017-05-10 21:35:34.427220 EDT | PolicyRegParamNorm       18.7571
+2017-05-10 21:35:34.427570 EDT | QFunRegParamNorm         20.0403
+2017-05-10 21:35:34.427919 EDT | AverageForwardProgress    0.292818
+2017-05-10 21:35:34.428269 EDT | MaxForwardProgress        0.451454
+2017-05-10 21:35:34.428615 EDT | MinForwardProgress        0.069065
+2017-05-10 21:35:34.428963 EDT | StdForwardProgress        0.0713645
+2017-05-10 21:35:34.429311 EDT | -----------------------  ------------
+2017-05-10 21:35:34.429943 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #27 | Training started
+2017-05-10 21:35:47.349844 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #27 | Training finished
+2017-05-10 21:35:47.350508 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #27 | Collecting samples for evaluation
+2017-05-10 21:36:22.007305 EDT | -----------------------  ------------
+2017-05-10 21:36:22.008009 EDT | Epoch                    27
+2017-05-10 21:36:22.008289 EDT | AverageReturn             6.58121
+2017-05-10 21:36:22.008552 EDT | StdReturn                 4.33174
+2017-05-10 21:36:22.008811 EDT | MaxReturn                20.6811
+2017-05-10 21:36:22.009079 EDT | MinReturn                -4.92645
+2017-05-10 21:36:22.009332 EDT | AverageEsReturn          14.3096
+2017-05-10 21:36:22.009588 EDT | StdEsReturn              15.1454
+2017-05-10 21:36:22.009835 EDT | MaxEsReturn              60.7634
+2017-05-10 21:36:22.010101 EDT | MinEsReturn               0.929675
+2017-05-10 21:36:22.010348 EDT | AverageDiscountedReturn   5.55064
+2017-05-10 21:36:22.010595 EDT | AverageQLoss              0.000525956
+2017-05-10 21:36:22.010847 EDT | AveragePolicySurr        -0.165757
+2017-05-10 21:36:22.011095 EDT | AverageQ                  0.150383
+2017-05-10 21:36:22.011341 EDT | AverageAbsQ               0.150481
+2017-05-10 21:36:22.011588 EDT | AverageY                  0.150438
+2017-05-10 21:36:22.011833 EDT | AverageAbsY               0.15049
+2017-05-10 21:36:22.012088 EDT | AverageAbsQYDiff          0.0153002
+2017-05-10 21:36:22.012336 EDT | AverageAction             0.958962
+2017-05-10 21:36:22.012584 EDT | PolicyRegParamNorm       18.855
+2017-05-10 21:36:22.012832 EDT | QFunRegParamNorm         20.4696
+2017-05-10 21:36:22.013123 EDT | AverageForwardProgress   -0.000103012
+2017-05-10 21:36:22.013373 EDT | MaxForwardProgress        0.110383
+2017-05-10 21:36:22.013619 EDT | MinForwardProgress       -0.0887883
+2017-05-10 21:36:22.013864 EDT | StdForwardProgress        0.0340349
+2017-05-10 21:36:22.014122 EDT | -----------------------  ------------
+2017-05-10 21:36:22.014481 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #28 | Training started
+2017-05-10 21:36:33.784218 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #28 | Training finished
+2017-05-10 21:36:33.785789 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #28 | Collecting samples for evaluation
+2017-05-10 21:37:11.907629 EDT | -----------------------  ------------
+2017-05-10 21:37:11.908373 EDT | Epoch                     28
+2017-05-10 21:37:11.908680 EDT | AverageReturn             13.0676
+2017-05-10 21:37:11.909006 EDT | StdReturn                 25.1409
+2017-05-10 21:37:11.909369 EDT | MaxReturn                 69.8143
+2017-05-10 21:37:11.909695 EDT | MinReturn                -29.1953
+2017-05-10 21:37:11.909988 EDT | AverageEsReturn           15.3976
+2017-05-10 21:37:11.910290 EDT | StdEsReturn               15.9969
+2017-05-10 21:37:11.910613 EDT | MaxEsReturn               61.1407
+2017-05-10 21:37:11.910881 EDT | MinEsReturn               -0.833908
+2017-05-10 21:37:11.911190 EDT | AverageDiscountedReturn    8.93668
+2017-05-10 21:37:11.911536 EDT | AverageQLoss               0.00059254
+2017-05-10 21:37:11.911885 EDT | AveragePolicySurr         -0.173382
+2017-05-10 21:37:11.912189 EDT | AverageQ                   0.161151
+2017-05-10 21:37:11.912478 EDT | AverageAbsQ                0.161288
+2017-05-10 21:37:11.912817 EDT | AverageY                   0.161172
+2017-05-10 21:37:11.913094 EDT | AverageAbsY                0.16125
+2017-05-10 21:37:11.913362 EDT | AverageAbsQYDiff           0.0164252
+2017-05-10 21:37:11.913725 EDT | AverageAction              0.972808
+2017-05-10 21:37:11.914082 EDT | PolicyRegParamNorm        18.9429
+2017-05-10 21:37:11.914388 EDT | QFunRegParamNorm          20.8683
+2017-05-10 21:37:11.914672 EDT | AverageForwardProgress    -0.0308972
+2017-05-10 21:37:11.915018 EDT | MaxForwardProgress         0.397572
+2017-05-10 21:37:11.915304 EDT | MinForwardProgress        -0.366679
+2017-05-10 21:37:11.915569 EDT | StdForwardProgress         0.184154
+2017-05-10 21:37:11.915905 EDT | -----------------------  ------------
+2017-05-10 21:37:11.916402 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #29 | Training started
+2017-05-10 21:37:24.363755 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #29 | Training finished
+2017-05-10 21:37:24.366205 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #29 | Collecting samples for evaluation
+2017-05-10 21:37:54.381864 EDT | -----------------------  ------------
+2017-05-10 21:37:54.383306 EDT | Epoch                    29
+2017-05-10 21:37:54.383676 EDT | AverageReturn             5.83185
+2017-05-10 21:37:54.384043 EDT | StdReturn                 3.77161
+2017-05-10 21:37:54.384403 EDT | MaxReturn                18.3085
+2017-05-10 21:37:54.384749 EDT | MinReturn                -7.02218
+2017-05-10 21:37:54.385156 EDT | AverageEsReturn          21.6134
+2017-05-10 21:37:54.385536 EDT | StdEsReturn              20.0683
+2017-05-10 21:37:54.385891 EDT | MaxEsReturn              59.0198
+2017-05-10 21:37:54.386245 EDT | MinEsReturn              -7.85504
+2017-05-10 21:37:54.386606 EDT | AverageDiscountedReturn   5.01023
+2017-05-10 21:37:54.386971 EDT | AverageQLoss              0.000662234
+2017-05-10 21:37:54.387300 EDT | AveragePolicySurr        -0.185143
+2017-05-10 21:37:54.387671 EDT | AverageQ                  0.168435
+2017-05-10 21:37:54.388348 EDT | AverageAbsQ               0.168644
+2017-05-10 21:37:54.389160 EDT | AverageY                  0.168485
+2017-05-10 21:37:54.390779 EDT | AverageAbsY               0.168628
+2017-05-10 21:37:54.391149 EDT | AverageAbsQYDiff          0.0173154
+2017-05-10 21:37:54.391674 EDT | AverageAction             0.982103
+2017-05-10 21:37:54.392618 EDT | PolicyRegParamNorm       18.9894
+2017-05-10 21:37:54.394089 EDT | QFunRegParamNorm         21.2718
+2017-05-10 21:37:54.394444 EDT | AverageForwardProgress   -0.000432468
+2017-05-10 21:37:54.395246 EDT | MaxForwardProgress        0.0963863
+2017-05-10 21:37:54.396123 EDT | MinForwardProgress       -0.102793
+2017-05-10 21:37:54.397004 EDT | StdForwardProgress        0.0291229
+2017-05-10 21:37:54.398076 EDT | -----------------------  ------------
+2017-05-10 21:37:54.399373 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #30 | Training started
+2017-05-10 21:38:06.897405 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #30 | Training finished
+2017-05-10 21:38:06.898173 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #30 | Collecting samples for evaluation
+2017-05-10 21:38:45.191127 EDT | -----------------------  ------------
+2017-05-10 21:38:45.192665 EDT | Epoch                    30
+2017-05-10 21:38:45.193041 EDT | AverageReturn            41.4185
+2017-05-10 21:38:45.193409 EDT | StdReturn                13.1256
+2017-05-10 21:38:45.193781 EDT | MaxReturn                69.4152
+2017-05-10 21:38:45.194108 EDT | MinReturn                 5.27934
+2017-05-10 21:38:45.194449 EDT | AverageEsReturn          25.174
+2017-05-10 21:38:45.194835 EDT | StdEsReturn              18.1663
+2017-05-10 21:38:45.195906 EDT | MaxEsReturn              67.7842
+2017-05-10 21:38:45.196968 EDT | MinEsReturn               2.01686
+2017-05-10 21:38:45.198028 EDT | AverageDiscountedReturn  25.012
+2017-05-10 21:38:45.199113 EDT | AverageQLoss              0.000688003
+2017-05-10 21:38:45.200139 EDT | AveragePolicySurr        -0.202743
+2017-05-10 21:38:45.201201 EDT | AverageQ                  0.182526
+2017-05-10 21:38:45.202282 EDT | AverageAbsQ               0.182733
+2017-05-10 21:38:45.202647 EDT | AverageY                  0.182596
+2017-05-10 21:38:45.204449 EDT | AverageAbsY               0.182753
+2017-05-10 21:38:45.204832 EDT | AverageAbsQYDiff          0.0176319
+2017-05-10 21:38:45.206514 EDT | AverageAction             0.970622
+2017-05-10 21:38:45.207574 EDT | PolicyRegParamNorm       19.0821
+2017-05-10 21:38:45.208705 EDT | QFunRegParamNorm         21.5803
+2017-05-10 21:38:45.209690 EDT | AverageForwardProgress    0.210513
+2017-05-10 21:38:45.210746 EDT | MaxForwardProgress        0.398531
+2017-05-10 21:38:45.211814 EDT | MinForwardProgress       -0.0323687
+2017-05-10 21:38:45.213929 EDT | StdForwardProgress        0.0873789
+2017-05-10 21:38:45.214292 EDT | -----------------------  ------------
+2017-05-10 21:38:45.216169 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #31 | Training started
+2017-05-10 21:38:57.560059 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #31 | Training finished
+2017-05-10 21:38:57.560761 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #31 | Collecting samples for evaluation
+2017-05-10 21:39:33.962336 EDT | -----------------------  ------------
+2017-05-10 21:39:33.963249 EDT | Epoch                    31
+2017-05-10 21:39:33.963483 EDT | AverageReturn            26.7043
+2017-05-10 21:39:33.963698 EDT | StdReturn                22.0346
+2017-05-10 21:39:33.963909 EDT | MaxReturn                72.1486
+2017-05-10 21:39:33.964105 EDT | MinReturn                -5.82468
+2017-05-10 21:39:33.964297 EDT | AverageEsReturn          25.1524
+2017-05-10 21:39:33.964494 EDT | StdEsReturn              18.9293
+2017-05-10 21:39:33.964724 EDT | MaxEsReturn              57.938
+2017-05-10 21:39:33.965002 EDT | MinEsReturn              -1.07212
+2017-05-10 21:39:33.965199 EDT | AverageDiscountedReturn  16.9445
+2017-05-10 21:39:33.965392 EDT | AverageQLoss              0.000738773
+2017-05-10 21:39:33.965584 EDT | AveragePolicySurr        -0.220781
+2017-05-10 21:39:33.965774 EDT | AverageQ                  0.19924
+2017-05-10 21:39:33.965994 EDT | AverageAbsQ               0.199454
+2017-05-10 21:39:33.966183 EDT | AverageY                  0.199297
+2017-05-10 21:39:33.966371 EDT | AverageAbsY               0.199442
+2017-05-10 21:39:33.966593 EDT | AverageAbsQYDiff          0.0182566
+2017-05-10 21:39:33.966900 EDT | AverageAction             0.963821
+2017-05-10 21:39:33.967139 EDT | PolicyRegParamNorm       19.2058
+2017-05-10 21:39:33.967359 EDT | QFunRegParamNorm         21.8545
+2017-05-10 21:39:33.967582 EDT | AverageForwardProgress    0.120142
+2017-05-10 21:39:33.967802 EDT | MaxForwardProgress        0.423244
+2017-05-10 21:39:33.968024 EDT | MinForwardProgress       -0.111507
+2017-05-10 21:39:33.968249 EDT | StdForwardProgress        0.144713
+2017-05-10 21:39:33.968473 EDT | -----------------------  ------------
+2017-05-10 21:39:33.968820 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #32 | Training started
+2017-05-10 21:39:45.588780 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #32 | Training finished
+2017-05-10 21:39:45.589465 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #32 | Collecting samples for evaluation
+2017-05-10 21:40:17.177836 EDT | -----------------------  ------------
+2017-05-10 21:40:17.178461 EDT | Epoch                    32
+2017-05-10 21:40:17.178692 EDT | AverageReturn             7.40486
+2017-05-10 21:40:17.178910 EDT | StdReturn                 4.89578
+2017-05-10 21:40:17.179124 EDT | MaxReturn                20.4323
+2017-05-10 21:40:17.179341 EDT | MinReturn                -5.13735
+2017-05-10 21:40:17.179558 EDT | AverageEsReturn          12.6183
+2017-05-10 21:40:17.179770 EDT | StdEsReturn              12.5069
+2017-05-10 21:40:17.179976 EDT | MaxEsReturn              64.2524
+2017-05-10 21:40:17.180182 EDT | MinEsReturn               1.06296
+2017-05-10 21:40:17.180392 EDT | AverageDiscountedReturn   6.2647
+2017-05-10 21:40:17.180606 EDT | AverageQLoss              0.000792973
+2017-05-10 21:40:17.180823 EDT | AveragePolicySurr        -0.238731
+2017-05-10 21:40:17.181050 EDT | AverageQ                  0.216684
+2017-05-10 21:40:17.181255 EDT | AverageAbsQ               0.21695
+2017-05-10 21:40:17.181458 EDT | AverageY                  0.216733
+2017-05-10 21:40:17.181666 EDT | AverageAbsY               0.216897
+2017-05-10 21:40:17.181873 EDT | AverageAbsQYDiff          0.01881
+2017-05-10 21:40:17.182080 EDT | AverageAction             0.968076
+2017-05-10 21:40:17.182289 EDT | PolicyRegParamNorm       19.3082
+2017-05-10 21:40:17.182499 EDT | QFunRegParamNorm         22.1835
+2017-05-10 21:40:17.182711 EDT | AverageForwardProgress    0.0096084
+2017-05-10 21:40:17.182912 EDT | MaxForwardProgress        0.108596
+2017-05-10 21:40:17.183112 EDT | MinForwardProgress       -0.086916
+2017-05-10 21:40:17.183320 EDT | StdForwardProgress        0.0375387
+2017-05-10 21:40:17.183535 EDT | -----------------------  ------------
+2017-05-10 21:40:17.183870 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #33 | Training started
+2017-05-10 21:40:30.944694 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #33 | Training finished
+2017-05-10 21:40:30.945407 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #33 | Collecting samples for evaluation
+2017-05-10 21:41:06.332693 EDT | -----------------------  ------------
+2017-05-10 21:41:06.333420 EDT | Epoch                    33
+2017-05-10 21:41:06.333702 EDT | AverageReturn             6.04596
+2017-05-10 21:41:06.333970 EDT | StdReturn                 3.84122
+2017-05-10 21:41:06.334234 EDT | MaxReturn                17.9704
+2017-05-10 21:41:06.334515 EDT | MinReturn                -7.63603
+2017-05-10 21:41:06.334775 EDT | AverageEsReturn          12.3847
+2017-05-10 21:41:06.335034 EDT | StdEsReturn               7.0239
+2017-05-10 21:41:06.335299 EDT | MaxEsReturn              31.2146
+2017-05-10 21:41:06.335561 EDT | MinEsReturn               0.69415
+2017-05-10 21:41:06.335822 EDT | AverageDiscountedReturn   5.14527
+2017-05-10 21:41:06.336078 EDT | AverageQLoss              0.000831392
+2017-05-10 21:41:06.336343 EDT | AveragePolicySurr        -0.257332
+2017-05-10 21:41:06.336604 EDT | AverageQ                  0.232192
+2017-05-10 21:41:06.336871 EDT | AverageAbsQ               0.232518
+2017-05-10 21:41:06.337140 EDT | AverageY                  0.23222
+2017-05-10 21:41:06.337402 EDT | AverageAbsY               0.232423
+2017-05-10 21:41:06.337662 EDT | AverageAbsQYDiff          0.019199
+2017-05-10 21:41:06.337924 EDT | AverageAction             0.969598
+2017-05-10 21:41:06.338181 EDT | PolicyRegParamNorm       19.3934
+2017-05-10 21:41:06.338440 EDT | QFunRegParamNorm         22.5047
+2017-05-10 21:41:06.338695 EDT | AverageForwardProgress   -0.0016552
+2017-05-10 21:41:06.338957 EDT | MaxForwardProgress        0.0931189
+2017-05-10 21:41:06.339212 EDT | MinForwardProgress       -0.107416
+2017-05-10 21:41:06.339466 EDT | StdForwardProgress        0.0299001
+2017-05-10 21:41:06.339725 EDT | -----------------------  ------------
+2017-05-10 21:41:06.340109 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #34 | Training started
+2017-05-10 21:41:17.755282 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #34 | Training finished
+2017-05-10 21:41:17.759266 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #34 | Collecting samples for evaluation
+2017-05-10 21:41:52.603195 EDT | -----------------------  ------------
+2017-05-10 21:41:52.604248 EDT | Epoch                    34
+2017-05-10 21:41:52.604540 EDT | AverageReturn            18.4051
+2017-05-10 21:41:52.604836 EDT | StdReturn                 4.75365
+2017-05-10 21:41:52.605151 EDT | MaxReturn                30.7873
+2017-05-10 21:41:52.605464 EDT | MinReturn                 4.54312
+2017-05-10 21:41:52.605756 EDT | AverageEsReturn          11.8085
+2017-05-10 21:41:52.606045 EDT | StdEsReturn               7.5212
+2017-05-10 21:41:52.606310 EDT | MaxEsReturn              28.9614
+2017-05-10 21:41:52.606569 EDT | MinEsReturn              -3.57473
+2017-05-10 21:41:52.606831 EDT | AverageDiscountedReturn  14.3682
+2017-05-10 21:41:52.607089 EDT | AverageQLoss              0.000910917
+2017-05-10 21:41:52.607356 EDT | AveragePolicySurr        -0.281554
+2017-05-10 21:41:52.607608 EDT | AverageQ                  0.253026
+2017-05-10 21:41:52.607863 EDT | AverageAbsQ               0.253386
+2017-05-10 21:41:52.608131 EDT | AverageY                  0.253095
+2017-05-10 21:41:52.610340 EDT | AverageAbsY               0.253301
+2017-05-10 21:41:52.610632 EDT | AverageAbsQYDiff          0.0200683
+2017-05-10 21:41:52.610899 EDT | AverageAction             0.947077
+2017-05-10 21:41:52.611173 EDT | PolicyRegParamNorm       19.4842
+2017-05-10 21:41:52.611443 EDT | QFunRegParamNorm         22.8049
+2017-05-10 21:41:52.611702 EDT | AverageForwardProgress    0.0760294
+2017-05-10 21:41:52.611961 EDT | MaxForwardProgress        0.175822
+2017-05-10 21:41:52.614149 EDT | MinForwardProgress       -0.0397329
+2017-05-10 21:41:52.614448 EDT | StdForwardProgress        0.036977
+2017-05-10 21:41:52.614718 EDT | -----------------------  ------------
+2017-05-10 21:41:52.615101 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #35 | Training started
+2017-05-10 21:42:05.522241 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #35 | Training finished
+2017-05-10 21:42:05.522927 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #35 | Collecting samples for evaluation
+2017-05-10 21:42:40.028655 EDT | -----------------------  ------------
+2017-05-10 21:42:40.031085 EDT | Epoch                    35
+2017-05-10 21:42:40.031415 EDT | AverageReturn            11.236
+2017-05-10 21:42:40.033770 EDT | StdReturn                 4.38994
+2017-05-10 21:42:40.036201 EDT | MaxReturn                22.8917
+2017-05-10 21:42:40.038528 EDT | MinReturn                -4.57916
+2017-05-10 21:42:40.038886 EDT | AverageEsReturn          16.6676
+2017-05-10 21:42:40.048918 EDT | StdEsReturn               8.62383
+2017-05-10 21:42:40.061290 EDT | MaxEsReturn              41.6744
+2017-05-10 21:42:40.071328 EDT | MinEsReturn               2.87822
+2017-05-10 21:42:40.088621 EDT | AverageDiscountedReturn   8.952
+2017-05-10 21:42:40.097700 EDT | AverageQLoss              0.000939139
+2017-05-10 21:42:40.097995 EDT | AveragePolicySurr        -0.300982
+2017-05-10 21:42:40.098218 EDT | AverageQ                  0.274622
+2017-05-10 21:42:40.098436 EDT | AverageAbsQ               0.274926
+2017-05-10 21:42:40.098668 EDT | AverageY                  0.274691
+2017-05-10 21:42:40.098926 EDT | AverageAbsY               0.274847
+2017-05-10 21:42:40.099220 EDT | AverageAbsQYDiff          0.0203006
+2017-05-10 21:42:40.099447 EDT | AverageAction             0.960277
+2017-05-10 21:42:40.099664 EDT | PolicyRegParamNorm       19.5669
+2017-05-10 21:42:40.099890 EDT | QFunRegParamNorm         23.0555
+2017-05-10 21:42:40.100116 EDT | AverageForwardProgress    0.0227556
+2017-05-10 21:42:40.100334 EDT | MaxForwardProgress        0.109996
+2017-05-10 21:42:40.100554 EDT | MinForwardProgress       -0.0978265
+2017-05-10 21:42:40.100774 EDT | StdForwardProgress        0.0337391
+2017-05-10 21:42:40.102038 EDT | -----------------------  ------------
+2017-05-10 21:42:40.117686 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #36 | Training started
+2017-05-10 21:42:51.670557 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #36 | Training finished
+2017-05-10 21:42:51.671341 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #36 | Collecting samples for evaluation
+2017-05-10 21:43:25.437992 EDT | -----------------------  -----------
+2017-05-10 21:43:25.438730 EDT | Epoch                    36
+2017-05-10 21:43:25.439113 EDT | AverageReturn            11.2743
+2017-05-10 21:43:25.439466 EDT | StdReturn                 5.25953
+2017-05-10 21:43:25.439802 EDT | MaxReturn                27.7414
+2017-05-10 21:43:25.443630 EDT | MinReturn                -1.5614
+2017-05-10 21:43:25.443950 EDT | AverageEsReturn          15.9034
+2017-05-10 21:43:25.444234 EDT | StdEsReturn               8.41103
+2017-05-10 21:43:25.444499 EDT | MaxEsReturn              37.1474
+2017-05-10 21:43:25.444762 EDT | MinEsReturn               4.89166
+2017-05-10 21:43:25.446630 EDT | AverageDiscountedReturn   8.93705
+2017-05-10 21:43:25.446907 EDT | AverageQLoss              0.00103147
+2017-05-10 21:43:25.447166 EDT | AveragePolicySurr        -0.321252
+2017-05-10 21:43:25.447422 EDT | AverageQ                  0.295811
+2017-05-10 21:43:25.447677 EDT | AverageAbsQ               0.296176
+2017-05-10 21:43:25.448805 EDT | AverageY                  0.295865
+2017-05-10 21:43:25.449161 EDT | AverageAbsY               0.296023
+2017-05-10 21:43:25.449460 EDT | AverageAbsQYDiff          0.0206553
+2017-05-10 21:43:25.451815 EDT | AverageAction             0.980554
+2017-05-10 21:43:25.461847 EDT | PolicyRegParamNorm       19.6243
+2017-05-10 21:43:25.463785 EDT | QFunRegParamNorm         23.3505
+2017-05-10 21:43:25.465332 EDT | AverageForwardProgress    0.0195094
+2017-05-10 21:43:25.467592 EDT | MaxForwardProgress        0.148011
+2017-05-10 21:43:25.468397 EDT | MinForwardProgress       -0.0804643
+2017-05-10 21:43:25.469484 EDT | StdForwardProgress        0.0408708
+2017-05-10 21:43:25.470906 EDT | -----------------------  -----------
+2017-05-10 21:43:25.472521 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #37 | Training started
+2017-05-10 21:43:38.405705 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #37 | Training finished
+2017-05-10 21:43:38.413000 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #37 | Collecting samples for evaluation
+2017-05-10 21:44:13.431715 EDT | -----------------------  -----------
+2017-05-10 21:44:13.436845 EDT | Epoch                    37
+2017-05-10 21:44:13.437261 EDT | AverageReturn             7.29297
+2017-05-10 21:44:13.437538 EDT | StdReturn                 5.70352
+2017-05-10 21:44:13.437814 EDT | MaxReturn                28.1877
+2017-05-10 21:44:13.438084 EDT | MinReturn                -7.7935
+2017-05-10 21:44:13.438361 EDT | AverageEsReturn          12.5701
+2017-05-10 21:44:13.438632 EDT | StdEsReturn               7.45705
+2017-05-10 21:44:13.438908 EDT | MaxEsReturn              32.8006
+2017-05-10 21:44:13.439174 EDT | MinEsReturn              -0.251453
+2017-05-10 21:44:13.439444 EDT | AverageDiscountedReturn   5.84152
+2017-05-10 21:44:13.439706 EDT | AverageQLoss              0.00100701
+2017-05-10 21:44:13.439973 EDT | AveragePolicySurr        -0.338746
+2017-05-10 21:44:13.440245 EDT | AverageQ                  0.314707
+2017-05-10 21:44:13.440518 EDT | AverageAbsQ               0.315222
+2017-05-10 21:44:13.440778 EDT | AverageY                  0.314769
+2017-05-10 21:44:13.441060 EDT | AverageAbsY               0.315042
+2017-05-10 21:44:13.441326 EDT | AverageAbsQYDiff          0.0204736
+2017-05-10 21:44:13.441588 EDT | AverageAction             0.952931
+2017-05-10 21:44:13.441852 EDT | PolicyRegParamNorm       19.6973
+2017-05-10 21:44:13.442116 EDT | QFunRegParamNorm         23.6496
+2017-05-10 21:44:13.442377 EDT | AverageForwardProgress   -0.0148951
+2017-05-10 21:44:13.442643 EDT | MaxForwardProgress        0.123421
+2017-05-10 21:44:13.442918 EDT | MinForwardProgress       -0.13291
+2017-05-10 21:44:13.443190 EDT | StdForwardProgress        0.0429795
+2017-05-10 21:44:13.443458 EDT | -----------------------  -----------
+2017-05-10 21:44:13.443831 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #38 | Training started
+2017-05-10 21:44:25.234789 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #38 | Training finished
+2017-05-10 21:44:25.235449 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #38 | Collecting samples for evaluation
+2017-05-10 21:45:01.570988 EDT | -----------------------  ------------
+2017-05-10 21:45:01.571735 EDT | Epoch                    38
+2017-05-10 21:45:01.572064 EDT | AverageReturn             9.04211
+2017-05-10 21:45:01.572363 EDT | StdReturn                 6.16736
+2017-05-10 21:45:01.572662 EDT | MaxReturn                30.3874
+2017-05-10 21:45:01.572960 EDT | MinReturn                -6.26472
+2017-05-10 21:45:01.573254 EDT | AverageEsReturn           8.7009
+2017-05-10 21:45:01.573544 EDT | StdEsReturn              14.6726
+2017-05-10 21:45:01.573832 EDT | MaxEsReturn              55.6727
+2017-05-10 21:45:01.574122 EDT | MinEsReturn              -6.73627
+2017-05-10 21:45:01.574414 EDT | AverageDiscountedReturn   7.09495
+2017-05-10 21:45:01.574696 EDT | AverageQLoss              0.000978992
+2017-05-10 21:45:01.574976 EDT | AveragePolicySurr        -0.353334
+2017-05-10 21:45:01.575259 EDT | AverageQ                  0.330812
+2017-05-10 21:45:01.575538 EDT | AverageAbsQ               0.33146
+2017-05-10 21:45:01.575816 EDT | AverageY                  0.330873
+2017-05-10 21:45:01.576096 EDT | AverageAbsY               0.331226
+2017-05-10 21:45:01.576377 EDT | AverageAbsQYDiff          0.0202269
+2017-05-10 21:45:01.576658 EDT | AverageAction             0.958469
+2017-05-10 21:45:01.576952 EDT | PolicyRegParamNorm       19.7446
+2017-05-10 21:45:01.577236 EDT | QFunRegParamNorm         23.9054
+2017-05-10 21:45:01.577542 EDT | AverageForwardProgress    0.00214372
+2017-05-10 21:45:01.577828 EDT | MaxForwardProgress        0.153344
+2017-05-10 21:45:01.578114 EDT | MinForwardProgress       -0.116506
+2017-05-10 21:45:01.578401 EDT | StdForwardProgress        0.0436405
+2017-05-10 21:45:01.578686 EDT | -----------------------  ------------
+2017-05-10 21:45:01.579086 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #39 | Training started
+2017-05-10 21:45:14.705795 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #39 | Training finished
+2017-05-10 21:45:14.706396 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #39 | Collecting samples for evaluation
+2017-05-10 21:45:50.682016 EDT | -----------------------  -----------
+2017-05-10 21:45:50.682870 EDT | Epoch                    39
+2017-05-10 21:45:50.683148 EDT | AverageReturn            12.342
+2017-05-10 21:45:50.683419 EDT | StdReturn                 5.41622
+2017-05-10 21:45:50.683695 EDT | MaxReturn                26.1178
+2017-05-10 21:45:50.683958 EDT | MinReturn                -2.78283
+2017-05-10 21:45:50.684428 EDT | AverageEsReturn          14.552
+2017-05-10 21:45:50.685420 EDT | StdEsReturn              12.3375
+2017-05-10 21:45:50.686423 EDT | MaxEsReturn              58.5344
+2017-05-10 21:45:50.687405 EDT | MinEsReturn              -0.179579
+2017-05-10 21:45:50.688388 EDT | AverageDiscountedReturn   9.50385
+2017-05-10 21:45:50.689034 EDT | AverageQLoss              0.00110975
+2017-05-10 21:45:50.689710 EDT | AveragePolicySurr        -0.369237
+2017-05-10 21:45:50.690453 EDT | AverageQ                  0.345
+2017-05-10 21:45:50.691393 EDT | AverageAbsQ               0.345876
+2017-05-10 21:45:50.692304 EDT | AverageY                  0.34503
+2017-05-10 21:45:50.693235 EDT | AverageAbsY               0.345541
+2017-05-10 21:45:50.694182 EDT | AverageAbsQYDiff          0.0211523
+2017-05-10 21:45:50.695160 EDT | AverageAction             0.925544
+2017-05-10 21:45:50.696097 EDT | PolicyRegParamNorm       19.811
+2017-05-10 21:45:50.697031 EDT | QFunRegParamNorm         24.1859
+2017-05-10 21:45:50.698073 EDT | AverageForwardProgress    0.0179009
+2017-05-10 21:45:50.699167 EDT | MaxForwardProgress        0.122258
+2017-05-10 21:45:50.700201 EDT | MinForwardProgress       -0.0989592
+2017-05-10 21:45:50.701130 EDT | StdForwardProgress        0.0420334
+2017-05-10 21:45:50.702228 EDT | -----------------------  -----------
+2017-05-10 21:45:50.703731 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #40 | Training started
+2017-05-10 21:46:02.265870 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #40 | Training finished
+2017-05-10 21:46:02.266667 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #40 | Collecting samples for evaluation
+2017-05-10 21:46:36.017966 EDT | -----------------------  -----------
+2017-05-10 21:46:36.019324 EDT | Epoch                    40
+2017-05-10 21:46:36.019651 EDT | AverageReturn            11.4005
+2017-05-10 21:46:36.019921 EDT | StdReturn                 4.79855
+2017-05-10 21:46:36.020190 EDT | MaxReturn                27.1033
+2017-05-10 21:46:36.020474 EDT | MinReturn                 0.700859
+2017-05-10 21:46:36.021467 EDT | AverageEsReturn           9.22425
+2017-05-10 21:46:36.022521 EDT | StdEsReturn               5.98651
+2017-05-10 21:46:36.023036 EDT | MaxEsReturn              23.4474
+2017-05-10 21:46:36.023373 EDT | MinEsReturn              -4.75799
+2017-05-10 21:46:36.023889 EDT | AverageDiscountedReturn   8.86212
+2017-05-10 21:46:36.024782 EDT | AverageQLoss              0.00112998
+2017-05-10 21:46:36.027100 EDT | AveragePolicySurr        -0.388563
+2017-05-10 21:46:36.028920 EDT | AverageQ                  0.362148
+2017-05-10 21:46:36.029925 EDT | AverageAbsQ               0.363092
+2017-05-10 21:46:36.030983 EDT | AverageY                  0.362176
+2017-05-10 21:46:36.032037 EDT | AverageAbsY               0.362788
+2017-05-10 21:46:36.033096 EDT | AverageAbsQYDiff          0.0218609
+2017-05-10 21:46:36.034154 EDT | AverageAction             0.915491
+2017-05-10 21:46:36.034895 EDT | PolicyRegParamNorm       19.9038
+2017-05-10 21:46:36.036322 EDT | QFunRegParamNorm         24.426
+2017-05-10 21:46:36.037326 EDT | AverageForwardProgress    0.0204625
+2017-05-10 21:46:36.038385 EDT | MaxForwardProgress        0.131714
+2017-05-10 21:46:36.039444 EDT | MinForwardProgress       -0.0691743
+2017-05-10 21:46:36.040506 EDT | StdForwardProgress        0.03718
+2017-05-10 21:46:36.041564 EDT | -----------------------  -----------
+2017-05-10 21:46:36.042720 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #41 | Training started
+2017-05-10 21:46:47.621005 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #41 | Training finished
+2017-05-10 21:46:47.621270 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #41 | Collecting samples for evaluation
+2017-05-10 21:47:20.287712 EDT | -----------------------  -----------
+2017-05-10 21:47:20.289472 EDT | Epoch                    41
+2017-05-10 21:47:20.289776 EDT | AverageReturn            10.726
+2017-05-10 21:47:20.290011 EDT | StdReturn                 5.52159
+2017-05-10 21:47:20.292154 EDT | MaxReturn                27.276
+2017-05-10 21:47:20.292423 EDT | MinReturn                -7.66848
+2017-05-10 21:47:20.294448 EDT | AverageEsReturn          15.1525
+2017-05-10 21:47:20.294731 EDT | StdEsReturn              10.9209
+2017-05-10 21:47:20.296654 EDT | MaxEsReturn              43.7196
+2017-05-10 21:47:20.296958 EDT | MinEsReturn               0.715348
+2017-05-10 21:47:20.298908 EDT | AverageDiscountedReturn   8.48002
+2017-05-10 21:47:20.299196 EDT | AverageQLoss              0.00114963
+2017-05-10 21:47:20.301276 EDT | AveragePolicySurr        -0.407112
+2017-05-10 21:47:20.301543 EDT | AverageQ                  0.379563
+2017-05-10 21:47:20.301776 EDT | AverageAbsQ               0.380508
+2017-05-10 21:47:20.321289 EDT | AverageY                  0.379602
+2017-05-10 21:47:20.323310 EDT | AverageAbsY               0.380172
+2017-05-10 21:47:20.325349 EDT | AverageAbsQYDiff          0.0218946
+2017-05-10 21:47:20.325655 EDT | AverageAction             0.921385
+2017-05-10 21:47:20.334890 EDT | PolicyRegParamNorm       19.996
+2017-05-10 21:47:20.339226 EDT | QFunRegParamNorm         24.6847
+2017-05-10 21:47:20.345792 EDT | AverageForwardProgress    0.0213346
+2017-05-10 21:47:20.346129 EDT | MaxForwardProgress        0.139598
+2017-05-10 21:47:20.350363 EDT | MinForwardProgress       -0.114606
+2017-05-10 21:47:20.354700 EDT | StdForwardProgress        0.0412319
+2017-05-10 21:47:20.360489 EDT | -----------------------  -----------
+2017-05-10 21:47:20.360884 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #42 | Training started
+2017-05-10 21:47:32.358442 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #42 | Training finished
+2017-05-10 21:47:32.358756 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #42 | Collecting samples for evaluation
+2017-05-10 21:48:10.448745 EDT | -----------------------  -----------
+2017-05-10 21:48:10.449502 EDT | Epoch                    42
+2017-05-10 21:48:10.449796 EDT | AverageReturn            72.0335
+2017-05-10 21:48:10.450070 EDT | StdReturn                 7.3942
+2017-05-10 21:48:10.450345 EDT | MaxReturn                91.7136
+2017-05-10 21:48:10.450814 EDT | MinReturn                55.6358
+2017-05-10 21:48:10.451620 EDT | AverageEsReturn          24.6389
+2017-05-10 21:48:10.452465 EDT | StdEsReturn              13.9878
+2017-05-10 21:48:10.453402 EDT | MaxEsReturn              69.6729
+2017-05-10 21:48:10.454400 EDT | MinEsReturn               0.663379
+2017-05-10 21:48:10.455332 EDT | AverageDiscountedReturn  41.1704
+2017-05-10 21:48:10.456325 EDT | AverageQLoss              0.00131943
+2017-05-10 21:48:10.457486 EDT | AveragePolicySurr        -0.422729
+2017-05-10 21:48:10.458440 EDT | AverageQ                  0.395377
+2017-05-10 21:48:10.459388 EDT | AverageAbsQ               0.396473
+2017-05-10 21:48:10.460459 EDT | AverageY                  0.395446
+2017-05-10 21:48:10.461398 EDT | AverageAbsY               0.396124
+2017-05-10 21:48:10.462327 EDT | AverageAbsQYDiff          0.0234119
+2017-05-10 21:48:10.463184 EDT | AverageAction             0.967357
+2017-05-10 21:48:10.464236 EDT | PolicyRegParamNorm       20.0655
+2017-05-10 21:48:10.465283 EDT | QFunRegParamNorm         25.0501
+2017-05-10 21:48:10.466098 EDT | AverageForwardProgress    0.428681
+2017-05-10 21:48:10.466893 EDT | MaxForwardProgress        0.572478
+2017-05-10 21:48:10.467716 EDT | MinForwardProgress        0.304676
+2017-05-10 21:48:10.468715 EDT | StdForwardProgress        0.0539731
+2017-05-10 21:48:10.469590 EDT | -----------------------  -----------
+2017-05-10 21:48:10.470930 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #43 | Training started
+2017-05-10 21:48:23.033676 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #43 | Training finished
+2017-05-10 21:48:23.036225 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #43 | Collecting samples for evaluation
+2017-05-10 21:48:58.769311 EDT | -----------------------  -----------
+2017-05-10 21:48:58.772518 EDT | Epoch                    43
+2017-05-10 21:48:58.777302 EDT | AverageReturn            68.087
+2017-05-10 21:48:58.779456 EDT | StdReturn                 5.98003
+2017-05-10 21:48:58.782091 EDT | MaxReturn                84.7148
+2017-05-10 21:48:58.785913 EDT | MinReturn                51.9182
+2017-05-10 21:48:58.790003 EDT | AverageEsReturn          64.4338
+2017-05-10 21:48:58.792068 EDT | StdEsReturn              18.7953
+2017-05-10 21:48:58.801442 EDT | MaxEsReturn              78.6544
+2017-05-10 21:48:58.814997 EDT | MinEsReturn               8.19297
+2017-05-10 21:48:58.815265 EDT | AverageDiscountedReturn  38.8401
+2017-05-10 21:48:58.815470 EDT | AverageQLoss              0.00138775
+2017-05-10 21:48:58.815670 EDT | AveragePolicySurr        -0.446895
+2017-05-10 21:48:58.815863 EDT | AverageQ                  0.414163
+2017-05-10 21:48:58.816063 EDT | AverageAbsQ               0.415335
+2017-05-10 21:48:58.816253 EDT | AverageY                  0.414235
+2017-05-10 21:48:58.816442 EDT | AverageAbsY               0.415101
+2017-05-10 21:48:58.816637 EDT | AverageAbsQYDiff          0.0241402
+2017-05-10 21:48:58.816851 EDT | AverageAction             0.959013
+2017-05-10 21:48:58.817047 EDT | PolicyRegParamNorm       20.1394
+2017-05-10 21:48:58.817231 EDT | QFunRegParamNorm         25.3411
+2017-05-10 21:48:58.817413 EDT | AverageForwardProgress    0.398295
+2017-05-10 21:48:58.817594 EDT | MaxForwardProgress        0.516587
+2017-05-10 21:48:58.817780 EDT | MinForwardProgress        0.260154
+2017-05-10 21:48:58.817966 EDT | StdForwardProgress        0.0444868
+2017-05-10 21:48:58.818170 EDT | -----------------------  -----------
+2017-05-10 21:48:58.818464 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #44 | Training started
+2017-05-10 21:49:10.507387 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #44 | Training finished
+2017-05-10 21:49:10.510240 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #44 | Collecting samples for evaluation
+2017-05-10 21:49:47.421593 EDT | -----------------------  -----------
+2017-05-10 21:49:47.422291 EDT | Epoch                    44
+2017-05-10 21:49:47.422569 EDT | AverageReturn            56.4206
+2017-05-10 21:49:47.422836 EDT | StdReturn                 7.26428
+2017-05-10 21:49:47.423144 EDT | MaxReturn                73.1036
+2017-05-10 21:49:47.423454 EDT | MinReturn                33.3876
+2017-05-10 21:49:47.423750 EDT | AverageEsReturn          51.3681
+2017-05-10 21:49:47.424047 EDT | StdEsReturn              10.4445
+2017-05-10 21:49:47.424346 EDT | MaxEsReturn              70.8877
+2017-05-10 21:49:47.424827 EDT | MinEsReturn              35.7713
+2017-05-10 21:49:47.425157 EDT | AverageDiscountedReturn  32.1541
+2017-05-10 21:49:47.425487 EDT | AverageQLoss              0.00149441
+2017-05-10 21:49:47.425831 EDT | AveragePolicySurr        -0.473634
+2017-05-10 21:49:47.426168 EDT | AverageQ                  0.436333
+2017-05-10 21:49:47.426440 EDT | AverageAbsQ               0.43734
+2017-05-10 21:49:47.426703 EDT | AverageY                  0.436405
+2017-05-10 21:49:47.426964 EDT | AverageAbsY               0.437145
+2017-05-10 21:49:47.427226 EDT | AverageAbsQYDiff          0.0248531
+2017-05-10 21:49:47.427497 EDT | AverageAction             0.937317
+2017-05-10 21:49:47.427754 EDT | PolicyRegParamNorm       20.2192
+2017-05-10 21:49:47.428031 EDT | QFunRegParamNorm         25.5995
+2017-05-10 21:49:47.428287 EDT | AverageForwardProgress    0.303898
+2017-05-10 21:49:47.428541 EDT | MaxForwardProgress        0.42244
+2017-05-10 21:49:47.428795 EDT | MinForwardProgress        0.111404
+2017-05-10 21:49:47.429115 EDT | StdForwardProgress        0.0550865
+2017-05-10 21:49:47.429397 EDT | -----------------------  -----------
+2017-05-10 21:49:47.429773 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #45 | Training started
+2017-05-10 21:50:01.253821 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #45 | Training finished
+2017-05-10 21:50:01.254535 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #45 | Collecting samples for evaluation
+2017-05-10 21:50:38.804320 EDT | -----------------------  -----------
+2017-05-10 21:50:38.805161 EDT | Epoch                    45
+2017-05-10 21:50:38.805582 EDT | AverageReturn            70.8653
+2017-05-10 21:50:38.805963 EDT | StdReturn                 6.02696
+2017-05-10 21:50:38.806305 EDT | MaxReturn                83.2826
+2017-05-10 21:50:38.806684 EDT | MinReturn                56.4148
+2017-05-10 21:50:38.807105 EDT | AverageEsReturn          55.0146
+2017-05-10 21:50:38.807477 EDT | StdEsReturn              14.9961
+2017-05-10 21:50:38.807835 EDT | MaxEsReturn              79.3917
+2017-05-10 21:50:38.808177 EDT | MinEsReturn              25.4291
+2017-05-10 21:50:38.808549 EDT | AverageDiscountedReturn  39.8006
+2017-05-10 21:50:38.808987 EDT | AverageQLoss              0.00159366
+2017-05-10 21:50:38.809342 EDT | AveragePolicySurr        -0.490947
+2017-05-10 21:50:38.809724 EDT | AverageQ                  0.456478
+2017-05-10 21:50:38.810117 EDT | AverageAbsQ               0.457214
+2017-05-10 21:50:38.810472 EDT | AverageY                  0.456633
+2017-05-10 21:50:38.810959 EDT | AverageAbsY               0.457133
+2017-05-10 21:50:38.811346 EDT | AverageAbsQYDiff          0.0254355
+2017-05-10 21:50:38.811740 EDT | AverageAction             0.98325
+2017-05-10 21:50:38.812072 EDT | PolicyRegParamNorm       20.3313
+2017-05-10 21:50:38.812425 EDT | QFunRegParamNorm         25.8484
+2017-05-10 21:50:38.812872 EDT | AverageForwardProgress    0.4137
+2017-05-10 21:50:38.813305 EDT | MaxForwardProgress        0.506018
+2017-05-10 21:50:38.814264 EDT | MinForwardProgress        0.308399
+2017-05-10 21:50:38.815371 EDT | StdForwardProgress        0.045595
+2017-05-10 21:50:38.816348 EDT | -----------------------  -----------
+2017-05-10 21:50:38.817472 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #46 | Training started
+2017-05-10 21:50:51.384143 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #46 | Training finished
+2017-05-10 21:50:51.384805 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #46 | Collecting samples for evaluation
+2017-05-10 21:51:26.421601 EDT | -----------------------  -----------
+2017-05-10 21:51:26.422374 EDT | Epoch                    46
+2017-05-10 21:51:26.422658 EDT | AverageReturn            70.1116
+2017-05-10 21:51:26.422929 EDT | StdReturn                10.2374
+2017-05-10 21:51:26.423201 EDT | MaxReturn                90.2381
+2017-05-10 21:51:26.423465 EDT | MinReturn                41.8736
+2017-05-10 21:51:26.423744 EDT | AverageEsReturn          67.663
+2017-05-10 21:51:26.424023 EDT | StdEsReturn              19.7953
+2017-05-10 21:51:26.424287 EDT | MaxEsReturn              85.9442
+2017-05-10 21:51:26.424548 EDT | MinEsReturn              10.6055
+2017-05-10 21:51:26.424813 EDT | AverageDiscountedReturn  39.742
+2017-05-10 21:51:26.425136 EDT | AverageQLoss              0.00163481
+2017-05-10 21:51:26.425400 EDT | AveragePolicySurr        -0.503884
+2017-05-10 21:51:26.425662 EDT | AverageQ                  0.479254
+2017-05-10 21:51:26.425921 EDT | AverageAbsQ               0.479787
+2017-05-10 21:51:26.426197 EDT | AverageY                  0.479362
+2017-05-10 21:51:26.426464 EDT | AverageAbsY               0.479655
+2017-05-10 21:51:26.426731 EDT | AverageAbsQYDiff          0.0258511
+2017-05-10 21:51:26.426989 EDT | AverageAction             0.959305
+2017-05-10 21:51:26.427252 EDT | PolicyRegParamNorm       20.4367
+2017-05-10 21:51:26.427521 EDT | QFunRegParamNorm         26.1172
+2017-05-10 21:51:26.427908 EDT | AverageForwardProgress    0.408503
+2017-05-10 21:51:26.428808 EDT | MaxForwardProgress        0.559913
+2017-05-10 21:51:26.429867 EDT | MinForwardProgress        0.180041
+2017-05-10 21:51:26.430780 EDT | StdForwardProgress        0.0783654
+2017-05-10 21:51:26.431689 EDT | -----------------------  -----------
+2017-05-10 21:51:26.432712 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #47 | Training started
+2017-05-10 21:51:39.091376 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #47 | Training finished
+2017-05-10 21:51:39.098727 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #47 | Collecting samples for evaluation
+2017-05-10 21:52:16.191880 EDT | -----------------------  -----------
+2017-05-10 21:52:16.192606 EDT | Epoch                    47
+2017-05-10 21:52:16.192900 EDT | AverageReturn            66.4345
+2017-05-10 21:52:16.193189 EDT | StdReturn                 8.86349
+2017-05-10 21:52:16.193471 EDT | MaxReturn                87.711
+2017-05-10 21:52:16.193765 EDT | MinReturn                48.0396
+2017-05-10 21:52:16.195397 EDT | AverageEsReturn          61.3664
+2017-05-10 21:52:16.196458 EDT | StdEsReturn              17.3099
+2017-05-10 21:52:16.198064 EDT | MaxEsReturn              91.6399
+2017-05-10 21:52:16.200718 EDT | MinEsReturn              32.6913
+2017-05-10 21:52:16.201815 EDT | AverageDiscountedReturn  38.6041
+2017-05-10 21:52:16.203027 EDT | AverageQLoss              0.00161238
+2017-05-10 21:52:16.204957 EDT | AveragePolicySurr        -0.513872
+2017-05-10 21:52:16.205962 EDT | AverageQ                  0.491355
+2017-05-10 21:52:16.207480 EDT | AverageAbsQ               0.491822
+2017-05-10 21:52:16.208525 EDT | AverageY                  0.491475
+2017-05-10 21:52:16.210209 EDT | AverageAbsY               0.491762
+2017-05-10 21:52:16.211251 EDT | AverageAbsQYDiff          0.0250507
+2017-05-10 21:52:16.212673 EDT | AverageAction             0.955101
+2017-05-10 21:52:16.213717 EDT | PolicyRegParamNorm       20.5309
+2017-05-10 21:52:16.216616 EDT | QFunRegParamNorm         26.3627
+2017-05-10 21:52:16.217858 EDT | AverageForwardProgress    0.389339
+2017-05-10 21:52:16.218983 EDT | MaxForwardProgress        0.54426
+2017-05-10 21:52:16.219791 EDT | MinForwardProgress        0.251574
+2017-05-10 21:52:16.220691 EDT | StdForwardProgress        0.062247
+2017-05-10 21:52:16.222595 EDT | -----------------------  -----------
+2017-05-10 21:52:16.223156 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #48 | Training started
+2017-05-10 21:52:27.306020 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #48 | Training finished
+2017-05-10 21:52:27.306622 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #48 | Collecting samples for evaluation
+2017-05-10 21:53:01.542330 EDT | -----------------------  -----------
+2017-05-10 21:53:01.543013 EDT | Epoch                    48
+2017-05-10 21:53:01.543297 EDT | AverageReturn            74.5043
+2017-05-10 21:53:01.543572 EDT | StdReturn                 7.9022
+2017-05-10 21:53:01.543842 EDT | MaxReturn                90.431
+2017-05-10 21:53:01.544111 EDT | MinReturn                53.731
+2017-05-10 21:53:01.544379 EDT | AverageEsReturn          48.7302
+2017-05-10 21:53:01.544641 EDT | StdEsReturn              22.3996
+2017-05-10 21:53:01.544953 EDT | MaxEsReturn              91.7209
+2017-05-10 21:53:01.545270 EDT | MinEsReturn              17.0668
+2017-05-10 21:53:01.545529 EDT | AverageDiscountedReturn  41.3708
+2017-05-10 21:53:01.545798 EDT | AverageQLoss              0.00153052
+2017-05-10 21:53:01.546062 EDT | AveragePolicySurr        -0.52229
+2017-05-10 21:53:01.546326 EDT | AverageQ                  0.501056
+2017-05-10 21:53:01.546590 EDT | AverageAbsQ               0.501563
+2017-05-10 21:53:01.546877 EDT | AverageY                  0.50108
+2017-05-10 21:53:01.547159 EDT | AverageAbsY               0.501387
+2017-05-10 21:53:01.547422 EDT | AverageAbsQYDiff          0.0243901
+2017-05-10 21:53:01.547687 EDT | AverageAction             0.970493
+2017-05-10 21:53:01.547949 EDT | PolicyRegParamNorm       20.6384
+2017-05-10 21:53:01.548232 EDT | QFunRegParamNorm         26.5927
+2017-05-10 21:53:01.548500 EDT | AverageForwardProgress    0.439544
+2017-05-10 21:53:01.548764 EDT | MaxForwardProgress        0.558938
+2017-05-10 21:53:01.549049 EDT | MinForwardProgress        0.267539
+2017-05-10 21:53:01.549314 EDT | StdForwardProgress        0.0624044
+2017-05-10 21:53:01.549573 EDT | -----------------------  -----------
+2017-05-10 21:53:01.549952 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #49 | Training started
+2017-05-10 21:53:12.700272 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #49 | Training finished
+2017-05-10 21:53:12.701656 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #49 | Collecting samples for evaluation
+2017-05-10 21:53:42.999452 EDT | -----------------------  -----------
+2017-05-10 21:53:43.000052 EDT | Epoch                    49
+2017-05-10 21:53:43.000278 EDT | AverageReturn            25.3094
+2017-05-10 21:53:43.000510 EDT | StdReturn                 8.93461
+2017-05-10 21:53:43.000732 EDT | MaxReturn                75.5213
+2017-05-10 21:53:43.000935 EDT | MinReturn                 7.55133
+2017-05-10 21:53:43.001130 EDT | AverageEsReturn          60.3406
+2017-05-10 21:53:43.001321 EDT | StdEsReturn              14.3613
+2017-05-10 21:53:43.001511 EDT | MaxEsReturn              85.0805
+2017-05-10 21:53:43.001710 EDT | MinEsReturn              38.5503
+2017-05-10 21:53:43.001957 EDT | AverageDiscountedReturn  17.3873
+2017-05-10 21:53:43.002239 EDT | AverageQLoss              0.00148736
+2017-05-10 21:53:43.002519 EDT | AveragePolicySurr        -0.526899
+2017-05-10 21:53:43.002749 EDT | AverageQ                  0.508483
+2017-05-10 21:53:43.002981 EDT | AverageAbsQ               0.509074
+2017-05-10 21:53:43.003194 EDT | AverageY                  0.508572
+2017-05-10 21:53:43.003412 EDT | AverageAbsY               0.50886
+2017-05-10 21:53:43.003644 EDT | AverageAbsQYDiff          0.0238701
+2017-05-10 21:53:43.003866 EDT | AverageAction             0.934921
+2017-05-10 21:53:43.004088 EDT | PolicyRegParamNorm       20.7514
+2017-05-10 21:53:43.004326 EDT | QFunRegParamNorm         26.815
+2017-05-10 21:53:43.004580 EDT | AverageForwardProgress    0.102783
+2017-05-10 21:53:43.004847 EDT | MaxForwardProgress        0.460696
+2017-05-10 21:53:43.005107 EDT | MinForwardProgress       -0.0377947
+2017-05-10 21:53:43.005304 EDT | StdForwardProgress        0.064705
+2017-05-10 21:53:43.005492 EDT | -----------------------  -----------
+2017-05-10 21:53:43.005794 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #50 | Training started
+2017-05-10 21:53:54.396457 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #50 | Training finished
+2017-05-10 21:53:54.397160 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #50 | Collecting samples for evaluation
+2017-05-10 21:54:24.840252 EDT | -----------------------  -----------
+2017-05-10 21:54:24.841642 EDT | Epoch                    50
+2017-05-10 21:54:24.842019 EDT | AverageReturn            54.2869
+2017-05-10 21:54:24.842370 EDT | StdReturn                10.6414
+2017-05-10 21:54:24.842708 EDT | MaxReturn                84.2829
+2017-05-10 21:54:24.843015 EDT | MinReturn                30.5574
+2017-05-10 21:54:24.843352 EDT | AverageEsReturn          53.3903
+2017-05-10 21:54:24.843632 EDT | StdEsReturn              20.0675
+2017-05-10 21:54:24.843901 EDT | MaxEsReturn              69.4125
+2017-05-10 21:54:24.844212 EDT | MinEsReturn               7.01556
+2017-05-10 21:54:24.844562 EDT | AverageDiscountedReturn  33.6242
+2017-05-10 21:54:24.844872 EDT | AverageQLoss              0.00138392
+2017-05-10 21:54:24.845203 EDT | AveragePolicySurr        -0.527187
+2017-05-10 21:54:24.845528 EDT | AverageQ                  0.511018
+2017-05-10 21:54:24.845868 EDT | AverageAbsQ               0.511783
+2017-05-10 21:54:24.846204 EDT | AverageY                  0.511031
+2017-05-10 21:54:24.846527 EDT | AverageAbsY               0.511451
+2017-05-10 21:54:24.846824 EDT | AverageAbsQYDiff          0.0231982
+2017-05-10 21:54:24.847146 EDT | AverageAction             0.914221
+2017-05-10 21:54:24.847464 EDT | PolicyRegParamNorm       20.8684
+2017-05-10 21:54:24.847799 EDT | QFunRegParamNorm         27.0132
+2017-05-10 21:54:24.848086 EDT | AverageForwardProgress    0.305518
+2017-05-10 21:54:24.848374 EDT | MaxForwardProgress        0.53038
+2017-05-10 21:54:24.848662 EDT | MinForwardProgress        0.125835
+2017-05-10 21:54:24.848963 EDT | StdForwardProgress        0.0773667
+2017-05-10 21:54:24.849240 EDT | -----------------------  -----------
+2017-05-10 21:54:24.849686 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #51 | Training started
+2017-05-10 21:54:37.037911 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #51 | Training finished
+2017-05-10 21:54:37.038323 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #51 | Collecting samples for evaluation
+2017-05-10 21:55:13.451927 EDT | -----------------------  -----------
+2017-05-10 21:55:13.452836 EDT | Epoch                    51
+2017-05-10 21:55:13.453231 EDT | AverageReturn            51.9456
+2017-05-10 21:55:13.453577 EDT | StdReturn                18.2773
+2017-05-10 21:55:13.453927 EDT | MaxReturn                79.1519
+2017-05-10 21:55:13.454286 EDT | MinReturn                -4.46153
+2017-05-10 21:55:13.454632 EDT | AverageEsReturn          56.1373
+2017-05-10 21:55:13.454987 EDT | StdEsReturn              26.9313
+2017-05-10 21:55:13.455386 EDT | MaxEsReturn              89.06
+2017-05-10 21:55:13.455741 EDT | MinEsReturn               6.53877
+2017-05-10 21:55:13.456095 EDT | AverageDiscountedReturn  30.8932
+2017-05-10 21:55:13.456446 EDT | AverageQLoss              0.00148844
+2017-05-10 21:55:13.456801 EDT | AveragePolicySurr        -0.53012
+2017-05-10 21:55:13.457170 EDT | AverageQ                  0.514789
+2017-05-10 21:55:13.457519 EDT | AverageAbsQ               0.515673
+2017-05-10 21:55:13.457877 EDT | AverageY                  0.514809
+2017-05-10 21:55:13.458223 EDT | AverageAbsY               0.515263
+2017-05-10 21:55:13.458570 EDT | AverageAbsQYDiff          0.0231162
+2017-05-10 21:55:13.458914 EDT | AverageAction             0.926609
+2017-05-10 21:55:13.459281 EDT | PolicyRegParamNorm       20.9832
+2017-05-10 21:55:13.459623 EDT | QFunRegParamNorm         27.218
+2017-05-10 21:55:13.459973 EDT | AverageForwardProgress    0.283875
+2017-05-10 21:55:13.460317 EDT | MaxForwardProgress        0.484257
+2017-05-10 21:55:13.461107 EDT | MinForwardProgress       -0.16103
+2017-05-10 21:55:13.464317 EDT | StdForwardProgress        0.136731
+2017-05-10 21:55:13.464972 EDT | -----------------------  -----------
+2017-05-10 21:55:13.465700 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #52 | Training started
+2017-05-10 21:55:26.055719 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #52 | Training finished
+2017-05-10 21:55:26.059143 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #52 | Collecting samples for evaluation
+2017-05-10 21:55:56.214153 EDT | -----------------------  ------------
+2017-05-10 21:55:56.214878 EDT | Epoch                     52
+2017-05-10 21:55:56.215167 EDT | AverageReturn              3.56667
+2017-05-10 21:55:56.215438 EDT | StdReturn                  8.50055
+2017-05-10 21:55:56.215720 EDT | MaxReturn                 27.5309
+2017-05-10 21:55:56.216065 EDT | MinReturn                -19.1855
+2017-05-10 21:55:56.216344 EDT | AverageEsReturn            7.38134
+2017-05-10 21:55:56.216613 EDT | StdEsReturn               12.9642
+2017-05-10 21:55:56.216878 EDT | MaxEsReturn               54.6243
+2017-05-10 21:55:56.217173 EDT | MinEsReturn              -14.7525
+2017-05-10 21:55:56.217445 EDT | AverageDiscountedReturn    3.57067
+2017-05-10 21:55:56.217735 EDT | AverageQLoss               0.00134351
+2017-05-10 21:55:56.218009 EDT | AveragePolicySurr         -0.534947
+2017-05-10 21:55:56.218271 EDT | AverageQ                   0.515877
+2017-05-10 21:55:56.218532 EDT | AverageAbsQ                0.516787
+2017-05-10 21:55:56.218794 EDT | AverageY                   0.515879
+2017-05-10 21:55:56.219066 EDT | AverageAbsY                0.516417
+2017-05-10 21:55:56.219330 EDT | AverageAbsQYDiff           0.0224224
+2017-05-10 21:55:56.219933 EDT | AverageAction              0.906489
+2017-05-10 21:55:56.220566 EDT | PolicyRegParamNorm        21.1453
+2017-05-10 21:55:56.221183 EDT | QFunRegParamNorm          27.4167
+2017-05-10 21:55:56.224245 EDT | AverageForwardProgress    -0.0759834
+2017-05-10 21:55:56.225089 EDT | MaxForwardProgress         0.114706
+2017-05-10 21:55:56.225670 EDT | MinForwardProgress        -0.253005
+2017-05-10 21:55:56.226224 EDT | StdForwardProgress         0.0671549
+2017-05-10 21:55:56.226764 EDT | -----------------------  ------------
+2017-05-10 21:55:56.227413 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #53 | Training started
+2017-05-10 21:56:07.393068 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #53 | Training finished
+2017-05-10 21:56:07.393358 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #53 | Collecting samples for evaluation
+2017-05-10 21:56:40.519333 EDT | -----------------------  ------------
+2017-05-10 21:56:40.520066 EDT | Epoch                     53
+2017-05-10 21:56:40.520358 EDT | AverageReturn             18.8394
+2017-05-10 21:56:40.520629 EDT | StdReturn                 19.3104
+2017-05-10 21:56:40.520934 EDT | MaxReturn                 97.2208
+2017-05-10 21:56:40.521201 EDT | MinReturn                 -9.56884
+2017-05-10 21:56:40.521482 EDT | AverageEsReturn            8.09449
+2017-05-10 21:56:40.521754 EDT | StdEsReturn               11.1115
+2017-05-10 21:56:40.522017 EDT | MaxEsReturn               38.1392
+2017-05-10 21:56:40.522298 EDT | MinEsReturn              -13.5681
+2017-05-10 21:56:40.522595 EDT | AverageDiscountedReturn   12.3949
+2017-05-10 21:56:40.522872 EDT | AverageQLoss               0.00138668
+2017-05-10 21:56:40.523134 EDT | AveragePolicySurr         -0.536765
+2017-05-10 21:56:40.523394 EDT | AverageQ                   0.518443
+2017-05-10 21:56:40.523662 EDT | AverageAbsQ                0.519281
+2017-05-10 21:56:40.523936 EDT | AverageY                   0.518468
+2017-05-10 21:56:40.524208 EDT | AverageAbsY                0.518923
+2017-05-10 21:56:40.524474 EDT | AverageAbsQYDiff           0.0224047
+2017-05-10 21:56:40.524777 EDT | AverageAction              0.930306
+2017-05-10 21:56:40.525063 EDT | PolicyRegParamNorm        21.3017
+2017-05-10 21:56:40.525337 EDT | QFunRegParamNorm          27.6361
+2017-05-10 21:56:40.525613 EDT | AverageForwardProgress     0.0233365
+2017-05-10 21:56:40.525886 EDT | MaxForwardProgress         0.609708
+2017-05-10 21:56:40.526175 EDT | MinForwardProgress        -0.209774
+2017-05-10 21:56:40.526456 EDT | StdForwardProgress         0.144219
+2017-05-10 21:56:40.526726 EDT | -----------------------  ------------
+2017-05-10 21:56:40.527127 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #54 | Training started
+2017-05-10 21:56:53.042102 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #54 | Training finished
+2017-05-10 21:56:53.042749 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #54 | Collecting samples for evaluation
+2017-05-10 21:57:24.884724 EDT | -----------------------  ------------
+2017-05-10 21:57:24.887591 EDT | Epoch                     54
+2017-05-10 21:57:24.887919 EDT | AverageReturn             44.9165
+2017-05-10 21:57:24.888131 EDT | StdReturn                 13.2839
+2017-05-10 21:57:24.888349 EDT | MaxReturn                104.502
+2017-05-10 21:57:24.888551 EDT | MinReturn                 11.0147
+2017-05-10 21:57:24.888757 EDT | AverageEsReturn           38.8029
+2017-05-10 21:57:24.888982 EDT | StdEsReturn               32.2534
+2017-05-10 21:57:24.889182 EDT | MaxEsReturn               98.0194
+2017-05-10 21:57:24.889386 EDT | MinEsReturn              -19.4582
+2017-05-10 21:57:24.889584 EDT | AverageDiscountedReturn   26.7841
+2017-05-10 21:57:24.889793 EDT | AverageQLoss               0.00135885
+2017-05-10 21:57:24.890142 EDT | AveragePolicySurr         -0.538794
+2017-05-10 21:57:24.891202 EDT | AverageQ                   0.522376
+2017-05-10 21:57:24.892312 EDT | AverageAbsQ                0.523206
+2017-05-10 21:57:24.893384 EDT | AverageY                   0.5224
+2017-05-10 21:57:24.894464 EDT | AverageAbsY                0.522806
+2017-05-10 21:57:24.895586 EDT | AverageAbsQYDiff           0.022343
+2017-05-10 21:57:24.896788 EDT | AverageAction              0.898746
+2017-05-10 21:57:24.898668 EDT | PolicyRegParamNorm        21.4766
+2017-05-10 21:57:24.900319 EDT | QFunRegParamNorm          27.8357
+2017-05-10 21:57:24.901308 EDT | AverageForwardProgress     0.216234
+2017-05-10 21:57:24.901990 EDT | MaxForwardProgress         0.669449
+2017-05-10 21:57:24.902670 EDT | MinForwardProgress        -0.0522939
+2017-05-10 21:57:24.903367 EDT | StdForwardProgress         0.101092
+2017-05-10 21:57:24.904311 EDT | -----------------------  ------------
+2017-05-10 21:57:24.905414 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #55 | Training started
+2017-05-10 21:57:37.057791 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #55 | Training finished
+2017-05-10 21:57:37.058565 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #55 | Collecting samples for evaluation
+2017-05-10 21:58:11.190877 EDT | -----------------------  -----------
+2017-05-10 21:58:11.191170 EDT | Epoch                    55
+2017-05-10 21:58:11.193118 EDT | AverageReturn            37.9159
+2017-05-10 21:58:11.193337 EDT | StdReturn                22.3886
+2017-05-10 21:58:11.197426 EDT | MaxReturn                93.0583
+2017-05-10 21:58:11.228360 EDT | MinReturn                 2.04609
+2017-05-10 21:58:11.228598 EDT | AverageEsReturn          47.3184
+2017-05-10 21:58:11.228791 EDT | StdEsReturn              17.2308
+2017-05-10 21:58:11.253434 EDT | MaxEsReturn              79.6798
+2017-05-10 21:58:11.253686 EDT | MinEsReturn              14.707
+2017-05-10 21:58:11.253922 EDT | AverageDiscountedReturn  22.639
+2017-05-10 21:58:11.254162 EDT | AverageQLoss              0.00129508
+2017-05-10 21:58:11.254409 EDT | AveragePolicySurr        -0.540831
+2017-05-10 21:58:11.254651 EDT | AverageQ                  0.524525
+2017-05-10 21:58:11.254885 EDT | AverageAbsQ               0.525317
+2017-05-10 21:58:11.255119 EDT | AverageY                  0.524529
+2017-05-10 21:58:11.255370 EDT | AverageAbsY               0.524936
+2017-05-10 21:58:11.255615 EDT | AverageAbsQYDiff          0.0219772
+2017-05-10 21:58:11.255857 EDT | AverageAction             0.924311
+2017-05-10 21:58:11.256115 EDT | PolicyRegParamNorm       21.6414
+2017-05-10 21:58:11.256367 EDT | QFunRegParamNorm         28.051
+2017-05-10 21:58:11.268935 EDT | AverageForwardProgress    0.191155
+2017-05-10 21:58:11.269234 EDT | MaxForwardProgress        0.58108
+2017-05-10 21:58:11.269500 EDT | MinForwardProgress       -0.051925
+2017-05-10 21:58:11.269771 EDT | StdForwardProgress        0.144721
+2017-05-10 21:58:11.281385 EDT | -----------------------  -----------
+2017-05-10 21:58:11.286215 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #56 | Training started
+2017-05-10 21:58:23.029517 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #56 | Training finished
+2017-05-10 21:58:23.037511 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #56 | Collecting samples for evaluation
+2017-05-10 21:58:57.656035 EDT | -----------------------  -----------
+2017-05-10 21:58:57.657413 EDT | Epoch                    56
+2017-05-10 21:58:57.657748 EDT | AverageReturn            21.9489
+2017-05-10 21:58:57.658053 EDT | StdReturn                 7.45376
+2017-05-10 21:58:57.658367 EDT | MaxReturn                39.0418
+2017-05-10 21:58:57.658693 EDT | MinReturn                 2.00057
+2017-05-10 21:58:57.659037 EDT | AverageEsReturn          32.8984
+2017-05-10 21:58:57.659383 EDT | StdEsReturn              17.3461
+2017-05-10 21:58:57.659719 EDT | MaxEsReturn              61.9076
+2017-05-10 21:58:57.660083 EDT | MinEsReturn               2.54576
+2017-05-10 21:58:57.660397 EDT | AverageDiscountedReturn  15.1282
+2017-05-10 21:58:57.660737 EDT | AverageQLoss              0.00139968
+2017-05-10 21:58:57.661087 EDT | AveragePolicySurr        -0.547407
+2017-05-10 21:58:57.661423 EDT | AverageQ                  0.527888
+2017-05-10 21:58:57.661766 EDT | AverageAbsQ               0.528653
+2017-05-10 21:58:57.662080 EDT | AverageY                  0.527937
+2017-05-10 21:58:57.662431 EDT | AverageAbsY               0.528319
+2017-05-10 21:58:57.662777 EDT | AverageAbsQYDiff          0.0223303
+2017-05-10 21:58:57.663110 EDT | AverageAction             0.934587
+2017-05-10 21:58:57.663538 EDT | PolicyRegParamNorm       21.7684
+2017-05-10 21:58:57.663885 EDT | QFunRegParamNorm         28.2202
+2017-05-10 21:58:57.664198 EDT | AverageForwardProgress    0.084544
+2017-05-10 21:58:57.664515 EDT | MaxForwardProgress        0.214488
+2017-05-10 21:58:57.664828 EDT | MinForwardProgress       -0.070541
+2017-05-10 21:58:57.665136 EDT | StdForwardProgress        0.0555202
+2017-05-10 21:58:57.665488 EDT | -----------------------  -----------
+2017-05-10 21:58:57.665933 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #57 | Training started
+2017-05-10 21:59:09.318330 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #57 | Training finished
+2017-05-10 21:59:09.333895 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #57 | Collecting samples for evaluation
+2017-05-10 21:59:43.964577 EDT | -----------------------  -----------
+2017-05-10 21:59:43.965455 EDT | Epoch                    57
+2017-05-10 21:59:43.965676 EDT | AverageReturn            54.579
+2017-05-10 21:59:43.965886 EDT | StdReturn                12.2571
+2017-05-10 21:59:43.966082 EDT | MaxReturn                82.4751
+2017-05-10 21:59:43.966281 EDT | MinReturn                17.9844
+2017-05-10 21:59:43.966482 EDT | AverageEsReturn          42.6388
+2017-05-10 21:59:43.966680 EDT | StdEsReturn              24.7808
+2017-05-10 21:59:43.966866 EDT | MaxEsReturn              72.659
+2017-05-10 21:59:43.967054 EDT | MinEsReturn               3.73206
+2017-05-10 21:59:43.967241 EDT | AverageDiscountedReturn  31.9035
+2017-05-10 21:59:43.967427 EDT | AverageQLoss              0.00149776
+2017-05-10 21:59:43.967613 EDT | AveragePolicySurr        -0.551199
+2017-05-10 21:59:43.967811 EDT | AverageQ                  0.534583
+2017-05-10 21:59:43.968002 EDT | AverageAbsQ               0.535499
+2017-05-10 21:59:43.968191 EDT | AverageY                  0.534621
+2017-05-10 21:59:43.968381 EDT | AverageAbsY               0.53514
+2017-05-10 21:59:43.968571 EDT | AverageAbsQYDiff          0.0230572
+2017-05-10 21:59:43.968760 EDT | AverageAction             0.944045
+2017-05-10 21:59:43.968970 EDT | PolicyRegParamNorm       21.8589
+2017-05-10 21:59:43.969161 EDT | QFunRegParamNorm         28.3953
+2017-05-10 21:59:43.969350 EDT | AverageForwardProgress    0.298957
+2017-05-10 21:59:43.969537 EDT | MaxForwardProgress        0.493251
+2017-05-10 21:59:43.969831 EDT | MinForwardProgress        0.0624624
+2017-05-10 21:59:43.970021 EDT | StdForwardProgress        0.0840066
+2017-05-10 21:59:43.970209 EDT | -----------------------  -----------
+2017-05-10 21:59:43.970503 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #58 | Training started
+2017-05-10 21:59:55.715324 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #58 | Training finished
+2017-05-10 21:59:55.716791 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #58 | Collecting samples for evaluation
+2017-05-10 22:00:29.335550 EDT | -----------------------  -----------
+2017-05-10 22:00:29.336293 EDT | Epoch                     58
+2017-05-10 22:00:29.336571 EDT | AverageReturn             70.7565
+2017-05-10 22:00:29.336838 EDT | StdReturn                 17.8471
+2017-05-10 22:00:29.337136 EDT | MaxReturn                114.639
+2017-05-10 22:00:29.337403 EDT | MinReturn                 28.6791
+2017-05-10 22:00:29.337666 EDT | AverageEsReturn           50.0706
+2017-05-10 22:00:29.337927 EDT | StdEsReturn               16.0374
+2017-05-10 22:00:29.338191 EDT | MaxEsReturn               73.5611
+2017-05-10 22:00:29.338460 EDT | MinEsReturn               25.3969
+2017-05-10 22:00:29.338713 EDT | AverageDiscountedReturn   40.1286
+2017-05-10 22:00:29.339002 EDT | AverageQLoss               0.0013793
+2017-05-10 22:00:29.339272 EDT | AveragePolicySurr         -0.555235
+2017-05-10 22:00:29.339533 EDT | AverageQ                   0.537936
+2017-05-10 22:00:29.339794 EDT | AverageAbsQ                0.538971
+2017-05-10 22:00:29.340053 EDT | AverageY                   0.538
+2017-05-10 22:00:29.340320 EDT | AverageAbsY                0.538667
+2017-05-10 22:00:29.340615 EDT | AverageAbsQYDiff           0.0229585
+2017-05-10 22:00:29.340879 EDT | AverageAction              0.932818
+2017-05-10 22:00:29.341149 EDT | PolicyRegParamNorm        21.9678
+2017-05-10 22:00:29.341410 EDT | QFunRegParamNorm          28.5768
+2017-05-10 22:00:29.341668 EDT | AverageForwardProgress     0.416619
+2017-05-10 22:00:29.341926 EDT | MaxForwardProgress         0.746352
+2017-05-10 22:00:29.342183 EDT | MinForwardProgress         0.141348
+2017-05-10 22:00:29.342457 EDT | StdForwardProgress         0.128674
+2017-05-10 22:00:29.342727 EDT | -----------------------  -----------
+2017-05-10 22:00:29.343114 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #59 | Training started
+2017-05-10 22:00:39.709199 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #59 | Training finished
+2017-05-10 22:00:39.710490 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #59 | Collecting samples for evaluation
+2017-05-10 22:01:10.770318 EDT | -----------------------  -----------
+2017-05-10 22:01:10.770790 EDT | Epoch                    59
+2017-05-10 22:01:10.771122 EDT | AverageReturn            46.7641
+2017-05-10 22:01:10.771400 EDT | StdReturn                17.5127
+2017-05-10 22:01:10.771670 EDT | MaxReturn                91.4061
+2017-05-10 22:01:10.771936 EDT | MinReturn                 4.64371
+2017-05-10 22:01:10.772197 EDT | AverageEsReturn          46.4409
+2017-05-10 22:01:10.772466 EDT | StdEsReturn              26.6249
+2017-05-10 22:01:10.772749 EDT | MaxEsReturn              96.46
+2017-05-10 22:01:10.773044 EDT | MinEsReturn              13.107
+2017-05-10 22:01:10.773333 EDT | AverageDiscountedReturn  27.0521
+2017-05-10 22:01:10.773620 EDT | AverageQLoss              0.00152794
+2017-05-10 22:01:10.773882 EDT | AveragePolicySurr        -0.5564
+2017-05-10 22:01:10.774137 EDT | AverageQ                  0.540686
+2017-05-10 22:01:10.774391 EDT | AverageAbsQ               0.54194
+2017-05-10 22:01:10.774649 EDT | AverageY                  0.540665
+2017-05-10 22:01:10.774920 EDT | AverageAbsY               0.54143
+2017-05-10 22:01:10.775193 EDT | AverageAbsQYDiff          0.0235143
+2017-05-10 22:01:10.775531 EDT | AverageAction             0.921817
+2017-05-10 22:01:10.775838 EDT | PolicyRegParamNorm       22.0731
+2017-05-10 22:01:10.776107 EDT | QFunRegParamNorm         28.7802
+2017-05-10 22:01:10.776376 EDT | AverageForwardProgress    0.227868
+2017-05-10 22:01:10.776640 EDT | MaxForwardProgress        0.567743
+2017-05-10 22:01:10.776902 EDT | MinForwardProgress       -0.0659692
+2017-05-10 22:01:10.777180 EDT | StdForwardProgress        0.128966
+2017-05-10 22:01:10.777442 EDT | -----------------------  -----------
+2017-05-10 22:01:10.777839 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #60 | Training started
+2017-05-10 22:01:22.864838 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #60 | Training finished
+2017-05-10 22:01:22.865433 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #60 | Collecting samples for evaluation
+2017-05-10 22:02:00.550273 EDT | -----------------------  -----------
+2017-05-10 22:02:00.551085 EDT | Epoch                     60
+2017-05-10 22:02:00.551454 EDT | AverageReturn              0.910931
+2017-05-10 22:02:00.551806 EDT | StdReturn                 15.3114
+2017-05-10 22:02:00.552168 EDT | MaxReturn                 38.7826
+2017-05-10 22:02:00.552533 EDT | MinReturn                -20.9427
+2017-05-10 22:02:00.552893 EDT | AverageEsReturn           39.6408
+2017-05-10 22:02:00.553272 EDT | StdEsReturn               22.0003
+2017-05-10 22:02:00.553626 EDT | MaxEsReturn               76.1166
+2017-05-10 22:02:00.553975 EDT | MinEsReturn               12.2895
+2017-05-10 22:02:00.554326 EDT | AverageDiscountedReturn    5.01096
+2017-05-10 22:02:00.554696 EDT | AverageQLoss               0.0014966
+2017-05-10 22:02:00.555061 EDT | AveragePolicySurr         -0.565385
+2017-05-10 22:02:00.555414 EDT | AverageQ                   0.544504
+2017-05-10 22:02:00.555765 EDT | AverageAbsQ                0.545857
+2017-05-10 22:02:00.556112 EDT | AverageY                   0.54456
+2017-05-10 22:02:00.556472 EDT | AverageAbsY                0.545486
+2017-05-10 22:02:00.556823 EDT | AverageAbsQYDiff           0.0237982
+2017-05-10 22:02:00.557192 EDT | AverageAction              0.961637
+2017-05-10 22:02:00.557541 EDT | PolicyRegParamNorm        22.1888
+2017-05-10 22:02:00.557887 EDT | QFunRegParamNorm          29.0425
+2017-05-10 22:02:00.558234 EDT | AverageForwardProgress    -0.129879
+2017-05-10 22:02:00.558584 EDT | MaxForwardProgress         0.15473
+2017-05-10 22:02:00.558942 EDT | MinForwardProgress        -0.30186
+2017-05-10 22:02:00.559298 EDT | StdForwardProgress         0.116279
+2017-05-10 22:02:00.559651 EDT | -----------------------  -----------
+2017-05-10 22:02:00.560130 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #61 | Training started
+2017-05-10 22:02:13.019392 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #61 | Training finished
+2017-05-10 22:02:13.019679 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #61 | Collecting samples for evaluation
+2017-05-10 22:02:45.964938 EDT | -----------------------  ------------
+2017-05-10 22:02:45.965647 EDT | Epoch                     61
+2017-05-10 22:02:45.965923 EDT | AverageReturn             31.7006
+2017-05-10 22:02:45.966187 EDT | StdReturn                  9.27028
+2017-05-10 22:02:45.966438 EDT | MaxReturn                 58.1282
+2017-05-10 22:02:45.966691 EDT | MinReturn                  2.67526
+2017-05-10 22:02:45.966943 EDT | AverageEsReturn           31.458
+2017-05-10 22:02:45.967205 EDT | StdEsReturn               28.4964
+2017-05-10 22:02:45.967470 EDT | MaxEsReturn               82.3497
+2017-05-10 22:02:45.967720 EDT | MinEsReturn              -13.8413
+2017-05-10 22:02:45.967974 EDT | AverageDiscountedReturn   20.5541
+2017-05-10 22:02:45.968226 EDT | AverageQLoss               0.00171443
+2017-05-10 22:02:45.968487 EDT | AveragePolicySurr         -0.581492
+2017-05-10 22:02:45.968753 EDT | AverageQ                   0.555908
+2017-05-10 22:02:45.969045 EDT | AverageAbsQ                0.557353
+2017-05-10 22:02:45.969300 EDT | AverageY                   0.555935
+2017-05-10 22:02:45.969579 EDT | AverageAbsY                0.556986
+2017-05-10 22:02:45.969847 EDT | AverageAbsQYDiff           0.0255677
+2017-05-10 22:02:45.970107 EDT | AverageAction              0.967167
+2017-05-10 22:02:45.970362 EDT | PolicyRegParamNorm        22.307
+2017-05-10 22:02:45.970617 EDT | QFunRegParamNorm          29.2481
+2017-05-10 22:02:45.970867 EDT | AverageForwardProgress     0.142154
+2017-05-10 22:02:45.971129 EDT | MaxForwardProgress         0.339749
+2017-05-10 22:02:45.971383 EDT | MinForwardProgress        -0.0651353
+2017-05-10 22:02:45.971636 EDT | StdForwardProgress         0.069993
+2017-05-10 22:02:45.971872 EDT | -----------------------  ------------
+2017-05-10 22:02:45.972234 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #62 | Training started
+2017-05-10 22:02:57.813083 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #62 | Training finished
+2017-05-10 22:02:57.816997 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #62 | Collecting samples for evaluation
+2017-05-10 22:03:29.355524 EDT | -----------------------  -----------
+2017-05-10 22:03:29.370752 EDT | Epoch                    62
+2017-05-10 22:03:29.371115 EDT | AverageReturn            35.7661
+2017-05-10 22:03:29.371389 EDT | StdReturn                 9.62992
+2017-05-10 22:03:29.371655 EDT | MaxReturn                62.4847
+2017-05-10 22:03:29.371913 EDT | MinReturn                14.9052
+2017-05-10 22:03:29.372168 EDT | AverageEsReturn          43.4916
+2017-05-10 22:03:29.372421 EDT | StdEsReturn              18.1473
+2017-05-10 22:03:29.372679 EDT | MaxEsReturn              74.0184
+2017-05-10 22:03:29.372951 EDT | MinEsReturn               4.11898
+2017-05-10 22:03:29.373221 EDT | AverageDiscountedReturn  23.6721
+2017-05-10 22:03:29.373475 EDT | AverageQLoss              0.00180206
+2017-05-10 22:03:29.373740 EDT | AveragePolicySurr        -0.595086
+2017-05-10 22:03:29.373993 EDT | AverageQ                  0.567457
+2017-05-10 22:03:29.374251 EDT | AverageAbsQ               0.56895
+2017-05-10 22:03:29.374505 EDT | AverageY                  0.567535
+2017-05-10 22:03:29.374762 EDT | AverageAbsY               0.568624
+2017-05-10 22:03:29.375023 EDT | AverageAbsQYDiff          0.0265655
+2017-05-10 22:03:29.375279 EDT | AverageAction             0.955042
+2017-05-10 22:03:29.375525 EDT | PolicyRegParamNorm       22.3983
+2017-05-10 22:03:29.375771 EDT | QFunRegParamNorm         29.4545
+2017-05-10 22:03:29.376015 EDT | AverageForwardProgress    0.182117
+2017-05-10 22:03:29.376259 EDT | MaxForwardProgress        0.379396
+2017-05-10 22:03:29.376522 EDT | MinForwardProgress        0.0233881
+2017-05-10 22:03:29.377637 EDT | StdForwardProgress        0.0708606
+2017-05-10 22:03:29.377909 EDT | -----------------------  -----------
+2017-05-10 22:03:29.380031 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #63 | Training started
+2017-05-10 22:03:41.065942 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #63 | Training finished
+2017-05-10 22:03:41.067365 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #63 | Collecting samples for evaluation
+2017-05-10 22:04:11.093164 EDT | -----------------------  -----------
+2017-05-10 22:04:11.093931 EDT | Epoch                    63
+2017-05-10 22:04:11.094258 EDT | AverageReturn            54.7956
+2017-05-10 22:04:11.094565 EDT | StdReturn                 6.5183
+2017-05-10 22:04:11.094903 EDT | MaxReturn                77.2297
+2017-05-10 22:04:11.095225 EDT | MinReturn                35.2095
+2017-05-10 22:04:11.095527 EDT | AverageEsReturn          49.7683
+2017-05-10 22:04:11.095830 EDT | StdEsReturn              18.5393
+2017-05-10 22:04:11.096130 EDT | MaxEsReturn              85.3677
+2017-05-10 22:04:11.096432 EDT | MinEsReturn              17.893
+2017-05-10 22:04:11.096733 EDT | AverageDiscountedReturn  34.7055
+2017-05-10 22:04:11.097035 EDT | AverageQLoss              0.00172164
+2017-05-10 22:04:11.097299 EDT | AveragePolicySurr        -0.607354
+2017-05-10 22:04:11.097560 EDT | AverageQ                  0.580365
+2017-05-10 22:04:11.097830 EDT | AverageAbsQ               0.581925
+2017-05-10 22:04:11.098099 EDT | AverageY                  0.580404
+2017-05-10 22:04:11.098367 EDT | AverageAbsY               0.581565
+2017-05-10 22:04:11.098656 EDT | AverageAbsQYDiff          0.0263148
+2017-05-10 22:04:11.098980 EDT | AverageAction             0.963356
+2017-05-10 22:04:11.099299 EDT | PolicyRegParamNorm       22.4992
+2017-05-10 22:04:11.099632 EDT | QFunRegParamNorm         29.6351
+2017-05-10 22:04:11.099949 EDT | AverageForwardProgress    0.318627
+2017-05-10 22:04:11.100262 EDT | MaxForwardProgress        0.483095
+2017-05-10 22:04:11.100556 EDT | MinForwardProgress        0.186958
+2017-05-10 22:04:11.100864 EDT | StdForwardProgress        0.0469026
+2017-05-10 22:04:11.101194 EDT | -----------------------  -----------
+2017-05-10 22:04:11.101647 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #64 | Training started
+2017-05-10 22:04:24.355371 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #64 | Training finished
+2017-05-10 22:04:24.356058 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #64 | Collecting samples for evaluation
+2017-05-10 22:04:54.838926 EDT | -----------------------  ----------
+2017-05-10 22:04:54.839490 EDT | Epoch                    64
+2017-05-10 22:04:54.839706 EDT | AverageReturn            44.0032
+2017-05-10 22:04:54.839904 EDT | StdReturn                 6.5579
+2017-05-10 22:04:54.840103 EDT | MaxReturn                63.473
+2017-05-10 22:04:54.840319 EDT | MinReturn                23.1936
+2017-05-10 22:04:54.840559 EDT | AverageEsReturn          48.8018
+2017-05-10 22:04:54.840772 EDT | StdEsReturn              17.7158
+2017-05-10 22:04:54.840992 EDT | MaxEsReturn              69.2435
+2017-05-10 22:04:54.841207 EDT | MinEsReturn               1.877
+2017-05-10 22:04:54.841408 EDT | AverageDiscountedReturn  28.7761
+2017-05-10 22:04:54.841604 EDT | AverageQLoss              0.0017822
+2017-05-10 22:04:54.841790 EDT | AveragePolicySurr        -0.616141
+2017-05-10 22:04:54.841975 EDT | AverageQ                  0.592384
+2017-05-10 22:04:54.842158 EDT | AverageAbsQ               0.593903
+2017-05-10 22:04:54.842363 EDT | AverageY                  0.592442
+2017-05-10 22:04:54.842559 EDT | AverageAbsY               0.593527
+2017-05-10 22:04:54.842744 EDT | AverageAbsQYDiff          0.0263693
+2017-05-10 22:04:54.842927 EDT | AverageAction             0.967523
+2017-05-10 22:04:54.843110 EDT | PolicyRegParamNorm       22.5755
+2017-05-10 22:04:54.843312 EDT | QFunRegParamNorm         29.867
+2017-05-10 22:04:54.843514 EDT | AverageForwardProgress    0.241753
+2017-05-10 22:04:54.843704 EDT | MaxForwardProgress        0.381471
+2017-05-10 22:04:54.843891 EDT | MinForwardProgress        0.087409
+2017-05-10 22:04:54.844080 EDT | StdForwardProgress        0.0481019
+2017-05-10 22:04:54.844266 EDT | -----------------------  ----------
+2017-05-10 22:04:54.844592 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #65 | Training started
+2017-05-10 22:05:07.604868 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #65 | Training finished
+2017-05-10 22:05:07.605551 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #65 | Collecting samples for evaluation
+2017-05-10 22:05:38.145426 EDT | -----------------------  -----------
+2017-05-10 22:05:38.146210 EDT | Epoch                    65
+2017-05-10 22:05:38.146581 EDT | AverageReturn            70.0038
+2017-05-10 22:05:38.146932 EDT | StdReturn                 7.01753
+2017-05-10 22:05:38.147296 EDT | MaxReturn                87.255
+2017-05-10 22:05:38.147658 EDT | MinReturn                46.0447
+2017-05-10 22:05:38.147979 EDT | AverageEsReturn          52.9133
+2017-05-10 22:05:38.148338 EDT | StdEsReturn              15.7061
+2017-05-10 22:05:38.148703 EDT | MaxEsReturn              75.6367
+2017-05-10 22:05:38.149090 EDT | MinEsReturn              19.6289
+2017-05-10 22:05:38.149962 EDT | AverageDiscountedReturn  41.6158
+2017-05-10 22:05:38.150813 EDT | AverageQLoss              0.00180498
+2017-05-10 22:05:38.151693 EDT | AveragePolicySurr        -0.625249
+2017-05-10 22:05:38.152552 EDT | AverageQ                  0.60226
+2017-05-10 22:05:38.153436 EDT | AverageAbsQ               0.603617
+2017-05-10 22:05:38.154307 EDT | AverageY                  0.602262
+2017-05-10 22:05:38.155204 EDT | AverageAbsY               0.603231
+2017-05-10 22:05:38.156264 EDT | AverageAbsQYDiff          0.0263687
+2017-05-10 22:05:38.157148 EDT | AverageAction             0.979543
+2017-05-10 22:05:38.158002 EDT | PolicyRegParamNorm       22.6516
+2017-05-10 22:05:38.158886 EDT | QFunRegParamNorm         30.0864
+2017-05-10 22:05:38.159801 EDT | AverageForwardProgress    0.424254
+2017-05-10 22:05:38.160708 EDT | MaxForwardProgress        0.543468
+2017-05-10 22:05:38.161688 EDT | MinForwardProgress        0.249152
+2017-05-10 22:05:38.162537 EDT | StdForwardProgress        0.0507048
+2017-05-10 22:05:38.163449 EDT | -----------------------  -----------
+2017-05-10 22:05:38.164415 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #66 | Training started
+2017-05-10 22:05:50.711330 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #66 | Training finished
+2017-05-10 22:05:50.711843 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #66 | Collecting samples for evaluation
+2017-05-10 22:06:25.026019 EDT | -----------------------  -----------
+2017-05-10 22:06:25.027994 EDT | Epoch                    66
+2017-05-10 22:06:25.028249 EDT | AverageReturn            63.4605
+2017-05-10 22:06:25.030118 EDT | StdReturn                 6.63148
+2017-05-10 22:06:25.030357 EDT | MaxReturn                78.2713
+2017-05-10 22:06:25.032028 EDT | MinReturn                47.6238
+2017-05-10 22:06:25.032252 EDT | AverageEsReturn          48.7299
+2017-05-10 22:06:25.032451 EDT | StdEsReturn              13.055
+2017-05-10 22:06:25.034188 EDT | MaxEsReturn              62.4868
+2017-05-10 22:06:25.034399 EDT | MinEsReturn               9.76645
+2017-05-10 22:06:25.036084 EDT | AverageDiscountedReturn  38.3904
+2017-05-10 22:06:25.036291 EDT | AverageQLoss              0.00189909
+2017-05-10 22:06:25.037975 EDT | AveragePolicySurr        -0.63448
+2017-05-10 22:06:25.038180 EDT | AverageQ                  0.611399
+2017-05-10 22:06:25.039851 EDT | AverageAbsQ               0.613008
+2017-05-10 22:06:25.041710 EDT | AverageY                  0.61148
+2017-05-10 22:06:25.041918 EDT | AverageAbsY               0.612603
+2017-05-10 22:06:25.042115 EDT | AverageAbsQYDiff          0.0265646
+2017-05-10 22:06:25.052105 EDT | AverageAction             0.958422
+2017-05-10 22:06:25.060692 EDT | PolicyRegParamNorm       22.7387
+2017-05-10 22:06:25.065045 EDT | QFunRegParamNorm         30.2735
+2017-05-10 22:06:25.065299 EDT | AverageForwardProgress    0.378474
+2017-05-10 22:06:25.065487 EDT | MaxForwardProgress        0.493915
+2017-05-10 22:06:25.065746 EDT | MinForwardProgress        0.259189
+2017-05-10 22:06:25.066033 EDT | StdForwardProgress        0.0482549
+2017-05-10 22:06:25.066296 EDT | -----------------------  -----------
+2017-05-10 22:06:25.066655 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #67 | Training started
+2017-05-10 22:06:37.701521 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #67 | Training finished
+2017-05-10 22:06:37.703298 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #67 | Collecting samples for evaluation
+2017-05-10 22:07:15.355813 EDT | -----------------------  -----------
+2017-05-10 22:07:15.356580 EDT | Epoch                    67
+2017-05-10 22:07:15.356892 EDT | AverageReturn            48.8701
+2017-05-10 22:07:15.357184 EDT | StdReturn                 7.82049
+2017-05-10 22:07:15.357453 EDT | MaxReturn                71.7237
+2017-05-10 22:07:15.357720 EDT | MinReturn                19.771
+2017-05-10 22:07:15.357980 EDT | AverageEsReturn          52.748
+2017-05-10 22:07:15.358241 EDT | StdEsReturn              16.802
+2017-05-10 22:07:15.358532 EDT | MaxEsReturn              83.4674
+2017-05-10 22:07:15.358830 EDT | MinEsReturn              15.8961
+2017-05-10 22:07:15.359127 EDT | AverageDiscountedReturn  30.0247
+2017-05-10 22:07:15.359453 EDT | AverageQLoss              0.00168214
+2017-05-10 22:07:15.359793 EDT | AveragePolicySurr        -0.641427
+2017-05-10 22:07:15.360141 EDT | AverageQ                  0.618547
+2017-05-10 22:07:15.360528 EDT | AverageAbsQ               0.620187
+2017-05-10 22:07:15.360925 EDT | AverageY                  0.61858
+2017-05-10 22:07:15.361336 EDT | AverageAbsY               0.619749
+2017-05-10 22:07:15.361651 EDT | AverageAbsQYDiff          0.0257853
+2017-05-10 22:07:15.361982 EDT | AverageAction             0.97514
+2017-05-10 22:07:15.362263 EDT | PolicyRegParamNorm       22.8102
+2017-05-10 22:07:15.362534 EDT | QFunRegParamNorm         30.4994
+2017-05-10 22:07:15.362799 EDT | AverageForwardProgress    0.264413
+2017-05-10 22:07:15.363061 EDT | MaxForwardProgress        0.436271
+2017-05-10 22:07:15.363325 EDT | MinForwardProgress        0.0508189
+2017-05-10 22:07:15.363592 EDT | StdForwardProgress        0.058708
+2017-05-10 22:07:15.363850 EDT | -----------------------  -----------
+2017-05-10 22:07:15.364321 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #68 | Training started
+2017-05-10 22:07:28.625998 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #68 | Training finished
+2017-05-10 22:07:28.626626 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #68 | Collecting samples for evaluation
+2017-05-10 22:08:07.472417 EDT | -----------------------  -----------
+2017-05-10 22:08:07.473091 EDT | Epoch                    68
+2017-05-10 22:08:07.473383 EDT | AverageReturn            35.6456
+2017-05-10 22:08:07.473658 EDT | StdReturn                 5.89295
+2017-05-10 22:08:07.473921 EDT | MaxReturn                48.0466
+2017-05-10 22:08:07.474184 EDT | MinReturn                20.6159
+2017-05-10 22:08:07.474451 EDT | AverageEsReturn          34.8911
+2017-05-10 22:08:07.474706 EDT | StdEsReturn              15.2563
+2017-05-10 22:08:07.474963 EDT | MaxEsReturn              63.7511
+2017-05-10 22:08:07.475226 EDT | MinEsReturn              12.5524
+2017-05-10 22:08:07.475493 EDT | AverageDiscountedReturn  23.945
+2017-05-10 22:08:07.475771 EDT | AverageQLoss              0.00185712
+2017-05-10 22:08:07.476032 EDT | AveragePolicySurr        -0.650677
+2017-05-10 22:08:07.476297 EDT | AverageQ                  0.628765
+2017-05-10 22:08:07.476563 EDT | AverageAbsQ               0.63027
+2017-05-10 22:08:07.476826 EDT | AverageY                  0.628806
+2017-05-10 22:08:07.494158 EDT | AverageAbsY               0.629953
+2017-05-10 22:08:07.494445 EDT | AverageAbsQYDiff          0.0263612
+2017-05-10 22:08:07.494713 EDT | AverageAction             0.991743
+2017-05-10 22:08:07.494984 EDT | PolicyRegParamNorm       22.9036
+2017-05-10 22:08:07.495248 EDT | QFunRegParamNorm         30.6906
+2017-05-10 22:08:07.495527 EDT | AverageForwardProgress    0.185768
+2017-05-10 22:08:07.495789 EDT | MaxForwardProgress        0.283254
+2017-05-10 22:08:07.496050 EDT | MinForwardProgress        0.0721067
+2017-05-10 22:08:07.496317 EDT | StdForwardProgress        0.0445414
+2017-05-10 22:08:07.496595 EDT | -----------------------  -----------
+2017-05-10 22:08:07.505454 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #69 | Training started
+2017-05-10 22:08:19.189767 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #69 | Training finished
+2017-05-10 22:08:19.190446 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #69 | Collecting samples for evaluation
+2017-05-10 22:08:57.300096 EDT | -----------------------  -----------
+2017-05-10 22:08:57.301670 EDT | Epoch                    69
+2017-05-10 22:08:57.302040 EDT | AverageReturn            23.2981
+2017-05-10 22:08:57.302417 EDT | StdReturn                 7.9091
+2017-05-10 22:08:57.302780 EDT | MaxReturn                47.8294
+2017-05-10 22:08:57.303141 EDT | MinReturn                 4.65082
+2017-05-10 22:08:57.303499 EDT | AverageEsReturn          30.361
+2017-05-10 22:08:57.303949 EDT | StdEsReturn              15.0563
+2017-05-10 22:08:57.304300 EDT | MaxEsReturn              62.7015
+2017-05-10 22:08:57.304654 EDT | MinEsReturn               9.8165
+2017-05-10 22:08:57.305025 EDT | AverageDiscountedReturn  15.535
+2017-05-10 22:08:57.305387 EDT | AverageQLoss              0.00191419
+2017-05-10 22:08:57.305748 EDT | AveragePolicySurr        -0.657074
+2017-05-10 22:08:57.306105 EDT | AverageQ                  0.634455
+2017-05-10 22:08:57.307103 EDT | AverageAbsQ               0.636156
+2017-05-10 22:08:57.308138 EDT | AverageY                  0.634479
+2017-05-10 22:08:57.308429 EDT | AverageAbsY               0.635775
+2017-05-10 22:08:57.308701 EDT | AverageAbsQYDiff          0.0267017
+2017-05-10 22:08:57.308979 EDT | AverageAction             0.977634
+2017-05-10 22:08:57.309250 EDT | PolicyRegParamNorm       23.0048
+2017-05-10 22:08:57.309519 EDT | QFunRegParamNorm         30.9153
+2017-05-10 22:08:57.309790 EDT | AverageForwardProgress    0.0799363
+2017-05-10 22:08:57.310063 EDT | MaxForwardProgress        0.258953
+2017-05-10 22:08:57.310330 EDT | MinForwardProgress       -0.0560438
+2017-05-10 22:08:57.310604 EDT | StdForwardProgress        0.0598372
+2017-05-10 22:08:57.310886 EDT | -----------------------  -----------
+2017-05-10 22:08:57.311275 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #70 | Training started
+2017-05-10 22:09:11.273105 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #70 | Training finished
+2017-05-10 22:09:11.282942 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #70 | Collecting samples for evaluation
+2017-05-10 22:09:48.411696 EDT | -----------------------  -----------
+2017-05-10 22:09:48.412948 EDT | Epoch                     70
+2017-05-10 22:09:48.413266 EDT | AverageReturn              3.94855
+2017-05-10 22:09:48.413539 EDT | StdReturn                 16.1206
+2017-05-10 22:09:48.413811 EDT | MaxReturn                 60.7897
+2017-05-10 22:09:48.414082 EDT | MinReturn                -26.34
+2017-05-10 22:09:48.414357 EDT | AverageEsReturn           10.9727
+2017-05-10 22:09:48.414620 EDT | StdEsReturn                9.07134
+2017-05-10 22:09:48.414884 EDT | MaxEsReturn               24.4332
+2017-05-10 22:09:48.415154 EDT | MinEsReturn               -5.03885
+2017-05-10 22:09:48.415459 EDT | AverageDiscountedReturn    3.91799
+2017-05-10 22:09:48.415728 EDT | AverageQLoss               0.0018922
+2017-05-10 22:09:48.415991 EDT | AveragePolicySurr         -0.664635
+2017-05-10 22:09:48.416251 EDT | AverageQ                   0.643527
+2017-05-10 22:09:48.416555 EDT | AverageAbsQ                0.645311
+2017-05-10 22:09:48.416821 EDT | AverageY                   0.643586
+2017-05-10 22:09:48.417110 EDT | AverageAbsY                0.644982
+2017-05-10 22:09:48.417372 EDT | AverageAbsQYDiff           0.0269026
+2017-05-10 22:09:48.417677 EDT | AverageAction              0.970939
+2017-05-10 22:09:48.417958 EDT | PolicyRegParamNorm        23.1101
+2017-05-10 22:09:48.418229 EDT | QFunRegParamNorm          31.1043
+2017-05-10 22:09:48.418491 EDT | AverageForwardProgress    -0.0895435
+2017-05-10 22:09:48.418772 EDT | MaxForwardProgress         0.340743
+2017-05-10 22:09:48.419039 EDT | MinForwardProgress        -0.329055
+2017-05-10 22:09:48.419309 EDT | StdForwardProgress         0.121115
+2017-05-10 22:09:48.419592 EDT | -----------------------  -----------
+2017-05-10 22:09:48.419958 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #71 | Training started
+2017-05-10 22:10:00.571997 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #71 | Training finished
+2017-05-10 22:10:00.572645 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #71 | Collecting samples for evaluation
+2017-05-10 22:10:38.512447 EDT | -----------------------  ------------
+2017-05-10 22:10:38.514240 EDT | Epoch                     71
+2017-05-10 22:10:38.515142 EDT | AverageReturn              9.81488
+2017-05-10 22:10:38.515509 EDT | StdReturn                 11.0846
+2017-05-10 22:10:38.515851 EDT | MaxReturn                 35.3335
+2017-05-10 22:10:38.516152 EDT | MinReturn                -13.8641
+2017-05-10 22:10:38.516418 EDT | AverageEsReturn           20.0832
+2017-05-10 22:10:38.516703 EDT | StdEsReturn               22.516
+2017-05-10 22:10:38.517015 EDT | MaxEsReturn               82.1902
+2017-05-10 22:10:38.517310 EDT | MinEsReturn               -5.57111
+2017-05-10 22:10:38.517706 EDT | AverageDiscountedReturn    7.52995
+2017-05-10 22:10:38.518326 EDT | AverageQLoss               0.00196855
+2017-05-10 22:10:38.518670 EDT | AveragePolicySurr         -0.674454
+2017-05-10 22:10:38.519265 EDT | AverageQ                   0.650643
+2017-05-10 22:10:38.519579 EDT | AverageAbsQ                0.652702
+2017-05-10 22:10:38.520479 EDT | AverageY                   0.650709
+2017-05-10 22:10:38.522375 EDT | AverageAbsY                0.652452
+2017-05-10 22:10:38.522875 EDT | AverageAbsQYDiff           0.0267899
+2017-05-10 22:10:38.524110 EDT | AverageAction              0.987354
+2017-05-10 22:10:38.524507 EDT | PolicyRegParamNorm        23.2162
+2017-05-10 22:10:38.525055 EDT | QFunRegParamNorm          31.3646
+2017-05-10 22:10:38.528007 EDT | AverageForwardProgress    -0.0438613
+2017-05-10 22:10:38.529313 EDT | MaxForwardProgress         0.166031
+2017-05-10 22:10:38.530747 EDT | MinForwardProgress        -0.244425
+2017-05-10 22:10:38.531612 EDT | StdForwardProgress         0.0863921
+2017-05-10 22:10:38.532893 EDT | -----------------------  ------------
+2017-05-10 22:10:38.534291 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #72 | Training started
+2017-05-10 22:10:50.311038 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #72 | Training finished
+2017-05-10 22:10:50.311562 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #72 | Collecting samples for evaluation
+2017-05-10 22:11:25.194338 EDT | -----------------------  ------------
+2017-05-10 22:11:25.197302 EDT | Epoch                     72
+2017-05-10 22:11:25.197624 EDT | AverageReturn              9.44381
+2017-05-10 22:11:25.197896 EDT | StdReturn                 13.9146
+2017-05-10 22:11:25.198162 EDT | MaxReturn                 45.8977
+2017-05-10 22:11:25.198425 EDT | MinReturn                -30.4863
+2017-05-10 22:11:25.198684 EDT | AverageEsReturn           12.7264
+2017-05-10 22:11:25.198944 EDT | StdEsReturn               22.7831
+2017-05-10 22:11:25.199203 EDT | MaxEsReturn               50.9616
+2017-05-10 22:11:25.199459 EDT | MinEsReturn              -15.1298
+2017-05-10 22:11:25.199718 EDT | AverageDiscountedReturn    6.82376
+2017-05-10 22:11:25.199981 EDT | AverageQLoss               0.00214582
+2017-05-10 22:11:25.200288 EDT | AveragePolicySurr         -0.680096
+2017-05-10 22:11:25.200551 EDT | AverageQ                   0.657422
+2017-05-10 22:11:25.200815 EDT | AverageAbsQ                0.659883
+2017-05-10 22:11:25.201087 EDT | AverageY                   0.657439
+2017-05-10 22:11:25.201346 EDT | AverageAbsY                0.659501
+2017-05-10 22:11:25.201624 EDT | AverageAbsQYDiff           0.0282039
+2017-05-10 22:11:25.201897 EDT | AverageAction              0.983002
+2017-05-10 22:11:25.202166 EDT | PolicyRegParamNorm        23.3331
+2017-05-10 22:11:25.202428 EDT | QFunRegParamNorm          31.61
+2017-05-10 22:11:25.202691 EDT | AverageForwardProgress    -0.047402
+2017-05-10 22:11:25.202959 EDT | MaxForwardProgress         0.214454
+2017-05-10 22:11:25.203607 EDT | MinForwardProgress        -0.349985
+2017-05-10 22:11:25.203887 EDT | StdForwardProgress         0.104118
+2017-05-10 22:11:25.204152 EDT | -----------------------  ------------
+2017-05-10 22:11:25.206776 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #73 | Training started
+2017-05-10 22:11:36.934239 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #73 | Training finished
+2017-05-10 22:11:36.934799 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #73 | Collecting samples for evaluation
+2017-05-10 22:12:12.760521 EDT | -----------------------  ------------
+2017-05-10 22:12:12.760961 EDT | Epoch                     73
+2017-05-10 22:12:12.761255 EDT | AverageReturn              9.29888
+2017-05-10 22:12:12.761525 EDT | StdReturn                 19.7964
+2017-05-10 22:12:12.761796 EDT | MaxReturn                 82.3121
+2017-05-10 22:12:12.762078 EDT | MinReturn                -41.4816
+2017-05-10 22:12:12.762342 EDT | AverageEsReturn           35.0677
+2017-05-10 22:12:12.762606 EDT | StdEsReturn               26.3156
+2017-05-10 22:12:12.762873 EDT | MaxEsReturn               83.4259
+2017-05-10 22:12:12.763165 EDT | MinEsReturn               -3.05703
+2017-05-10 22:12:12.763426 EDT | AverageDiscountedReturn    6.60987
+2017-05-10 22:12:12.763687 EDT | AverageQLoss               0.00214358
+2017-05-10 22:12:12.763949 EDT | AveragePolicySurr         -0.688188
+2017-05-10 22:12:12.764222 EDT | AverageQ                   0.665025
+2017-05-10 22:12:12.764490 EDT | AverageAbsQ                0.667513
+2017-05-10 22:12:12.764752 EDT | AverageY                   0.665047
+2017-05-10 22:12:12.765193 EDT | AverageAbsY                0.667189
+2017-05-10 22:12:12.765468 EDT | AverageAbsQYDiff           0.028115
+2017-05-10 22:12:12.765731 EDT | AverageAction              0.9766
+2017-05-10 22:12:12.765997 EDT | PolicyRegParamNorm        23.4422
+2017-05-10 22:12:12.766274 EDT | QFunRegParamNorm          31.8478
+2017-05-10 22:12:12.766531 EDT | AverageForwardProgress    -0.0639332
+2017-05-10 22:12:12.766795 EDT | MaxForwardProgress         0.496631
+2017-05-10 22:12:12.767084 EDT | MinForwardProgress        -0.458593
+2017-05-10 22:12:12.767359 EDT | StdForwardProgress         0.151574
+2017-05-10 22:12:12.767619 EDT | -----------------------  ------------
+2017-05-10 22:12:12.768000 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #74 | Training started
+2017-05-10 22:12:24.491744 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #74 | Training finished
+2017-05-10 22:12:24.492391 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #74 | Collecting samples for evaluation
+2017-05-10 22:12:57.994814 EDT | -----------------------  ------------
+2017-05-10 22:12:57.995591 EDT | Epoch                     74
+2017-05-10 22:12:57.995994 EDT | AverageReturn             28.3148
+2017-05-10 22:12:57.996346 EDT | StdReturn                 20.0637
+2017-05-10 22:12:57.996647 EDT | MaxReturn                 69.8313
+2017-05-10 22:12:57.996931 EDT | MinReturn                -20.1443
+2017-05-10 22:12:57.997200 EDT | AverageEsReturn           30.213
+2017-05-10 22:12:57.997469 EDT | StdEsReturn               15.9862
+2017-05-10 22:12:57.997754 EDT | MaxEsReturn               62.7209
+2017-05-10 22:12:57.998050 EDT | MinEsReturn                7.45721
+2017-05-10 22:12:57.998314 EDT | AverageDiscountedReturn   16.6291
+2017-05-10 22:12:57.998862 EDT | AverageQLoss               0.00249848
+2017-05-10 22:12:57.999512 EDT | AveragePolicySurr         -0.701587
+2017-05-10 22:12:58.000294 EDT | AverageQ                   0.674165
+2017-05-10 22:12:58.000952 EDT | AverageAbsQ                0.676608
+2017-05-10 22:12:58.001596 EDT | AverageY                   0.674225
+2017-05-10 22:12:58.002459 EDT | AverageAbsY                0.676372
+2017-05-10 22:12:58.003195 EDT | AverageAbsQYDiff           0.0297903
+2017-05-10 22:12:58.003962 EDT | AverageAction              0.970999
+2017-05-10 22:12:58.004850 EDT | PolicyRegParamNorm        23.5507
+2017-05-10 22:12:58.005629 EDT | QFunRegParamNorm          32.0993
+2017-05-10 22:12:58.006470 EDT | AverageForwardProgress     0.0903639
+2017-05-10 22:12:58.007127 EDT | MaxForwardProgress         0.403373
+2017-05-10 22:12:58.007945 EDT | MinForwardProgress        -0.297556
+2017-05-10 22:12:58.008786 EDT | StdForwardProgress         0.145228
+2017-05-10 22:12:58.009504 EDT | -----------------------  ------------
+2017-05-10 22:12:58.010315 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #75 | Training started
+2017-05-10 22:13:08.810359 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #75 | Training finished
+2017-05-10 22:13:08.815323 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #75 | Collecting samples for evaluation
+2017-05-10 22:13:46.718919 EDT | -----------------------  -------------
+2017-05-10 22:13:46.719664 EDT | Epoch                     75
+2017-05-10 22:13:46.719986 EDT | AverageReturn             15.3666
+2017-05-10 22:13:46.720295 EDT | StdReturn                 14.7647
+2017-05-10 22:13:46.720606 EDT | MaxReturn                 63.5094
+2017-05-10 22:13:46.720958 EDT | MinReturn                -24.3505
+2017-05-10 22:13:46.721309 EDT | AverageEsReturn           20.0934
+2017-05-10 22:13:46.721649 EDT | StdEsReturn               13.8167
+2017-05-10 22:13:46.721992 EDT | MaxEsReturn               45.9855
+2017-05-10 22:13:46.722309 EDT | MinEsReturn               -4.36264
+2017-05-10 22:13:46.722609 EDT | AverageDiscountedReturn   10.0405
+2017-05-10 22:13:46.722915 EDT | AverageQLoss               0.00342008
+2017-05-10 22:13:46.723213 EDT | AveragePolicySurr         -0.720862
+2017-05-10 22:13:46.723513 EDT | AverageQ                   0.685615
+2017-05-10 22:13:46.723820 EDT | AverageAbsQ                0.688019
+2017-05-10 22:13:46.724115 EDT | AverageY                   0.685746
+2017-05-10 22:13:46.724435 EDT | AverageAbsY                0.687914
+2017-05-10 22:13:46.724783 EDT | AverageAbsQYDiff           0.0332298
+2017-05-10 22:13:46.725110 EDT | AverageAction              0.953649
+2017-05-10 22:13:46.725372 EDT | PolicyRegParamNorm        23.6536
+2017-05-10 22:13:46.725641 EDT | QFunRegParamNorm          32.3645
+2017-05-10 22:13:46.725895 EDT | AverageForwardProgress    -0.000820683
+2017-05-10 22:13:46.726151 EDT | MaxForwardProgress         0.349989
+2017-05-10 22:13:46.726403 EDT | MinForwardProgress        -0.297203
+2017-05-10 22:13:46.726654 EDT | StdForwardProgress         0.107349
+2017-05-10 22:13:46.726984 EDT | -----------------------  -------------
+2017-05-10 22:13:46.727427 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #76 | Training started
+2017-05-10 22:14:00.738994 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #76 | Training finished
+2017-05-10 22:14:00.739648 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #76 | Collecting samples for evaluation
+2017-05-10 22:14:36.299563 EDT | -----------------------  ------------
+2017-05-10 22:14:36.300377 EDT | Epoch                     76
+2017-05-10 22:14:36.300706 EDT | AverageReturn              3.33526
+2017-05-10 22:14:36.301015 EDT | StdReturn                  7.49125
+2017-05-10 22:14:36.301582 EDT | MaxReturn                 21.129
+2017-05-10 22:14:36.303423 EDT | MinReturn                -21.0477
+2017-05-10 22:14:36.304715 EDT | AverageEsReturn           14.2156
+2017-05-10 22:14:36.306430 EDT | StdEsReturn               20.9164
+2017-05-10 22:14:36.308304 EDT | MaxEsReturn               62.9736
+2017-05-10 22:14:36.309729 EDT | MinEsReturn              -11.6906
+2017-05-10 22:14:36.309940 EDT | AverageDiscountedReturn    4.40505
+2017-05-10 22:14:36.312015 EDT | AverageQLoss               0.00411823
+2017-05-10 22:14:36.312220 EDT | AveragePolicySurr         -0.745221
+2017-05-10 22:14:36.312420 EDT | AverageQ                   0.704912
+2017-05-10 22:14:36.312618 EDT | AverageAbsQ                0.707186
+2017-05-10 22:14:36.316609 EDT | AverageY                   0.705077
+2017-05-10 22:14:36.316827 EDT | AverageAbsY                0.707094
+2017-05-10 22:14:36.319518 EDT | AverageAbsQYDiff           0.0368343
+2017-05-10 22:14:36.319746 EDT | AverageAction              0.945158
+2017-05-10 22:14:36.319947 EDT | PolicyRegParamNorm        23.7409
+2017-05-10 22:14:36.322738 EDT | QFunRegParamNorm          32.5899
+2017-05-10 22:14:36.322960 EDT | AverageForwardProgress    -0.0855494
+2017-05-10 22:14:36.323160 EDT | MaxForwardProgress         0.0546994
+2017-05-10 22:14:36.326282 EDT | MinForwardProgress        -0.285444
+2017-05-10 22:14:36.327840 EDT | StdForwardProgress         0.0582578
+2017-05-10 22:14:36.328042 EDT | -----------------------  ------------
+2017-05-10 22:14:36.328361 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #77 | Training started
+2017-05-10 22:14:47.758008 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #77 | Training finished
+2017-05-10 22:14:47.758609 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #77 | Collecting samples for evaluation
+2017-05-10 22:15:22.522674 EDT | -----------------------  ------------
+2017-05-10 22:15:22.523347 EDT | Epoch                     77
+2017-05-10 22:15:22.523630 EDT | AverageReturn             -5.1769
+2017-05-10 22:15:22.523947 EDT | StdReturn                 12.2701
+2017-05-10 22:15:22.524248 EDT | MaxReturn                 22.2834
+2017-05-10 22:15:22.524521 EDT | MinReturn                -43.9101
+2017-05-10 22:15:22.524786 EDT | AverageEsReturn           -3.08533
+2017-05-10 22:15:22.525063 EDT | StdEsReturn               10.1169
+2017-05-10 22:15:22.525365 EDT | MaxEsReturn                9.7444
+2017-05-10 22:15:22.525736 EDT | MinEsReturn              -22.4169
+2017-05-10 22:15:22.526104 EDT | AverageDiscountedReturn   -1.01801
+2017-05-10 22:15:22.526454 EDT | AverageQLoss               0.00479484
+2017-05-10 22:15:22.526815 EDT | AveragePolicySurr         -0.764511
+2017-05-10 22:15:22.527208 EDT | AverageQ                   0.724653
+2017-05-10 22:15:22.527652 EDT | AverageAbsQ                0.726753
+2017-05-10 22:15:22.528009 EDT | AverageY                   0.724863
+2017-05-10 22:15:22.528362 EDT | AverageAbsY                0.726672
+2017-05-10 22:15:22.528767 EDT | AverageAbsQYDiff           0.0402754
+2017-05-10 22:15:22.529160 EDT | AverageAction              0.96241
+2017-05-10 22:15:22.529520 EDT | PolicyRegParamNorm        23.8546
+2017-05-10 22:15:22.529874 EDT | QFunRegParamNorm          32.8088
+2017-05-10 22:15:22.530224 EDT | AverageForwardProgress    -0.14144
+2017-05-10 22:15:22.530644 EDT | MaxForwardProgress         0.0837789
+2017-05-10 22:15:22.530994 EDT | MinForwardProgress        -0.466409
+2017-05-10 22:15:22.531370 EDT | StdForwardProgress         0.107923
+2017-05-10 22:15:22.531714 EDT | -----------------------  ------------
+2017-05-10 22:15:22.532553 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #78 | Training started
+2017-05-10 22:15:35.406434 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #78 | Training finished
+2017-05-10 22:15:35.407093 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #78 | Collecting samples for evaluation
+2017-05-10 22:16:03.820840 EDT | -----------------------  ------------
+2017-05-10 22:16:03.821159 EDT | Epoch                    78
+2017-05-10 22:16:03.821364 EDT | AverageReturn             6.10508
+2017-05-10 22:16:03.821560 EDT | StdReturn                 4.27601
+2017-05-10 22:16:03.821754 EDT | MaxReturn                15.2491
+2017-05-10 22:16:03.821966 EDT | MinReturn                -7.93002
+2017-05-10 22:16:03.822163 EDT | AverageEsReturn           6.05798
+2017-05-10 22:16:03.822353 EDT | StdEsReturn               7.21256
+2017-05-10 22:16:03.822542 EDT | MaxEsReturn              28.4967
+2017-05-10 22:16:03.822731 EDT | MinEsReturn              -4.18219
+2017-05-10 22:16:03.822924 EDT | AverageDiscountedReturn   5.19958
+2017-05-10 22:16:03.823119 EDT | AverageQLoss              0.00507166
+2017-05-10 22:16:03.823302 EDT | AveragePolicySurr        -0.786044
+2017-05-10 22:16:03.823485 EDT | AverageQ                  0.743879
+2017-05-10 22:16:03.823673 EDT | AverageAbsQ               0.745638
+2017-05-10 22:16:03.823857 EDT | AverageY                  0.743957
+2017-05-10 22:16:03.824041 EDT | AverageAbsY               0.745328
+2017-05-10 22:16:03.824225 EDT | AverageAbsQYDiff          0.0411795
+2017-05-10 22:16:03.824407 EDT | AverageAction             0.986438
+2017-05-10 22:16:03.824590 EDT | PolicyRegParamNorm       23.954
+2017-05-10 22:16:03.824773 EDT | QFunRegParamNorm         32.9257
+2017-05-10 22:16:03.825001 EDT | AverageForwardProgress   -0.000676381
+2017-05-10 22:16:03.825191 EDT | MaxForwardProgress        0.0692182
+2017-05-10 22:16:03.825379 EDT | MinForwardProgress       -0.107118
+2017-05-10 22:16:03.825587 EDT | StdForwardProgress        0.0330582
+2017-05-10 22:16:03.825779 EDT | -----------------------  ------------
+2017-05-10 22:16:03.826077 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #79 | Training started
+2017-05-10 22:16:16.272523 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #79 | Training finished
+2017-05-10 22:16:16.273442 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #79 | Collecting samples for evaluation
+2017-05-10 22:16:52.988331 EDT | -----------------------  ------------
+2017-05-10 22:16:52.989088 EDT | Epoch                     79
+2017-05-10 22:16:52.989381 EDT | AverageReturn             17.205
+2017-05-10 22:16:52.989648 EDT | StdReturn                 10.9068
+2017-05-10 22:16:52.989916 EDT | MaxReturn                 45.0335
+2017-05-10 22:16:52.990174 EDT | MinReturn                 -1.78806
+2017-05-10 22:16:52.990434 EDT | AverageEsReturn            4.21995
+2017-05-10 22:16:52.990690 EDT | StdEsReturn                5.62233
+2017-05-10 22:16:52.991027 EDT | MaxEsReturn               15.5134
+2017-05-10 22:16:52.991369 EDT | MinEsReturn              -12.5902
+2017-05-10 22:16:52.991789 EDT | AverageDiscountedReturn   12.2789
+2017-05-10 22:16:52.993222 EDT | AverageQLoss               0.00456106
+2017-05-10 22:16:52.994568 EDT | AveragePolicySurr         -0.798468
+2017-05-10 22:16:52.995972 EDT | AverageQ                   0.761248
+2017-05-10 22:16:52.997081 EDT | AverageAbsQ                0.762902
+2017-05-10 22:16:52.998080 EDT | AverageY                   0.761392
+2017-05-10 22:16:52.999021 EDT | AverageAbsY                0.76275
+2017-05-10 22:16:53.000093 EDT | AverageAbsQYDiff           0.0405237
+2017-05-10 22:16:53.001247 EDT | AverageAction              0.979526
+2017-05-10 22:16:53.002430 EDT | PolicyRegParamNorm        24.0317
+2017-05-10 22:16:53.003590 EDT | QFunRegParamNorm          33.0907
+2017-05-10 22:16:53.004553 EDT | AverageForwardProgress     0.0604509
+2017-05-10 22:16:53.005464 EDT | MaxForwardProgress         0.234003
+2017-05-10 22:16:53.006373 EDT | MinForwardProgress        -0.076512
+2017-05-10 22:16:53.007389 EDT | StdForwardProgress         0.0731647
+2017-05-10 22:16:53.008425 EDT | -----------------------  ------------
+2017-05-10 22:16:53.009685 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #80 | Training started
+2017-05-10 22:17:04.820031 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #80 | Training finished
+2017-05-10 22:17:04.820323 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #80 | Collecting samples for evaluation
+2017-05-10 22:17:37.947888 EDT | -----------------------  -----------
+2017-05-10 22:17:37.951550 EDT | Epoch                    80
+2017-05-10 22:17:37.951860 EDT | AverageReturn            18.5598
+2017-05-10 22:17:37.953651 EDT | StdReturn                10.2301
+2017-05-10 22:17:37.957555 EDT | MaxReturn                46.3508
+2017-05-10 22:17:37.959523 EDT | MinReturn                -3.29284
+2017-05-10 22:17:37.963425 EDT | AverageEsReturn          11.8976
+2017-05-10 22:17:37.963735 EDT | StdEsReturn              10.6265
+2017-05-10 22:17:37.967589 EDT | MaxEsReturn              37.7204
+2017-05-10 22:17:37.969664 EDT | MinEsReturn               0.665049
+2017-05-10 22:17:37.971443 EDT | AverageDiscountedReturn  13.1966
+2017-05-10 22:17:37.973210 EDT | AverageQLoss              0.00492429
+2017-05-10 22:17:37.979270 EDT | AveragePolicySurr        -0.824022
+2017-05-10 22:17:37.983317 EDT | AverageQ                  0.780435
+2017-05-10 22:17:37.985244 EDT | AverageAbsQ               0.781789
+2017-05-10 22:17:37.989176 EDT | AverageY                  0.780608
+2017-05-10 22:17:37.991188 EDT | AverageAbsY               0.781598
+2017-05-10 22:17:37.995439 EDT | AverageAbsQYDiff          0.0415412
+2017-05-10 22:17:37.999237 EDT | AverageAction             0.99027
+2017-05-10 22:17:37.999573 EDT | PolicyRegParamNorm       24.0904
+2017-05-10 22:17:38.005336 EDT | QFunRegParamNorm         33.3026
+2017-05-10 22:17:38.010087 EDT | AverageForwardProgress    0.068842
+2017-05-10 22:17:38.010408 EDT | MaxForwardProgress        0.26236
+2017-05-10 22:17:38.023083 EDT | MinForwardProgress       -0.0870266
+2017-05-10 22:17:38.025019 EDT | StdForwardProgress        0.0698868
+2017-05-10 22:17:38.028532 EDT | -----------------------  -----------
+2017-05-10 22:17:38.032352 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #81 | Training started
+2017-05-10 22:17:50.442459 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #81 | Training finished
+2017-05-10 22:17:50.443132 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #81 | Collecting samples for evaluation
+2017-05-10 22:18:19.883888 EDT | -----------------------  -----------
+2017-05-10 22:18:19.884718 EDT | Epoch                    81
+2017-05-10 22:18:19.885200 EDT | AverageReturn            12.586
+2017-05-10 22:18:19.885560 EDT | StdReturn                10.5398
+2017-05-10 22:18:19.885927 EDT | MaxReturn                43.3619
+2017-05-10 22:18:19.886294 EDT | MinReturn                -3.80236
+2017-05-10 22:18:19.886655 EDT | AverageEsReturn          15.0504
+2017-05-10 22:18:19.887115 EDT | StdEsReturn               9.53329
+2017-05-10 22:18:19.888112 EDT | MaxEsReturn              34.9284
+2017-05-10 22:18:19.888948 EDT | MinEsReturn               0.319851
+2017-05-10 22:18:19.889739 EDT | AverageDiscountedReturn   9.12738
+2017-05-10 22:18:19.890413 EDT | AverageQLoss              0.00554349
+2017-05-10 22:18:19.891143 EDT | AveragePolicySurr        -0.859368
+2017-05-10 22:18:19.891915 EDT | AverageQ                  0.81065
+2017-05-10 22:18:19.892619 EDT | AverageAbsQ               0.812046
+2017-05-10 22:18:19.893328 EDT | AverageY                  0.810839
+2017-05-10 22:18:19.894077 EDT | AverageAbsY               0.811792
+2017-05-10 22:18:19.894755 EDT | AverageAbsQYDiff          0.0438008
+2017-05-10 22:18:19.895439 EDT | AverageAction             0.956662
+2017-05-10 22:18:19.896135 EDT | PolicyRegParamNorm       24.1799
+2017-05-10 22:18:19.896829 EDT | QFunRegParamNorm         33.432
+2017-05-10 22:18:19.897547 EDT | AverageForwardProgress    0.0287772
+2017-05-10 22:18:19.898263 EDT | MaxForwardProgress        0.217324
+2017-05-10 22:18:19.899016 EDT | MinForwardProgress       -0.0870217
+2017-05-10 22:18:19.899993 EDT | StdForwardProgress        0.068126
+2017-05-10 22:18:19.900871 EDT | -----------------------  -----------
+2017-05-10 22:18:19.901970 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #82 | Training started
+2017-05-10 22:18:31.463888 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #82 | Training finished
+2017-05-10 22:18:31.464486 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #82 | Collecting samples for evaluation
+2017-05-10 22:19:03.146964 EDT | -----------------------  -----------
+2017-05-10 22:19:03.147535 EDT | Epoch                    82
+2017-05-10 22:19:03.147768 EDT | AverageReturn             8.54243
+2017-05-10 22:19:03.147974 EDT | StdReturn                 5.05276
+2017-05-10 22:19:03.148200 EDT | MaxReturn                24.8499
+2017-05-10 22:19:03.148425 EDT | MinReturn                -6.58701
+2017-05-10 22:19:03.148638 EDT | AverageEsReturn          15.3664
+2017-05-10 22:19:03.148850 EDT | StdEsReturn              12.652
+2017-05-10 22:19:03.149080 EDT | MaxEsReturn              58.9098
+2017-05-10 22:19:03.149334 EDT | MinEsReturn               1.35082
+2017-05-10 22:19:03.149565 EDT | AverageDiscountedReturn   6.88079
+2017-05-10 22:19:03.149770 EDT | AverageQLoss              0.00594576
+2017-05-10 22:19:03.149981 EDT | AveragePolicySurr        -0.892849
+2017-05-10 22:19:03.150184 EDT | AverageQ                  0.837229
+2017-05-10 22:19:03.150434 EDT | AverageAbsQ               0.838935
+2017-05-10 22:19:03.150639 EDT | AverageY                  0.837363
+2017-05-10 22:19:03.150838 EDT | AverageAbsY               0.838565
+2017-05-10 22:19:03.151037 EDT | AverageAbsQYDiff          0.0459214
+2017-05-10 22:19:03.151280 EDT | AverageAction             0.937881
+2017-05-10 22:19:03.151993 EDT | PolicyRegParamNorm       24.243
+2017-05-10 22:19:03.152285 EDT | QFunRegParamNorm         33.5948
+2017-05-10 22:19:03.152493 EDT | AverageForwardProgress    0.00749731
+2017-05-10 22:19:03.154009 EDT | MaxForwardProgress        0.12695
+2017-05-10 22:19:03.154221 EDT | MinForwardProgress       -0.110848
+2017-05-10 22:19:03.154426 EDT | StdForwardProgress        0.0387076
+2017-05-10 22:19:03.154630 EDT | -----------------------  -----------
+2017-05-10 22:19:03.157404 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #83 | Training started
+2017-05-10 22:19:14.757279 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #83 | Training finished
+2017-05-10 22:19:14.757696 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #83 | Collecting samples for evaluation
+2017-05-10 22:19:44.918728 EDT | -----------------------  -----------
+2017-05-10 22:19:44.919226 EDT | Epoch                    83
+2017-05-10 22:19:44.919582 EDT | AverageReturn             7.09535
+2017-05-10 22:19:44.919995 EDT | StdReturn                 4.26176
+2017-05-10 22:19:44.920355 EDT | MaxReturn                18.6294
+2017-05-10 22:19:44.920719 EDT | MinReturn                -4.66261
+2017-05-10 22:19:44.921066 EDT | AverageEsReturn          11.2179
+2017-05-10 22:19:44.921417 EDT | StdEsReturn              10.0046
+2017-05-10 22:19:44.921809 EDT | MaxEsReturn              37.0963
+2017-05-10 22:19:44.922163 EDT | MinEsReturn               0.567292
+2017-05-10 22:19:44.922514 EDT | AverageDiscountedReturn   5.94206
+2017-05-10 22:19:44.922868 EDT | AverageQLoss              0.00649807
+2017-05-10 22:19:44.923236 EDT | AveragePolicySurr        -0.932452
+2017-05-10 22:19:44.923584 EDT | AverageQ                  0.876768
+2017-05-10 22:19:44.923928 EDT | AverageAbsQ               0.878468
+2017-05-10 22:19:44.924911 EDT | AverageY                  0.876959
+2017-05-10 22:19:44.926280 EDT | AverageAbsY               0.878203
+2017-05-10 22:19:44.927590 EDT | AverageAbsQYDiff          0.0487973
+2017-05-10 22:19:44.928941 EDT | AverageAction             0.971482
+2017-05-10 22:19:44.930476 EDT | PolicyRegParamNorm       24.3108
+2017-05-10 22:19:44.931743 EDT | QFunRegParamNorm         33.7429
+2017-05-10 22:19:44.933114 EDT | AverageForwardProgress    0.00203837
+2017-05-10 22:19:44.934465 EDT | MaxForwardProgress        0.089411
+2017-05-10 22:19:44.935794 EDT | MinForwardProgress       -0.0923
+2017-05-10 22:19:44.937151 EDT | StdForwardProgress        0.0336701
+2017-05-10 22:19:44.938464 EDT | -----------------------  -----------
+2017-05-10 22:19:44.939898 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #84 | Training started
+2017-05-10 22:19:57.025154 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #84 | Training finished
+2017-05-10 22:19:57.028999 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #84 | Collecting samples for evaluation
+2017-05-10 22:20:30.189757 EDT | -----------------------  -----------
+2017-05-10 22:20:30.191059 EDT | Epoch                    84
+2017-05-10 22:20:30.192534 EDT | AverageReturn            16.1544
+2017-05-10 22:20:30.193160 EDT | StdReturn                 7.39978
+2017-05-10 22:20:30.193503 EDT | MaxReturn                41.3039
+2017-05-10 22:20:30.195707 EDT | MinReturn                -0.985689
+2017-05-10 22:20:30.196037 EDT | AverageEsReturn          10.049
+2017-05-10 22:20:30.196385 EDT | StdEsReturn               6.09483
+2017-05-10 22:20:30.196675 EDT | MaxEsReturn              29.3082
+2017-05-10 22:20:30.196941 EDT | MinEsReturn              -0.86535
+2017-05-10 22:20:30.197198 EDT | AverageDiscountedReturn  11.5894
+2017-05-10 22:20:30.197466 EDT | AverageQLoss              0.00678615
+2017-05-10 22:20:30.197729 EDT | AveragePolicySurr        -0.969928
+2017-05-10 22:20:30.197980 EDT | AverageQ                  0.910372
+2017-05-10 22:20:30.198230 EDT | AverageAbsQ               0.911872
+2017-05-10 22:20:30.198483 EDT | AverageY                  0.910544
+2017-05-10 22:20:30.198734 EDT | AverageAbsY               0.911596
+2017-05-10 22:20:30.198984 EDT | AverageAbsQYDiff          0.0500564
+2017-05-10 22:20:30.199235 EDT | AverageAction             0.966163
+2017-05-10 22:20:30.199486 EDT | PolicyRegParamNorm       24.4071
+2017-05-10 22:20:30.199741 EDT | QFunRegParamNorm         33.9022
+2017-05-10 22:20:30.200001 EDT | AverageForwardProgress    0.0480697
+2017-05-10 22:20:30.201048 EDT | MaxForwardProgress        0.214207
+2017-05-10 22:20:30.203016 EDT | MinForwardProgress       -0.0687903
+2017-05-10 22:20:30.204811 EDT | StdForwardProgress        0.0499838
+2017-05-10 22:20:30.206642 EDT | -----------------------  -----------
+2017-05-10 22:20:30.207660 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #85 | Training started
+2017-05-10 22:20:41.222531 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #85 | Training finished
+2017-05-10 22:20:41.223153 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #85 | Collecting samples for evaluation
+2017-05-10 22:21:10.722603 EDT | -----------------------  -----------
+2017-05-10 22:21:10.724551 EDT | Epoch                    85
+2017-05-10 22:21:10.724887 EDT | AverageReturn             7.427
+2017-05-10 22:21:10.725181 EDT | StdReturn                 5.22315
+2017-05-10 22:21:10.725447 EDT | MaxReturn                26.0339
+2017-05-10 22:21:10.725707 EDT | MinReturn                -5.13843
+2017-05-10 22:21:10.725966 EDT | AverageEsReturn          11.722
+2017-05-10 22:21:10.726222 EDT | StdEsReturn               7.18703
+2017-05-10 22:21:10.726479 EDT | MaxEsReturn              29.7629
+2017-05-10 22:21:10.726734 EDT | MinEsReturn              -2.79132
+2017-05-10 22:21:10.726990 EDT | AverageDiscountedReturn   6.23042
+2017-05-10 22:21:10.727250 EDT | AverageQLoss              0.00733657
+2017-05-10 22:21:10.727539 EDT | AveragePolicySurr        -0.997683
+2017-05-10 22:21:10.727833 EDT | AverageQ                  0.941034
+2017-05-10 22:21:10.728095 EDT | AverageAbsQ               0.942481
+2017-05-10 22:21:10.728352 EDT | AverageY                  0.941164
+2017-05-10 22:21:10.728609 EDT | AverageAbsY               0.942284
+2017-05-10 22:21:10.728875 EDT | AverageAbsQYDiff          0.0522953
+2017-05-10 22:21:10.729140 EDT | AverageAction             0.955214
+2017-05-10 22:21:10.729395 EDT | PolicyRegParamNorm       24.5061
+2017-05-10 22:21:10.729651 EDT | QFunRegParamNorm         34.0626
+2017-05-10 22:21:10.729905 EDT | AverageForwardProgress    0.00710696
+2017-05-10 22:21:10.730161 EDT | MaxForwardProgress        0.133294
+2017-05-10 22:21:10.730415 EDT | MinForwardProgress       -0.0864622
+2017-05-10 22:21:10.730669 EDT | StdForwardProgress        0.0391288
+2017-05-10 22:21:10.730922 EDT | -----------------------  -----------
+2017-05-10 22:21:10.731287 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #86 | Training started
+2017-05-10 22:21:23.378430 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #86 | Training finished
+2017-05-10 22:21:23.379114 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #86 | Collecting samples for evaluation
+2017-05-10 22:21:58.532259 EDT | -----------------------  -----------
+2017-05-10 22:21:58.532972 EDT | Epoch                    86
+2017-05-10 22:21:58.533272 EDT | AverageReturn            24.5897
+2017-05-10 22:21:58.533553 EDT | StdReturn                 8.85934
+2017-05-10 22:21:58.533832 EDT | MaxReturn                52.0108
+2017-05-10 22:21:58.534110 EDT | MinReturn                 4.10332
+2017-05-10 22:21:58.534406 EDT | AverageEsReturn          24.7802
+2017-05-10 22:21:58.534685 EDT | StdEsReturn              12.6767
+2017-05-10 22:21:58.534962 EDT | MaxEsReturn              59.3146
+2017-05-10 22:21:58.535239 EDT | MinEsReturn               3.78892
+2017-05-10 22:21:58.535516 EDT | AverageDiscountedReturn  17.3804
+2017-05-10 22:21:58.535789 EDT | AverageQLoss              0.00748324
+2017-05-10 22:21:58.536067 EDT | AveragePolicySurr        -1.02525
+2017-05-10 22:21:58.536341 EDT | AverageQ                  0.970958
+2017-05-10 22:21:58.536622 EDT | AverageAbsQ               0.972566
+2017-05-10 22:21:58.536992 EDT | AverageY                  0.971156
+2017-05-10 22:21:58.537343 EDT | AverageAbsY               0.972383
+2017-05-10 22:21:58.537698 EDT | AverageAbsQYDiff          0.0535762
+2017-05-10 22:21:58.538050 EDT | AverageAction             0.950173
+2017-05-10 22:21:58.538401 EDT | PolicyRegParamNorm       24.6026
+2017-05-10 22:21:58.538756 EDT | QFunRegParamNorm         34.2139
+2017-05-10 22:21:58.539107 EDT | AverageForwardProgress    0.102774
+2017-05-10 22:21:58.539449 EDT | MaxForwardProgress        0.301986
+2017-05-10 22:21:58.539799 EDT | MinForwardProgress       -0.0516728
+2017-05-10 22:21:58.540152 EDT | StdForwardProgress        0.0674947
+2017-05-10 22:21:58.540503 EDT | -----------------------  -----------
+2017-05-10 22:21:58.541265 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #87 | Training started
+2017-05-10 22:22:10.475084 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #87 | Training finished
+2017-05-10 22:22:10.478763 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #87 | Collecting samples for evaluation
+2017-05-10 22:22:45.928071 EDT | -----------------------  -----------
+2017-05-10 22:22:45.928893 EDT | Epoch                    87
+2017-05-10 22:22:45.929271 EDT | AverageReturn            51.473
+2017-05-10 22:22:45.929647 EDT | StdReturn                14.4913
+2017-05-10 22:22:45.930030 EDT | MaxReturn                94.9068
+2017-05-10 22:22:45.930389 EDT | MinReturn                25.3786
+2017-05-10 22:22:45.930783 EDT | AverageEsReturn          23.9368
+2017-05-10 22:22:45.931147 EDT | StdEsReturn              13.1892
+2017-05-10 22:22:45.931545 EDT | MaxEsReturn              53.5302
+2017-05-10 22:22:45.931929 EDT | MinEsReturn               0.681
+2017-05-10 22:22:45.932284 EDT | AverageDiscountedReturn  33.0062
+2017-05-10 22:22:45.932651 EDT | AverageQLoss              0.00753944
+2017-05-10 22:22:45.933012 EDT | AveragePolicySurr        -1.04973
+2017-05-10 22:22:45.933365 EDT | AverageQ                  1.00041
+2017-05-10 22:22:45.933733 EDT | AverageAbsQ               1.00209
+2017-05-10 22:22:45.934467 EDT | AverageY                  1.00065
+2017-05-10 22:22:45.935500 EDT | AverageAbsY               1.00181
+2017-05-10 22:22:45.936564 EDT | AverageAbsQYDiff          0.0533127
+2017-05-10 22:22:45.937724 EDT | AverageAction             0.95235
+2017-05-10 22:22:45.938809 EDT | PolicyRegParamNorm       24.6933
+2017-05-10 22:22:45.940027 EDT | QFunRegParamNorm         34.3446
+2017-05-10 22:22:45.941129 EDT | AverageForwardProgress    0.291988
+2017-05-10 22:22:45.942318 EDT | MaxForwardProgress        0.615997
+2017-05-10 22:22:45.943339 EDT | MinForwardProgress        0.0982909
+2017-05-10 22:22:45.944437 EDT | StdForwardProgress        0.102029
+2017-05-10 22:22:45.945485 EDT | -----------------------  -----------
+2017-05-10 22:22:45.946741 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #88 | Training started
+2017-05-10 22:22:58.271267 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #88 | Training finished
+2017-05-10 22:22:58.271905 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #88 | Collecting samples for evaluation
+2017-05-10 22:23:33.985610 EDT | -----------------------  -----------
+2017-05-10 22:23:33.986515 EDT | Epoch                    88
+2017-05-10 22:23:33.986870 EDT | AverageReturn            23.6129
+2017-05-10 22:23:33.987212 EDT | StdReturn                 9.23974
+2017-05-10 22:23:33.987555 EDT | MaxReturn                46.0561
+2017-05-10 22:23:33.987921 EDT | MinReturn                -7.29266
+2017-05-10 22:23:33.988253 EDT | AverageEsReturn          41.855
+2017-05-10 22:23:33.988604 EDT | StdEsReturn              17.1733
+2017-05-10 22:23:33.988967 EDT | MaxEsReturn              69.9536
+2017-05-10 22:23:33.989312 EDT | MinEsReturn              16.4299
+2017-05-10 22:23:33.989620 EDT | AverageDiscountedReturn  16.5904
+2017-05-10 22:23:33.989957 EDT | AverageQLoss              0.00774699
+2017-05-10 22:23:33.990271 EDT | AveragePolicySurr        -1.07182
+2017-05-10 22:23:33.990593 EDT | AverageQ                  1.01977
+2017-05-10 22:23:33.990925 EDT | AverageAbsQ               1.02132
+2017-05-10 22:23:33.991274 EDT | AverageY                  1.01991
+2017-05-10 22:23:33.991623 EDT | AverageAbsY               1.02105
+2017-05-10 22:23:33.991970 EDT | AverageAbsQYDiff          0.0532218
+2017-05-10 22:23:33.992307 EDT | AverageAction             0.957484
+2017-05-10 22:23:33.992625 EDT | PolicyRegParamNorm       24.7889
+2017-05-10 22:23:33.992940 EDT | QFunRegParamNorm         34.482
+2017-05-10 22:23:33.993274 EDT | AverageForwardProgress    0.0985219
+2017-05-10 22:23:33.993633 EDT | MaxForwardProgress        0.272962
+2017-05-10 22:23:33.993983 EDT | MinForwardProgress       -0.171311
+2017-05-10 22:23:33.994324 EDT | StdForwardProgress        0.0707429
+2017-05-10 22:23:33.994657 EDT | -----------------------  -----------
+2017-05-10 22:23:33.995086 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #89 | Training started
+2017-05-10 22:23:45.859867 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #89 | Training finished
+2017-05-10 22:23:45.860476 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #89 | Collecting samples for evaluation
+2017-05-10 22:24:18.488820 EDT | -----------------------  -----------
+2017-05-10 22:24:18.490670 EDT | Epoch                    89
+2017-05-10 22:24:18.490960 EDT | AverageReturn            40.496
+2017-05-10 22:24:18.491720 EDT | StdReturn                17.4346
+2017-05-10 22:24:18.492007 EDT | MaxReturn                85.4616
+2017-05-10 22:24:18.492625 EDT | MinReturn                14.5461
+2017-05-10 22:24:18.492899 EDT | AverageEsReturn          35.9499
+2017-05-10 22:24:18.493809 EDT | StdEsReturn              14.1558
+2017-05-10 22:24:18.494087 EDT | MaxEsReturn              70.5367
+2017-05-10 22:24:18.494983 EDT | MinEsReturn              14.858
+2017-05-10 22:24:18.495934 EDT | AverageDiscountedReturn  26.9164
+2017-05-10 22:24:18.496560 EDT | AverageQLoss              0.00743158
+2017-05-10 22:24:18.496952 EDT | AveragePolicySurr        -1.08917
+2017-05-10 22:24:18.497877 EDT | AverageQ                  1.04098
+2017-05-10 22:24:18.498171 EDT | AverageAbsQ               1.0425
+2017-05-10 22:24:18.499569 EDT | AverageY                  1.04123
+2017-05-10 22:24:18.500023 EDT | AverageAbsY               1.04222
+2017-05-10 22:24:18.500908 EDT | AverageAbsQYDiff          0.0529427
+2017-05-10 22:24:18.501201 EDT | AverageAction             0.968383
+2017-05-10 22:24:18.502185 EDT | PolicyRegParamNorm       24.8896
+2017-05-10 22:24:18.502992 EDT | QFunRegParamNorm         34.681
+2017-05-10 22:24:18.503541 EDT | AverageForwardProgress    0.212714
+2017-05-10 22:24:18.504150 EDT | MaxForwardProgress        0.535156
+2017-05-10 22:24:18.504951 EDT | MinForwardProgress        0.0271781
+2017-05-10 22:24:18.505650 EDT | StdForwardProgress        0.119712
+2017-05-10 22:24:18.506164 EDT | -----------------------  -----------
+2017-05-10 22:24:18.506946 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #90 | Training started
+2017-05-10 22:24:31.495087 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #90 | Training finished
+2017-05-10 22:24:31.495674 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #90 | Collecting samples for evaluation
+2017-05-10 22:25:01.782303 EDT | -----------------------  -----------
+2017-05-10 22:25:01.783684 EDT | Epoch                    90
+2017-05-10 22:25:01.784125 EDT | AverageReturn            16.8632
+2017-05-10 22:25:01.784530 EDT | StdReturn                12.5444
+2017-05-10 22:25:01.784885 EDT | MaxReturn                53.9931
+2017-05-10 22:25:01.785151 EDT | MinReturn                -5.07186
+2017-05-10 22:25:01.785392 EDT | AverageEsReturn          27.579
+2017-05-10 22:25:01.785632 EDT | StdEsReturn              14.625
+2017-05-10 22:25:01.785888 EDT | MaxEsReturn              60.003
+2017-05-10 22:25:01.786136 EDT | MinEsReturn               1.85374
+2017-05-10 22:25:01.786371 EDT | AverageDiscountedReturn  12.2499
+2017-05-10 22:25:01.786603 EDT | AverageQLoss              0.00753183
+2017-05-10 22:25:01.786844 EDT | AveragePolicySurr        -1.1054
+2017-05-10 22:25:01.787088 EDT | AverageQ                  1.06201
+2017-05-10 22:25:01.787325 EDT | AverageAbsQ               1.06371
+2017-05-10 22:25:01.787560 EDT | AverageY                  1.06217
+2017-05-10 22:25:01.787796 EDT | AverageAbsY               1.06333
+2017-05-10 22:25:01.788050 EDT | AverageAbsQYDiff          0.0521763
+2017-05-10 22:25:01.788293 EDT | AverageAction             0.953646
+2017-05-10 22:25:01.788543 EDT | PolicyRegParamNorm       25.0058
+2017-05-10 22:25:01.788779 EDT | QFunRegParamNorm         34.8483
+2017-05-10 22:25:01.789035 EDT | AverageForwardProgress    0.05504
+2017-05-10 22:25:01.789272 EDT | MaxForwardProgress        0.314205
+2017-05-10 22:25:01.789525 EDT | MinForwardProgress       -0.141668
+2017-05-10 22:25:01.789763 EDT | StdForwardProgress        0.0895581
+2017-05-10 22:25:01.790007 EDT | -----------------------  -----------
+2017-05-10 22:25:01.790378 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #91 | Training started
+2017-05-10 22:25:12.545692 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #91 | Training finished
+2017-05-10 22:25:12.546293 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #91 | Collecting samples for evaluation
+2017-05-10 22:25:45.913466 EDT | -----------------------  ----------
+2017-05-10 22:25:45.915459 EDT | Epoch                    91
+2017-05-10 22:25:45.916076 EDT | AverageReturn             9.5829
+2017-05-10 22:25:45.916647 EDT | StdReturn                 4.81811
+2017-05-10 22:25:45.917184 EDT | MaxReturn                30.8436
+2017-05-10 22:25:45.917675 EDT | MinReturn                -4.65495
+2017-05-10 22:25:45.918224 EDT | AverageEsReturn          17.6274
+2017-05-10 22:25:45.918748 EDT | StdEsReturn              13.7853
+2017-05-10 22:25:45.919237 EDT | MaxEsReturn              54.1978
+2017-05-10 22:25:45.919805 EDT | MinEsReturn               3.43524
+2017-05-10 22:25:45.920346 EDT | AverageDiscountedReturn   7.62204
+2017-05-10 22:25:45.920833 EDT | AverageQLoss              0.0074985
+2017-05-10 22:25:45.921337 EDT | AveragePolicySurr        -1.11355
+2017-05-10 22:25:45.921847 EDT | AverageQ                  1.07341
+2017-05-10 22:25:45.922328 EDT | AverageAbsQ               1.07514
+2017-05-10 22:25:45.922893 EDT | AverageY                  1.07347
+2017-05-10 22:25:45.923487 EDT | AverageAbsY               1.07469
+2017-05-10 22:25:45.923959 EDT | AverageAbsQYDiff          0.0518846
+2017-05-10 22:25:45.924529 EDT | AverageAction             0.978549
+2017-05-10 22:25:45.925079 EDT | PolicyRegParamNorm       25.1256
+2017-05-10 22:25:45.925540 EDT | QFunRegParamNorm         35.0151
+2017-05-10 22:25:45.926026 EDT | AverageForwardProgress    0.0153919
+2017-05-10 22:25:45.926524 EDT | MaxForwardProgress        0.166655
+2017-05-10 22:25:45.927041 EDT | MinForwardProgress       -0.0953647
+2017-05-10 22:25:45.927557 EDT | StdForwardProgress        0.037138
+2017-05-10 22:25:45.928125 EDT | -----------------------  ----------
+2017-05-10 22:25:45.928883 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #92 | Training started
+2017-05-10 22:25:57.395870 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #92 | Training finished
+2017-05-10 22:25:57.396519 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #92 | Collecting samples for evaluation
+2017-05-10 22:26:33.479338 EDT | -----------------------  ----------
+2017-05-10 22:26:33.481382 EDT | Epoch                    92
+2017-05-10 22:26:33.481970 EDT | AverageReturn            19.6882
+2017-05-10 22:26:33.482507 EDT | StdReturn                11.702
+2017-05-10 22:26:33.483021 EDT | MaxReturn                50.8106
+2017-05-10 22:26:33.483515 EDT | MinReturn                -3.11881
+2017-05-10 22:26:33.483713 EDT | AverageEsReturn          21.0013
+2017-05-10 22:26:33.483871 EDT | StdEsReturn              15.1862
+2017-05-10 22:26:33.484016 EDT | MaxEsReturn              65.0582
+2017-05-10 22:26:33.484160 EDT | MinEsReturn               4.45459
+2017-05-10 22:26:33.484308 EDT | AverageDiscountedReturn  13.1836
+2017-05-10 22:26:33.484452 EDT | AverageQLoss              0.0075317
+2017-05-10 22:26:33.484595 EDT | AveragePolicySurr        -1.12666
+2017-05-10 22:26:33.484737 EDT | AverageQ                  1.08303
+2017-05-10 22:26:33.484883 EDT | AverageAbsQ               1.08467
+2017-05-10 22:26:33.485161 EDT | AverageY                  1.08316
+2017-05-10 22:26:33.485431 EDT | AverageAbsY               1.08428
+2017-05-10 22:26:33.485692 EDT | AverageAbsQYDiff          0.0513798
+2017-05-10 22:26:33.485951 EDT | AverageAction             0.973383
+2017-05-10 22:26:33.486210 EDT | PolicyRegParamNorm       25.22
+2017-05-10 22:26:33.486468 EDT | QFunRegParamNorm         35.2225
+2017-05-10 22:26:33.486729 EDT | AverageForwardProgress    0.0679093
+2017-05-10 22:26:33.486984 EDT | MaxForwardProgress        0.273607
+2017-05-10 22:26:33.487239 EDT | MinForwardProgress       -0.0893789
+2017-05-10 22:26:33.487505 EDT | StdForwardProgress        0.0731087
+2017-05-10 22:26:33.487763 EDT | -----------------------  ----------
+2017-05-10 22:26:33.488129 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #93 | Training started
+2017-05-10 22:26:44.945105 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #93 | Training finished
+2017-05-10 22:26:44.945699 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #93 | Collecting samples for evaluation
+2017-05-10 22:27:23.402998 EDT | -----------------------  -----------
+2017-05-10 22:27:23.403359 EDT | Epoch                    93
+2017-05-10 22:27:23.403631 EDT | AverageReturn            22.4883
+2017-05-10 22:27:23.403917 EDT | StdReturn                16.4179
+2017-05-10 22:27:23.404316 EDT | MaxReturn                81.0805
+2017-05-10 22:27:23.404689 EDT | MinReturn                 1.7125
+2017-05-10 22:27:23.405074 EDT | AverageEsReturn          22.1583
+2017-05-10 22:27:23.405428 EDT | StdEsReturn              15.7184
+2017-05-10 22:27:23.405836 EDT | MaxEsReturn              51.6164
+2017-05-10 22:27:23.406188 EDT | MinEsReturn              -3.87478
+2017-05-10 22:27:23.406568 EDT | AverageDiscountedReturn  14.8343
+2017-05-10 22:27:23.406928 EDT | AverageQLoss              0.00774222
+2017-05-10 22:27:23.407281 EDT | AveragePolicySurr        -1.13629
+2017-05-10 22:27:23.407675 EDT | AverageQ                  1.09416
+2017-05-10 22:27:23.408105 EDT | AverageAbsQ               1.09586
+2017-05-10 22:27:23.408470 EDT | AverageY                  1.09426
+2017-05-10 22:27:23.408818 EDT | AverageAbsY               1.09535
+2017-05-10 22:27:23.409227 EDT | AverageAbsQYDiff          0.0512746
+2017-05-10 22:27:23.409616 EDT | AverageAction             0.967566
+2017-05-10 22:27:23.409979 EDT | PolicyRegParamNorm       25.3423
+2017-05-10 22:27:23.410326 EDT | QFunRegParamNorm         35.389
+2017-05-10 22:27:23.410675 EDT | AverageForwardProgress    0.0841602
+2017-05-10 22:27:23.411081 EDT | MaxForwardProgress        0.490925
+2017-05-10 22:27:23.411447 EDT | MinForwardProgress       -0.0595652
+2017-05-10 22:27:23.412254 EDT | StdForwardProgress        0.11205
+2017-05-10 22:27:23.413382 EDT | -----------------------  -----------
+2017-05-10 22:27:23.414480 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #94 | Training started
+2017-05-10 22:27:35.833946 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #94 | Training finished
+2017-05-10 22:27:35.834616 EDT | [DDPG_Humanoid_Complex/Humanoid_Complex_FINAL_RUN] epoch #94 | Collecting samples for evaluation
