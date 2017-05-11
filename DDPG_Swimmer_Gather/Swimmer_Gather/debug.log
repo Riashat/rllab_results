@@ -1,0 +1,60 @@
+2017-05-11 18:08:27.654077 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] Populating workers...
+2017-05-11 18:08:27.654489 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] Populated
+2017-05-11 18:08:33.002694 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #0 | Training started
+2017-05-11 18:08:35.274492 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #0 | Training finished
+2017-05-11 18:08:35.274844 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #1 | Training started
+2017-05-11 18:08:37.441842 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #1 | Training finished
+2017-05-11 18:08:37.442164 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #2 | Training started
+2017-05-11 18:08:39.615828 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #2 | Training finished
+2017-05-11 18:08:39.616489 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #3 | Training started
+2017-05-11 18:08:41.760725 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #3 | Training finished
+2017-05-11 18:08:41.761043 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #4 | Training started
+2017-05-11 18:08:44.031543 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #4 | Training finished
+2017-05-11 18:08:44.031830 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #5 | Training started
+2017-05-11 18:08:46.208028 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #5 | Training finished
+2017-05-11 18:08:46.208406 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #6 | Training started
+2017-05-11 18:08:48.493272 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #6 | Training finished
+2017-05-11 18:08:48.493544 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #7 | Training started
+2017-05-11 18:08:50.736570 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #7 | Training finished
+2017-05-11 18:08:50.736904 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #8 | Training started
+2017-05-11 18:08:52.974378 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #8 | Training finished
+2017-05-11 18:08:52.975056 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #9 | Training started
+2017-05-11 18:08:55.355763 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #9 | Training finished
+2017-05-11 18:08:55.356051 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #10 | Training started
+2017-05-11 18:09:06.859508 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #10 | Training finished
+2017-05-11 18:09:06.861374 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #10 | Collecting samples for evaluation
+2017-05-11 18:09:33.216377 EDT | ------------------------------  ------------
+2017-05-11 18:09:33.217514 EDT | Epoch                           10
+2017-05-11 18:09:33.219028 EDT | AverageReturn                    0
+2017-05-11 18:09:33.220492 EDT | StdReturn                        0
+2017-05-11 18:09:33.221956 EDT | MaxReturn                        0
+2017-05-11 18:09:33.223469 EDT | MinReturn                        0
+2017-05-11 18:09:33.224997 EDT | AverageEsReturn                  0
+2017-05-11 18:09:33.226496 EDT | StdEsReturn                      0
+2017-05-11 18:09:33.227985 EDT | MaxEsReturn                      0
+2017-05-11 18:09:33.229664 EDT | MinEsReturn                      0
+2017-05-11 18:09:33.231126 EDT | AverageDiscountedReturn          0
+2017-05-11 18:09:33.232682 EDT | AverageQLoss                     7.20344e-07
+2017-05-11 18:09:33.234468 EDT | AveragePolicySurr               -6.82574e-05
+2017-05-11 18:09:33.235817 EDT | AverageQ                        -0.000511906
+2017-05-11 18:09:33.237221 EDT | AverageAbsQ                      0.00180712
+2017-05-11 18:09:33.238675 EDT | AverageY                        -0.000510102
+2017-05-11 18:09:33.240339 EDT | AverageAbsY                      0.00186698
+2017-05-11 18:09:33.241698 EDT | AverageAbsQYDiff                 0.000585819
+2017-05-11 18:09:33.243187 EDT | AverageAction                    0.997514
+2017-05-11 18:09:33.244902 EDT | PolicyRegParamNorm              15.0892
+2017-05-11 18:09:33.246292 EDT | QFunRegParamNorm                 7.82295
+2017-05-11 18:09:33.247754 EDT | Gather_AverageReturn             0
+2017-05-11 18:09:33.249189 EDT | Gather_StdReturn                 0
+2017-05-11 18:09:33.250586 EDT | Gather_MedianReturn              0
+2017-05-11 18:09:33.252026 EDT | Gather_MinReturn                 0
+2017-05-11 18:09:33.253460 EDT | Gather_MaxReturn                 0
+2017-05-11 18:09:33.254864 EDT | wrapped_AverageReturn           -4.25503
+2017-05-11 18:09:33.256181 EDT | wrapped_AverageForwardProgress   0.0318892
+2017-05-11 18:09:33.257466 EDT | wrapped_MaxForwardProgress       0.132352
+2017-05-11 18:09:33.258801 EDT | wrapped_MinForwardProgress      -0.0967785
+2017-05-11 18:09:33.260277 EDT | wrapped_StdForwardProgress       0.0477749
+2017-05-11 18:09:33.261657 EDT | ------------------------------  ------------
+2017-05-11 18:09:33.263253 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #11 | Training started
+2017-05-11 18:09:46.958433 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #11 | Training finished
+2017-05-11 18:09:46.959041 EDT | [DDPG_Swimmer_Gather/Swimmer_Gather/] epoch #11 | Collecting samples for evaluation
