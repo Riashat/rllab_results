@@ -8926,3 +8926,809 @@
 2017-05-17 09:09:46.905138 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #295 | Training started
 2017-05-17 09:09:46.909525 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #295 | Populating workers...
 2017-05-17 09:09:46.909856 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #295 | Populated
+2017-05-17 09:13:13.232362 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #295 | Training finished
+2017-05-17 09:13:13.233445 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #295 | Collecting samples for evaluation
+2017-05-17 09:14:00.457330 EDT | -----------------------  ----------
+2017-05-17 09:14:00.458322 EDT | Epoch                    295
+2017-05-17 09:14:00.458756 EDT | AverageReturn            235.138
+2017-05-17 09:14:00.459180 EDT | StdReturn                 44.7798
+2017-05-17 09:14:00.459619 EDT | MaxReturn                269.118
+2017-05-17 09:14:00.460032 EDT | MinReturn                 59.5544
+2017-05-17 09:14:00.460447 EDT | AverageEsReturn           83.7557
+2017-05-17 09:14:00.460862 EDT | StdEsReturn               35.4861
+2017-05-17 09:14:00.461318 EDT | MaxEsReturn              153.094
+2017-05-17 09:14:00.461731 EDT | MinEsReturn               11.416
+2017-05-17 09:14:00.462149 EDT | AverageDiscountedReturn   94.2077
+2017-05-17 09:14:00.462560 EDT | AverageQLoss               1.11413
+2017-05-17 09:14:00.462973 EDT | AveragePolicySurr        -10.7299
+2017-05-17 09:14:00.463393 EDT | AverageQ                  10.403
+2017-05-17 09:14:00.463802 EDT | AverageAbsQ               10.4103
+2017-05-17 09:14:00.464214 EDT | AverageY                  10.4013
+2017-05-17 09:14:00.464625 EDT | AverageAbsY               10.4013
+2017-05-17 09:14:00.465035 EDT | AverageAbsQYDiff           0.506609
+2017-05-17 09:14:00.465446 EDT | AverageAction              0.749884
+2017-05-17 09:14:00.465857 EDT | PolicyRegParamNorm        37.9248
+2017-05-17 09:14:00.466584 EDT | QFunRegParamNorm          79.6269
+2017-05-17 09:14:00.467372 EDT | AverageForwardProgress     0.183374
+2017-05-17 09:14:00.468145 EDT | MaxForwardProgress         0.443464
+2017-05-17 09:14:00.468901 EDT | MinForwardProgress        -0.104821
+2017-05-17 09:14:00.469658 EDT | StdForwardProgress         0.143613
+2017-05-17 09:14:00.470415 EDT | -----------------------  ----------
+2017-05-17 09:14:00.471360 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #296 | Training started
+2017-05-17 09:14:00.476715 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #296 | Populating workers...
+2017-05-17 09:14:00.482200 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #296 | Populated
+2017-05-17 09:17:06.794376 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #296 | Training finished
+2017-05-17 09:17:06.795195 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #296 | Collecting samples for evaluation
+2017-05-17 09:18:00.693168 EDT | -----------------------  -----------
+2017-05-17 09:18:00.694194 EDT | Epoch                    296
+2017-05-17 09:18:00.694630 EDT | AverageReturn            158.617
+2017-05-17 09:18:00.695053 EDT | StdReturn                 63.2629
+2017-05-17 09:18:00.695489 EDT | MaxReturn                267.076
+2017-05-17 09:18:00.695905 EDT | MinReturn                 47.3413
+2017-05-17 09:18:00.696317 EDT | AverageEsReturn           50.0567
+2017-05-17 09:18:00.696737 EDT | StdEsReturn               36.3976
+2017-05-17 09:18:00.697148 EDT | MaxEsReturn              171.392
+2017-05-17 09:18:00.697573 EDT | MinEsReturn               12.0299
+2017-05-17 09:18:00.698030 EDT | AverageDiscountedReturn   78.4363
+2017-05-17 09:18:00.698456 EDT | AverageQLoss               1.18432
+2017-05-17 09:18:00.698880 EDT | AveragePolicySurr        -10.7664
+2017-05-17 09:18:00.699292 EDT | AverageQ                  10.4058
+2017-05-17 09:18:00.699715 EDT | AverageAbsQ               10.4124
+2017-05-17 09:18:00.700126 EDT | AverageY                  10.4056
+2017-05-17 09:18:00.700535 EDT | AverageAbsY               10.4057
+2017-05-17 09:18:00.700945 EDT | AverageAbsQYDiff           0.530552
+2017-05-17 09:18:00.701362 EDT | AverageAction              0.732778
+2017-05-17 09:18:00.701772 EDT | PolicyRegParamNorm        37.9252
+2017-05-17 09:18:00.702181 EDT | QFunRegParamNorm          79.8325
+2017-05-17 09:18:00.702593 EDT | AverageForwardProgress     0.0463479
+2017-05-17 09:18:00.703019 EDT | MaxForwardProgress         0.396217
+2017-05-17 09:18:00.703439 EDT | MinForwardProgress        -0.252674
+2017-05-17 09:18:00.703862 EDT | StdForwardProgress         0.164942
+2017-05-17 09:18:00.704288 EDT | -----------------------  -----------
+2017-05-17 09:18:00.704859 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #297 | Training started
+2017-05-17 09:18:00.709722 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #297 | Populating workers...
+2017-05-17 09:18:00.710366 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #297 | Populated
+2017-05-17 09:21:05.387955 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #297 | Training finished
+2017-05-17 09:21:05.388969 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #297 | Collecting samples for evaluation
+2017-05-17 09:21:44.137026 EDT | -----------------------  ----------
+2017-05-17 09:21:44.137916 EDT | Epoch                    297
+2017-05-17 09:21:44.138264 EDT | AverageReturn            235.491
+2017-05-17 09:21:44.138602 EDT | StdReturn                 40.094
+2017-05-17 09:21:44.138938 EDT | MaxReturn                266.134
+2017-05-17 09:21:44.139274 EDT | MinReturn                113.833
+2017-05-17 09:21:44.139619 EDT | AverageEsReturn           62.9648
+2017-05-17 09:21:44.139954 EDT | StdEsReturn               64.0921
+2017-05-17 09:21:44.140287 EDT | MaxEsReturn              231.231
+2017-05-17 09:21:44.140618 EDT | MinEsReturn                5.63923
+2017-05-17 09:21:44.140950 EDT | AverageDiscountedReturn   92.6691
+2017-05-17 09:21:44.141284 EDT | AverageQLoss               1.17845
+2017-05-17 09:21:44.141615 EDT | AveragePolicySurr        -10.751
+2017-05-17 09:21:44.141943 EDT | AverageQ                  10.4289
+2017-05-17 09:21:44.142273 EDT | AverageAbsQ               10.4345
+2017-05-17 09:21:44.142604 EDT | AverageY                  10.4252
+2017-05-17 09:21:44.142939 EDT | AverageAbsY               10.4252
+2017-05-17 09:21:44.143271 EDT | AverageAbsQYDiff           0.514765
+2017-05-17 09:21:44.143614 EDT | AverageAction              0.746347
+2017-05-17 09:21:44.143946 EDT | PolicyRegParamNorm        37.9583
+2017-05-17 09:21:44.144281 EDT | QFunRegParamNorm          79.9211
+2017-05-17 09:21:44.144614 EDT | AverageForwardProgress     0.101926
+2017-05-17 09:21:44.144949 EDT | MaxForwardProgress         0.367177
+2017-05-17 09:21:44.145283 EDT | MinForwardProgress        -0.247596
+2017-05-17 09:21:44.145615 EDT | StdForwardProgress         0.176653
+2017-05-17 09:21:44.145946 EDT | -----------------------  ----------
+2017-05-17 09:21:44.146455 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #298 | Training started
+2017-05-17 09:21:44.151278 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #298 | Populating workers...
+2017-05-17 09:21:44.162629 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #298 | Populated
+2017-05-17 09:24:53.741627 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #298 | Training finished
+2017-05-17 09:24:53.742451 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #298 | Collecting samples for evaluation
+2017-05-17 09:25:47.679796 EDT | -----------------------  ----------
+2017-05-17 09:25:47.680917 EDT | Epoch                    298
+2017-05-17 09:25:47.681459 EDT | AverageReturn            146.298
+2017-05-17 09:25:47.681986 EDT | StdReturn                 56.8474
+2017-05-17 09:25:47.682512 EDT | MaxReturn                262.042
+2017-05-17 09:25:47.683045 EDT | MinReturn                 51.41
+2017-05-17 09:25:47.683613 EDT | AverageEsReturn           56.3928
+2017-05-17 09:25:47.684135 EDT | StdEsReturn               35.553
+2017-05-17 09:25:47.684659 EDT | MaxEsReturn              128.955
+2017-05-17 09:25:47.685179 EDT | MinEsReturn               12.2954
+2017-05-17 09:25:47.685674 EDT | AverageDiscountedReturn   75.0658
+2017-05-17 09:25:47.686184 EDT | AverageQLoss               1.10709
+2017-05-17 09:25:47.686705 EDT | AveragePolicySurr        -10.7586
+2017-05-17 09:25:47.687213 EDT | AverageQ                  10.4083
+2017-05-17 09:25:47.687705 EDT | AverageAbsQ               10.4147
+2017-05-17 09:25:47.688163 EDT | AverageY                  10.4044
+2017-05-17 09:25:47.688700 EDT | AverageAbsY               10.4045
+2017-05-17 09:25:47.689222 EDT | AverageAbsQYDiff           0.494438
+2017-05-17 09:25:47.689738 EDT | AverageAction              0.786068
+2017-05-17 09:25:47.690266 EDT | PolicyRegParamNorm        38.0116
+2017-05-17 09:25:47.690800 EDT | QFunRegParamNorm          80.0512
+2017-05-17 09:25:47.691324 EDT | AverageForwardProgress    -0.015033
+2017-05-17 09:25:47.691875 EDT | MaxForwardProgress         0.385033
+2017-05-17 09:25:47.692381 EDT | MinForwardProgress        -0.343061
+2017-05-17 09:25:47.692894 EDT | StdForwardProgress         0.160745
+2017-05-17 09:25:47.693405 EDT | -----------------------  ----------
+2017-05-17 09:25:47.694116 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #299 | Training started
+2017-05-17 09:25:47.701141 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #299 | Populating workers...
+2017-05-17 09:25:47.702019 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #299 | Populated
+2017-05-17 09:28:30.833296 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #299 | Training finished
+2017-05-17 09:28:30.834144 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #299 | Collecting samples for evaluation
+2017-05-17 09:29:11.958610 EDT | -----------------------  ----------
+2017-05-17 09:29:11.959574 EDT | Epoch                    299
+2017-05-17 09:29:11.959946 EDT | AverageReturn            242.059
+2017-05-17 09:29:11.960299 EDT | StdReturn                 40.5184
+2017-05-17 09:29:11.960649 EDT | MaxReturn                270.684
+2017-05-17 09:29:11.960998 EDT | MinReturn                115.754
+2017-05-17 09:29:11.961344 EDT | AverageEsReturn           58.5786
+2017-05-17 09:29:11.961691 EDT | StdEsReturn               41.9339
+2017-05-17 09:29:11.962037 EDT | MaxEsReturn              145.046
+2017-05-17 09:29:11.962382 EDT | MinEsReturn                7.03695
+2017-05-17 09:29:11.962730 EDT | AverageDiscountedReturn   94.7784
+2017-05-17 09:29:11.963076 EDT | AverageQLoss               1.01988
+2017-05-17 09:29:11.963432 EDT | AveragePolicySurr        -10.7422
+2017-05-17 09:29:11.963779 EDT | AverageQ                  10.4285
+2017-05-17 09:29:11.964128 EDT | AverageAbsQ               10.4359
+2017-05-17 09:29:11.964474 EDT | AverageY                  10.4245
+2017-05-17 09:29:11.964820 EDT | AverageAbsY               10.4246
+2017-05-17 09:29:11.965166 EDT | AverageAbsQYDiff           0.472592
+2017-05-17 09:29:11.965512 EDT | AverageAction              0.772021
+2017-05-17 09:29:11.965858 EDT | PolicyRegParamNorm        38.0479
+2017-05-17 09:29:11.968556 EDT | QFunRegParamNorm          80.1824
+2017-05-17 09:29:11.968918 EDT | AverageForwardProgress     0.178937
+2017-05-17 09:29:11.969265 EDT | MaxForwardProgress         0.467144
+2017-05-17 09:29:11.969613 EDT | MinForwardProgress        -0.192459
+2017-05-17 09:29:11.969958 EDT | StdForwardProgress         0.163839
+2017-05-17 09:29:11.970305 EDT | -----------------------  ----------
+2017-05-17 09:29:11.970835 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #300 | Training started
+2017-05-17 09:29:11.975868 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #300 | Populating workers...
+2017-05-17 09:29:11.976352 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #300 | Populated
+2017-05-17 09:32:39.848724 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #300 | Training finished
+2017-05-17 09:32:39.849797 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #300 | Collecting samples for evaluation
+2017-05-17 09:33:33.122360 EDT | -----------------------  -----------
+2017-05-17 09:33:33.123330 EDT | Epoch                    300
+2017-05-17 09:33:33.123850 EDT | AverageReturn            160.145
+2017-05-17 09:33:33.124295 EDT | StdReturn                 64.6722
+2017-05-17 09:33:33.124732 EDT | MaxReturn                260.277
+2017-05-17 09:33:33.125186 EDT | MinReturn                 57.3883
+2017-05-17 09:33:33.125636 EDT | AverageEsReturn           86.2436
+2017-05-17 09:33:33.126067 EDT | StdEsReturn               68.168
+2017-05-17 09:33:33.126514 EDT | MaxEsReturn              249.262
+2017-05-17 09:33:33.126961 EDT | MinEsReturn                5.02339
+2017-05-17 09:33:33.127410 EDT | AverageDiscountedReturn   76.6013
+2017-05-17 09:33:33.127852 EDT | AverageQLoss               0.9958
+2017-05-17 09:33:33.128311 EDT | AveragePolicySurr        -10.7409
+2017-05-17 09:33:33.128741 EDT | AverageQ                  10.4297
+2017-05-17 09:33:33.129171 EDT | AverageAbsQ               10.4365
+2017-05-17 09:33:33.129616 EDT | AverageY                  10.4252
+2017-05-17 09:33:33.130052 EDT | AverageAbsY               10.4254
+2017-05-17 09:33:33.130476 EDT | AverageAbsQYDiff           0.46412
+2017-05-17 09:33:33.130919 EDT | AverageAction              0.787638
+2017-05-17 09:33:33.131373 EDT | PolicyRegParamNorm        38.0716
+2017-05-17 09:33:33.131796 EDT | QFunRegParamNorm          80.3116
+2017-05-17 09:33:33.132233 EDT | AverageForwardProgress    -0.0932503
+2017-05-17 09:33:33.132678 EDT | MaxForwardProgress         0.262076
+2017-05-17 09:33:33.133107 EDT | MinForwardProgress        -0.326866
+2017-05-17 09:33:33.133531 EDT | StdForwardProgress         0.117076
+2017-05-17 09:33:33.133976 EDT | -----------------------  -----------
+2017-05-17 09:33:33.134641 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #301 | Training started
+2017-05-17 09:33:33.140541 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #301 | Populating workers...
+2017-05-17 09:33:33.141141 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #301 | Populated
+2017-05-17 09:36:50.713727 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #301 | Training finished
+2017-05-17 09:36:50.714549 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #301 | Collecting samples for evaluation
+2017-05-17 09:37:43.275959 EDT | -----------------------  -----------
+2017-05-17 09:37:43.276921 EDT | Epoch                    301
+2017-05-17 09:37:43.277296 EDT | AverageReturn            166.081
+2017-05-17 09:37:43.277658 EDT | StdReturn                 60.9557
+2017-05-17 09:37:43.278002 EDT | MaxReturn                263.782
+2017-05-17 09:37:43.278415 EDT | MinReturn                 72.8549
+2017-05-17 09:37:43.278827 EDT | AverageEsReturn           49.2242
+2017-05-17 09:37:43.279236 EDT | StdEsReturn               46.7102
+2017-05-17 09:37:43.279664 EDT | MaxEsReturn              160.323
+2017-05-17 09:37:43.280077 EDT | MinEsReturn                5.18941
+2017-05-17 09:37:43.280488 EDT | AverageDiscountedReturn   80.0877
+2017-05-17 09:37:43.280900 EDT | AverageQLoss               1.05431
+2017-05-17 09:37:43.281311 EDT | AveragePolicySurr        -10.7488
+2017-05-17 09:37:43.281721 EDT | AverageQ                  10.4264
+2017-05-17 09:37:43.282131 EDT | AverageAbsQ               10.4328
+2017-05-17 09:37:43.282547 EDT | AverageY                  10.4213
+2017-05-17 09:37:43.282965 EDT | AverageAbsY               10.4213
+2017-05-17 09:37:43.283381 EDT | AverageAbsQYDiff           0.478628
+2017-05-17 09:37:43.283812 EDT | AverageAction              0.773812
+2017-05-17 09:37:43.284232 EDT | PolicyRegParamNorm        38.1031
+2017-05-17 09:37:43.284651 EDT | QFunRegParamNorm          80.4319
+2017-05-17 09:37:43.285062 EDT | AverageForwardProgress    -0.0347647
+2017-05-17 09:37:43.285473 EDT | MaxForwardProgress         0.323195
+2017-05-17 09:37:43.285884 EDT | MinForwardProgress        -0.273447
+2017-05-17 09:37:43.286293 EDT | StdForwardProgress         0.13087
+2017-05-17 09:37:43.286703 EDT | -----------------------  -----------
+2017-05-17 09:37:43.287275 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #302 | Training started
+2017-05-17 09:37:43.291585 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #302 | Populating workers...
+2017-05-17 09:37:43.292207 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #302 | Populated
+2017-05-17 09:41:02.227250 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #302 | Training finished
+2017-05-17 09:41:02.228234 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #302 | Collecting samples for evaluation
+2017-05-17 09:41:43.333177 EDT | -----------------------  ----------
+2017-05-17 09:41:43.334111 EDT | Epoch                    302
+2017-05-17 09:41:43.334522 EDT | AverageReturn            224.411
+2017-05-17 09:41:43.334905 EDT | StdReturn                 48.3515
+2017-05-17 09:41:43.335273 EDT | MaxReturn                260.52
+2017-05-17 09:41:43.335679 EDT | MinReturn                 96.0598
+2017-05-17 09:41:43.336044 EDT | AverageEsReturn           63.524
+2017-05-17 09:41:43.336409 EDT | StdEsReturn               37.3233
+2017-05-17 09:41:43.336794 EDT | MaxEsReturn              139.541
+2017-05-17 09:41:43.337157 EDT | MinEsReturn                5.27826
+2017-05-17 09:41:43.337528 EDT | AverageDiscountedReturn   90.2073
+2017-05-17 09:41:43.337951 EDT | AverageQLoss               1.1135
+2017-05-17 09:41:43.338394 EDT | AveragePolicySurr        -10.7213
+2017-05-17 09:41:43.338836 EDT | AverageQ                  10.4012
+2017-05-17 09:41:43.339299 EDT | AverageAbsQ               10.4081
+2017-05-17 09:41:43.339687 EDT | AverageY                  10.4001
+2017-05-17 09:41:43.340056 EDT | AverageAbsY               10.4001
+2017-05-17 09:41:43.340440 EDT | AverageAbsQYDiff           0.484942
+2017-05-17 09:41:43.340809 EDT | AverageAction              0.785089
+2017-05-17 09:41:43.341174 EDT | PolicyRegParamNorm        38.1243
+2017-05-17 09:41:43.341544 EDT | QFunRegParamNorm          80.5516
+2017-05-17 09:41:43.341917 EDT | AverageForwardProgress     0.026883
+2017-05-17 09:41:43.342280 EDT | MaxForwardProgress         0.274469
+2017-05-17 09:41:43.342642 EDT | MinForwardProgress        -0.298337
+2017-05-17 09:41:43.343018 EDT | StdForwardProgress         0.179594
+2017-05-17 09:41:43.343388 EDT | -----------------------  ----------
+2017-05-17 09:41:43.343990 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #303 | Training started
+2017-05-17 09:41:43.382363 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #303 | Populating workers...
+2017-05-17 09:41:43.385549 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #303 | Populated
+2017-05-17 09:45:15.216602 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #303 | Training finished
+2017-05-17 09:45:15.217658 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #303 | Collecting samples for evaluation
+2017-05-17 09:45:59.807356 EDT | -----------------------  ----------
+2017-05-17 09:45:59.808802 EDT | Epoch                    303
+2017-05-17 09:45:59.809160 EDT | AverageReturn            259.793
+2017-05-17 09:45:59.809519 EDT | StdReturn                 17.2917
+2017-05-17 09:45:59.809865 EDT | MaxReturn                273.954
+2017-05-17 09:45:59.810210 EDT | MinReturn                174.79
+2017-05-17 09:45:59.810567 EDT | AverageEsReturn           56.474
+2017-05-17 09:45:59.810919 EDT | StdEsReturn               33.653
+2017-05-17 09:45:59.811273 EDT | MaxEsReturn              118.056
+2017-05-17 09:45:59.811630 EDT | MinEsReturn                6.07004
+2017-05-17 09:45:59.811975 EDT | AverageDiscountedReturn   98.1573
+2017-05-17 09:45:59.812318 EDT | AverageQLoss               1.03035
+2017-05-17 09:45:59.812666 EDT | AveragePolicySurr        -10.7195
+2017-05-17 09:45:59.813010 EDT | AverageQ                  10.4002
+2017-05-17 09:45:59.813355 EDT | AverageAbsQ               10.4069
+2017-05-17 09:45:59.813699 EDT | AverageY                  10.3966
+2017-05-17 09:45:59.814040 EDT | AverageAbsY               10.3967
+2017-05-17 09:45:59.814382 EDT | AverageAbsQYDiff           0.469515
+2017-05-17 09:45:59.814725 EDT | AverageAction              0.751898
+2017-05-17 09:45:59.815067 EDT | PolicyRegParamNorm        38.1364
+2017-05-17 09:45:59.815437 EDT | QFunRegParamNorm          80.67
+2017-05-17 09:45:59.815779 EDT | AverageForwardProgress     0.314386
+2017-05-17 09:45:59.816465 EDT | MaxForwardProgress         0.536384
+2017-05-17 09:45:59.817143 EDT | MinForwardProgress        -0.103256
+2017-05-17 09:45:59.817821 EDT | StdForwardProgress         0.141032
+2017-05-17 09:45:59.818501 EDT | -----------------------  ----------
+2017-05-17 09:45:59.819375 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #304 | Training started
+2017-05-17 09:45:59.824573 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #304 | Populating workers...
+2017-05-17 09:45:59.829807 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #304 | Populated
+2017-05-17 09:49:30.662087 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #304 | Training finished
+2017-05-17 09:49:30.663024 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #304 | Collecting samples for evaluation
+2017-05-17 09:50:22.213250 EDT | -----------------------  -----------
+2017-05-17 09:50:22.214083 EDT | Epoch                    304
+2017-05-17 09:50:22.214427 EDT | AverageReturn            154.096
+2017-05-17 09:50:22.214760 EDT | StdReturn                 59.862
+2017-05-17 09:50:22.215089 EDT | MaxReturn                263.415
+2017-05-17 09:50:22.215436 EDT | MinReturn                 48.3732
+2017-05-17 09:50:22.215763 EDT | AverageEsReturn           51.5263
+2017-05-17 09:50:22.216091 EDT | StdEsReturn               36.7274
+2017-05-17 09:50:22.216418 EDT | MaxEsReturn              125.086
+2017-05-17 09:50:22.216746 EDT | MinEsReturn                6.40613
+2017-05-17 09:50:22.217073 EDT | AverageDiscountedReturn   75.6761
+2017-05-17 09:50:22.217400 EDT | AverageQLoss               1.07214
+2017-05-17 09:50:22.217727 EDT | AveragePolicySurr        -10.7219
+2017-05-17 09:50:22.218051 EDT | AverageQ                  10.4014
+2017-05-17 09:50:22.218378 EDT | AverageAbsQ               10.4075
+2017-05-17 09:50:22.218705 EDT | AverageY                  10.3957
+2017-05-17 09:50:22.219030 EDT | AverageAbsY               10.3959
+2017-05-17 09:50:22.219365 EDT | AverageAbsQYDiff           0.4764
+2017-05-17 09:50:22.219693 EDT | AverageAction              0.760116
+2017-05-17 09:50:22.220020 EDT | PolicyRegParamNorm        38.1506
+2017-05-17 09:50:22.220348 EDT | QFunRegParamNorm          80.7372
+2017-05-17 09:50:22.220675 EDT | AverageForwardProgress    -0.0579235
+2017-05-17 09:50:22.221001 EDT | MaxForwardProgress         0.325625
+2017-05-17 09:50:22.221327 EDT | MinForwardProgress        -0.55975
+2017-05-17 09:50:22.221653 EDT | StdForwardProgress         0.1979
+2017-05-17 09:50:22.221980 EDT | -----------------------  -----------
+2017-05-17 09:50:22.222463 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #305 | Training started
+2017-05-17 09:50:22.226676 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #305 | Populating workers...
+2017-05-17 09:50:22.227131 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #305 | Populated
+2017-05-17 09:53:38.439287 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #305 | Training finished
+2017-05-17 09:53:38.440218 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #305 | Collecting samples for evaluation
+2017-05-17 09:54:30.433892 EDT | -----------------------  -----------
+2017-05-17 09:54:30.434778 EDT | Epoch                    305
+2017-05-17 09:54:30.435141 EDT | AverageReturn            192.507
+2017-05-17 09:54:30.435506 EDT | StdReturn                 62.4732
+2017-05-17 09:54:30.435850 EDT | MaxReturn                266.84
+2017-05-17 09:54:30.436192 EDT | MinReturn                 46.9578
+2017-05-17 09:54:30.436534 EDT | AverageEsReturn           57.5322
+2017-05-17 09:54:30.436875 EDT | StdEsReturn               44.5691
+2017-05-17 09:54:30.437215 EDT | MaxEsReturn              172.668
+2017-05-17 09:54:30.437555 EDT | MinEsReturn                4.63339
+2017-05-17 09:54:30.437894 EDT | AverageDiscountedReturn   84.8123
+2017-05-17 09:54:30.438233 EDT | AverageQLoss               1.08603
+2017-05-17 09:54:30.438574 EDT | AveragePolicySurr        -10.7352
+2017-05-17 09:54:30.438929 EDT | AverageQ                  10.4137
+2017-05-17 09:54:30.439270 EDT | AverageAbsQ               10.4193
+2017-05-17 09:54:30.439636 EDT | AverageY                  10.4109
+2017-05-17 09:54:30.439981 EDT | AverageAbsY               10.411
+2017-05-17 09:54:30.440334 EDT | AverageAbsQYDiff           0.478488
+2017-05-17 09:54:30.440673 EDT | AverageAction              0.725336
+2017-05-17 09:54:30.441014 EDT | PolicyRegParamNorm        38.1612
+2017-05-17 09:54:30.441355 EDT | QFunRegParamNorm          80.8553
+2017-05-17 09:54:30.441700 EDT | AverageForwardProgress     0.0326276
+2017-05-17 09:54:30.442042 EDT | MaxForwardProgress         0.386526
+2017-05-17 09:54:30.442382 EDT | MinForwardProgress        -0.395266
+2017-05-17 09:54:30.442721 EDT | StdForwardProgress         0.216311
+2017-05-17 09:54:30.443060 EDT | -----------------------  -----------
+2017-05-17 09:54:30.443567 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #306 | Training started
+2017-05-17 09:54:30.447922 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #306 | Populating workers...
+2017-05-17 09:54:30.448399 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #306 | Populated
+2017-05-17 09:57:52.605074 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #306 | Training finished
+2017-05-17 09:57:52.606127 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #306 | Collecting samples for evaluation
+2017-05-17 09:58:32.026831 EDT | -----------------------  ----------
+2017-05-17 09:58:32.027621 EDT | Epoch                    306
+2017-05-17 09:58:32.027869 EDT | AverageReturn            228.032
+2017-05-17 09:58:32.028102 EDT | StdReturn                 50.2373
+2017-05-17 09:58:32.028332 EDT | MaxReturn                273.657
+2017-05-17 09:58:32.028560 EDT | MinReturn                 69.5419
+2017-05-17 09:58:32.028787 EDT | AverageEsReturn           57.868
+2017-05-17 09:58:32.029013 EDT | StdEsReturn               37.6443
+2017-05-17 09:58:32.029239 EDT | MaxEsReturn              132.35
+2017-05-17 09:58:32.029464 EDT | MinEsReturn                6.36442
+2017-05-17 09:58:32.029689 EDT | AverageDiscountedReturn   92.6561
+2017-05-17 09:58:32.029915 EDT | AverageQLoss               1.05856
+2017-05-17 09:58:32.030140 EDT | AveragePolicySurr        -10.7159
+2017-05-17 09:58:32.030365 EDT | AverageQ                  10.4031
+2017-05-17 09:58:32.030590 EDT | AverageAbsQ               10.4104
+2017-05-17 09:58:32.030814 EDT | AverageY                  10.3994
+2017-05-17 09:58:32.031040 EDT | AverageAbsY               10.3996
+2017-05-17 09:58:32.031265 EDT | AverageAbsQYDiff           0.474653
+2017-05-17 09:58:32.031551 EDT | AverageAction              0.767414
+2017-05-17 09:58:32.031777 EDT | PolicyRegParamNorm        38.1853
+2017-05-17 09:58:32.032002 EDT | QFunRegParamNorm          80.937
+2017-05-17 09:58:32.032227 EDT | AverageForwardProgress     0.164922
+2017-05-17 09:58:32.032451 EDT | MaxForwardProgress         0.525305
+2017-05-17 09:58:32.032676 EDT | MinForwardProgress        -0.258185
+2017-05-17 09:58:32.032902 EDT | StdForwardProgress         0.218197
+2017-05-17 09:58:32.033127 EDT | -----------------------  ----------
+2017-05-17 09:58:32.033505 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #307 | Training started
+2017-05-17 09:58:32.037811 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #307 | Populating workers...
+2017-05-17 09:58:32.038152 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #307 | Populated
+2017-05-17 10:01:55.298112 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #307 | Training finished
+2017-05-17 10:01:55.299142 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #307 | Collecting samples for evaluation
+2017-05-17 10:02:42.027670 EDT | -----------------------  ----------
+2017-05-17 10:02:42.028525 EDT | Epoch                    307
+2017-05-17 10:02:42.028890 EDT | AverageReturn            158.813
+2017-05-17 10:02:42.029237 EDT | StdReturn                 69.0852
+2017-05-17 10:02:42.029588 EDT | MaxReturn                253.014
+2017-05-17 10:02:42.029931 EDT | MinReturn                 52.8524
+2017-05-17 10:02:42.030273 EDT | AverageEsReturn           54.7204
+2017-05-17 10:02:42.030614 EDT | StdEsReturn               39.5806
+2017-05-17 10:02:42.030956 EDT | MaxEsReturn              154.794
+2017-05-17 10:02:42.031298 EDT | MinEsReturn               10.3245
+2017-05-17 10:02:42.031652 EDT | AverageDiscountedReturn   73.9148
+2017-05-17 10:02:42.031991 EDT | AverageQLoss               1.06416
+2017-05-17 10:02:42.032338 EDT | AveragePolicySurr        -10.7146
+2017-05-17 10:02:42.032678 EDT | AverageQ                  10.4101
+2017-05-17 10:02:42.033019 EDT | AverageAbsQ               10.4163
+2017-05-17 10:02:42.033360 EDT | AverageY                  10.4047
+2017-05-17 10:02:42.033924 EDT | AverageAbsY               10.4049
+2017-05-17 10:02:42.034605 EDT | AverageAbsQYDiff           0.474005
+2017-05-17 10:02:42.035285 EDT | AverageAction              0.745756
+2017-05-17 10:02:42.035976 EDT | PolicyRegParamNorm        38.1985
+2017-05-17 10:02:42.036656 EDT | QFunRegParamNorm          81.087
+2017-05-17 10:02:42.037335 EDT | AverageForwardProgress    -0.122329
+2017-05-17 10:02:42.038017 EDT | MaxForwardProgress         0.236317
+2017-05-17 10:02:42.038696 EDT | MinForwardProgress        -0.571044
+2017-05-17 10:02:42.039396 EDT | StdForwardProgress         0.161346
+2017-05-17 10:02:42.040078 EDT | -----------------------  ----------
+2017-05-17 10:02:42.040920 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #308 | Training started
+2017-05-17 10:02:42.045745 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #308 | Populating workers...
+2017-05-17 10:02:42.050653 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #308 | Populated
+2017-05-17 10:05:58.421026 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #308 | Training finished
+2017-05-17 10:05:58.421976 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #308 | Collecting samples for evaluation
+2017-05-17 10:06:50.078977 EDT | -----------------------  -----------
+2017-05-17 10:06:50.079948 EDT | Epoch                    308
+2017-05-17 10:06:50.080377 EDT | AverageReturn            255.322
+2017-05-17 10:06:50.080796 EDT | StdReturn                  3.6322
+2017-05-17 10:06:50.081210 EDT | MaxReturn                262.868
+2017-05-17 10:06:50.081646 EDT | MinReturn                243.777
+2017-05-17 10:06:50.082060 EDT | AverageEsReturn           77.122
+2017-05-17 10:06:50.082475 EDT | StdEsReturn               68.0228
+2017-05-17 10:06:50.082898 EDT | MaxEsReturn              236.348
+2017-05-17 10:06:50.083378 EDT | MinEsReturn                7.0323
+2017-05-17 10:06:50.083790 EDT | AverageDiscountedReturn   94.7721
+2017-05-17 10:06:50.084201 EDT | AverageQLoss               1.01729
+2017-05-17 10:06:50.084611 EDT | AveragePolicySurr        -10.6783
+2017-05-17 10:06:50.085024 EDT | AverageQ                  10.3836
+2017-05-17 10:06:50.085434 EDT | AverageAbsQ               10.3905
+2017-05-17 10:06:50.085843 EDT | AverageY                  10.3808
+2017-05-17 10:06:50.086256 EDT | AverageAbsY               10.3809
+2017-05-17 10:06:50.086667 EDT | AverageAbsQYDiff           0.467886
+2017-05-17 10:06:50.087092 EDT | AverageAction              0.746211
+2017-05-17 10:06:50.087514 EDT | PolicyRegParamNorm        38.2222
+2017-05-17 10:06:50.087938 EDT | QFunRegParamNorm          81.2478
+2017-05-17 10:06:50.088363 EDT | AverageForwardProgress     0.164653
+2017-05-17 10:06:50.088775 EDT | MaxForwardProgress         0.32305
+2017-05-17 10:06:50.089184 EDT | MinForwardProgress        -0.0720953
+2017-05-17 10:06:50.089597 EDT | StdForwardProgress         0.0759098
+2017-05-17 10:06:50.090007 EDT | -----------------------  -----------
+2017-05-17 10:06:50.090581 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #309 | Training started
+2017-05-17 10:06:50.095016 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #309 | Populating workers...
+2017-05-17 10:06:50.095646 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #309 | Populated
+2017-05-17 10:10:13.166262 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #309 | Training finished
+2017-05-17 10:10:13.167068 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #309 | Collecting samples for evaluation
+2017-05-17 10:10:59.026949 EDT | -----------------------  -----------
+2017-05-17 10:10:59.027730 EDT | Epoch                    309
+2017-05-17 10:10:59.027996 EDT | AverageReturn            253.737
+2017-05-17 10:10:59.028278 EDT | StdReturn                  2.59319
+2017-05-17 10:10:59.028532 EDT | MaxReturn                260.456
+2017-05-17 10:10:59.028807 EDT | MinReturn                248.186
+2017-05-17 10:10:59.029048 EDT | AverageEsReturn           63.8962
+2017-05-17 10:10:59.029323 EDT | StdEsReturn               55.3201
+2017-05-17 10:10:59.029563 EDT | MaxEsReturn              217.907
+2017-05-17 10:10:59.029837 EDT | MinEsReturn                8.51131
+2017-05-17 10:10:59.030083 EDT | AverageDiscountedReturn   94.297
+2017-05-17 10:10:59.030349 EDT | AverageQLoss               1.06547
+2017-05-17 10:10:59.030591 EDT | AveragePolicySurr        -10.7066
+2017-05-17 10:10:59.030860 EDT | AverageQ                  10.3805
+2017-05-17 10:10:59.031102 EDT | AverageAbsQ               10.3869
+2017-05-17 10:10:59.031387 EDT | AverageY                  10.3763
+2017-05-17 10:10:59.031639 EDT | AverageAbsY               10.3765
+2017-05-17 10:10:59.031878 EDT | AverageAbsQYDiff           0.469887
+2017-05-17 10:10:59.032153 EDT | AverageAction              0.721405
+2017-05-17 10:10:59.032393 EDT | PolicyRegParamNorm        38.2351
+2017-05-17 10:10:59.032664 EDT | QFunRegParamNorm          81.4079
+2017-05-17 10:10:59.032917 EDT | AverageForwardProgress     0.130415
+2017-05-17 10:10:59.033167 EDT | MaxForwardProgress         0.266247
+2017-05-17 10:10:59.033419 EDT | MinForwardProgress         0.0181622
+2017-05-17 10:10:59.033670 EDT | StdForwardProgress         0.0520186
+2017-05-17 10:10:59.033926 EDT | -----------------------  -----------
+2017-05-17 10:10:59.034318 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #310 | Training started
+2017-05-17 10:10:59.034990 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #310 | Populating workers...
+2017-05-17 10:10:59.035252 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #310 | Populated
+2017-05-17 10:14:21.483199 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #310 | Training finished
+2017-05-17 10:14:21.484257 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #310 | Collecting samples for evaluation
+2017-05-17 10:15:03.690664 EDT | -----------------------  -----------
+2017-05-17 10:15:03.691597 EDT | Epoch                    310
+2017-05-17 10:15:03.691954 EDT | AverageReturn            251.502
+2017-05-17 10:15:03.692301 EDT | StdReturn                  3.13208
+2017-05-17 10:15:03.692642 EDT | MaxReturn                259.8
+2017-05-17 10:15:03.692984 EDT | MinReturn                245.165
+2017-05-17 10:15:03.693323 EDT | AverageEsReturn           45.6284
+2017-05-17 10:15:03.693665 EDT | StdEsReturn               42.9545
+2017-05-17 10:15:03.694005 EDT | MaxEsReturn              192.433
+2017-05-17 10:15:03.694345 EDT | MinEsReturn                5.0022
+2017-05-17 10:15:03.695020 EDT | AverageDiscountedReturn   92.7541
+2017-05-17 10:15:03.695715 EDT | AverageQLoss               1.07108
+2017-05-17 10:15:03.696396 EDT | AveragePolicySurr        -10.7054
+2017-05-17 10:15:03.697076 EDT | AverageQ                  10.384
+2017-05-17 10:15:03.697756 EDT | AverageAbsQ               10.3894
+2017-05-17 10:15:03.698434 EDT | AverageY                  10.3808
+2017-05-17 10:15:03.699112 EDT | AverageAbsY               10.3809
+2017-05-17 10:15:03.699812 EDT | AverageAbsQYDiff           0.465825
+2017-05-17 10:15:03.700492 EDT | AverageAction              0.736718
+2017-05-17 10:15:03.701181 EDT | PolicyRegParamNorm        38.2481
+2017-05-17 10:15:03.701866 EDT | QFunRegParamNorm          81.5315
+2017-05-17 10:15:03.702545 EDT | AverageForwardProgress     0.0875094
+2017-05-17 10:15:03.703222 EDT | MaxForwardProgress         0.251615
+2017-05-17 10:15:03.703925 EDT | MinForwardProgress        -0.0410671
+2017-05-17 10:15:03.704603 EDT | StdForwardProgress         0.0632088
+2017-05-17 10:15:03.705279 EDT | -----------------------  -----------
+2017-05-17 10:15:03.706122 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #311 | Training started
+2017-05-17 10:15:03.707474 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #311 | Populating workers...
+2017-05-17 10:15:03.708688 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #311 | Populated
+2017-05-17 10:18:40.902672 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #311 | Training finished
+2017-05-17 10:18:40.903759 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #311 | Collecting samples for evaluation
+2017-05-17 10:19:29.600720 EDT | -----------------------  -----------
+2017-05-17 10:19:29.601598 EDT | Epoch                    311
+2017-05-17 10:19:29.601960 EDT | AverageReturn            245.786
+2017-05-17 10:19:29.602307 EDT | StdReturn                  3.4433
+2017-05-17 10:19:29.602652 EDT | MaxReturn                255.196
+2017-05-17 10:19:29.602997 EDT | MinReturn                240.508
+2017-05-17 10:19:29.603354 EDT | AverageEsReturn           60.9434
+2017-05-17 10:19:29.603698 EDT | StdEsReturn               61.7686
+2017-05-17 10:19:29.604040 EDT | MaxEsReturn              252.647
+2017-05-17 10:19:29.604381 EDT | MinEsReturn                8.93378
+2017-05-17 10:19:29.604724 EDT | AverageDiscountedReturn   90.1852
+2017-05-17 10:19:29.605065 EDT | AverageQLoss               0.987309
+2017-05-17 10:19:29.605405 EDT | AveragePolicySurr        -10.6821
+2017-05-17 10:19:29.605745 EDT | AverageQ                  10.3679
+2017-05-17 10:19:29.606086 EDT | AverageAbsQ               10.3738
+2017-05-17 10:19:29.606425 EDT | AverageY                  10.365
+2017-05-17 10:19:29.606765 EDT | AverageAbsY               10.3651
+2017-05-17 10:19:29.607107 EDT | AverageAbsQYDiff           0.452765
+2017-05-17 10:19:29.607464 EDT | AverageAction              0.763431
+2017-05-17 10:19:29.607805 EDT | PolicyRegParamNorm        38.2751
+2017-05-17 10:19:29.608146 EDT | QFunRegParamNorm          81.6226
+2017-05-17 10:19:29.608488 EDT | AverageForwardProgress    -0.0241925
+2017-05-17 10:19:29.608830 EDT | MaxForwardProgress         0.166216
+2017-05-17 10:19:29.609172 EDT | MinForwardProgress        -0.131902
+2017-05-17 10:19:29.609514 EDT | StdForwardProgress         0.0691539
+2017-05-17 10:19:29.609855 EDT | -----------------------  -----------
+2017-05-17 10:19:29.610360 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #312 | Training started
+2017-05-17 10:19:29.611165 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #312 | Populating workers...
+2017-05-17 10:19:29.611539 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #312 | Populated
+2017-05-17 10:22:42.371308 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #312 | Training finished
+2017-05-17 10:22:42.372377 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #312 | Collecting samples for evaluation
+2017-05-17 10:23:34.527055 EDT | -----------------------  -----------
+2017-05-17 10:23:34.528831 EDT | Epoch                    312
+2017-05-17 10:23:34.529177 EDT | AverageReturn            248.259
+2017-05-17 10:23:34.529511 EDT | StdReturn                  1.68616
+2017-05-17 10:23:34.529842 EDT | MaxReturn                251.756
+2017-05-17 10:23:34.530170 EDT | MinReturn                245.353
+2017-05-17 10:23:34.530498 EDT | AverageEsReturn           60.1655
+2017-05-17 10:23:34.530827 EDT | StdEsReturn               37.6667
+2017-05-17 10:23:34.531154 EDT | MaxEsReturn              131.965
+2017-05-17 10:23:34.531502 EDT | MinEsReturn                5.002
+2017-05-17 10:23:34.531832 EDT | AverageDiscountedReturn   91.8062
+2017-05-17 10:23:34.532161 EDT | AverageQLoss               1.08274
+2017-05-17 10:23:34.532489 EDT | AveragePolicySurr        -10.6629
+2017-05-17 10:23:34.532818 EDT | AverageQ                  10.3572
+2017-05-17 10:23:34.533148 EDT | AverageAbsQ               10.3636
+2017-05-17 10:23:34.533477 EDT | AverageY                  10.3529
+2017-05-17 10:23:34.533804 EDT | AverageAbsY               10.353
+2017-05-17 10:23:34.534132 EDT | AverageAbsQYDiff           0.473912
+2017-05-17 10:23:34.534459 EDT | AverageAction              0.725741
+2017-05-17 10:23:34.534787 EDT | PolicyRegParamNorm        38.2833
+2017-05-17 10:23:34.535114 EDT | QFunRegParamNorm          81.7236
+2017-05-17 10:23:34.535458 EDT | AverageForwardProgress     0.0213345
+2017-05-17 10:23:34.535788 EDT | MaxForwardProgress         0.0887963
+2017-05-17 10:23:34.536115 EDT | MinForwardProgress        -0.0343066
+2017-05-17 10:23:34.536443 EDT | StdForwardProgress         0.0339681
+2017-05-17 10:23:34.536770 EDT | -----------------------  -----------
+2017-05-17 10:23:34.537261 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #313 | Training started
+2017-05-17 10:23:34.541499 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #313 | Populating workers...
+2017-05-17 10:23:34.541952 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #313 | Populated
+2017-05-17 10:26:55.230839 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #313 | Training finished
+2017-05-17 10:26:55.231660 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #313 | Collecting samples for evaluation
+2017-05-17 10:27:37.367214 EDT | -----------------------  -----------
+2017-05-17 10:27:37.368132 EDT | Epoch                    313
+2017-05-17 10:27:37.368485 EDT | AverageReturn            249.199
+2017-05-17 10:27:37.368834 EDT | StdReturn                  1.82716
+2017-05-17 10:27:37.369182 EDT | MaxReturn                253.78
+2017-05-17 10:27:37.369529 EDT | MinReturn                245.566
+2017-05-17 10:27:37.369874 EDT | AverageEsReturn           61.0853
+2017-05-17 10:27:37.370218 EDT | StdEsReturn               51.8646
+2017-05-17 10:27:37.370561 EDT | MaxEsReturn              199.448
+2017-05-17 10:27:37.370905 EDT | MinEsReturn                6.57042
+2017-05-17 10:27:37.371249 EDT | AverageDiscountedReturn   92.4951
+2017-05-17 10:27:37.371613 EDT | AverageQLoss               1.0556
+2017-05-17 10:27:37.371969 EDT | AveragePolicySurr        -10.6854
+2017-05-17 10:27:37.372332 EDT | AverageQ                  10.3564
+2017-05-17 10:27:37.372679 EDT | AverageAbsQ               10.3632
+2017-05-17 10:27:37.373023 EDT | AverageY                  10.3547
+2017-05-17 10:27:37.373369 EDT | AverageAbsY               10.3548
+2017-05-17 10:27:37.373713 EDT | AverageAbsQYDiff           0.466736
+2017-05-17 10:27:37.374057 EDT | AverageAction              0.7108
+2017-05-17 10:27:37.374401 EDT | PolicyRegParamNorm        38.3063
+2017-05-17 10:27:37.374746 EDT | QFunRegParamNorm          81.8059
+2017-05-17 10:27:37.375088 EDT | AverageForwardProgress     0.0387443
+2017-05-17 10:27:37.375446 EDT | MaxForwardProgress         0.133321
+2017-05-17 10:27:37.375790 EDT | MinForwardProgress        -0.0301576
+2017-05-17 10:27:37.376134 EDT | StdForwardProgress         0.036146
+2017-05-17 10:27:37.376476 EDT | -----------------------  -----------
+2017-05-17 10:27:37.377026 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #314 | Training started
+2017-05-17 10:27:37.384615 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #314 | Populating workers...
+2017-05-17 10:27:37.387843 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #314 | Populated
+2017-05-17 10:31:05.300957 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #314 | Training finished
+2017-05-17 10:31:05.301895 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #314 | Collecting samples for evaluation
+2017-05-17 10:31:54.891006 EDT | -----------------------  ------------
+2017-05-17 10:31:54.891900 EDT | Epoch                    314
+2017-05-17 10:31:54.892259 EDT | AverageReturn            250.441
+2017-05-17 10:31:54.892607 EDT | StdReturn                  1.94543
+2017-05-17 10:31:54.892953 EDT | MaxReturn                254.126
+2017-05-17 10:31:54.893296 EDT | MinReturn                246.755
+2017-05-17 10:31:54.893640 EDT | AverageEsReturn           74.8668
+2017-05-17 10:31:54.894268 EDT | StdEsReturn               65.5299
+2017-05-17 10:31:54.894600 EDT | MaxEsReturn              250.169
+2017-05-17 10:31:54.894940 EDT | MinEsReturn                9.09108
+2017-05-17 10:31:54.895271 EDT | AverageDiscountedReturn   92.4979
+2017-05-17 10:31:54.895615 EDT | AverageQLoss               1.03181
+2017-05-17 10:31:54.895946 EDT | AveragePolicySurr        -10.7324
+2017-05-17 10:31:54.896284 EDT | AverageQ                  10.4035
+2017-05-17 10:31:54.896615 EDT | AverageAbsQ               10.4093
+2017-05-17 10:31:54.896989 EDT | AverageY                  10.4014
+2017-05-17 10:31:54.897407 EDT | AverageAbsY               10.4016
+2017-05-17 10:31:54.897828 EDT | AverageAbsQYDiff           0.459166
+2017-05-17 10:31:54.898266 EDT | AverageAction              0.728347
+2017-05-17 10:31:54.898693 EDT | PolicyRegParamNorm        38.3389
+2017-05-17 10:31:54.899098 EDT | QFunRegParamNorm          81.8886
+2017-05-17 10:31:54.899527 EDT | AverageForwardProgress     0.065881
+2017-05-17 10:31:54.899886 EDT | MaxForwardProgress         0.137574
+2017-05-17 10:31:54.900235 EDT | MinForwardProgress        -0.00543695
+2017-05-17 10:31:54.900584 EDT | StdForwardProgress         0.0393156
+2017-05-17 10:31:54.900958 EDT | -----------------------  ------------
+2017-05-17 10:31:54.901579 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #315 | Training started
+2017-05-17 10:31:54.915175 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #315 | Populating workers...
+2017-05-17 10:31:54.915644 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #315 | Populated
+2017-05-17 10:35:09.516197 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #315 | Training finished
+2017-05-17 10:35:09.517041 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #315 | Collecting samples for evaluation
+2017-05-17 10:35:57.570600 EDT | -----------------------  -----------
+2017-05-17 10:35:57.571519 EDT | Epoch                    315
+2017-05-17 10:35:57.571984 EDT | AverageReturn            201.506
+2017-05-17 10:35:57.572457 EDT | StdReturn                 57.972
+2017-05-17 10:35:57.572922 EDT | MaxReturn                252.119
+2017-05-17 10:35:57.573273 EDT | MinReturn                 61.6187
+2017-05-17 10:35:57.573669 EDT | AverageEsReturn           54.2184
+2017-05-17 10:35:57.574085 EDT | StdEsReturn               44.1331
+2017-05-17 10:35:57.574497 EDT | MaxEsReturn              146.544
+2017-05-17 10:35:57.574922 EDT | MinEsReturn                6.30639
+2017-05-17 10:35:57.575371 EDT | AverageDiscountedReturn   82.9505
+2017-05-17 10:35:57.575790 EDT | AverageQLoss               1.01482
+2017-05-17 10:35:57.576201 EDT | AveragePolicySurr        -10.7161
+2017-05-17 10:35:57.576626 EDT | AverageQ                  10.3975
+2017-05-17 10:35:57.577046 EDT | AverageAbsQ               10.4045
+2017-05-17 10:35:57.577450 EDT | AverageY                  10.3946
+2017-05-17 10:35:57.577798 EDT | AverageAbsY               10.395
+2017-05-17 10:35:57.578141 EDT | AverageAbsQYDiff           0.45357
+2017-05-17 10:35:57.578544 EDT | AverageAction              0.723786
+2017-05-17 10:35:57.578953 EDT | PolicyRegParamNorm        38.3679
+2017-05-17 10:35:57.579371 EDT | QFunRegParamNorm          81.969
+2017-05-17 10:35:57.579732 EDT | AverageForwardProgress    -0.0572391
+2017-05-17 10:35:57.580087 EDT | MaxForwardProgress         0.0964605
+2017-05-17 10:35:57.580441 EDT | MinForwardProgress        -0.249954
+2017-05-17 10:35:57.580796 EDT | StdForwardProgress         0.0853492
+2017-05-17 10:35:57.581147 EDT | -----------------------  -----------
+2017-05-17 10:35:57.581684 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #316 | Training started
+2017-05-17 10:35:57.582590 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #316 | Populating workers...
+2017-05-17 10:35:57.582970 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #316 | Populated
+2017-05-17 10:39:15.791214 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #316 | Training finished
+2017-05-17 10:39:15.820091 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #316 | Collecting samples for evaluation
+2017-05-17 10:40:08.092137 EDT | -----------------------  -----------
+2017-05-17 10:40:08.093230 EDT | Epoch                    316
+2017-05-17 10:40:08.093668 EDT | AverageReturn            245.649
+2017-05-17 10:40:08.094091 EDT | StdReturn                  2.81508
+2017-05-17 10:40:08.094513 EDT | MaxReturn                252.136
+2017-05-17 10:40:08.094927 EDT | MinReturn                240.506
+2017-05-17 10:40:08.095345 EDT | AverageEsReturn           48.4224
+2017-05-17 10:40:08.095757 EDT | StdEsReturn               44.3875
+2017-05-17 10:40:08.096166 EDT | MaxEsReturn              166.29
+2017-05-17 10:40:08.096575 EDT | MinEsReturn                6.31438
+2017-05-17 10:40:08.096985 EDT | AverageDiscountedReturn   90.017
+2017-05-17 10:40:08.097743 EDT | AverageQLoss               1.06721
+2017-05-17 10:40:08.098516 EDT | AveragePolicySurr        -10.7559
+2017-05-17 10:40:08.099287 EDT | AverageQ                  10.4151
+2017-05-17 10:40:08.100065 EDT | AverageAbsQ               10.4233
+2017-05-17 10:40:08.100822 EDT | AverageY                  10.4127
+2017-05-17 10:40:08.101580 EDT | AverageAbsY               10.4131
+2017-05-17 10:40:08.102335 EDT | AverageAbsQYDiff           0.467885
+2017-05-17 10:40:08.103093 EDT | AverageAction              0.699674
+2017-05-17 10:40:08.103880 EDT | PolicyRegParamNorm        38.3964
+2017-05-17 10:40:08.104624 EDT | QFunRegParamNorm          82.1043
+2017-05-17 10:40:08.105380 EDT | AverageForwardProgress    -0.0321472
+2017-05-17 10:40:08.106126 EDT | MaxForwardProgress         0.0957905
+2017-05-17 10:40:08.106881 EDT | MinForwardProgress        -0.136821
+2017-05-17 10:40:08.107636 EDT | StdForwardProgress         0.0562358
+2017-05-17 10:40:08.108392 EDT | -----------------------  -----------
+2017-05-17 10:40:08.109391 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #317 | Training started
+2017-05-17 10:40:08.116985 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #317 | Populating workers...
+2017-05-17 10:40:08.124746 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #317 | Populated
+2017-05-17 10:43:40.883378 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #317 | Training finished
+2017-05-17 10:43:40.884332 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #317 | Collecting samples for evaluation
+2017-05-17 10:44:25.724636 EDT | -----------------------  -----------
+2017-05-17 10:44:25.725517 EDT | Epoch                    317
+2017-05-17 10:44:25.725881 EDT | AverageReturn            243.111
+2017-05-17 10:44:25.726230 EDT | StdReturn                 29.4564
+2017-05-17 10:44:25.726577 EDT | MaxReturn                260.518
+2017-05-17 10:44:25.726921 EDT | MinReturn                105.4
+2017-05-17 10:44:25.727265 EDT | AverageEsReturn           49.7428
+2017-05-17 10:44:25.727619 EDT | StdEsReturn               40.094
+2017-05-17 10:44:25.727980 EDT | MaxEsReturn              167.763
+2017-05-17 10:44:25.728324 EDT | MinEsReturn                6.3228
+2017-05-17 10:44:25.728678 EDT | AverageDiscountedReturn   91.4479
+2017-05-17 10:44:25.729027 EDT | AverageQLoss               1.04554
+2017-05-17 10:44:25.729383 EDT | AveragePolicySurr        -10.7856
+2017-05-17 10:44:25.729727 EDT | AverageQ                  10.4542
+2017-05-17 10:44:25.730069 EDT | AverageAbsQ               10.4604
+2017-05-17 10:44:25.730411 EDT | AverageY                  10.4512
+2017-05-17 10:44:25.730753 EDT | AverageAbsY               10.4513
+2017-05-17 10:44:25.731095 EDT | AverageAbsQYDiff           0.459582
+2017-05-17 10:44:25.731448 EDT | AverageAction              0.719199
+2017-05-17 10:44:25.731791 EDT | PolicyRegParamNorm        38.4306
+2017-05-17 10:44:25.732429 EDT | QFunRegParamNorm          82.1991
+2017-05-17 10:44:25.733145 EDT | AverageForwardProgress     0.0876626
+2017-05-17 10:44:25.733837 EDT | MaxForwardProgress         0.270337
+2017-05-17 10:44:25.734517 EDT | MinForwardProgress        -0.139309
+2017-05-17 10:44:25.735200 EDT | StdForwardProgress         0.0919229
+2017-05-17 10:44:25.735908 EDT | -----------------------  -----------
+2017-05-17 10:44:25.736794 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #318 | Training started
+2017-05-17 10:44:25.741739 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #318 | Populating workers...
+2017-05-17 10:44:25.746697 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #318 | Populated
+2017-05-17 10:47:50.902952 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #318 | Training finished
+2017-05-17 10:47:50.903920 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #318 | Collecting samples for evaluation
+2017-05-17 10:48:42.832072 EDT | -----------------------  -----------
+2017-05-17 10:48:42.832429 EDT | Epoch                    318
+2017-05-17 10:48:42.832670 EDT | AverageReturn            254.306
+2017-05-17 10:48:42.832904 EDT | StdReturn                  2.01842
+2017-05-17 10:48:42.833137 EDT | MaxReturn                258.587
+2017-05-17 10:48:42.833367 EDT | MinReturn                250.392
+2017-05-17 10:48:42.833596 EDT | AverageEsReturn           53.3854
+2017-05-17 10:48:42.833825 EDT | StdEsReturn               54.2808
+2017-05-17 10:48:42.834052 EDT | MaxEsReturn              242.659
+2017-05-17 10:48:42.834280 EDT | MinEsReturn                6.02837
+2017-05-17 10:48:42.834507 EDT | AverageDiscountedReturn   94.5097
+2017-05-17 10:48:42.834736 EDT | AverageQLoss               1.06303
+2017-05-17 10:48:42.834964 EDT | AveragePolicySurr        -10.8019
+2017-05-17 10:48:42.835192 EDT | AverageQ                  10.4701
+2017-05-17 10:48:42.835477 EDT | AverageAbsQ               10.4767
+2017-05-17 10:48:42.835709 EDT | AverageY                  10.4678
+2017-05-17 10:48:42.835936 EDT | AverageAbsY               10.4682
+2017-05-17 10:48:42.836162 EDT | AverageAbsQYDiff           0.459276
+2017-05-17 10:48:42.836390 EDT | AverageAction              0.701835
+2017-05-17 10:48:42.836616 EDT | PolicyRegParamNorm        38.4555
+2017-05-17 10:48:42.836843 EDT | QFunRegParamNorm          82.3096
+2017-05-17 10:48:42.837070 EDT | AverageForwardProgress     0.140049
+2017-05-17 10:48:42.837297 EDT | MaxForwardProgress         0.230299
+2017-05-17 10:48:42.837523 EDT | MinForwardProgress         0.0555498
+2017-05-17 10:48:42.837750 EDT | StdForwardProgress         0.0410287
+2017-05-17 10:48:42.837976 EDT | -----------------------  -----------
+2017-05-17 10:48:42.838326 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #319 | Training started
+2017-05-17 10:48:42.842483 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #319 | Populating workers...
+2017-05-17 10:48:42.842827 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #319 | Populated
+2017-05-17 10:51:52.933289 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #319 | Training finished
+2017-05-17 10:51:52.934362 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #319 | Collecting samples for evaluation
+2017-05-17 10:52:42.433873 EDT | -----------------------  -----------
+2017-05-17 10:52:42.442794 EDT | Epoch                    319
+2017-05-17 10:52:42.443307 EDT | AverageReturn            241.157
+2017-05-17 10:52:42.443775 EDT | StdReturn                  1.20764
+2017-05-17 10:52:42.444220 EDT | MaxReturn                243.662
+2017-05-17 10:52:42.444668 EDT | MinReturn                239.064
+2017-05-17 10:52:42.445091 EDT | AverageEsReturn           67.3567
+2017-05-17 10:52:42.445514 EDT | StdEsReturn               60.6345
+2017-05-17 10:52:42.445935 EDT | MaxEsReturn              237.589
+2017-05-17 10:52:42.446355 EDT | MinEsReturn               12.0132
+2017-05-17 10:52:42.446777 EDT | AverageDiscountedReturn   87.5181
+2017-05-17 10:52:42.447197 EDT | AverageQLoss               1.02817
+2017-05-17 10:52:42.447630 EDT | AveragePolicySurr        -10.8342
+2017-05-17 10:52:42.448051 EDT | AverageQ                  10.4943
+2017-05-17 10:52:42.448481 EDT | AverageAbsQ               10.5031
+2017-05-17 10:52:42.448910 EDT | AverageY                  10.4912
+2017-05-17 10:52:42.449332 EDT | AverageAbsY               10.4913
+2017-05-17 10:52:42.449766 EDT | AverageAbsQYDiff           0.457392
+2017-05-17 10:52:42.450196 EDT | AverageAction              0.655503
+2017-05-17 10:52:42.450614 EDT | PolicyRegParamNorm        38.4774
+2017-05-17 10:52:42.451024 EDT | QFunRegParamNorm          82.4557
+2017-05-17 10:52:42.451457 EDT | AverageForwardProgress    -0.123196
+2017-05-17 10:52:42.451879 EDT | MaxForwardProgress        -0.0731409
+2017-05-17 10:52:42.452291 EDT | MinForwardProgress        -0.167432
+2017-05-17 10:52:42.452709 EDT | StdForwardProgress         0.0236704
+2017-05-17 10:52:42.453128 EDT | -----------------------  -----------
+2017-05-17 10:52:42.453717 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #320 | Training started
+2017-05-17 10:52:42.458219 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #320 | Populating workers...
+2017-05-17 10:52:42.458835 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #320 | Populated
+2017-05-17 10:55:56.739476 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #320 | Training finished
+2017-05-17 10:55:56.740677 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #320 | Collecting samples for evaluation
+2017-05-17 10:56:41.401034 EDT | -----------------------  -----------
+2017-05-17 10:56:41.401939 EDT | Epoch                    320
+2017-05-17 10:56:41.402293 EDT | AverageReturn            239.095
+2017-05-17 10:56:41.402630 EDT | StdReturn                  0.981805
+2017-05-17 10:56:41.402965 EDT | MaxReturn                240.835
+2017-05-17 10:56:41.403297 EDT | MinReturn                236.947
+2017-05-17 10:56:41.403645 EDT | AverageEsReturn           46.3972
+2017-05-17 10:56:41.403979 EDT | StdEsReturn               42.4633
+2017-05-17 10:56:41.404312 EDT | MaxEsReturn              177.882
+2017-05-17 10:56:41.404645 EDT | MinEsReturn                6.62481
+2017-05-17 10:56:41.404977 EDT | AverageDiscountedReturn   87.4711
+2017-05-17 10:56:41.405310 EDT | AverageQLoss               1.03803
+2017-05-17 10:56:41.405650 EDT | AveragePolicySurr        -10.8243
+2017-05-17 10:56:41.405982 EDT | AverageQ                  10.49
+2017-05-17 10:56:41.406314 EDT | AverageAbsQ               10.4979
+2017-05-17 10:56:41.406646 EDT | AverageY                  10.4878
+2017-05-17 10:56:41.406978 EDT | AverageAbsY               10.4882
+2017-05-17 10:56:41.407311 EDT | AverageAbsQYDiff           0.460461
+2017-05-17 10:56:41.418554 EDT | AverageAction              0.800534
+2017-05-17 10:56:41.418888 EDT | PolicyRegParamNorm        38.5013
+2017-05-17 10:56:41.419222 EDT | QFunRegParamNorm          82.6245
+2017-05-17 10:56:41.419590 EDT | AverageForwardProgress    -0.151403
+2017-05-17 10:56:41.419935 EDT | MaxForwardProgress        -0.112921
+2017-05-17 10:56:41.420280 EDT | MinForwardProgress        -0.192547
+2017-05-17 10:56:41.420623 EDT | StdForwardProgress         0.0207481
+2017-05-17 10:56:41.420968 EDT | -----------------------  -----------
+2017-05-17 10:56:41.421490 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #321 | Training started
+2017-05-17 10:56:41.425942 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #321 | Populating workers...
+2017-05-17 10:56:41.426427 EDT | [LONG_RUN_LAST_DDPG_RUNS/DDPG_Hopper/Experiment_0] epoch #321 | Populated
