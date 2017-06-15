@@ -1,0 +1,129 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAQAAABhcmdzcQcpWAYAAABrd2FyZ3NxCH1xCShYAgAAAHFmcQpoBCmBcQt9cQwoaAcpaAh9cQ0oWAgAAABlbnZfc3BlY3EOY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxDymBcRB9cREoWAoAAABfYXR0cl9uYW1lcRJYBAAAAHNwZWNxE1gEAAAAX29ianEUaAQpgXEVfXEWKGgHKWgIfXEXWAsAAAB3cmFwcGVkX2VudnEYaAQpgXEZfXEaKGgHKWgIfXEbWAMAAABlbnZxHGgEKYFxHX1xHihoByloCH1xHyhYCAAAAGVudl9uYW1lcSBYCQAAAEhvcHBlci12MXEhWAsAAABmb3JjZV9yZXNldHEiiFgMAAAAcmVjb3JkX3ZpZGVvcSOJWAoAAAByZWNvcmRfbG9ncSSJdVgLAAAAcHJveHlfY2xhc3NxJWNybGxhYi5lbnZzLmd5bV9lbnYKR3ltRW52CnEmdWJzaCVjcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEndWJzaCVjc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcSh1YnViWAwAAABoaWRkZW5fc2l6ZXNxKU2QAU0sAYZxKlgTAAAAaGlkZGVuX25vbmxpbmVhcml0eXErY3RlbnNvcmZsb3cucHl0aG9uLm9wcy5nZW5fbm5fb3BzCnJlbHUKcSx1aCVjc2FuZGJveC5yb2NreS50Zi5xX2Z1bmN0aW9ucy5jb250aW51b3VzX21scF9xX2Z1bmN0aW9uCkNvbnRpbnVvdXNNTFBRRnVuY3Rpb24KcS11YlgIAAAAZGlzY291bnRxLkc/764UeuFHrlgKAAAAYmF0Y2hfc2l6ZXEvSyBYEAAAAHFmX2xlYXJuaW5nX3JhdGVxMEc/UGJN0vGp/FgGAAAAcG9saWN5cTFoBCmBcTJ9cTMoaAcpaAh9cTQoWAQAAABuYW1lcTVoMWgOaA8pgXE2fXE3KGgSaBNoFGgVdWJoKU2QAU0sAYZxOGgraCx1aCVjc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5kZXRlcm1pbmlzdGljX21scF9wb2xpY3kKRGV0ZXJtaW5pc3RpY01MUFBvbGljeQpxOXViWAgAAABuX2Vwb2Noc3E6TYgTWBQAAABwb2xpY3lfbGVhcm5pbmdfcmF0ZXE7Rz8aNuLrHEMtWA8AAABtYXhfcGF0aF9sZW5ndGhxPGgPKYFxPX1xPihoElgHAAAAaG9yaXpvbnE/aBRoFXViWAwAAABzY2FsZV9yZXdhcmRxQEc/uZmZmZmZmlgEAAAAcGxvdHFBiWgcaBVYDQAAAG1pbl9wb29sX3NpemVxQk0QJ1gMAAAAZXBvY2hfbGVuZ3RocUNN6ANYAgAAAGVzcURoBCmBcUV9cUYoaAcpaAh9cUdoDmgPKYFxSH1xSShoEmgTaBRoFXVic2glY3JsbGFiLmV4cGxvcmF0aW9uX3N0cmF0ZWdpZXMub3Vfc3RyYXRlZ3kKT1VTdHJhdGVneQpxSnVidWglY2RkcGdfdGVuc29yZmxvdy5kZHBnCkREUEcKcUt1YlgFAAAAdHJhaW5xTCl9cU10cU5YCAAAAF9fa3dhcmdzcU99cVB1Yi4=",
+  "exp_name": "reproducibility_ML/DDPG/Hopper/Last_Network_Structure_Tune/Layer_Size_0_Experiment_1",
+  "json_args": {
+    "algo": {
+      "_name": "ddpg_tensorflow.ddpg.DDPG",
+      "batch_size": 32,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "es": {
+        "_name": "rllab.exploration_strategies.ou_strategy.OUStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Hopper-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 5000,
+      "plot": false,
+      "policy_learning_rate": 0.0001,
+      "qf": {
+        "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          400,
+          300
+        ]
+      },
+      "qf_learning_rate": 0.001,
+      "scale_reward": 0.1
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "Hopper-v1",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Hopper-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        400,
+        300
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/ml/rislam4/Documents/RLLAB/rllab/data/local/experiment/reproducibility_ML/DDPG/Hopper/Last_Network_Structure_Tune/Layer_Size_0_Experiment_1",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
