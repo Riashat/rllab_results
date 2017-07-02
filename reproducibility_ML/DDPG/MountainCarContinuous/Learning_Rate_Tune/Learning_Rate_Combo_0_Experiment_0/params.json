@@ -1,0 +1,130 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAQAAABhcmdzcQcpWAYAAABrd2FyZ3NxCH1xCShYBAAAAHBsb3RxColYCAAAAG5fZXBvY2hzcQtNiBNYAwAAAGVudnEMaAQpgXENfXEOKGgHKWgIfXEPWAsAAAB3cmFwcGVkX2VudnEQaAQpgXERfXESKGgHKWgIfXETaAxoBCmBcRR9cRUoaAcpaAh9cRYoWAsAAABmb3JjZV9yZXNldHEXiFgKAAAAcmVjb3JkX2xvZ3EYiVgIAAAAZW52X25hbWVxGVgYAAAATW91bnRhaW5DYXJDb250aW51b3VzLXYwcRpYDAAAAHJlY29yZF92aWRlb3EbiXVYCwAAAHByb3h5X2NsYXNzcRxjcmxsYWIuZW52cy5neW1fZW52Ckd5bUVudgpxHXVic2gcY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxHnVic2gcY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEfdWJYCAAAAGRpc2NvdW50cSBHP++uFHrhR65YCgAAAGJhdGNoX3NpemVxIUsgWAwAAABlcG9jaF9sZW5ndGhxIk3oA1gUAAAAcG9saWN5X2xlYXJuaW5nX3JhdGVxI0c+sMb3oLXtjVgQAAAAcWZfbGVhcm5pbmdfcmF0ZXEkRz7k+LWI42jxWA0AAABtaW5fcG9vbF9zaXplcSVNECdYBgAAAHBvbGljeXEmaAQpgXEnfXEoKGgHKWgIfXEpKFgTAAAAaGlkZGVuX25vbmxpbmVhcml0eXEqY3RlbnNvcmZsb3cucHl0aG9uLm9wcy5nZW5fbm5fb3BzCnJlbHUKcStYDAAAAGhpZGRlbl9zaXplc3EsS2RLMksZh3EtWAgAAABlbnZfc3BlY3EuY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxLymBcTB9cTEoWAoAAABfYXR0cl9uYW1lcTJYBAAAAHNwZWNxM1gEAAAAX29ianE0aA11YlgEAAAAbmFtZXE1aCZ1aBxjc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5kZXRlcm1pbmlzdGljX21scF9wb2xpY3kKRGV0ZXJtaW5pc3RpY01MUFBvbGljeQpxNnViWA8AAABtYXhfcGF0aF9sZW5ndGhxN2gvKYFxOH1xOShoMlgHAAAAaG9yaXpvbnE6aDRoDXViWAwAAABzY2FsZV9yZXdhcmRxO0c/uZmZmZmZmlgCAAAAZXNxPGgEKYFxPX1xPihoByloCH1xP2guaC8pgXFAfXFBKGgyaDNoNGgNdWJzaBxjcmxsYWIuZXhwbG9yYXRpb25fc3RyYXRlZ2llcy5vdV9zdHJhdGVneQpPVVN0cmF0ZWd5CnFCdWJYAgAAAHFmcUNoBCmBcUR9cUUoaAcpaAh9cUYoaCpoK2gsS2RLZIZxR2guaC8pgXFIfXFJKGgyaDNoNGgNdWJ1aBxjc2FuZGJveC5yb2NreS50Zi5xX2Z1bmN0aW9ucy5jb250aW51b3VzX21scF9xX2Z1bmN0aW9uCkNvbnRpbnVvdXNNTFBRRnVuY3Rpb24KcUp1YnVoHGNkZHBnX3RlbnNvcmZsb3cuZGRwZwpERFBHCnFLdWJYBQAAAHRyYWlucUwpfXFNdHFOWAgAAABfX2t3YXJnc3FPfXFQdWIu",
+  "exp_name": "reproducibility_ML/DDPG/MountainCarContinuous/Learning_Rate_Tune/Learning_Rate_Combo_0_Experiment_0",
+  "json_args": {
+    "algo": {
+      "_name": "ddpg_tensorflow.ddpg.DDPG",
+      "batch_size": 32,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "es": {
+        "_name": "rllab.exploration_strategies.ou_strategy.OUStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "MountainCarContinuous-v0",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "MountainCarContinuous-v0",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 5000,
+      "plot": false,
+      "policy_learning_rate": 1e-06,
+      "qf": {
+        "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "MountainCarContinuous-v0",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "qf_learning_rate": 1e-05,
+      "scale_reward": 0.1
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "MountainCarContinuous-v0",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "MountainCarContinuous-v0",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        50,
+        25
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/ml/rislam4/Documents/RLLAB/rllab/data/local/experiment/reproducibility_ML/DDPG/MountainCarContinuous/Learning_Rate_Tune/Learning_Rate_Combo_0_Experiment_0",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

@@ -1,0 +1,130 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAYAAABrd2FyZ3NxB31xCChYCAAAAG5fZXBvY2hzcQlNiBNYCAAAAGRpc2NvdW50cQpHP++uFHrhR65YDAAAAHNjYWxlX3Jld2FyZHELRz/wAAAAAAAAWAoAAABiYXRjaF9zaXplcQxLQFgUAAAAcG9saWN5X2xlYXJuaW5nX3JhdGVxDUc/Gjbi6xxDLVgNAAAAbWluX3Bvb2xfc2l6ZXEOTRAnWAQAAABwbG90cQ+JWAYAAABwb2xpY3lxEGgEKYFxEX1xEihoB31xEyhYCAAAAGVudl9zcGVjcRRjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEVKYFxFn1xFyhYCgAAAF9hdHRyX25hbWVxGFgEAAAAc3BlY3EZWAQAAABfb2JqcRpoBCmBcRt9cRwoaAd9cR1YCwAAAHdyYXBwZWRfZW52cR5oBCmBcR99cSAoaAd9cSFYAwAAAGVudnEiaAQpgXEjfXEkKGgHfXElKFgKAAAAcmVjb3JkX2xvZ3EmiVgIAAAAZW52X25hbWVxJ1gTAAAASW52ZXJ0ZWRQZW5kdWx1bS12MXEoWAwAAAByZWNvcmRfdmlkZW9xKYlYCwAAAGZvcmNlX3Jlc2V0cSqIdVgLAAAAcHJveHlfY2xhc3NxK2NybGxhYi5lbnZzLmd5bV9lbnYKR3ltRW52CnEsWAQAAABhcmdzcS0pdWJzaCtjcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEuaC0pdWJzaCtjc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcS9oLSl1YnViWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cTBjdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxMVgEAAAAbmFtZXEyaBBYDAAAAGhpZGRlbl9zaXplc3EzS2RLMksZh3E0dWgrY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMuZGV0ZXJtaW5pc3RpY19tbHBfcG9saWN5CkRldGVybWluaXN0aWNNTFBQb2xpY3kKcTVoLSl1YlgPAAAAbWF4X3BhdGhfbGVuZ3RocTZoFSmBcTd9cTgoaBhYBwAAAGhvcml6b25xOWgaaBt1YlgCAAAAZXNxOmgEKYFxO31xPChoB31xPWgUaBUpgXE+fXE/KGgYaBloGmgbdWJzaCtjcmxsYWIuZXhwbG9yYXRpb25fc3RyYXRlZ2llcy5vdV9zdHJhdGVneQpPVVN0cmF0ZWd5CnFAaC0pdWJoImgbWAIAAABxZnFBaAQpgXFCfXFDKGgHfXFEKGgUaBUpgXFFfXFGKGgYaBloGmgbdWJoMGgxaDNLZEtkhnFHdWgrY3NhbmRib3gucm9ja3kudGYucV9mdW5jdGlvbnMuY29udGludW91c19tbHBfcV9mdW5jdGlvbgpDb250aW51b3VzTUxQUUZ1bmN0aW9uCnFIaC0pdWJYDAAAAGVwb2NoX2xlbmd0aHFJTegDWBAAAABxZl9sZWFybmluZ19yYXRlcUpHP1BiTdLxqfx1aCtjZGRwZ190ZW5zb3JmbG93LmRkcGcKRERQRwpxS2gtKXViWAUAAAB0cmFpbnFMKX1xTXRxTlgIAAAAX19rd2FyZ3NxT31xUHViLg==",
+  "exp_name": "reproducibility_ML/DDPG/InvertedPendulum/Tuned_Experiments/Experiment_3",
+  "json_args": {
+    "algo": {
+      "_name": "ddpg_tensorflow.ddpg.DDPG",
+      "batch_size": 64,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "es": {
+        "_name": "rllab.exploration_strategies.ou_strategy.OUStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "InvertedPendulum-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "InvertedPendulum-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 5000,
+      "plot": false,
+      "policy_learning_rate": 0.0001,
+      "qf": {
+        "_name": "sandbox.rocky.tf.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "InvertedPendulum-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "qf_learning_rate": 0.001,
+      "scale_reward": 1.0
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "InvertedPendulum-v1",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "InvertedPendulum-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        50,
+        25
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/ml/rislam4/Documents/RLLAB/rllab/data/local/experiment/reproducibility_ML/DDPG/InvertedPendulum/Tuned_Experiments/Experiment_3",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
