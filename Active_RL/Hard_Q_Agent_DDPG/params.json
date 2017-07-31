@@ -1,0 +1,206 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY2FnZW50X2FybF9nYXRpbmdfUWxlYXJuaW5nX2FsdApERFBHCnEIWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYDQAAAG1pbl9wb29sX3NpemVxDE0QJ1gIAAAAZGlzY291bnRxDUc/764UeuFHrlgUAAAAcG9saWN5X2xlYXJuaW5nX3JhdGVxDkc/Gjbi6xxDLVgKAAAAYmF0Y2hfc2l6ZXEPS0BYDgAAAGFnZW50X3N0cmF0ZWd5cRBoBCmBcRF9cRIoaAdjYWdlbnRfYWN0aW9uX3NlbGVjdGlvbgpBZ2VudFN0cmF0ZWd5CnETaAkpaAp9cRRYCAAAAGVudl9zcGVjcRVjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEWKYFxF31xGChYCgAAAF9hdHRyX25hbWVxGVgEAAAAc3BlY3EaWAQAAABfb2JqcRtoBCmBcRx9cR0oaAdjc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcR5oCSloCn1xH1gLAAAAd3JhcHBlZF9lbnZxIGgEKYFxIX1xIihoB2NybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSNoCSloCn1xJFgDAAAAZW52cSVoBCmBcSZ9cScoaAdjcmxsYWIuZW52cy5neW1fZW52Ckd5bUVudgpxKGgJKWgKfXEpKFgLAAAAZm9yY2VfcmVzZXRxKohYDAAAAHJlY29yZF92aWRlb3EriVgIAAAAZW52X25hbWVxLFgJAAAASG9wcGVyLXYxcS1YCgAAAHJlY29yZF9sb2dxLol1dWJzdWJzdWJ1YnN1YlgHAAAAZ2F0ZV9xZnEvaAQpgXEwfXExKGgHY2RldGVybWluaXN0aWNfZGlzY3JldGVfbWxwX3FfZnVuY3Rpb24KRGV0ZXJtaW5pc3RpY0Rpc2NyZXRlTUxQUUZ1bmN0aW9uCnEyaAkpaAp9cTMoWAwAAABoaWRkZW5fc2l6ZXNxNEtkS2SGcTVoFWgWKYFxNn1xNyhoGWgaaBtoHHViWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cThjdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxOXV1YlgCAAAAcWZxOmgEKYFxO31xPChoB2Njb250aW51b3VzX21scF9xX2Z1bmN0aW9uCkNvbnRpbnVvdXNNTFBRRnVuY3Rpb24KcT1oCSloCn1xPihoNEtkS2SGcT9oFWgWKYFxQH1xQShoGWgaaBtoHHViaDhoOXV1YlgQAAAAcWZfbGVhcm5pbmdfcmF0ZXFCRz9QYk3S8an8WAwAAABzY2FsZV9yZXdhcmRxQ0c/8AAAAAAAAFgPAAAAbWF4X3BhdGhfbGVuZ3RocURoFimBcUV9cUYoaBlYBwAAAGhvcml6b25xR2gbaBx1YlgIAAAAbl9lcG9jaHNxSE24C1gGAAAAcG9saWN5cUloBCmBcUp9cUsoaAdjc2hhcmVkX2RldGVybWluaXN0aWNfbWxwX3BvbGljeQpMYXllcmVkRGV0ZXJtaW5pc3RpY01MUFBvbGljeQpxTGgJKWgKfXFNKFgNAAAAb3JhY2xlX3BvbGljeXFOaAQpgXFPfXFQKGgHY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMuZGV0ZXJtaW5pc3RpY19tbHBfcG9saWN5CkRldGVybWluaXN0aWNNTFBQb2xpY3kKcVFoCSloCn1xUihYBAAAAG5hbWVxU2hOaDhoOWgVaBYpgXFUfXFVKGgZaBpoG2gcdWJoNEtkSzJLGYdxVnV1Ymg4aDloFWgWKYFxV31xWChoGWgaaBtoHHViaDRLZEsySxmHcVloU2hJdXViWAwAAABlcG9jaF9sZW5ndGhxWk3oA2hOaE9oJWgcWAQAAABwbG90cVuJdXViWAUAAAB0cmFpbnFcKX1xXXRxXlgIAAAAX19rd2FyZ3NxX31xYHViLg==",
+  "exp_name": "Active_RL/Hard_Q_Agent_DDPG/",
+  "json_args": {
+    "algo": {
+      "_name": "agent_arl_gating_Qlearning_alt.DDPG",
+      "agent_strategy": {
+        "_name": "agent_action_selection.AgentStrategy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        }
+      },
+      "batch_size": 64,
+      "discount": 0.99,
+      "epoch_length": 1000,
+      "gate_qf": {
+        "_name": "deterministic_discrete_mlp_q_function.DeterministicDiscreteMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Hopper-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "min_pool_size": 10000,
+      "n_epochs": 3000,
+      "oracle_policy": {
+        "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          50,
+          25
+        ],
+        "name": "oracle_policy"
+      },
+      "plot": false,
+      "policy_learning_rate": 0.0001,
+      "qf": {
+        "_name": "continuous_mlp_q_function.ContinuousMLPQFunction",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          100
+        ]
+      },
+      "qf_learning_rate": 0.001,
+      "scale_reward": 1.0
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "Hopper-v1",
+          "force_reset": true,
+          "record_log": false,
+          "record_video": false
+        }
+      }
+    },
+    "policy": {
+      "_name": "shared_deterministic_mlp_policy.LayeredDeterministicMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Hopper-v1",
+              "force_reset": true,
+              "record_log": false,
+              "record_video": false
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        50,
+        25
+      ],
+      "name": "policy",
+      "oracle_policy": {
+        "_name": "sandbox.rocky.tf.policies.deterministic_mlp_policy.DeterministicMLPPolicy",
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+            "wrapped_env": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.gym_env.GymEnv",
+                "env_name": "Hopper-v1",
+                "force_reset": true,
+                "record_log": false,
+                "record_video": false
+              }
+            }
+          }
+        },
+        "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+        "hidden_sizes": [
+          100,
+          50,
+          25
+        ],
+        "name": "oracle_policy"
+      }
+    }
+  },
+  "log_dir": "/home/ml/rislam4/Documents/RLLAB/rllab/data/local/experiment/Active_RL/Hard_Q_Agent_DDPG/",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
