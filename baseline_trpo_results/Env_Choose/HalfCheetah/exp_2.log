@@ -1,0 +1,33 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+Logging to ././Env_Choose/HalfCheetah//exp_2/
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+E tensorflow/core/common_runtime/direct_session.cc:137] Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 18446744073709551615
+Traceback (most recent call last):
+  File "./run_trpo_mujoco.py", line 62, in <module>
+    main()
+  File "./run_trpo_mujoco.py", line 58, in main
+    train(args.env, 2e6, args.seed, args.policy_size, args.value_func_size, activation_policy,  activation_vf)
+  File "./run_trpo_mujoco.py", line 21, in train
+    sess = U.single_threaded_session()
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/common/tf_util.py", line 240, in single_threaded_session
+    return make_session(1)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/common/tf_util.py", line 235, in make_session
+    return tf.Session(config=tf_config)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1187, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 552, in __init__
+    self._session = tf_session.TF_NewDeprecatedSession(opts, status)
+  File "/usr/lib/python3.5/contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/framework/errors_impl.py", line 469, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.InternalError: Failed to create session.

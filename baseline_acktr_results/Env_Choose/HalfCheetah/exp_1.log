@@ -1,0 +1,99 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+Logging to ././Env_Choose/HalfCheetah//exp_1/
+[2017-08-31 17:19:31,668] Making new env: HalfCheetah-v1
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:83:00.0
+Total memory: 11.92GiB
+Free memory: 224.81MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:83:00.0)
+Use async eigen decomp
+updating 12 eigenvalue/vectors
+projecting 3 gradient matrices
+Use async eigen decomp
+updating 14 eigenvalue/vectors
+projecting 4 gradient matrices
+********** Iteration 0 ************
+E tensorflow/stream_executor/cuda/cuda_blas.cc:372] failed to create cublas handle: CUBLAS_STATUS_NOT_INITIALIZED
+W tensorflow/stream_executor/stream.cc:1390] attempting to perform BLAS operation using StreamExecutor without BLAS support
+Traceback (most recent call last):
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1022, in _do_call
+    return fn(*args)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1004, in _run_fn
+    status, run_metadata)
+  File "/usr/lib/python3.5/contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/framework/errors_impl.py", line 469, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.InternalError: Blas SGEMM launch failed : a.shape=(1, 34), b.shape=(34, 64), m=1, n=64, k=34
+	 [[Node: pi/h1/MatMul = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/gpu:0"](_recv_pi/ob_0/_97, pi/h1/w/read)]]
+	 [[Node: pi/sub_2/_103 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_149_pi/sub_2", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./run_acktr_mujoco.py", line 49, in <module>
+    main()
+  File "./run_acktr_mujoco.py", line 46, in main
+    train(args.env, num_timesteps=1e6, seed=args.seed)
+  File "./run_acktr_mujoco.py", line 33, in train
+    num_timesteps=num_timesteps, animate=False)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/acktr/acktr_cont.py", line 86, in learn
+    path = rollout(env, policy, max_pathlength, animate=(len(paths)==0 and (i % 10 == 0) and animate), obfilter=obfilter)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/acktr/acktr_cont.py", line 31, in rollout
+    ac, ac_dist, logp = policy.act(state)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/acktr/policies.py", line 79, in act
+    ac, ac_dist, logp = self._act(ob[None])
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/common/tf_util.py", line 452, in __call__
+    results = get_session().run(self.outputs_update, feed_dict=feed_dict)[:-1]
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 767, in run
+    run_metadata_ptr)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 965, in _run
+    feed_dict_string, options, run_metadata)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1015, in _do_run
+    target_list, options, run_metadata)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1035, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InternalError: Blas SGEMM launch failed : a.shape=(1, 34), b.shape=(34, 64), m=1, n=64, k=34
+	 [[Node: pi/h1/MatMul = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/gpu:0"](_recv_pi/ob_0/_97, pi/h1/w/read)]]
+	 [[Node: pi/sub_2/_103 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_149_pi/sub_2", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+Caused by op 'pi/h1/MatMul', defined at:
+  File "./run_acktr_mujoco.py", line 49, in <module>
+    main()
+  File "./run_acktr_mujoco.py", line 46, in main
+    train(args.env, num_timesteps=1e6, seed=args.seed)
+  File "./run_acktr_mujoco.py", line 28, in train
+    policy = GaussianMlpPolicy(ob_dim, ac_dim)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/acktr/policies.py", line 56, in __init__
+    h1 = tf.nn.tanh(dense(ob_no, 64, "h1", weight_init=U.normc_initializer(1.0), bias_init=0.0, weight_loss_dict=wd_dict))
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/baselines/baselines/acktr/utils.py", line 80, in dense
+    return tf.nn.bias_add(tf.matmul(x, w), b)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/ops/math_ops.py", line 1855, in matmul
+    a, b, transpose_a=transpose_a, transpose_b=transpose_b, name=name)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/ops/gen_math_ops.py", line 1454, in _mat_mul
+    transpose_b=transpose_b, name=name)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py", line 763, in apply_op
+    op_def=op_def)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 2395, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/home/ml/rislam4/Documents/OpenAIBaselines/benv/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 1264, in __init__
+    self._traceback = _extract_stack()
+
+InternalError (see above for traceback): Blas SGEMM launch failed : a.shape=(1, 34), b.shape=(34, 64), m=1, n=64, k=34
+	 [[Node: pi/h1/MatMul = MatMul[T=DT_FLOAT, transpose_a=false, transpose_b=false, _device="/job:localhost/replica:0/task:0/gpu:0"](_recv_pi/ob_0/_97, pi/h1/w/read)]]
+	 [[Node: pi/sub_2/_103 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_149_pi/sub_2", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
