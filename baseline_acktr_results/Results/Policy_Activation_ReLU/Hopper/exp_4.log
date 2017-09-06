@@ -1,0 +1,7079 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+Logging to ././Results/Policy_Activation_ReLU/Hopper//exp_4/
+[2017-09-05 22:38:17,664] Making new env: Hopper-v1
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:03:00.0
+Total memory: 11.92GiB
+Free memory: 4.00GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:03:00.0)
+Use async eigen decomp
+updating 12 eigenvalue/vectors
+projecting 3 gradient matrices
+Use async eigen decomp
+updating 14 eigenvalue/vectors
+projecting 4 gradient matrices
+********** Iteration 0 ************
+kl too low
+--------------------------
+| EVAfter   | 0.149      |
+| EVBefore  | -0.0157    |
+| EpLenMean | 21.3       |
+| EpRewMean | 19.1       |
+| EpRewSEM  | 1.71       |
+| KL        | 2.7318e-05 |
+--------------------------
+********** Iteration 1 ************
+kl too low
+---------------------------
+| EVAfter   | 0.306       |
+| EVBefore  | 0.178       |
+| EpLenMean | 17.3        |
+| EpRewMean | 13.8        |
+| EpRewSEM  | 0.947       |
+| KL        | 0.000203064 |
+---------------------------
+********** Iteration 2 ************
+kl too low
+---------------------------
+| EVAfter   | 0.398       |
+| EVBefore  | 0.281       |
+| EpLenMean | 22.2        |
+| EpRewMean | 18.3        |
+| EpRewSEM  | 2.08        |
+| KL        | 0.000328407 |
+---------------------------
+********** Iteration 3 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.25       |
+| EVBefore  | 0.24       |
+| EpLenMean | 20.7       |
+| EpRewMean | 17.1       |
+| EpRewSEM  | 1.51       |
+| KL        | 0.00340554 |
+--------------------------
+********** Iteration 4 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.246      |
+| EVBefore  | 0.222      |
+| EpLenMean | 22         |
+| EpRewMean | 19.4       |
+| EpRewSEM  | 2.13       |
+| KL        | 0.00208254 |
+--------------------------
+********** Iteration 5 ************
+kl too high
+--------------------------
+| EVAfter   | 0.287      |
+| EVBefore  | 0.247      |
+| EpLenMean | 24.9       |
+| EpRewMean | 21.1       |
+| EpRewSEM  | 1.93       |
+| KL        | 0.00640955 |
+--------------------------
+********** Iteration 6 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.27       |
+| EVBefore  | 0.222      |
+| EpLenMean | 25.6       |
+| EpRewMean | 24.4       |
+| EpRewSEM  | 2.4        |
+| KL        | 0.00258361 |
+--------------------------
+********** Iteration 7 ************
+kl too high
+--------------------------
+| EVAfter   | 0.207      |
+| EVBefore  | 0.168      |
+| EpLenMean | 30.1       |
+| EpRewMean | 32.5       |
+| EpRewSEM  | 3.5        |
+| KL        | 0.00483251 |
+--------------------------
+********** Iteration 8 ************
+kl too high
+--------------------------
+| EVAfter   | 0.0819     |
+| EVBefore  | 0.00622    |
+| EpLenMean | 35.8       |
+| EpRewMean | 43.8       |
+| EpRewSEM  | 4.56       |
+| KL        | 0.00401021 |
+--------------------------
+********** Iteration 9 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.249      |
+| EVBefore  | 0.0984     |
+| EpLenMean | 34.7       |
+| EpRewMean | 45.5       |
+| EpRewSEM  | 4.51       |
+| KL        | 0.00326671 |
+--------------------------
+********** Iteration 10 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.206      |
+| EVBefore  | 0.122      |
+| EpLenMean | 35.3       |
+| EpRewMean | 48.1       |
+| EpRewSEM  | 4.2        |
+| KL        | 0.00361178 |
+--------------------------
+********** Iteration 11 ************
+kl too high
+--------------------------
+| EVAfter   | 0.246      |
+| EVBefore  | 0.112      |
+| EpLenMean | 37.4       |
+| EpRewMean | 55.5       |
+| EpRewSEM  | 4.09       |
+| KL        | 0.00473009 |
+--------------------------
+********** Iteration 12 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.249      |
+| EVBefore  | 0.0898     |
+| EpLenMean | 42.3       |
+| EpRewMean | 61.9       |
+| EpRewSEM  | 4.61       |
+| KL        | 0.00236012 |
+--------------------------
+********** Iteration 13 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.261      |
+| EVBefore  | 0.144      |
+| EpLenMean | 44.7       |
+| EpRewMean | 66.4       |
+| EpRewSEM  | 4.24       |
+| KL        | 0.00289725 |
+--------------------------
+********** Iteration 14 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.351      |
+| EVBefore  | 0.3        |
+| EpLenMean | 47.7       |
+| EpRewMean | 73.8       |
+| EpRewSEM  | 4.6        |
+| KL        | 0.00316095 |
+--------------------------
+********** Iteration 15 ************
+kl too high
+--------------------------
+| EVAfter   | 0.388      |
+| EVBefore  | 0.337      |
+| EpLenMean | 41.5       |
+| EpRewMean | 64.8       |
+| EpRewSEM  | 3.4        |
+| KL        | 0.00405809 |
+--------------------------
+********** Iteration 16 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.369      |
+| EVBefore  | 0.301      |
+| EpLenMean | 45.4       |
+| EpRewMean | 68.2       |
+| EpRewSEM  | 3.76       |
+| KL        | 0.00182686 |
+--------------------------
+********** Iteration 17 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.457      |
+| EVBefore  | 0.43       |
+| EpLenMean | 45.5       |
+| EpRewMean | 74.2       |
+| EpRewSEM  | 3.8        |
+| KL        | 0.00286874 |
+--------------------------
+********** Iteration 18 ************
+kl too high
+--------------------------
+| EVAfter   | 0.445      |
+| EVBefore  | 0.417      |
+| EpLenMean | 41         |
+| EpRewMean | 67.4       |
+| EpRewSEM  | 2.78       |
+| KL        | 0.00562332 |
+--------------------------
+********** Iteration 19 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.406      |
+| EVBefore  | 0.352      |
+| EpLenMean | 48.8       |
+| EpRewMean | 80.9       |
+| EpRewSEM  | 4.05       |
+| KL        | 0.00382885 |
+--------------------------
+********** Iteration 20 ************
+kl too high
+--------------------------
+| EVAfter   | 0.486      |
+| EVBefore  | 0.453      |
+| EpLenMean | 54         |
+| EpRewMean | 94         |
+| EpRewSEM  | 4.36       |
+| KL        | 0.00781288 |
+--------------------------
+********** Iteration 21 ************
+kl too high
+--------------------------
+| EVAfter   | 0.562      |
+| EVBefore  | 0.509      |
+| EpLenMean | 52.4       |
+| EpRewMean | 96.5       |
+| EpRewSEM  | 3.81       |
+| KL        | 0.00580154 |
+--------------------------
+********** Iteration 22 ************
+kl too high
+-------------------------
+| EVAfter   | 0.633     |
+| EVBefore  | 0.55      |
+| EpLenMean | 60        |
+| EpRewMean | 110       |
+| EpRewSEM  | 4.88      |
+| KL        | 0.0041688 |
+-------------------------
+********** Iteration 23 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.604      |
+| EVBefore  | 0.567      |
+| EpLenMean | 61.3       |
+| EpRewMean | 115        |
+| EpRewSEM  | 4.71       |
+| KL        | 0.00247028 |
+--------------------------
+********** Iteration 24 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.461     |
+| EVBefore  | 0.425     |
+| EpLenMean | 62.7      |
+| EpRewMean | 120       |
+| EpRewSEM  | 5.3       |
+| KL        | 0.0031155 |
+-------------------------
+********** Iteration 25 ************
+kl too high
+--------------------------
+| EVAfter   | 0.565      |
+| EVBefore  | 0.525      |
+| EpLenMean | 67.9       |
+| EpRewMean | 134        |
+| EpRewSEM  | 6.7        |
+| KL        | 0.00442261 |
+--------------------------
+********** Iteration 26 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.509     |
+| EVBefore  | 0.48      |
+| EpLenMean | 68.3      |
+| EpRewMean | 136       |
+| EpRewSEM  | 6.47      |
+| KL        | 0.0020204 |
+-------------------------
+********** Iteration 27 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.532      |
+| EVBefore  | 0.483      |
+| EpLenMean | 74.4       |
+| EpRewMean | 149        |
+| EpRewSEM  | 8.49       |
+| KL        | 0.00229989 |
+--------------------------
+********** Iteration 28 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.666      |
+| EVBefore  | 0.609      |
+| EpLenMean | 80         |
+| EpRewMean | 162        |
+| EpRewSEM  | 7.67       |
+| KL        | 0.00222845 |
+--------------------------
+********** Iteration 29 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.704      |
+| EVBefore  | 0.63       |
+| EpLenMean | 81.8       |
+| EpRewMean | 167        |
+| EpRewSEM  | 7.72       |
+| KL        | 0.00151806 |
+--------------------------
+********** Iteration 30 ************
+kl too low
+---------------------------
+| EVAfter   | 0.579       |
+| EVBefore  | 0.455       |
+| EpLenMean | 77.8        |
+| EpRewMean | 154         |
+| EpRewSEM  | 7.45        |
+| KL        | 0.000992987 |
+---------------------------
+********** Iteration 31 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.433      |
+| EVBefore  | 0.411      |
+| EpLenMean | 73.5       |
+| EpRewMean | 142        |
+| EpRewSEM  | 9.15       |
+| KL        | 0.00146808 |
+--------------------------
+********** Iteration 32 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.573      |
+| EVBefore  | 0.548      |
+| EpLenMean | 75.9       |
+| EpRewMean | 155        |
+| EpRewSEM  | 8.44       |
+| KL        | 0.00127372 |
+--------------------------
+********** Iteration 33 ************
+kl too low
+---------------------------
+| EVAfter   | 0.488       |
+| EVBefore  | 0.466       |
+| EpLenMean | 73.9        |
+| EpRewMean | 147         |
+| EpRewSEM  | 9.39        |
+| KL        | 0.000892758 |
+---------------------------
+********** Iteration 34 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.721      |
+| EVBefore  | 0.675      |
+| EpLenMean | 82         |
+| EpRewMean | 166        |
+| EpRewSEM  | 6.58       |
+| KL        | 0.00181024 |
+--------------------------
+********** Iteration 35 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.69       |
+| EVBefore  | 0.649      |
+| EpLenMean | 79         |
+| EpRewMean | 160        |
+| EpRewSEM  | 6.94       |
+| KL        | 0.00108988 |
+--------------------------
+********** Iteration 36 ************
+kl too low
+---------------------------
+| EVAfter   | 0.596       |
+| EVBefore  | 0.544       |
+| EpLenMean | 83.5        |
+| EpRewMean | 160         |
+| EpRewSEM  | 9.54        |
+| KL        | 0.000831456 |
+---------------------------
+********** Iteration 37 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.796      |
+| EVBefore  | 0.773      |
+| EpLenMean | 82.1       |
+| EpRewMean | 170        |
+| EpRewSEM  | 4.88       |
+| KL        | 0.00129306 |
+--------------------------
+********** Iteration 38 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.739      |
+| EVBefore  | 0.714      |
+| EpLenMean | 86.2       |
+| EpRewMean | 170        |
+| EpRewSEM  | 6.33       |
+| KL        | 0.00120155 |
+--------------------------
+********** Iteration 39 ************
+kl too low
+---------------------------
+| EVAfter   | 0.766       |
+| EVBefore  | 0.691       |
+| EpLenMean | 84.4        |
+| EpRewMean | 169         |
+| EpRewSEM  | 5.99        |
+| KL        | 0.000892032 |
+---------------------------
+********** Iteration 40 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.878      |
+| EVBefore  | 0.865      |
+| EpLenMean | 89         |
+| EpRewMean | 182        |
+| EpRewSEM  | 4.89       |
+| KL        | 0.00244138 |
+--------------------------
+********** Iteration 41 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.882      |
+| EVBefore  | 0.855      |
+| EpLenMean | 91.7       |
+| EpRewMean | 186        |
+| EpRewSEM  | 4.07       |
+| KL        | 0.00180018 |
+--------------------------
+********** Iteration 42 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.945      |
+| EVBefore  | 0.766      |
+| EpLenMean | 95.3       |
+| EpRewMean | 191        |
+| EpRewSEM  | 5.78       |
+| KL        | 0.00180063 |
+--------------------------
+********** Iteration 43 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.945      |
+| EVBefore  | 0.932      |
+| EpLenMean | 88         |
+| EpRewMean | 184        |
+| EpRewSEM  | 3.19       |
+| KL        | 0.00200189 |
+--------------------------
+********** Iteration 44 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.969      |
+| EVBefore  | 0.962      |
+| EpLenMean | 90.7       |
+| EpRewMean | 193        |
+| EpRewSEM  | 2.52       |
+| KL        | 0.00192821 |
+--------------------------
+********** Iteration 45 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.976      |
+| EVBefore  | 0.968      |
+| EpLenMean | 91.2       |
+| EpRewMean | 189        |
+| EpRewSEM  | 1.73       |
+| KL        | 0.00206356 |
+--------------------------
+********** Iteration 46 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.974      |
+| EVBefore  | 0.969      |
+| EpLenMean | 91         |
+| EpRewMean | 191        |
+| EpRewSEM  | 2.37       |
+| KL        | 0.00171308 |
+--------------------------
+********** Iteration 47 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.941      |
+| EVBefore  | 0.93       |
+| EpLenMean | 90.3       |
+| EpRewMean | 190        |
+| EpRewSEM  | 4.02       |
+| KL        | 0.00182731 |
+--------------------------
+********** Iteration 48 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.92       |
+| EVBefore  | 0.909      |
+| EpLenMean | 90         |
+| EpRewMean | 188        |
+| EpRewSEM  | 3.71       |
+| KL        | 0.00159199 |
+--------------------------
+********** Iteration 49 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.977     |
+| EVBefore  | 0.974     |
+| EpLenMean | 92        |
+| EpRewMean | 196       |
+| EpRewSEM  | 2.23      |
+| KL        | 0.0010658 |
+-------------------------
+********** Iteration 50 ************
+kl too low
+---------------------------
+| EVAfter   | 0.977       |
+| EVBefore  | 0.973       |
+| EpLenMean | 90.3        |
+| EpRewMean | 194         |
+| EpRewSEM  | 2.58        |
+| KL        | 0.000864115 |
+---------------------------
+********** Iteration 51 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.975     |
+| EVBefore  | 0.972     |
+| EpLenMean | 91.3      |
+| EpRewMean | 195       |
+| EpRewSEM  | 2.28      |
+| KL        | 0.0020234 |
+-------------------------
+********** Iteration 52 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.981      |
+| EVBefore  | 0.979      |
+| EpLenMean | 91.1       |
+| EpRewMean | 193        |
+| EpRewSEM  | 2.48       |
+| KL        | 0.00203827 |
+--------------------------
+********** Iteration 53 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.912     |
+| EVBefore  | 0.898     |
+| EpLenMean | 90.6      |
+| EpRewMean | 191       |
+| EpRewSEM  | 6.36      |
+| KL        | 0.0016257 |
+-------------------------
+********** Iteration 54 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.974      |
+| EVBefore  | 0.972      |
+| EpLenMean | 91.1       |
+| EpRewMean | 198        |
+| EpRewSEM  | 2.51       |
+| KL        | 0.00148211 |
+--------------------------
+********** Iteration 55 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.984      |
+| EVBefore  | 0.981      |
+| EpLenMean | 93         |
+| EpRewMean | 199        |
+| EpRewSEM  | 2.52       |
+| KL        | 0.00178612 |
+--------------------------
+********** Iteration 56 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.985     |
+| EVBefore  | 0.982     |
+| EpLenMean | 93.7      |
+| EpRewMean | 202       |
+| EpRewSEM  | 1.95      |
+| KL        | 0.0017845 |
+-------------------------
+********** Iteration 57 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.889      |
+| EVBefore  | 0.878      |
+| EpLenMean | 89.7       |
+| EpRewMean | 192        |
+| EpRewSEM  | 5.58       |
+| KL        | 0.00170759 |
+--------------------------
+********** Iteration 58 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.977      |
+| EVBefore  | 0.974      |
+| EpLenMean | 95.9       |
+| EpRewMean | 201        |
+| EpRewSEM  | 2.79       |
+| KL        | 0.00181786 |
+--------------------------
+********** Iteration 59 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.981      |
+| EVBefore  | 0.977      |
+| EpLenMean | 96.9       |
+| EpRewMean | 209        |
+| EpRewSEM  | 2.55       |
+| KL        | 0.00143023 |
+--------------------------
+********** Iteration 60 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.978      |
+| EVBefore  | 0.974      |
+| EpLenMean | 94.4       |
+| EpRewMean | 206        |
+| EpRewSEM  | 2.55       |
+| KL        | 0.00148799 |
+--------------------------
+********** Iteration 61 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.97      |
+| EVBefore  | 0.966     |
+| EpLenMean | 95.5      |
+| EpRewMean | 210       |
+| EpRewSEM  | 2.96      |
+| KL        | 0.0012959 |
+-------------------------
+********** Iteration 62 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.973     |
+| EVBefore  | 0.97      |
+| EpLenMean | 98.2      |
+| EpRewMean | 214       |
+| EpRewSEM  | 3.07      |
+| KL        | 0.0011301 |
+-------------------------
+********** Iteration 63 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.972      |
+| EVBefore  | 0.97       |
+| EpLenMean | 97         |
+| EpRewMean | 212        |
+| EpRewSEM  | 2.69       |
+| KL        | 0.00141429 |
+--------------------------
+********** Iteration 64 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.983     |
+| EVBefore  | 0.981     |
+| EpLenMean | 98.2      |
+| EpRewMean | 215       |
+| EpRewSEM  | 2.4       |
+| KL        | 0.0013156 |
+-------------------------
+********** Iteration 65 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.948      |
+| EVBefore  | 0.943      |
+| EpLenMean | 100        |
+| EpRewMean | 222        |
+| EpRewSEM  | 3.89       |
+| KL        | 0.00163137 |
+--------------------------
+********** Iteration 66 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.984      |
+| EVBefore  | 0.983      |
+| EpLenMean | 97.6       |
+| EpRewMean | 213        |
+| EpRewSEM  | 2.7        |
+| KL        | 0.00202857 |
+--------------------------
+********** Iteration 67 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.922      |
+| EpLenMean | 100        |
+| EpRewMean | 222        |
+| EpRewSEM  | 4.21       |
+| KL        | 0.00203996 |
+--------------------------
+********** Iteration 68 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.956      |
+| EVBefore  | 0.953      |
+| EpLenMean | 104        |
+| EpRewMean | 229        |
+| EpRewSEM  | 3.29       |
+| KL        | 0.00222505 |
+--------------------------
+********** Iteration 69 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.869      |
+| EVBefore  | 0.859      |
+| EpLenMean | 106        |
+| EpRewMean | 240        |
+| EpRewSEM  | 6.27       |
+| KL        | 0.00261815 |
+--------------------------
+********** Iteration 70 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.871      |
+| EVBefore  | 0.854      |
+| EpLenMean | 109        |
+| EpRewMean | 252        |
+| EpRewSEM  | 6.45       |
+| KL        | 0.00353858 |
+--------------------------
+********** Iteration 71 ************
+kl too high
+--------------------------
+| EVAfter   | 0.85       |
+| EVBefore  | 0.827      |
+| EpLenMean | 117        |
+| EpRewMean | 261        |
+| EpRewSEM  | 6.94       |
+| KL        | 0.00468198 |
+--------------------------
+********** Iteration 72 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.822      |
+| EVBefore  | 0.81       |
+| EpLenMean | 110        |
+| EpRewMean | 258        |
+| EpRewSEM  | 8.05       |
+| KL        | 0.00212378 |
+--------------------------
+********** Iteration 73 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.837      |
+| EVBefore  | 0.814      |
+| EpLenMean | 121        |
+| EpRewMean | 295        |
+| EpRewSEM  | 9.4        |
+| KL        | 0.00278973 |
+--------------------------
+********** Iteration 74 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.826      |
+| EVBefore  | 0.805      |
+| EpLenMean | 122        |
+| EpRewMean | 291        |
+| EpRewSEM  | 9.84       |
+| KL        | 0.00290816 |
+--------------------------
+********** Iteration 75 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.843      |
+| EpLenMean | 129        |
+| EpRewMean | 311        |
+| EpRewSEM  | 7.77       |
+| KL        | 0.00335168 |
+--------------------------
+********** Iteration 76 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.831      |
+| EVBefore  | 0.817      |
+| EpLenMean | 130        |
+| EpRewMean | 316        |
+| EpRewSEM  | 11.2       |
+| KL        | 0.00360484 |
+--------------------------
+********** Iteration 77 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.855      |
+| EVBefore  | 0.819      |
+| EpLenMean | 141        |
+| EpRewMean | 355        |
+| EpRewSEM  | 10.3       |
+| KL        | 0.00378728 |
+--------------------------
+********** Iteration 78 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.911      |
+| EVBefore  | 0.889      |
+| EpLenMean | 137        |
+| EpRewMean | 346        |
+| EpRewSEM  | 6.68       |
+| KL        | 0.00394928 |
+--------------------------
+********** Iteration 79 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.928      |
+| EVBefore  | 0.914      |
+| EpLenMean | 141        |
+| EpRewMean | 358        |
+| EpRewSEM  | 6.3        |
+| KL        | 0.00376236 |
+--------------------------
+********** Iteration 80 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.909      |
+| EVBefore  | 0.901      |
+| EpLenMean | 143        |
+| EpRewMean | 355        |
+| EpRewSEM  | 9.58       |
+| KL        | 0.00321771 |
+--------------------------
+********** Iteration 81 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.852      |
+| EVBefore  | 0.832      |
+| EpLenMean | 159        |
+| EpRewMean | 409        |
+| EpRewSEM  | 13.3       |
+| KL        | 0.00331218 |
+--------------------------
+********** Iteration 82 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.847      |
+| EpLenMean | 149        |
+| EpRewMean | 380        |
+| EpRewSEM  | 14.7       |
+| KL        | 0.00350767 |
+--------------------------
+********** Iteration 83 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.915      |
+| EVBefore  | 0.908      |
+| EpLenMean | 141        |
+| EpRewMean | 347        |
+| EpRewSEM  | 9.21       |
+| KL        | 0.00305267 |
+--------------------------
+********** Iteration 84 ************
+kl too high
+--------------------------
+| EVAfter   | 0.901      |
+| EVBefore  | 0.893      |
+| EpLenMean | 153        |
+| EpRewMean | 380        |
+| EpRewSEM  | 12.5       |
+| KL        | 0.00407911 |
+--------------------------
+********** Iteration 85 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.897      |
+| EVBefore  | 0.876      |
+| EpLenMean | 155        |
+| EpRewMean | 380        |
+| EpRewSEM  | 8.12       |
+| KL        | 0.00146633 |
+--------------------------
+********** Iteration 86 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.731      |
+| EVBefore  | 0.716      |
+| EpLenMean | 159        |
+| EpRewMean | 395        |
+| EpRewSEM  | 21.8       |
+| KL        | 0.00103217 |
+--------------------------
+********** Iteration 87 ************
+kl too low
+---------------------------
+| EVAfter   | 0.784       |
+| EVBefore  | 0.766       |
+| EpLenMean | 161         |
+| EpRewMean | 412         |
+| EpRewSEM  | 24.8        |
+| KL        | 0.000825764 |
+---------------------------
+********** Iteration 88 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.769      |
+| EVBefore  | 0.744      |
+| EpLenMean | 161        |
+| EpRewMean | 411        |
+| EpRewSEM  | 26.2       |
+| KL        | 0.00160897 |
+--------------------------
+********** Iteration 89 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.762      |
+| EVBefore  | 0.721      |
+| EpLenMean | 180        |
+| EpRewMean | 495        |
+| EpRewSEM  | 34.2       |
+| KL        | 0.00231402 |
+--------------------------
+********** Iteration 90 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.836      |
+| EVBefore  | 0.814      |
+| EpLenMean | 175        |
+| EpRewMean | 459        |
+| EpRewSEM  | 24.9       |
+| KL        | 0.00189387 |
+--------------------------
+********** Iteration 91 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.703      |
+| EVBefore  | 0.684      |
+| EpLenMean | 172        |
+| EpRewMean | 447        |
+| EpRewSEM  | 29.6       |
+| KL        | 0.00135754 |
+--------------------------
+********** Iteration 92 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.686      |
+| EVBefore  | 0.661      |
+| EpLenMean | 177        |
+| EpRewMean | 481        |
+| EpRewSEM  | 34.6       |
+| KL        | 0.00116891 |
+--------------------------
+********** Iteration 93 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.801      |
+| EVBefore  | 0.745      |
+| EpLenMean | 201        |
+| EpRewMean | 564        |
+| EpRewSEM  | 34.3       |
+| KL        | 0.00151939 |
+--------------------------
+********** Iteration 94 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.705      |
+| EVBefore  | 0.666      |
+| EpLenMean | 189        |
+| EpRewMean | 525        |
+| EpRewSEM  | 51.4       |
+| KL        | 0.00133434 |
+--------------------------
+********** Iteration 95 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.807      |
+| EVBefore  | 0.784      |
+| EpLenMean | 197        |
+| EpRewMean | 552        |
+| EpRewSEM  | 32.1       |
+| KL        | 0.00125164 |
+--------------------------
+********** Iteration 96 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.623      |
+| EVBefore  | 0.602      |
+| EpLenMean | 204        |
+| EpRewMean | 573        |
+| EpRewSEM  | 44.7       |
+| KL        | 0.00107117 |
+--------------------------
+********** Iteration 97 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.692      |
+| EVBefore  | 0.668      |
+| EpLenMean | 218        |
+| EpRewMean | 625        |
+| EpRewSEM  | 59.2       |
+| KL        | 0.00102024 |
+--------------------------
+********** Iteration 98 ************
+kl too low
+---------------------------
+| EVAfter   | 0.895       |
+| EVBefore  | 0.878       |
+| EpLenMean | 223         |
+| EpRewMean | 683         |
+| EpRewSEM  | 27          |
+| KL        | 0.000979279 |
+---------------------------
+********** Iteration 99 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.874      |
+| EVBefore  | 0.852      |
+| EpLenMean | 236        |
+| EpRewMean | 716        |
+| EpRewSEM  | 49.8       |
+| KL        | 0.00226818 |
+--------------------------
+********** Iteration 100 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.561      |
+| EVBefore  | 0.524      |
+| EpLenMean | 205        |
+| EpRewMean | 596        |
+| EpRewSEM  | 68.2       |
+| KL        | 0.00236456 |
+--------------------------
+********** Iteration 101 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.886      |
+| EVBefore  | 0.862      |
+| EpLenMean | 265        |
+| EpRewMean | 809        |
+| EpRewSEM  | 49.9       |
+| KL        | 0.00250777 |
+--------------------------
+********** Iteration 102 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.901      |
+| EVBefore  | 0.883      |
+| EpLenMean | 266        |
+| EpRewMean | 792        |
+| EpRewSEM  | 46         |
+| KL        | 0.00206109 |
+--------------------------
+********** Iteration 103 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.838      |
+| EVBefore  | 0.803      |
+| EpLenMean | 264        |
+| EpRewMean | 774        |
+| EpRewSEM  | 78.1       |
+| KL        | 0.00202525 |
+--------------------------
+********** Iteration 104 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.852      |
+| EVBefore  | 0.8        |
+| EpLenMean | 252        |
+| EpRewMean | 790        |
+| EpRewSEM  | 48.7       |
+| KL        | 0.00202734 |
+--------------------------
+********** Iteration 105 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.911     |
+| EVBefore  | 0.888     |
+| EpLenMean | 312       |
+| EpRewMean | 954       |
+| EpRewSEM  | 43.1      |
+| KL        | 0.0020621 |
+-------------------------
+********** Iteration 106 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.853      |
+| EVBefore  | 0.826      |
+| EpLenMean | 297        |
+| EpRewMean | 923        |
+| EpRewSEM  | 49.1       |
+| KL        | 0.00201176 |
+--------------------------
+********** Iteration 107 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.908      |
+| EVBefore  | 0.89       |
+| EpLenMean | 258        |
+| EpRewMean | 788        |
+| EpRewSEM  | 27.5       |
+| KL        | 0.00215411 |
+--------------------------
+********** Iteration 108 ************
+kl just right!
+------------------------
+| EVAfter   | 0.92     |
+| EVBefore  | 0.907    |
+| EpLenMean | 337      |
+| EpRewMean | 1.05e+03 |
+| EpRewSEM  | 59.3     |
+| KL        | 0.002267 |
+------------------------
+********** Iteration 109 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.846      |
+| EVBefore  | 0.828      |
+| EpLenMean | 375        |
+| EpRewMean | 1.13e+03   |
+| EpRewSEM  | 74.2       |
+| KL        | 0.00237527 |
+--------------------------
+********** Iteration 110 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.911      |
+| EVBefore  | 0.874      |
+| EpLenMean | 311        |
+| EpRewMean | 954        |
+| EpRewSEM  | 50.3       |
+| KL        | 0.00266536 |
+--------------------------
+********** Iteration 111 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.914      |
+| EVBefore  | 0.9        |
+| EpLenMean | 287        |
+| EpRewMean | 912        |
+| EpRewSEM  | 40.8       |
+| KL        | 0.00199374 |
+--------------------------
+********** Iteration 112 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.892     |
+| EVBefore  | 0.884     |
+| EpLenMean | 333       |
+| EpRewMean | 1.01e+03  |
+| EpRewSEM  | 39.1      |
+| KL        | 0.0012094 |
+-------------------------
+********** Iteration 113 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.684     |
+| EVBefore  | 0.631     |
+| EpLenMean | 304       |
+| EpRewMean | 923       |
+| EpRewSEM  | 84.5      |
+| KL        | 0.0011449 |
+-------------------------
+********** Iteration 114 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.527      |
+| EVBefore  | 0.376      |
+| EpLenMean | 257        |
+| EpRewMean | 732        |
+| EpRewSEM  | 106        |
+| KL        | 0.00135531 |
+--------------------------
+********** Iteration 115 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.734      |
+| EVBefore  | 0.71       |
+| EpLenMean | 323        |
+| EpRewMean | 962        |
+| EpRewSEM  | 110        |
+| KL        | 0.00119735 |
+--------------------------
+********** Iteration 116 ************
+kl too low
+---------------------------
+| EVAfter   | 0.855       |
+| EVBefore  | 0.812       |
+| EpLenMean | 439         |
+| EpRewMean | 1.32e+03    |
+| EpRewSEM  | 90.5        |
+| KL        | 0.000931933 |
+---------------------------
+********** Iteration 117 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.655      |
+| EVBefore  | 0.624      |
+| EpLenMean | 379        |
+| EpRewMean | 1.1e+03    |
+| EpRewSEM  | 168        |
+| KL        | 0.00187344 |
+--------------------------
+********** Iteration 118 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.644      |
+| EVBefore  | 0.61       |
+| EpLenMean | 285        |
+| EpRewMean | 839        |
+| EpRewSEM  | 121        |
+| KL        | 0.00160256 |
+--------------------------
+********** Iteration 119 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.577      |
+| EVBefore  | 0.515      |
+| EpLenMean | 300        |
+| EpRewMean | 876        |
+| EpRewSEM  | 152        |
+| KL        | 0.00128521 |
+--------------------------
+********** Iteration 120 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.823      |
+| EVBefore  | 0.767      |
+| EpLenMean | 363        |
+| EpRewMean | 1.08e+03   |
+| EpRewSEM  | 88.5       |
+| KL        | 0.00157949 |
+--------------------------
+********** Iteration 121 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.721      |
+| EVBefore  | 0.697      |
+| EpLenMean | 383        |
+| EpRewMean | 1.13e+03   |
+| EpRewSEM  | 134        |
+| KL        | 0.00204267 |
+--------------------------
+********** Iteration 122 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.708      |
+| EVBefore  | 0.674      |
+| EpLenMean | 293        |
+| EpRewMean | 873        |
+| EpRewSEM  | 126        |
+| KL        | 0.00162809 |
+--------------------------
+********** Iteration 123 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.691      |
+| EVBefore  | 0.661      |
+| EpLenMean | 346        |
+| EpRewMean | 1.04e+03   |
+| EpRewSEM  | 109        |
+| KL        | 0.00232458 |
+--------------------------
+********** Iteration 124 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.745      |
+| EVBefore  | 0.718      |
+| EpLenMean | 361        |
+| EpRewMean | 1.09e+03   |
+| EpRewSEM  | 139        |
+| KL        | 0.00320059 |
+--------------------------
+********** Iteration 125 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.694      |
+| EVBefore  | 0.669      |
+| EpLenMean | 268        |
+| EpRewMean | 798        |
+| EpRewSEM  | 88.7       |
+| KL        | 0.00160372 |
+--------------------------
+********** Iteration 126 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.688      |
+| EVBefore  | 0.638      |
+| EpLenMean | 303        |
+| EpRewMean | 881        |
+| EpRewSEM  | 132        |
+| KL        | 0.00309694 |
+--------------------------
+********** Iteration 127 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.727      |
+| EVBefore  | 0.684      |
+| EpLenMean | 254        |
+| EpRewMean | 754        |
+| EpRewSEM  | 92.7       |
+| KL        | 0.00227428 |
+--------------------------
+********** Iteration 128 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.773      |
+| EVBefore  | 0.755      |
+| EpLenMean | 296        |
+| EpRewMean | 894        |
+| EpRewSEM  | 74.5       |
+| KL        | 0.00186958 |
+--------------------------
+********** Iteration 129 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.66       |
+| EVBefore  | 0.633      |
+| EpLenMean | 301        |
+| EpRewMean | 902        |
+| EpRewSEM  | 159        |
+| KL        | 0.00180938 |
+--------------------------
+********** Iteration 130 ************
+kl too low
+---------------------------
+| EVAfter   | 0.69        |
+| EVBefore  | 0.664       |
+| EpLenMean | 285         |
+| EpRewMean | 857         |
+| EpRewSEM  | 113         |
+| KL        | 0.000863076 |
+---------------------------
+********** Iteration 131 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.72       |
+| EVBefore  | 0.684      |
+| EpLenMean | 297        |
+| EpRewMean | 872        |
+| EpRewSEM  | 74.9       |
+| KL        | 0.00176925 |
+--------------------------
+********** Iteration 132 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.917      |
+| EVBefore  | 0.87       |
+| EpLenMean | 305        |
+| EpRewMean | 956        |
+| EpRewSEM  | 58.8       |
+| KL        | 0.00220887 |
+--------------------------
+********** Iteration 133 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.9        |
+| EpLenMean | 348        |
+| EpRewMean | 1.06e+03   |
+| EpRewSEM  | 39.2       |
+| KL        | 0.00251926 |
+--------------------------
+********** Iteration 134 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.783      |
+| EVBefore  | 0.776      |
+| EpLenMean | 313        |
+| EpRewMean | 945        |
+| EpRewSEM  | 98.8       |
+| KL        | 0.00218357 |
+--------------------------
+********** Iteration 135 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.744      |
+| EVBefore  | 0.69       |
+| EpLenMean | 266        |
+| EpRewMean | 796        |
+| EpRewSEM  | 92.2       |
+| KL        | 0.00144238 |
+--------------------------
+********** Iteration 136 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.713      |
+| EVBefore  | 0.641      |
+| EpLenMean | 260        |
+| EpRewMean | 761        |
+| EpRewSEM  | 105        |
+| KL        | 0.00181292 |
+--------------------------
+********** Iteration 137 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.78       |
+| EVBefore  | 0.773      |
+| EpLenMean | 312        |
+| EpRewMean | 939        |
+| EpRewSEM  | 87.2       |
+| KL        | 0.00297487 |
+--------------------------
+********** Iteration 138 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.817      |
+| EVBefore  | 0.804      |
+| EpLenMean | 289        |
+| EpRewMean | 911        |
+| EpRewSEM  | 83         |
+| KL        | 0.00262485 |
+--------------------------
+********** Iteration 139 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.96       |
+| EVBefore  | 0.948      |
+| EpLenMean | 301        |
+| EpRewMean | 963        |
+| EpRewSEM  | 14.9       |
+| KL        | 0.00201937 |
+--------------------------
+********** Iteration 140 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.815      |
+| EVBefore  | 0.789      |
+| EpLenMean | 288        |
+| EpRewMean | 919        |
+| EpRewSEM  | 83.1       |
+| KL        | 0.00171066 |
+--------------------------
+********** Iteration 141 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.954      |
+| EVBefore  | 0.946      |
+| EpLenMean | 305        |
+| EpRewMean | 981        |
+| EpRewSEM  | 54.4       |
+| KL        | 0.00123611 |
+--------------------------
+********** Iteration 142 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.941      |
+| EVBefore  | 0.929      |
+| EpLenMean | 306        |
+| EpRewMean | 996        |
+| EpRewSEM  | 58.6       |
+| KL        | 0.00112628 |
+--------------------------
+********** Iteration 143 ************
+kl too low
+---------------------------
+| EVAfter   | 0.819       |
+| EVBefore  | 0.801       |
+| EpLenMean | 279         |
+| EpRewMean | 877         |
+| EpRewSEM  | 74.7        |
+| KL        | 0.000995068 |
+---------------------------
+********** Iteration 144 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.898     |
+| EVBefore  | 0.876     |
+| EpLenMean | 256       |
+| EpRewMean | 836       |
+| EpRewSEM  | 61.7      |
+| KL        | 0.0012531 |
+-------------------------
+********** Iteration 145 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.973      |
+| EVBefore  | 0.969      |
+| EpLenMean | 291        |
+| EpRewMean | 952        |
+| EpRewSEM  | 30.9       |
+| KL        | 0.00265025 |
+--------------------------
+********** Iteration 146 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.959      |
+| EVBefore  | 0.953      |
+| EpLenMean | 269        |
+| EpRewMean | 872        |
+| EpRewSEM  | 40.7       |
+| KL        | 0.00195247 |
+--------------------------
+********** Iteration 147 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.96       |
+| EVBefore  | 0.956      |
+| EpLenMean | 263        |
+| EpRewMean | 865        |
+| EpRewSEM  | 38.6       |
+| KL        | 0.00158655 |
+--------------------------
+********** Iteration 148 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.966      |
+| EVBefore  | 0.961      |
+| EpLenMean | 270        |
+| EpRewMean | 880        |
+| EpRewSEM  | 47.7       |
+| KL        | 0.00204584 |
+--------------------------
+********** Iteration 149 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.946      |
+| EVBefore  | 0.942      |
+| EpLenMean | 277        |
+| EpRewMean | 912        |
+| EpRewSEM  | 37.7       |
+| KL        | 0.00281375 |
+--------------------------
+********** Iteration 150 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.957      |
+| EVBefore  | 0.953      |
+| EpLenMean | 271        |
+| EpRewMean | 894        |
+| EpRewSEM  | 32.9       |
+| KL        | 0.00272304 |
+--------------------------
+********** Iteration 151 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.949     |
+| EVBefore  | 0.938     |
+| EpLenMean | 272       |
+| EpRewMean | 903       |
+| EpRewSEM  | 74.8      |
+| KL        | 0.0018523 |
+-------------------------
+********** Iteration 152 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.967      |
+| EVBefore  | 0.962      |
+| EpLenMean | 280        |
+| EpRewMean | 938        |
+| EpRewSEM  | 50.9       |
+| KL        | 0.00235078 |
+--------------------------
+********** Iteration 153 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.965      |
+| EVBefore  | 0.96       |
+| EpLenMean | 293        |
+| EpRewMean | 997        |
+| EpRewSEM  | 77.8       |
+| KL        | 0.00312364 |
+--------------------------
+********** Iteration 154 ************
+kl too high
+--------------------------
+| EVAfter   | 0.953      |
+| EVBefore  | 0.933      |
+| EpLenMean | 314        |
+| EpRewMean | 1.05e+03   |
+| EpRewSEM  | 101        |
+| KL        | 0.00474541 |
+--------------------------
+********** Iteration 155 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.968      |
+| EVBefore  | 0.965      |
+| EpLenMean | 315        |
+| EpRewMean | 1.07e+03   |
+| EpRewSEM  | 42.6       |
+| KL        | 0.00277536 |
+--------------------------
+********** Iteration 156 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.941      |
+| EVBefore  | 0.934      |
+| EpLenMean | 274        |
+| EpRewMean | 928        |
+| EpRewSEM  | 64.8       |
+| KL        | 0.00247686 |
+--------------------------
+********** Iteration 157 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.966      |
+| EVBefore  | 0.952      |
+| EpLenMean | 287        |
+| EpRewMean | 956        |
+| EpRewSEM  | 92.3       |
+| KL        | 0.00223859 |
+--------------------------
+********** Iteration 158 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.946     |
+| EVBefore  | 0.936     |
+| EpLenMean | 432       |
+| EpRewMean | 1.46e+03  |
+| EpRewSEM  | 49        |
+| KL        | 0.0017745 |
+-------------------------
+********** Iteration 159 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.877      |
+| EVBefore  | 0.729      |
+| EpLenMean | 667        |
+| EpRewMean | 2.17e+03   |
+| EpRewSEM  | 377        |
+| KL        | 0.00210397 |
+--------------------------
+********** Iteration 160 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.92       |
+| EpLenMean | 448        |
+| EpRewMean | 1.46e+03   |
+| EpRewSEM  | 236        |
+| KL        | 0.00277903 |
+--------------------------
+********** Iteration 161 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.626      |
+| EVBefore  | 0.559      |
+| EpLenMean | 440        |
+| EpRewMean | 1.43e+03   |
+| EpRewSEM  | 256        |
+| KL        | 0.00252892 |
+--------------------------
+********** Iteration 162 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.903      |
+| EVBefore  | 0.826      |
+| EpLenMean | 598        |
+| EpRewMean | 1.98e+03   |
+| EpRewSEM  | 331        |
+| KL        | 0.00229948 |
+--------------------------
+********** Iteration 163 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.918      |
+| EpLenMean | 610        |
+| EpRewMean | 2e+03      |
+| EpRewSEM  | 206        |
+| KL        | 0.00273476 |
+--------------------------
+********** Iteration 164 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.785      |
+| EVBefore  | 0.427      |
+| EpLenMean | 495        |
+| EpRewMean | 1.59e+03   |
+| EpRewSEM  | 271        |
+| KL        | 0.00198336 |
+--------------------------
+********** Iteration 165 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.754      |
+| EVBefore  | 0.615      |
+| EpLenMean | 665        |
+| EpRewMean | 2.06e+03   |
+| EpRewSEM  | 342        |
+| KL        | 0.00255835 |
+--------------------------
+********** Iteration 166 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.949      |
+| EVBefore  | 0.939      |
+| EpLenMean | 423        |
+| EpRewMean | 1.43e+03   |
+| EpRewSEM  | 113        |
+| KL        | 0.00378051 |
+--------------------------
+********** Iteration 167 ************
+kl too high
+--------------------------
+| EVAfter   | 0.787      |
+| EVBefore  | 0.692      |
+| EpLenMean | 546        |
+| EpRewMean | 1.74e+03   |
+| EpRewSEM  | 438        |
+| KL        | 0.00579201 |
+--------------------------
+********** Iteration 168 ************
+kl too high
+-------------------------
+| EVAfter   | 0.871     |
+| EVBefore  | 0.814     |
+| EpLenMean | 476       |
+| EpRewMean | 1.57e+03  |
+| EpRewSEM  | 293       |
+| KL        | 0.0044561 |
+-------------------------
+********** Iteration 169 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.777      |
+| EVBefore  | 0.73       |
+| EpLenMean | 557        |
+| EpRewMean | 1.74e+03   |
+| EpRewSEM  | 350        |
+| KL        | 0.00159487 |
+--------------------------
+********** Iteration 170 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.75       |
+| EVBefore  | 0.705      |
+| EpLenMean | 676        |
+| EpRewMean | 2.13e+03   |
+| EpRewSEM  | 401        |
+| KL        | 0.00123658 |
+--------------------------
+********** Iteration 171 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.902      |
+| EVBefore  | 0.878      |
+| EpLenMean | 512        |
+| EpRewMean | 1.61e+03   |
+| EpRewSEM  | 258        |
+| KL        | 0.00156963 |
+--------------------------
+********** Iteration 172 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.791      |
+| EVBefore  | 0.762      |
+| EpLenMean | 513        |
+| EpRewMean | 1.55e+03   |
+| EpRewSEM  | 277        |
+| KL        | 0.00103347 |
+--------------------------
+********** Iteration 173 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.919      |
+| EVBefore  | 0.9        |
+| EpLenMean | 368        |
+| EpRewMean | 1.25e+03   |
+| EpRewSEM  | 182        |
+| KL        | 0.00147813 |
+--------------------------
+********** Iteration 174 ************
+kl too low
+---------------------------
+| EVAfter   | 0.93        |
+| EVBefore  | 0.92        |
+| EpLenMean | 418         |
+| EpRewMean | 1.37e+03    |
+| EpRewSEM  | 265         |
+| KL        | 0.000953615 |
+---------------------------
+********** Iteration 175 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.823      |
+| EVBefore  | 0.795      |
+| EpLenMean | 546        |
+| EpRewMean | 1.77e+03   |
+| EpRewSEM  | 367        |
+| KL        | 0.00227345 |
+--------------------------
+********** Iteration 176 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.934      |
+| EVBefore  | 0.921      |
+| EpLenMean | 373        |
+| EpRewMean | 1.23e+03   |
+| EpRewSEM  | 177        |
+| KL        | 0.00342925 |
+--------------------------
+********** Iteration 177 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.837      |
+| EVBefore  | 0.816      |
+| EpLenMean | 698        |
+| EpRewMean | 2.19e+03   |
+| EpRewSEM  | 237        |
+| KL        | 0.00272191 |
+--------------------------
+********** Iteration 178 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.931      |
+| EVBefore  | 0.922      |
+| EpLenMean | 665        |
+| EpRewMean | 2.15e+03   |
+| EpRewSEM  | 282        |
+| KL        | 0.00268649 |
+--------------------------
+********** Iteration 179 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.703      |
+| EVBefore  | 0.758      |
+| EpLenMean | 698        |
+| EpRewMean | 2.22e+03   |
+| EpRewSEM  | 472        |
+| KL        | 0.00181071 |
+--------------------------
+********** Iteration 180 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.656      |
+| EVBefore  | 0.609      |
+| EpLenMean | 932        |
+| EpRewMean | 2.92e+03   |
+| EpRewSEM  | 184        |
+| KL        | 0.00227706 |
+--------------------------
+********** Iteration 181 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.803      |
+| EVBefore  | 0.751      |
+| EpLenMean | 634        |
+| EpRewMean | 1.99e+03   |
+| EpRewSEM  | 533        |
+| KL        | 0.00191066 |
+--------------------------
+********** Iteration 182 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.767      |
+| EVBefore  | 0.727      |
+| EpLenMean | 741        |
+| EpRewMean | 2.29e+03   |
+| EpRewSEM  | 421        |
+| KL        | 0.00175544 |
+--------------------------
+********** Iteration 183 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.64       |
+| EVBefore  | 0.6        |
+| EpLenMean | 645        |
+| EpRewMean | 1.99e+03   |
+| EpRewSEM  | 384        |
+| KL        | 0.00136273 |
+--------------------------
+********** Iteration 184 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.707      |
+| EVBefore  | 0.681      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.06e+03   |
+| EpRewSEM  | 29.4       |
+| KL        | 0.00128216 |
+--------------------------
+********** Iteration 185 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.749      |
+| EVBefore  | 0.727      |
+| EpLenMean | 904        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 136        |
+| KL        | 0.00163181 |
+--------------------------
+********** Iteration 186 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.796      |
+| EVBefore  | 0.763      |
+| EpLenMean | 900        |
+| EpRewMean | 2.87e+03   |
+| EpRewSEM  | 207        |
+| KL        | 0.00120892 |
+--------------------------
+********** Iteration 187 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.803      |
+| EVBefore  | 0.773      |
+| EpLenMean | 640        |
+| EpRewMean | 2.04e+03   |
+| EpRewSEM  | 549        |
+| KL        | 0.00110869 |
+--------------------------
+********** Iteration 188 ************
+kl too low
+---------------------------
+| EVAfter   | -1.3        |
+| EVBefore  | 0.632       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.17e+03    |
+| EpRewSEM  | 56.4        |
+| KL        | 0.000924308 |
+---------------------------
+********** Iteration 189 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.459     |
+| EVBefore  | -0.917    |
+| EpLenMean | 648       |
+| EpRewMean | 2.12e+03  |
+| EpRewSEM  | 302       |
+| KL        | 0.0019688 |
+-------------------------
+********** Iteration 190 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.475      |
+| EVBefore  | 0.307      |
+| EpLenMean | 866        |
+| EpRewMean | 2.79e+03   |
+| EpRewSEM  | 353        |
+| KL        | 0.00184702 |
+--------------------------
+********** Iteration 191 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.548     |
+| EVBefore  | 0.525     |
+| EpLenMean | 835       |
+| EpRewMean | 2.7e+03   |
+| EpRewSEM  | 383       |
+| KL        | 0.0014157 |
+-------------------------
+********** Iteration 192 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.672      |
+| EVBefore  | 0.624      |
+| EpLenMean | 616        |
+| EpRewMean | 2e+03      |
+| EpRewSEM  | 471        |
+| KL        | 0.00127385 |
+--------------------------
+********** Iteration 193 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.784     |
+| EVBefore  | 0.74      |
+| EpLenMean | 710       |
+| EpRewMean | 2.4e+03   |
+| EpRewSEM  | 392       |
+| KL        | 0.0015159 |
+-------------------------
+********** Iteration 194 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.67       |
+| EVBefore  | 0.639      |
+| EpLenMean | 629        |
+| EpRewMean | 2.1e+03    |
+| EpRewSEM  | 434        |
+| KL        | 0.00193288 |
+--------------------------
+********** Iteration 195 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.809      |
+| EVBefore  | 0.774      |
+| EpLenMean | 517        |
+| EpRewMean | 1.74e+03   |
+| EpRewSEM  | 371        |
+| KL        | 0.00128744 |
+--------------------------
+********** Iteration 196 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.716      |
+| EVBefore  | 0.693      |
+| EpLenMean | 615        |
+| EpRewMean | 2.08e+03   |
+| EpRewSEM  | 449        |
+| KL        | 0.00264002 |
+--------------------------
+********** Iteration 197 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.815      |
+| EVBefore  | 0.785      |
+| EpLenMean | 521        |
+| EpRewMean | 1.79e+03   |
+| EpRewSEM  | 465        |
+| KL        | 0.00170253 |
+--------------------------
+********** Iteration 198 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.802      |
+| EVBefore  | 0.79       |
+| EpLenMean | 511        |
+| EpRewMean | 1.75e+03   |
+| EpRewSEM  | 361        |
+| KL        | 0.00147936 |
+--------------------------
+********** Iteration 199 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.956      |
+| EVBefore  | 0.948      |
+| EpLenMean | 432        |
+| EpRewMean | 1.49e+03   |
+| EpRewSEM  | 225        |
+| KL        | 0.00120384 |
+--------------------------
+********** Iteration 200 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.832      |
+| EpLenMean | 664        |
+| EpRewMean | 2.3e+03    |
+| EpRewSEM  | 501        |
+| KL        | 0.00121561 |
+--------------------------
+********** Iteration 201 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.924      |
+| EpLenMean | 627        |
+| EpRewMean | 2.18e+03   |
+| EpRewSEM  | 312        |
+| KL        | 0.00119902 |
+--------------------------
+********** Iteration 202 ************
+kl just right!
+------------------------
+| EVAfter   | 0.815    |
+| EVBefore  | 0.709    |
+| EpLenMean | 510      |
+| EpRewMean | 1.74e+03 |
+| EpRewSEM  | 476      |
+| KL        | 0.001253 |
+------------------------
+********** Iteration 203 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.934      |
+| EpLenMean | 455        |
+| EpRewMean | 1.57e+03   |
+| EpRewSEM  | 169        |
+| KL        | 0.00209431 |
+--------------------------
+********** Iteration 204 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.964     |
+| EVBefore  | 0.959     |
+| EpLenMean | 404       |
+| EpRewMean | 1.41e+03  |
+| EpRewSEM  | 168       |
+| KL        | 0.0017729 |
+-------------------------
+********** Iteration 205 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.836      |
+| EVBefore  | 0.806      |
+| EpLenMean | 451        |
+| EpRewMean | 1.55e+03   |
+| EpRewSEM  | 343        |
+| KL        | 0.00200144 |
+--------------------------
+********** Iteration 206 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.962     |
+| EVBefore  | 0.958     |
+| EpLenMean | 360       |
+| EpRewMean | 1.25e+03  |
+| EpRewSEM  | 74.2      |
+| KL        | 0.0028697 |
+-------------------------
+********** Iteration 207 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.972      |
+| EVBefore  | 0.969      |
+| EpLenMean | 347        |
+| EpRewMean | 1.21e+03   |
+| EpRewSEM  | 113        |
+| KL        | 0.00304532 |
+--------------------------
+********** Iteration 208 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.964      |
+| EVBefore  | 0.961      |
+| EpLenMean | 313        |
+| EpRewMean | 1.09e+03   |
+| EpRewSEM  | 93.8       |
+| KL        | 0.00375009 |
+--------------------------
+********** Iteration 209 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.95       |
+| EVBefore  | 0.944      |
+| EpLenMean | 359        |
+| EpRewMean | 1.25e+03   |
+| EpRewSEM  | 94.8       |
+| KL        | 0.00239689 |
+--------------------------
+********** Iteration 210 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.966      |
+| EVBefore  | 0.962      |
+| EpLenMean | 342        |
+| EpRewMean | 1.19e+03   |
+| EpRewSEM  | 136        |
+| KL        | 0.00330851 |
+--------------------------
+********** Iteration 211 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.927      |
+| EVBefore  | 0.898      |
+| EpLenMean | 458        |
+| EpRewMean | 1.59e+03   |
+| EpRewSEM  | 363        |
+| KL        | 0.00398066 |
+--------------------------
+********** Iteration 212 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.961      |
+| EVBefore  | 0.954      |
+| EpLenMean | 378        |
+| EpRewMean | 1.31e+03   |
+| EpRewSEM  | 174        |
+| KL        | 0.00362798 |
+--------------------------
+********** Iteration 213 ************
+kl too high
+--------------------------
+| EVAfter   | 0.972      |
+| EVBefore  | 0.967      |
+| EpLenMean | 339        |
+| EpRewMean | 1.17e+03   |
+| EpRewSEM  | 67.3       |
+| KL        | 0.00412696 |
+--------------------------
+********** Iteration 214 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.956      |
+| EVBefore  | 0.95       |
+| EpLenMean | 427        |
+| EpRewMean | 1.48e+03   |
+| EpRewSEM  | 294        |
+| KL        | 0.00169506 |
+--------------------------
+********** Iteration 215 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.958      |
+| EVBefore  | 0.954      |
+| EpLenMean | 399        |
+| EpRewMean | 1.38e+03   |
+| EpRewSEM  | 165        |
+| KL        | 0.00168318 |
+--------------------------
+********** Iteration 216 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.954      |
+| EVBefore  | 0.948      |
+| EpLenMean | 381        |
+| EpRewMean | 1.31e+03   |
+| EpRewSEM  | 117        |
+| KL        | 0.00168804 |
+--------------------------
+********** Iteration 217 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.956      |
+| EVBefore  | 0.952      |
+| EpLenMean | 318        |
+| EpRewMean | 1.1e+03    |
+| EpRewSEM  | 64.6       |
+| KL        | 0.00162075 |
+--------------------------
+********** Iteration 218 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.972      |
+| EVBefore  | 0.969      |
+| EpLenMean | 430        |
+| EpRewMean | 1.49e+03   |
+| EpRewSEM  | 156        |
+| KL        | 0.00136796 |
+--------------------------
+********** Iteration 219 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.973     |
+| EVBefore  | 0.971     |
+| EpLenMean | 376       |
+| EpRewMean | 1.3e+03   |
+| EpRewSEM  | 91.8      |
+| KL        | 0.0014615 |
+-------------------------
+********** Iteration 220 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.951      |
+| EVBefore  | 0.946      |
+| EpLenMean | 472        |
+| EpRewMean | 1.64e+03   |
+| EpRewSEM  | 338        |
+| KL        | 0.00112098 |
+--------------------------
+********** Iteration 221 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.971      |
+| EVBefore  | 0.967      |
+| EpLenMean | 370        |
+| EpRewMean | 1.27e+03   |
+| EpRewSEM  | 116        |
+| KL        | 0.00105127 |
+--------------------------
+********** Iteration 222 ************
+kl too low
+---------------------------
+| EVAfter   | 0.964       |
+| EVBefore  | 0.959       |
+| EpLenMean | 448         |
+| EpRewMean | 1.55e+03    |
+| EpRewSEM  | 203         |
+| KL        | 0.000830062 |
+---------------------------
+********** Iteration 223 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.956      |
+| EVBefore  | 0.947      |
+| EpLenMean | 359        |
+| EpRewMean | 1.23e+03   |
+| EpRewSEM  | 130        |
+| KL        | 0.00168259 |
+--------------------------
+********** Iteration 224 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.937      |
+| EVBefore  | 0.944      |
+| EpLenMean | 535        |
+| EpRewMean | 1.86e+03   |
+| EpRewSEM  | 240        |
+| KL        | 0.00185021 |
+--------------------------
+********** Iteration 225 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.673      |
+| EVBefore  | 0.64       |
+| EpLenMean | 509        |
+| EpRewMean | 1.73e+03   |
+| EpRewSEM  | 377        |
+| KL        | 0.00192361 |
+--------------------------
+********** Iteration 226 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.939      |
+| EVBefore  | 0.924      |
+| EpLenMean | 393        |
+| EpRewMean | 1.34e+03   |
+| EpRewSEM  | 221        |
+| KL        | 0.00207559 |
+--------------------------
+********** Iteration 227 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.813      |
+| EVBefore  | 0.67       |
+| EpLenMean | 607        |
+| EpRewMean | 2.08e+03   |
+| EpRewSEM  | 311        |
+| KL        | 0.00188407 |
+--------------------------
+********** Iteration 228 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.958      |
+| EVBefore  | 0.953      |
+| EpLenMean | 512        |
+| EpRewMean | 1.77e+03   |
+| EpRewSEM  | 330        |
+| KL        | 0.00207276 |
+--------------------------
+********** Iteration 229 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.653     |
+| EVBefore  | 0.621     |
+| EpLenMean | 573       |
+| EpRewMean | 1.95e+03  |
+| EpRewSEM  | 154       |
+| KL        | 0.0021966 |
+-------------------------
+********** Iteration 230 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.862      |
+| EVBefore  | 0.807      |
+| EpLenMean | 691        |
+| EpRewMean | 2.36e+03   |
+| EpRewSEM  | 278        |
+| KL        | 0.00184588 |
+--------------------------
+********** Iteration 231 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.943      |
+| EVBefore  | 0.923      |
+| EpLenMean | 666        |
+| EpRewMean | 2.32e+03   |
+| EpRewSEM  | 261        |
+| KL        | 0.00196006 |
+--------------------------
+********** Iteration 232 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.822      |
+| EVBefore  | 0.797      |
+| EpLenMean | 682        |
+| EpRewMean | 2.33e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00157712 |
+--------------------------
+********** Iteration 233 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.79       |
+| EVBefore  | 0.722      |
+| EpLenMean | 695        |
+| EpRewMean | 2.34e+03   |
+| EpRewSEM  | 546        |
+| KL        | 0.00163224 |
+--------------------------
+********** Iteration 234 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.88       |
+| EVBefore  | 0.864      |
+| EpLenMean | 644        |
+| EpRewMean | 2.17e+03   |
+| EpRewSEM  | 472        |
+| KL        | 0.00151649 |
+--------------------------
+********** Iteration 235 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.758      |
+| EVBefore  | 0.741      |
+| EpLenMean | 968        |
+| EpRewMean | 3.22e+03   |
+| EpRewSEM  | 43.8       |
+| KL        | 0.00152681 |
+--------------------------
+********** Iteration 236 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.652      |
+| EVBefore  | 0.634      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 30.4       |
+| KL        | 0.00176421 |
+--------------------------
+********** Iteration 237 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.734      |
+| EVBefore  | 0.723      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.32e+03   |
+| EpRewSEM  | 19.1       |
+| KL        | 0.00171242 |
+--------------------------
+********** Iteration 238 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.716      |
+| EVBefore  | 0.701      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.32e+03   |
+| EpRewSEM  | 24.7       |
+| KL        | 0.00182019 |
+--------------------------
+********** Iteration 239 ************
+kl too low
+---------------------------
+| EVAfter   | 0.746       |
+| EVBefore  | 0.722       |
+| EpLenMean | 988         |
+| EpRewMean | 3.29e+03    |
+| EpRewSEM  | 34.5        |
+| KL        | 0.000808443 |
+---------------------------
+********** Iteration 240 ************
+kl just right!
+--------------------------
+| EVAfter   | -0.093     |
+| EVBefore  | 0.694      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.26e+03   |
+| EpRewSEM  | 21         |
+| KL        | 0.00228998 |
+--------------------------
+********** Iteration 241 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.192      |
+| EVBefore  | -0.184     |
+| EpLenMean | 932        |
+| EpRewMean | 3.08e+03   |
+| EpRewSEM  | 131        |
+| KL        | 0.00210709 |
+--------------------------
+********** Iteration 242 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.728      |
+| EVBefore  | 0.227      |
+| EpLenMean | 959        |
+| EpRewMean | 3.19e+03   |
+| EpRewSEM  | 82.4       |
+| KL        | 0.00211609 |
+--------------------------
+********** Iteration 243 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.743      |
+| EVBefore  | 0.747      |
+| EpLenMean | 917        |
+| EpRewMean | 3.06e+03   |
+| EpRewSEM  | 193        |
+| KL        | 0.00203294 |
+--------------------------
+********** Iteration 244 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.726      |
+| EVBefore  | 0.687      |
+| EpLenMean | 836        |
+| EpRewMean | 2.79e+03   |
+| EpRewSEM  | 432        |
+| KL        | 0.00291749 |
+--------------------------
+********** Iteration 245 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.773      |
+| EVBefore  | 0.752      |
+| EpLenMean | 952        |
+| EpRewMean | 3.17e+03   |
+| EpRewSEM  | 94         |
+| KL        | 0.00372377 |
+--------------------------
+********** Iteration 246 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.785      |
+| EVBefore  | 0.775      |
+| EpLenMean | 846        |
+| EpRewMean | 2.82e+03   |
+| EpRewSEM  | 379        |
+| KL        | 0.00357926 |
+--------------------------
+********** Iteration 247 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.825      |
+| EVBefore  | 0.814      |
+| EpLenMean | 828        |
+| EpRewMean | 2.79e+03   |
+| EpRewSEM  | 263        |
+| KL        | 0.00324458 |
+--------------------------
+********** Iteration 248 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.815      |
+| EVBefore  | 0.802      |
+| EpLenMean | 934        |
+| EpRewMean | 3.14e+03   |
+| EpRewSEM  | 146        |
+| KL        | 0.00384438 |
+--------------------------
+********** Iteration 249 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.804      |
+| EVBefore  | 0.794      |
+| EpLenMean | 874        |
+| EpRewMean | 2.9e+03    |
+| EpRewSEM  | 356        |
+| KL        | 0.00363203 |
+--------------------------
+********** Iteration 250 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.757      |
+| EVBefore  | 0.75       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.3e+03    |
+| EpRewSEM  | 20.4       |
+| KL        | 0.00281219 |
+--------------------------
+********** Iteration 251 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.796     |
+| EVBefore  | 0.788     |
+| EpLenMean | 869       |
+| EpRewMean | 2.9e+03   |
+| EpRewSEM  | 365       |
+| KL        | 0.0035425 |
+-------------------------
+********** Iteration 252 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.837      |
+| EVBefore  | 0.831      |
+| EpLenMean | 738        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 427        |
+| KL        | 0.00283746 |
+--------------------------
+********** Iteration 253 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.862      |
+| EVBefore  | 0.854      |
+| EpLenMean | 823        |
+| EpRewMean | 2.78e+03   |
+| EpRewSEM  | 351        |
+| KL        | 0.00210088 |
+--------------------------
+********** Iteration 254 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.847      |
+| EVBefore  | 0.842      |
+| EpLenMean | 739        |
+| EpRewMean | 2.49e+03   |
+| EpRewSEM  | 430        |
+| KL        | 0.00361397 |
+--------------------------
+********** Iteration 255 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.838      |
+| EVBefore  | 0.831      |
+| EpLenMean | 932        |
+| EpRewMean | 3.16e+03   |
+| EpRewSEM  | 144        |
+| KL        | 0.00245623 |
+--------------------------
+********** Iteration 256 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.846      |
+| EVBefore  | 0.83       |
+| EpLenMean | 855        |
+| EpRewMean | 2.81e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00333167 |
+--------------------------
+********** Iteration 257 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.917      |
+| EVBefore  | 0.911      |
+| EpLenMean | 718        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 331        |
+| KL        | 0.00242882 |
+--------------------------
+********** Iteration 258 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.847      |
+| EVBefore  | 0.842      |
+| EpLenMean | 795        |
+| EpRewMean | 2.68e+03   |
+| EpRewSEM  | 339        |
+| KL        | 0.00248723 |
+--------------------------
+********** Iteration 259 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.824      |
+| EVBefore  | 0.804      |
+| EpLenMean | 759        |
+| EpRewMean | 2.6e+03    |
+| EpRewSEM  | 407        |
+| KL        | 0.00384572 |
+--------------------------
+********** Iteration 260 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.885      |
+| EVBefore  | 0.88       |
+| EpLenMean | 781        |
+| EpRewMean | 2.68e+03   |
+| EpRewSEM  | 257        |
+| KL        | 0.00319811 |
+--------------------------
+********** Iteration 261 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.932      |
+| EpLenMean | 648        |
+| EpRewMean | 2.25e+03   |
+| EpRewSEM  | 225        |
+| KL        | 0.00376696 |
+--------------------------
+********** Iteration 262 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.921      |
+| EVBefore  | 0.916      |
+| EpLenMean | 645        |
+| EpRewMean | 2.22e+03   |
+| EpRewSEM  | 373        |
+| KL        | 0.00266141 |
+--------------------------
+********** Iteration 263 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.971      |
+| EVBefore  | 0.966      |
+| EpLenMean | 666        |
+| EpRewMean | 2.3e+03    |
+| EpRewSEM  | 235        |
+| KL        | 0.00258835 |
+--------------------------
+********** Iteration 264 ************
+kl too high
+--------------------------
+| EVAfter   | 0.847      |
+| EVBefore  | 0.839      |
+| EpLenMean | 849        |
+| EpRewMean | 2.85e+03   |
+| EpRewSEM  | 381        |
+| KL        | 0.00408213 |
+--------------------------
+********** Iteration 265 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.89       |
+| EVBefore  | 0.884      |
+| EpLenMean | 754        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 414        |
+| KL        | 0.00224847 |
+--------------------------
+********** Iteration 266 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.886      |
+| EpLenMean | 755        |
+| EpRewMean | 2.59e+03   |
+| EpRewSEM  | 472        |
+| KL        | 0.00239524 |
+--------------------------
+********** Iteration 267 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.962      |
+| EVBefore  | 0.957      |
+| EpLenMean | 401        |
+| EpRewMean | 1.4e+03    |
+| EpRewSEM  | 128        |
+| KL        | 0.00279983 |
+--------------------------
+********** Iteration 268 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.961      |
+| EVBefore  | 0.945      |
+| EpLenMean | 449        |
+| EpRewMean | 1.54e+03   |
+| EpRewSEM  | 129        |
+| KL        | 0.00213979 |
+--------------------------
+********** Iteration 269 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.963      |
+| EVBefore  | 0.962      |
+| EpLenMean | 431        |
+| EpRewMean | 1.49e+03   |
+| EpRewSEM  | 203        |
+| KL        | 0.00209798 |
+--------------------------
+********** Iteration 270 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.972      |
+| EVBefore  | 0.967      |
+| EpLenMean | 515        |
+| EpRewMean | 1.78e+03   |
+| EpRewSEM  | 263        |
+| KL        | 0.00177246 |
+--------------------------
+********** Iteration 271 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.919      |
+| EVBefore  | 0.907      |
+| EpLenMean | 522        |
+| EpRewMean | 1.76e+03   |
+| EpRewSEM  | 350        |
+| KL        | 0.00119422 |
+--------------------------
+********** Iteration 272 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.933      |
+| EVBefore  | 0.929      |
+| EpLenMean | 519        |
+| EpRewMean | 1.78e+03   |
+| EpRewSEM  | 288        |
+| KL        | 0.00125147 |
+--------------------------
+********** Iteration 273 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.973      |
+| EVBefore  | 0.97       |
+| EpLenMean | 512        |
+| EpRewMean | 1.77e+03   |
+| EpRewSEM  | 158        |
+| KL        | 0.00118014 |
+--------------------------
+********** Iteration 274 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.982      |
+| EVBefore  | 0.98       |
+| EpLenMean | 445        |
+| EpRewMean | 1.54e+03   |
+| EpRewSEM  | 209        |
+| KL        | 0.00102427 |
+--------------------------
+********** Iteration 275 ************
+kl too low
+---------------------------
+| EVAfter   | 0.964       |
+| EVBefore  | 0.96        |
+| EpLenMean | 620         |
+| EpRewMean | 2.15e+03    |
+| EpRewSEM  | 329         |
+| KL        | 0.000915625 |
+---------------------------
+********** Iteration 276 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.943      |
+| EVBefore  | 0.924      |
+| EpLenMean | 660        |
+| EpRewMean | 2.29e+03   |
+| EpRewSEM  | 503        |
+| KL        | 0.00290305 |
+--------------------------
+********** Iteration 277 ************
+kl just right!
+------------------------
+| EVAfter   | 0.962    |
+| EVBefore  | 0.959    |
+| EpLenMean | 430      |
+| EpRewMean | 1.5e+03  |
+| EpRewSEM  | 134      |
+| KL        | 0.00328  |
+------------------------
+********** Iteration 278 ************
+kl too high
+-------------------------
+| EVAfter   | 0.982     |
+| EVBefore  | 0.981     |
+| EpLenMean | 435       |
+| EpRewMean | 1.51e+03  |
+| EpRewSEM  | 145       |
+| KL        | 0.0040145 |
+-------------------------
+********** Iteration 279 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.933      |
+| EVBefore  | 0.913      |
+| EpLenMean | 576        |
+| EpRewMean | 1.98e+03   |
+| EpRewSEM  | 337        |
+| KL        | 0.00113126 |
+--------------------------
+********** Iteration 280 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.974      |
+| EVBefore  | 0.972      |
+| EpLenMean | 420        |
+| EpRewMean | 1.45e+03   |
+| EpRewSEM  | 235        |
+| KL        | 0.00172027 |
+--------------------------
+********** Iteration 281 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.971      |
+| EVBefore  | 0.968      |
+| EpLenMean | 588        |
+| EpRewMean | 2.04e+03   |
+| EpRewSEM  | 251        |
+| KL        | 0.00154521 |
+--------------------------
+********** Iteration 282 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.914      |
+| EVBefore  | 0.904      |
+| EpLenMean | 802        |
+| EpRewMean | 2.75e+03   |
+| EpRewSEM  | 236        |
+| KL        | 0.00124666 |
+--------------------------
+********** Iteration 283 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.958     |
+| EVBefore  | 0.952     |
+| EpLenMean | 520       |
+| EpRewMean | 1.79e+03  |
+| EpRewSEM  | 298       |
+| KL        | 0.0013856 |
+-------------------------
+********** Iteration 284 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.961      |
+| EVBefore  | 0.957      |
+| EpLenMean | 526        |
+| EpRewMean | 1.82e+03   |
+| EpRewSEM  | 329        |
+| KL        | 0.00137092 |
+--------------------------
+********** Iteration 285 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.907      |
+| EVBefore  | 0.901      |
+| EpLenMean | 702        |
+| EpRewMean | 2.41e+03   |
+| EpRewSEM  | 374        |
+| KL        | 0.00146569 |
+--------------------------
+********** Iteration 286 ************
+kl too low
+---------------------------
+| EVAfter   | 0.885       |
+| EVBefore  | 0.876       |
+| EpLenMean | 693         |
+| EpRewMean | 2.33e+03    |
+| EpRewSEM  | 509         |
+| KL        | 0.000955799 |
+---------------------------
+********** Iteration 287 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.892      |
+| EVBefore  | 0.888      |
+| EpLenMean | 681        |
+| EpRewMean | 2.3e+03    |
+| EpRewSEM  | 385        |
+| KL        | 0.00263829 |
+--------------------------
+********** Iteration 288 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.976      |
+| EVBefore  | 0.974      |
+| EpLenMean | 548        |
+| EpRewMean | 1.91e+03   |
+| EpRewSEM  | 177        |
+| KL        | 0.00274261 |
+--------------------------
+********** Iteration 289 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.892      |
+| EVBefore  | 0.869      |
+| EpLenMean | 774        |
+| EpRewMean | 2.65e+03   |
+| EpRewSEM  | 453        |
+| KL        | 0.00255331 |
+--------------------------
+********** Iteration 290 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.838      |
+| EVBefore  | 0.825      |
+| EpLenMean | 853        |
+| EpRewMean | 2.89e+03   |
+| EpRewSEM  | 419        |
+| KL        | 0.00216431 |
+--------------------------
+********** Iteration 291 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.979      |
+| EVBefore  | 0.973      |
+| EpLenMean | 524        |
+| EpRewMean | 1.81e+03   |
+| EpRewSEM  | 280        |
+| KL        | 0.00266856 |
+--------------------------
+********** Iteration 292 ************
+kl too high
+--------------------------
+| EVAfter   | 0.989      |
+| EVBefore  | 0.987      |
+| EpLenMean | 563        |
+| EpRewMean | 1.95e+03   |
+| EpRewSEM  | 199        |
+| KL        | 0.00523314 |
+--------------------------
+********** Iteration 293 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.986      |
+| EVBefore  | 0.985      |
+| EpLenMean | 582        |
+| EpRewMean | 2.03e+03   |
+| EpRewSEM  | 222        |
+| KL        | 0.00135114 |
+--------------------------
+********** Iteration 294 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.914      |
+| EVBefore  | 0.907      |
+| EpLenMean | 890        |
+| EpRewMean | 3.05e+03   |
+| EpRewSEM  | 140        |
+| KL        | 0.00164658 |
+--------------------------
+********** Iteration 295 ************
+kl too low
+---------------------------
+| EVAfter   | 0.892       |
+| EVBefore  | 0.885       |
+| EpLenMean | 852         |
+| EpRewMean | 2.89e+03    |
+| EpRewSEM  | 382         |
+| KL        | 0.000900245 |
+---------------------------
+********** Iteration 296 ************
+kl too high
+--------------------------
+| EVAfter   | 0.939      |
+| EVBefore  | 0.936      |
+| EpLenMean | 574        |
+| EpRewMean | 1.96e+03   |
+| EpRewSEM  | 312        |
+| KL        | 0.00513542 |
+--------------------------
+********** Iteration 297 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.928      |
+| EVBefore  | 0.923      |
+| EpLenMean | 611        |
+| EpRewMean | 2.11e+03   |
+| EpRewSEM  | 335        |
+| KL        | 0.00158106 |
+--------------------------
+********** Iteration 298 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.942      |
+| EVBefore  | 0.938      |
+| EpLenMean | 658        |
+| EpRewMean | 2.27e+03   |
+| EpRewSEM  | 379        |
+| KL        | 0.00159537 |
+--------------------------
+********** Iteration 299 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.926      |
+| EpLenMean | 695        |
+| EpRewMean | 2.4e+03    |
+| EpRewSEM  | 360        |
+| KL        | 0.00121752 |
+--------------------------
+********** Iteration 300 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.911      |
+| EVBefore  | 0.905      |
+| EpLenMean | 678        |
+| EpRewMean | 2.33e+03   |
+| EpRewSEM  | 351        |
+| KL        | 0.00118257 |
+--------------------------
+********** Iteration 301 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.871     |
+| EVBefore  | 0.857     |
+| EpLenMean | 818       |
+| EpRewMean | 2.8e+03   |
+| EpRewSEM  | 292       |
+| KL        | 0.0011325 |
+-------------------------
+********** Iteration 302 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.888      |
+| EVBefore  | 0.881      |
+| EpLenMean | 725        |
+| EpRewMean | 2.46e+03   |
+| EpRewSEM  | 445        |
+| KL        | 0.00103178 |
+--------------------------
+********** Iteration 303 ************
+kl too low
+---------------------------
+| EVAfter   | 0.892       |
+| EVBefore  | 0.885       |
+| EpLenMean | 696         |
+| EpRewMean | 2.36e+03    |
+| EpRewSEM  | 497         |
+| KL        | 0.000864909 |
+---------------------------
+********** Iteration 304 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.864      |
+| EVBefore  | 0.857      |
+| EpLenMean | 975        |
+| EpRewMean | 3.32e+03   |
+| EpRewSEM  | 51.1       |
+| KL        | 0.00177722 |
+--------------------------
+********** Iteration 305 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.924      |
+| EVBefore  | 0.919      |
+| EpLenMean | 838        |
+| EpRewMean | 2.84e+03   |
+| EpRewSEM  | 423        |
+| KL        | 0.00164418 |
+--------------------------
+********** Iteration 306 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.9        |
+| EVBefore  | 0.896      |
+| EpLenMean | 779        |
+| EpRewMean | 2.66e+03   |
+| EpRewSEM  | 395        |
+| KL        | 0.00149004 |
+--------------------------
+********** Iteration 307 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.94       |
+| EVBefore  | 0.936      |
+| EpLenMean | 703        |
+| EpRewMean | 2.43e+03   |
+| EpRewSEM  | 343        |
+| KL        | 0.00175655 |
+--------------------------
+********** Iteration 308 ************
+kl just right!
+--------------------------
+| EVAfter   | -0.21      |
+| EVBefore  | 0.846      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.36e+03   |
+| EpRewSEM  | 22.8       |
+| KL        | 0.00133696 |
+--------------------------
+********** Iteration 309 ************
+kl just right!
+-------------------------
+| EVAfter   | -3.88     |
+| EVBefore  | 0.23      |
+| EpLenMean | 810       |
+| EpRewMean | 2.79e+03  |
+| EpRewSEM  | 349       |
+| KL        | 0.0021814 |
+-------------------------
+********** Iteration 310 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.405      |
+| EVBefore  | -3.99      |
+| EpLenMean | 768        |
+| EpRewMean | 2.64e+03   |
+| EpRewSEM  | 391        |
+| KL        | 0.00358639 |
+--------------------------
+********** Iteration 311 ************
+kl too high
+--------------------------
+| EVAfter   | 0.673      |
+| EVBefore  | 0.35       |
+| EpLenMean | 699        |
+| EpRewMean | 2.43e+03   |
+| EpRewSEM  | 349        |
+| KL        | 0.00485369 |
+--------------------------
+********** Iteration 312 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.871      |
+| EVBefore  | 0.72       |
+| EpLenMean | 492        |
+| EpRewMean | 1.72e+03   |
+| EpRewSEM  | 150        |
+| KL        | 0.00323619 |
+--------------------------
+********** Iteration 313 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.735      |
+| EVBefore  | 0.452      |
+| EpLenMean | 815        |
+| EpRewMean | 2.78e+03   |
+| EpRewSEM  | 457        |
+| KL        | 0.00139286 |
+--------------------------
+********** Iteration 314 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.846      |
+| EVBefore  | 0.807      |
+| EpLenMean | 631        |
+| EpRewMean | 2.17e+03   |
+| EpRewSEM  | 453        |
+| KL        | 0.00230527 |
+--------------------------
+********** Iteration 315 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.844      |
+| EVBefore  | 0.821      |
+| EpLenMean | 628        |
+| EpRewMean | 2.15e+03   |
+| EpRewSEM  | 473        |
+| KL        | 0.00153776 |
+--------------------------
+********** Iteration 316 ************
+kl just right!
+--------------------------
+| EVAfter   | -4.52      |
+| EVBefore  | 0.713      |
+| EpLenMean | 925        |
+| EpRewMean | 3.15e+03   |
+| EpRewSEM  | 187        |
+| KL        | 0.00108057 |
+--------------------------
+********** Iteration 317 ************
+kl too low
+---------------------------
+| EVAfter   | -1.67       |
+| EVBefore  | -3.99       |
+| EpLenMean | 883         |
+| EpRewMean | 3.01e+03    |
+| EpRewSEM  | 299         |
+| KL        | 0.000983697 |
+---------------------------
+********** Iteration 318 ************
+kl just right!
+--------------------------
+| EVAfter   | -14.6      |
+| EVBefore  | -0.591     |
+| EpLenMean | 574        |
+| EpRewMean | 1.97e+03   |
+| EpRewSEM  | 430        |
+| KL        | 0.00222506 |
+--------------------------
+********** Iteration 319 ************
+kl just right!
+--------------------------
+| EVAfter   | -15.6      |
+| EVBefore  | -22.7      |
+| EpLenMean | 848        |
+| EpRewMean | 2.91e+03   |
+| EpRewSEM  | 449        |
+| KL        | 0.00122374 |
+--------------------------
+********** Iteration 320 ************
+kl too high
+--------------------------
+| EVAfter   | -3.44      |
+| EVBefore  | -7.82      |
+| EpLenMean | 556        |
+| EpRewMean | 1.92e+03   |
+| EpRewSEM  | 366        |
+| KL        | 0.00545876 |
+--------------------------
+********** Iteration 321 ************
+kl just right!
+--------------------------
+| EVAfter   | -1.78      |
+| EVBefore  | -5.45      |
+| EpLenMean | 561        |
+| EpRewMean | 1.94e+03   |
+| EpRewSEM  | 440        |
+| KL        | 0.00236944 |
+--------------------------
+********** Iteration 322 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.512      |
+| EVBefore  | -0.83      |
+| EpLenMean | 528        |
+| EpRewMean | 1.81e+03   |
+| EpRewSEM  | 378        |
+| KL        | 0.00333922 |
+--------------------------
+********** Iteration 323 ************
+kl too high
+--------------------------
+| EVAfter   | 0.82       |
+| EVBefore  | 0.64       |
+| EpLenMean | 444        |
+| EpRewMean | 1.53e+03   |
+| EpRewSEM  | 252        |
+| KL        | 0.00548731 |
+--------------------------
+********** Iteration 324 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.772      |
+| EVBefore  | 0.738      |
+| EpLenMean | 543        |
+| EpRewMean | 1.86e+03   |
+| EpRewSEM  | 380        |
+| KL        | 0.00211465 |
+--------------------------
+********** Iteration 325 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.865      |
+| EVBefore  | 0.838      |
+| EpLenMean | 426        |
+| EpRewMean | 1.47e+03   |
+| EpRewSEM  | 239        |
+| KL        | 0.00139623 |
+--------------------------
+********** Iteration 326 ************
+kl too low
+--------------------------
+| EVAfter   | 0.626      |
+| EVBefore  | 0.597      |
+| EpLenMean | 505        |
+| EpRewMean | 1.73e+03   |
+| EpRewSEM  | 229        |
+| KL        | 0.00098927 |
+--------------------------
+********** Iteration 327 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.613      |
+| EVBefore  | 0.568      |
+| EpLenMean | 424        |
+| EpRewMean | 1.45e+03   |
+| EpRewSEM  | 225        |
+| KL        | 0.00305053 |
+--------------------------
+********** Iteration 328 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.901      |
+| EVBefore  | 0.878      |
+| EpLenMean | 430        |
+| EpRewMean | 1.48e+03   |
+| EpRewSEM  | 226        |
+| KL        | 0.00258868 |
+--------------------------
+********** Iteration 329 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.944      |
+| EVBefore  | 0.931      |
+| EpLenMean | 428        |
+| EpRewMean | 1.5e+03    |
+| EpRewSEM  | 94.5       |
+| KL        | 0.00278035 |
+--------------------------
+********** Iteration 330 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.889      |
+| EpLenMean | 534        |
+| EpRewMean | 1.87e+03   |
+| EpRewSEM  | 355        |
+| KL        | 0.00254552 |
+--------------------------
+********** Iteration 331 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.94       |
+| EVBefore  | 0.928      |
+| EpLenMean | 420        |
+| EpRewMean | 1.45e+03   |
+| EpRewSEM  | 221        |
+| KL        | 0.00267779 |
+--------------------------
+********** Iteration 332 ************
+kl too low
+---------------------------
+| EVAfter   | 0.79        |
+| EVBefore  | 0.713       |
+| EpLenMean | 675         |
+| EpRewMean | 2.32e+03    |
+| EpRewSEM  | 402         |
+| KL        | 0.000950656 |
+---------------------------
+********** Iteration 333 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.94       |
+| EVBefore  | 0.933      |
+| EpLenMean | 502        |
+| EpRewMean | 1.74e+03   |
+| EpRewSEM  | 244        |
+| KL        | 0.00211254 |
+--------------------------
+********** Iteration 334 ************
+kl too high
+--------------------------
+| EVAfter   | 0.941      |
+| EVBefore  | 0.924      |
+| EpLenMean | 734        |
+| EpRewMean | 2.55e+03   |
+| EpRewSEM  | 201        |
+| KL        | 0.00494739 |
+--------------------------
+********** Iteration 335 ************
+kl just right!
+------------------------
+| EVAfter   | 0.853    |
+| EVBefore  | 0.822    |
+| EpLenMean | 659      |
+| EpRewMean | 2.25e+03 |
+| EpRewSEM  | 540      |
+| KL        | 0.001342 |
+------------------------
+********** Iteration 336 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.939      |
+| EVBefore  | 0.93       |
+| EpLenMean | 548        |
+| EpRewMean | 1.9e+03    |
+| EpRewSEM  | 360        |
+| KL        | 0.00135495 |
+--------------------------
+********** Iteration 337 ************
+kl too low
+---------------------------
+| EVAfter   | 0.663       |
+| EVBefore  | 0.645       |
+| EpLenMean | 517         |
+| EpRewMean | 1.77e+03    |
+| EpRewSEM  | 379         |
+| KL        | 0.000722046 |
+---------------------------
+********** Iteration 338 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.871      |
+| EVBefore  | 0.825      |
+| EpLenMean | 639        |
+| EpRewMean | 2.19e+03   |
+| EpRewSEM  | 371        |
+| KL        | 0.00114877 |
+--------------------------
+********** Iteration 339 ************
+kl too low
+---------------------------
+| EVAfter   | 0.847       |
+| EVBefore  | 0.819       |
+| EpLenMean | 674         |
+| EpRewMean | 2.29e+03    |
+| EpRewSEM  | 446         |
+| KL        | 0.000866068 |
+---------------------------
+********** Iteration 340 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.61       |
+| EVBefore  | 0.597      |
+| EpLenMean | 558        |
+| EpRewMean | 1.9e+03    |
+| EpRewSEM  | 348        |
+| KL        | 0.00275381 |
+--------------------------
+********** Iteration 341 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.64      |
+| EVBefore  | 0.613     |
+| EpLenMean | 531       |
+| EpRewMean | 1.81e+03  |
+| EpRewSEM  | 355       |
+| KL        | 0.0034281 |
+-------------------------
+********** Iteration 342 ************
+kl too high
+--------------------------
+| EVAfter   | 0.653      |
+| EVBefore  | 0.641      |
+| EpLenMean | 501        |
+| EpRewMean | 1.72e+03   |
+| EpRewSEM  | 274        |
+| KL        | 0.00535428 |
+--------------------------
+********** Iteration 343 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.974      |
+| EVBefore  | 0.971      |
+| EpLenMean | 436        |
+| EpRewMean | 1.52e+03   |
+| EpRewSEM  | 129        |
+| KL        | 0.00163384 |
+--------------------------
+********** Iteration 344 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.473      |
+| EVBefore  | 0.377      |
+| EpLenMean | 689        |
+| EpRewMean | 2.29e+03   |
+| EpRewSEM  | 327        |
+| KL        | 0.00230791 |
+--------------------------
+********** Iteration 345 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.877      |
+| EVBefore  | 0.838      |
+| EpLenMean | 597        |
+| EpRewMean | 2.06e+03   |
+| EpRewSEM  | 329        |
+| KL        | 0.00227847 |
+--------------------------
+********** Iteration 346 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.824      |
+| EpLenMean | 651        |
+| EpRewMean | 2.23e+03   |
+| EpRewSEM  | 532        |
+| KL        | 0.00344025 |
+--------------------------
+********** Iteration 347 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.746     |
+| EVBefore  | 0.884     |
+| EpLenMean | 552       |
+| EpRewMean | 1.89e+03  |
+| EpRewSEM  | 359       |
+| KL        | 0.0029099 |
+-------------------------
+********** Iteration 348 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.899      |
+| EVBefore  | 0.929      |
+| EpLenMean | 417        |
+| EpRewMean | 1.45e+03   |
+| EpRewSEM  | 162        |
+| KL        | 0.00167062 |
+--------------------------
+********** Iteration 349 ************
+kl just right!
+--------------------------
+| EVAfter   | -2.98      |
+| EVBefore  | 0.095      |
+| EpLenMean | 966        |
+| EpRewMean | 3.26e+03   |
+| EpRewSEM  | 57.7       |
+| KL        | 0.00122047 |
+--------------------------
+********** Iteration 350 ************
+kl just right!
+--------------------------
+| EVAfter   | -1.09      |
+| EVBefore  | -2.7       |
+| EpLenMean | 967        |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 75.5       |
+| KL        | 0.00103988 |
+--------------------------
+********** Iteration 351 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.792      |
+| EVBefore  | 0.177      |
+| EpLenMean | 577        |
+| EpRewMean | 2e+03      |
+| EpRewSEM  | 271        |
+| KL        | 0.00129236 |
+--------------------------
+********** Iteration 352 ************
+kl too low
+---------------------------
+| EVAfter   | 0.763       |
+| EVBefore  | 0.461       |
+| EpLenMean | 772         |
+| EpRewMean | 2.64e+03    |
+| EpRewSEM  | 365         |
+| KL        | 0.000866936 |
+---------------------------
+********** Iteration 353 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.834      |
+| EVBefore  | 0.753      |
+| EpLenMean | 627        |
+| EpRewMean | 2.13e+03   |
+| EpRewSEM  | 362        |
+| KL        | 0.00327244 |
+--------------------------
+********** Iteration 354 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.865      |
+| EVBefore  | 0.837      |
+| EpLenMean | 659        |
+| EpRewMean | 2.25e+03   |
+| EpRewSEM  | 374        |
+| KL        | 0.00337148 |
+--------------------------
+********** Iteration 355 ************
+kl too high
+--------------------------
+| EVAfter   | 0.857      |
+| EVBefore  | 0.838      |
+| EpLenMean | 714        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 425        |
+| KL        | 0.00583154 |
+--------------------------
+********** Iteration 356 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.893      |
+| EVBefore  | 0.885      |
+| EpLenMean | 734        |
+| EpRewMean | 2.51e+03   |
+| EpRewSEM  | 329        |
+| KL        | 0.00146432 |
+--------------------------
+********** Iteration 357 ************
+kl too low
+---------------------------
+| EVAfter   | 0.864       |
+| EVBefore  | 0.858       |
+| EpLenMean | 644         |
+| EpRewMean | 2.18e+03    |
+| EpRewSEM  | 428         |
+| KL        | 0.000993283 |
+---------------------------
+********** Iteration 358 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.917      |
+| EVBefore  | 0.901      |
+| EpLenMean | 706        |
+| EpRewMean | 2.44e+03   |
+| EpRewSEM  | 395        |
+| KL        | 0.00188461 |
+--------------------------
+********** Iteration 359 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.897      |
+| EVBefore  | 0.896      |
+| EpLenMean | 638        |
+| EpRewMean | 2.18e+03   |
+| EpRewSEM  | 425        |
+| KL        | 0.00249776 |
+--------------------------
+********** Iteration 360 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.885      |
+| EVBefore  | 0.876      |
+| EpLenMean | 750        |
+| EpRewMean | 2.57e+03   |
+| EpRewSEM  | 301        |
+| KL        | 0.00231503 |
+--------------------------
+********** Iteration 361 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.802      |
+| EVBefore  | 0.798      |
+| EpLenMean | 853        |
+| EpRewMean | 2.88e+03   |
+| EpRewSEM  | 418        |
+| KL        | 0.00218327 |
+--------------------------
+********** Iteration 362 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.918      |
+| EpLenMean | 708        |
+| EpRewMean | 2.44e+03   |
+| EpRewSEM  | 374        |
+| KL        | 0.00223014 |
+--------------------------
+********** Iteration 363 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.78       |
+| EVBefore  | 0.77       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 2.71       |
+| KL        | 0.00188577 |
+--------------------------
+********** Iteration 364 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.842      |
+| EVBefore  | 0.829      |
+| EpLenMean | 757        |
+| EpRewMean | 2.56e+03   |
+| EpRewSEM  | 402        |
+| KL        | 0.00150418 |
+--------------------------
+********** Iteration 365 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.824      |
+| EVBefore  | 0.818      |
+| EpLenMean | 854        |
+| EpRewMean | 2.86e+03   |
+| EpRewSEM  | 412        |
+| KL        | 0.00141387 |
+--------------------------
+********** Iteration 366 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.826      |
+| EVBefore  | 0.82       |
+| EpLenMean | 933        |
+| EpRewMean | 3.14e+03   |
+| EpRewSEM  | 161        |
+| KL        | 0.00185652 |
+--------------------------
+********** Iteration 367 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.8        |
+| EVBefore  | 0.79       |
+| EpLenMean | 843        |
+| EpRewMean | 2.84e+03   |
+| EpRewSEM  | 419        |
+| KL        | 0.00223662 |
+--------------------------
+********** Iteration 368 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.825      |
+| EVBefore  | 0.823      |
+| EpLenMean | 904        |
+| EpRewMean | 3.04e+03   |
+| EpRewSEM  | 230        |
+| KL        | 0.00241149 |
+--------------------------
+********** Iteration 369 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.885      |
+| EVBefore  | 0.877      |
+| EpLenMean | 619        |
+| EpRewMean | 2.09e+03   |
+| EpRewSEM  | 362        |
+| KL        | 0.00238304 |
+--------------------------
+********** Iteration 370 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.87       |
+| EVBefore  | 0.865      |
+| EpLenMean | 775        |
+| EpRewMean | 2.6e+03    |
+| EpRewSEM  | 386        |
+| KL        | 0.00283839 |
+--------------------------
+********** Iteration 371 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.831      |
+| EVBefore  | 0.828      |
+| EpLenMean | 934        |
+| EpRewMean | 3.13e+03   |
+| EpRewSEM  | 153        |
+| KL        | 0.00204988 |
+--------------------------
+********** Iteration 372 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.886      |
+| EVBefore  | 0.881      |
+| EpLenMean | 648        |
+| EpRewMean | 2.17e+03   |
+| EpRewSEM  | 441        |
+| KL        | 0.00178832 |
+--------------------------
+********** Iteration 373 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.861     |
+| EVBefore  | 0.854     |
+| EpLenMean | 720       |
+| EpRewMean | 2.45e+03  |
+| EpRewSEM  | 469       |
+| KL        | 0.0020584 |
+-------------------------
+********** Iteration 374 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.902      |
+| EVBefore  | 0.899      |
+| EpLenMean | 644        |
+| EpRewMean | 2.19e+03   |
+| EpRewSEM  | 351        |
+| KL        | 0.00136959 |
+--------------------------
+********** Iteration 375 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.839      |
+| EVBefore  | 0.832      |
+| EpLenMean | 922        |
+| EpRewMean | 3.1e+03    |
+| EpRewSEM  | 186        |
+| KL        | 0.00148506 |
+--------------------------
+********** Iteration 376 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.88       |
+| EVBefore  | 0.871      |
+| EpLenMean | 672        |
+| EpRewMean | 2.28e+03   |
+| EpRewSEM  | 335        |
+| KL        | 0.00136315 |
+--------------------------
+********** Iteration 377 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.82      |
+| EVBefore  | 0.819     |
+| EpLenMean | 844       |
+| EpRewMean | 2.82e+03  |
+| EpRewSEM  | 434       |
+| KL        | 0.0016013 |
+-------------------------
+********** Iteration 378 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.85       |
+| EVBefore  | 0.845      |
+| EpLenMean | 836        |
+| EpRewMean | 2.79e+03   |
+| EpRewSEM  | 434        |
+| KL        | 0.00130956 |
+--------------------------
+********** Iteration 379 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.788      |
+| EVBefore  | 0.769      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 13.3       |
+| KL        | 0.00125775 |
+--------------------------
+********** Iteration 380 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.822      |
+| EVBefore  | 0.792      |
+| EpLenMean | 860        |
+| EpRewMean | 2.95e+03   |
+| EpRewSEM  | 368        |
+| KL        | 0.00122397 |
+--------------------------
+********** Iteration 381 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.955      |
+| EVBefore  | 0.955      |
+| EpLenMean | 644        |
+| EpRewMean | 2.22e+03   |
+| EpRewSEM  | 287        |
+| KL        | 0.00191444 |
+--------------------------
+********** Iteration 382 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.855      |
+| EpLenMean | 677        |
+| EpRewMean | 2.28e+03   |
+| EpRewSEM  | 522        |
+| KL        | 0.00171034 |
+--------------------------
+********** Iteration 383 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.826     |
+| EVBefore  | 0.817     |
+| EpLenMean | 867       |
+| EpRewMean | 2.97e+03  |
+| EpRewSEM  | 365       |
+| KL        | 0.0017469 |
+-------------------------
+********** Iteration 384 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.831      |
+| EVBefore  | 0.824      |
+| EpLenMean | 936        |
+| EpRewMean | 3.16e+03   |
+| EpRewSEM  | 137        |
+| KL        | 0.00155664 |
+--------------------------
+********** Iteration 385 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.784      |
+| EVBefore  | 0.888      |
+| EpLenMean | 803        |
+| EpRewMean | 2.75e+03   |
+| EpRewSEM  | 344        |
+| KL        | 0.00147841 |
+--------------------------
+********** Iteration 386 ************
+kl just right!
+--------------------------
+| EVAfter   | -3.82      |
+| EVBefore  | 0.787      |
+| EpLenMean | 688        |
+| EpRewMean | 2.33e+03   |
+| EpRewSEM  | 514        |
+| KL        | 0.00171149 |
+--------------------------
+********** Iteration 387 ************
+kl too low
+--------------------------
+| EVAfter   | -4.51      |
+| EVBefore  | -3.32      |
+| EpLenMean | 716        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 372        |
+| KL        | 0.00088356 |
+--------------------------
+********** Iteration 388 ************
+kl just right!
+--------------------------
+| EVAfter   | -1.06      |
+| EVBefore  | -4.94      |
+| EpLenMean | 899        |
+| EpRewMean | 3.08e+03   |
+| EpRewSEM  | 139        |
+| KL        | 0.00228956 |
+--------------------------
+********** Iteration 389 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.575      |
+| EVBefore  | -0.646     |
+| EpLenMean | 664        |
+| EpRewMean | 2.28e+03   |
+| EpRewSEM  | 325        |
+| KL        | 0.00383359 |
+--------------------------
+********** Iteration 390 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.916      |
+| EVBefore  | 0.792      |
+| EpLenMean | 854        |
+| EpRewMean | 2.97e+03   |
+| EpRewSEM  | 341        |
+| KL        | 0.00259715 |
+--------------------------
+********** Iteration 391 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.563      |
+| EVBefore  | 0.463      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 4.09       |
+| KL        | 0.00212218 |
+--------------------------
+********** Iteration 392 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.658      |
+| EVBefore  | 0.582      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 9.7        |
+| KL        | 0.00223028 |
+--------------------------
+********** Iteration 393 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.677      |
+| EVBefore  | 0.641      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 7.96       |
+| KL        | 0.00326319 |
+--------------------------
+********** Iteration 394 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.895      |
+| EVBefore  | 0.883      |
+| EpLenMean | 796        |
+| EpRewMean | 2.74e+03   |
+| EpRewSEM  | 239        |
+| KL        | 0.00346047 |
+--------------------------
+********** Iteration 395 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.687      |
+| EVBefore  | 0.674      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 8.78       |
+| KL        | 0.00293721 |
+--------------------------
+********** Iteration 396 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.719      |
+| EVBefore  | 0.707      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 7.86       |
+| KL        | 0.00234135 |
+--------------------------
+********** Iteration 397 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.249      |
+| EVBefore  | 0.232      |
+| EpLenMean | 746        |
+| EpRewMean | 2.46e+03   |
+| EpRewSEM  | 444        |
+| KL        | 0.00320698 |
+--------------------------
+********** Iteration 398 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.733      |
+| EVBefore  | 0.721      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 16.9       |
+| KL        | 0.00321328 |
+--------------------------
+********** Iteration 399 ************
+kl too high
+--------------------------
+| EVAfter   | -0.898     |
+| EVBefore  | 0.739      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.32e+03   |
+| EpRewSEM  | 5.91       |
+| KL        | 0.00401862 |
+--------------------------
+********** Iteration 400 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.106      |
+| EVBefore  | -0.575     |
+| EpLenMean | 781        |
+| EpRewMean | 2.62e+03   |
+| EpRewSEM  | 637        |
+| KL        | 0.00162736 |
+--------------------------
+********** Iteration 401 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.484      |
+| EVBefore  | 0.238      |
+| EpLenMean | 839        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 424        |
+| KL        | 0.00127324 |
+--------------------------
+********** Iteration 402 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.709      |
+| EVBefore  | 0.533      |
+| EpLenMean | 738        |
+| EpRewMean | 2.51e+03   |
+| EpRewSEM  | 411        |
+| KL        | 0.00227986 |
+--------------------------
+********** Iteration 403 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.215      |
+| EVBefore  | 0.122      |
+| EpLenMean | 679        |
+| EpRewMean | 2.25e+03   |
+| EpRewSEM  | 402        |
+| KL        | 0.00298928 |
+--------------------------
+********** Iteration 404 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.565      |
+| EVBefore  | 0.513      |
+| EpLenMean | 722        |
+| EpRewMean | 2.4e+03    |
+| EpRewSEM  | 314        |
+| KL        | 0.00261829 |
+--------------------------
+********** Iteration 405 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.828      |
+| EpLenMean | 630        |
+| EpRewMean | 2.11e+03   |
+| EpRewSEM  | 310        |
+| KL        | 0.00238659 |
+--------------------------
+********** Iteration 406 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.757      |
+| EVBefore  | 0.729      |
+| EpLenMean | 941        |
+| EpRewMean | 3.14e+03   |
+| EpRewSEM  | 129        |
+| KL        | 0.00149029 |
+--------------------------
+********** Iteration 407 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.698      |
+| EVBefore  | 0.738      |
+| EpLenMean | 762        |
+| EpRewMean | 2.55e+03   |
+| EpRewSEM  | 376        |
+| KL        | 0.00144382 |
+--------------------------
+********** Iteration 408 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.72       |
+| EVBefore  | 0.626      |
+| EpLenMean | 854        |
+| EpRewMean | 2.87e+03   |
+| EpRewSEM  | 193        |
+| KL        | 0.00227804 |
+--------------------------
+********** Iteration 409 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.757      |
+| EVBefore  | 0.654      |
+| EpLenMean | 836        |
+| EpRewMean | 2.78e+03   |
+| EpRewSEM  | 465        |
+| KL        | 0.00248654 |
+--------------------------
+********** Iteration 410 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.758      |
+| EVBefore  | 0.733      |
+| EpLenMean | 889        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 300        |
+| KL        | 0.00219808 |
+--------------------------
+********** Iteration 411 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.735      |
+| EVBefore  | 0.717      |
+| EpLenMean | 912        |
+| EpRewMean | 3.07e+03   |
+| EpRewSEM  | 104        |
+| KL        | 0.00164455 |
+--------------------------
+********** Iteration 412 ************
+kl too high
+--------------------------
+| EVAfter   | 0.847      |
+| EVBefore  | 0.814      |
+| EpLenMean | 883        |
+| EpRewMean | 2.99e+03   |
+| EpRewSEM  | 176        |
+| KL        | 0.00613349 |
+--------------------------
+********** Iteration 413 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.882      |
+| EVBefore  | 0.859      |
+| EpLenMean | 744        |
+| EpRewMean | 2.53e+03   |
+| EpRewSEM  | 339        |
+| KL        | 0.00177241 |
+--------------------------
+********** Iteration 414 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.852      |
+| EpLenMean | 766        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 389        |
+| KL        | 0.00245015 |
+--------------------------
+********** Iteration 415 ************
+kl too low
+---------------------------
+| EVAfter   | 0.628       |
+| EVBefore  | 0.604       |
+| EpLenMean | 642         |
+| EpRewMean | 2.16e+03    |
+| EpRewSEM  | 420         |
+| KL        | 0.000943876 |
+---------------------------
+********** Iteration 416 ************
+kl too high
+-------------------------
+| EVAfter   | 0.846     |
+| EVBefore  | 0.83      |
+| EpLenMean | 834       |
+| EpRewMean | 2.82e+03  |
+| EpRewSEM  | 282       |
+| KL        | 0.0045254 |
+-------------------------
+********** Iteration 417 ************
+kl too low
+---------------------------
+| EVAfter   | 0.801       |
+| EVBefore  | 0.776       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.34e+03    |
+| EpRewSEM  | 32.6        |
+| KL        | 0.000962636 |
+---------------------------
+********** Iteration 418 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.84       |
+| EVBefore  | 0.825      |
+| EpLenMean | 995        |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 18.9       |
+| KL        | 0.00115772 |
+--------------------------
+********** Iteration 419 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.825      |
+| EVBefore  | 0.805      |
+| EpLenMean | 878        |
+| EpRewMean | 2.88e+03   |
+| EpRewSEM  | 333        |
+| KL        | 0.00201323 |
+--------------------------
+********** Iteration 420 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.777      |
+| EVBefore  | 0.77       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 30.3       |
+| KL        | 0.00202958 |
+--------------------------
+********** Iteration 421 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.858      |
+| EpLenMean | 859        |
+| EpRewMean | 2.89e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00274669 |
+--------------------------
+********** Iteration 422 ************
+kl too high
+-------------------------
+| EVAfter   | 0.913     |
+| EVBefore  | 0.903     |
+| EpLenMean | 590       |
+| EpRewMean | 2.01e+03  |
+| EpRewSEM  | 327       |
+| KL        | 0.0069524 |
+-------------------------
+********** Iteration 423 ************
+kl too low
+---------------------------
+| EVAfter   | 0.916       |
+| EVBefore  | 0.911       |
+| EpLenMean | 655         |
+| EpRewMean | 2.25e+03    |
+| EpRewSEM  | 323         |
+| KL        | 0.000735469 |
+---------------------------
+********** Iteration 424 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.907      |
+| EVBefore  | 0.908      |
+| EpLenMean | 806        |
+| EpRewMean | 2.72e+03   |
+| EpRewSEM  | 305        |
+| KL        | 0.00158483 |
+--------------------------
+********** Iteration 425 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.645      |
+| EVBefore  | 0.626      |
+| EpLenMean | 722        |
+| EpRewMean | 2.46e+03   |
+| EpRewSEM  | 390        |
+| KL        | 0.00298363 |
+--------------------------
+********** Iteration 426 ************
+kl too high
+--------------------------
+| EVAfter   | 0.908      |
+| EVBefore  | 0.902      |
+| EpLenMean | 780        |
+| EpRewMean | 2.67e+03   |
+| EpRewSEM  | 306        |
+| KL        | 0.00524436 |
+--------------------------
+********** Iteration 427 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.844      |
+| EVBefore  | 0.908      |
+| EpLenMean | 676        |
+| EpRewMean | 2.3e+03    |
+| EpRewSEM  | 366        |
+| KL        | 0.00164723 |
+--------------------------
+********** Iteration 428 ************
+kl too low
+---------------------------
+| EVAfter   | 0.757       |
+| EVBefore  | 0.738       |
+| EpLenMean | 857         |
+| EpRewMean | 2.87e+03    |
+| EpRewSEM  | 396         |
+| KL        | 0.000773124 |
+---------------------------
+********** Iteration 429 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.787     |
+| EVBefore  | 0.749     |
+| EpLenMean | 763       |
+| EpRewMean | 2.56e+03  |
+| EpRewSEM  | 394       |
+| KL        | 0.0024275 |
+-------------------------
+********** Iteration 430 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.789      |
+| EVBefore  | 0.744      |
+| EpLenMean | 911        |
+| EpRewMean | 3.09e+03   |
+| EpRewSEM  | 220        |
+| KL        | 0.00313529 |
+--------------------------
+********** Iteration 431 ************
+kl too high
+--------------------------
+| EVAfter   | 0.841      |
+| EVBefore  | 0.816      |
+| EpLenMean | 789        |
+| EpRewMean | 2.65e+03   |
+| EpRewSEM  | 258        |
+| KL        | 0.00885754 |
+--------------------------
+********** Iteration 432 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.552      |
+| EVBefore  | 0.484      |
+| EpLenMean | 653        |
+| EpRewMean | 2.2e+03    |
+| EpRewSEM  | 635        |
+| KL        | 0.00228445 |
+--------------------------
+********** Iteration 433 ************
+kl too high
+--------------------------
+| EVAfter   | 0.509      |
+| EVBefore  | 0.467      |
+| EpLenMean | 707        |
+| EpRewMean | 2.37e+03   |
+| EpRewSEM  | 443        |
+| KL        | 0.00657972 |
+--------------------------
+********** Iteration 434 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.612      |
+| EVBefore  | 0.587      |
+| EpLenMean | 724        |
+| EpRewMean | 2.41e+03   |
+| EpRewSEM  | 614        |
+| KL        | 0.00173252 |
+--------------------------
+********** Iteration 435 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.817     |
+| EVBefore  | 0.798     |
+| EpLenMean | 857       |
+| EpRewMean | 2.86e+03  |
+| EpRewSEM  | 409       |
+| KL        | 0.0012926 |
+-------------------------
+********** Iteration 436 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.877      |
+| EVBefore  | 0.856      |
+| EpLenMean | 919        |
+| EpRewMean | 3.11e+03   |
+| EpRewSEM  | 111        |
+| KL        | 0.00161582 |
+--------------------------
+********** Iteration 437 ************
+kl too low
+---------------------------
+| EVAfter   | 0.879       |
+| EVBefore  | 0.869       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.31e+03    |
+| EpRewSEM  | 3.14        |
+| KL        | 0.000492003 |
+---------------------------
+********** Iteration 438 ************
+kl just right!
+------------------------
+| EVAfter   | 0.867    |
+| EVBefore  | 0.857    |
+| EpLenMean | 1e+03    |
+| EpRewMean | 3.3e+03  |
+| EpRewSEM  | 8.98     |
+| KL        | 0.00127  |
+------------------------
+********** Iteration 439 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.771      |
+| EVBefore  | 0.752      |
+| EpLenMean | 918        |
+| EpRewMean | 3.07e+03   |
+| EpRewSEM  | 105        |
+| KL        | 0.00160849 |
+--------------------------
+********** Iteration 440 ************
+kl too high
+-------------------------
+| EVAfter   | 0.92      |
+| EVBefore  | 0.908     |
+| EpLenMean | 704       |
+| EpRewMean | 2.38e+03  |
+| EpRewSEM  | 357       |
+| KL        | 0.0060914 |
+-------------------------
+********** Iteration 441 ************
+kl too low
+---------------------------
+| EVAfter   | 0.874       |
+| EVBefore  | 0.864       |
+| EpLenMean | 869         |
+| EpRewMean | 2.88e+03    |
+| EpRewSEM  | 365         |
+| KL        | 0.000744271 |
+---------------------------
+********** Iteration 442 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.764      |
+| EVBefore  | 0.743      |
+| EpLenMean | 846        |
+| EpRewMean | 2.81e+03   |
+| EpRewSEM  | 154        |
+| KL        | 0.00385141 |
+--------------------------
+********** Iteration 443 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.875      |
+| EVBefore  | 0.871      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 8.45       |
+| KL        | 0.00183646 |
+--------------------------
+********** Iteration 444 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.924      |
+| EVBefore  | 0.916      |
+| EpLenMean | 676        |
+| EpRewMean | 2.29e+03   |
+| EpRewSEM  | 335        |
+| KL        | 0.00319668 |
+--------------------------
+********** Iteration 445 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.86       |
+| EVBefore  | 0.855      |
+| EpLenMean | 988        |
+| EpRewMean | 3.27e+03   |
+| EpRewSEM  | 38.4       |
+| KL        | 0.00119283 |
+--------------------------
+********** Iteration 446 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.572      |
+| EVBefore  | 0.541      |
+| EpLenMean | 684        |
+| EpRewMean | 2.25e+03   |
+| EpRewSEM  | 559        |
+| KL        | 0.00164254 |
+--------------------------
+********** Iteration 447 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.84       |
+| EVBefore  | 0.821      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 25.9       |
+| KL        | 0.00170897 |
+--------------------------
+********** Iteration 448 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.49       |
+| EVBefore  | 0.458      |
+| EpLenMean | 886        |
+| EpRewMean | 2.95e+03   |
+| EpRewSEM  | 311        |
+| KL        | 0.00148514 |
+--------------------------
+********** Iteration 449 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.386      |
+| EVBefore  | 0.5        |
+| EpLenMean | 730        |
+| EpRewMean | 2.44e+03   |
+| EpRewSEM  | 468        |
+| KL        | 0.00181717 |
+--------------------------
+********** Iteration 450 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.72       |
+| EVBefore  | 0.721      |
+| EpLenMean | 734        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 434        |
+| KL        | 0.00203865 |
+--------------------------
+********** Iteration 451 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.741      |
+| EVBefore  | 0.609      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 13.9       |
+| KL        | 0.00161449 |
+--------------------------
+********** Iteration 452 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.86       |
+| EVBefore  | 0.799      |
+| EpLenMean | 813        |
+| EpRewMean | 2.72e+03   |
+| EpRewSEM  | 307        |
+| KL        | 0.00340573 |
+--------------------------
+********** Iteration 453 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.65       |
+| EVBefore  | 0.625      |
+| EpLenMean | 802        |
+| EpRewMean | 2.66e+03   |
+| EpRewSEM  | 424        |
+| KL        | 0.00112503 |
+--------------------------
+********** Iteration 454 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.857      |
+| EVBefore  | 0.839      |
+| EpLenMean | 861        |
+| EpRewMean | 2.86e+03   |
+| EpRewSEM  | 387        |
+| KL        | 0.00219281 |
+--------------------------
+********** Iteration 455 ************
+kl just right!
+--------------------------
+| EVAfter   | -0.575     |
+| EVBefore  | 0.86       |
+| EpLenMean | 612        |
+| EpRewMean | 2.05e+03   |
+| EpRewSEM  | 307        |
+| KL        | 0.00174804 |
+--------------------------
+********** Iteration 456 ************
+kl too high
+--------------------------
+| EVAfter   | -2.75      |
+| EVBefore  | -1.55      |
+| EpLenMean | 747        |
+| EpRewMean | 2.49e+03   |
+| EpRewSEM  | 411        |
+| KL        | 0.00912106 |
+--------------------------
+********** Iteration 457 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.321      |
+| EVBefore  | -0.945     |
+| EpLenMean | 666        |
+| EpRewMean | 2.27e+03   |
+| EpRewSEM  | 291        |
+| KL        | 0.00133297 |
+--------------------------
+********** Iteration 458 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.585      |
+| EVBefore  | -0.308     |
+| EpLenMean | 855        |
+| EpRewMean | 2.88e+03   |
+| EpRewSEM  | 242        |
+| KL        | 0.00118615 |
+--------------------------
+********** Iteration 459 ************
+kl too low
+---------------------------
+| EVAfter   | 0.672       |
+| EVBefore  | 0.308       |
+| EpLenMean | 996         |
+| EpRewMean | 3.35e+03    |
+| EpRewSEM  | 19.3        |
+| KL        | 0.000611344 |
+---------------------------
+********** Iteration 460 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.81       |
+| EVBefore  | 0.769      |
+| EpLenMean | 818        |
+| EpRewMean | 2.72e+03   |
+| EpRewSEM  | 352        |
+| KL        | 0.00174498 |
+--------------------------
+********** Iteration 461 ************
+kl too high
+------------------------
+| EVAfter   | 0.844    |
+| EVBefore  | 0.816    |
+| EpLenMean | 776      |
+| EpRewMean | 2.61e+03 |
+| EpRewSEM  | 190      |
+| KL        | 0.011219 |
+------------------------
+********** Iteration 462 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.794      |
+| EVBefore  | 0.78       |
+| EpLenMean | 952        |
+| EpRewMean | 3.19e+03   |
+| EpRewSEM  | 112        |
+| KL        | 0.00340474 |
+--------------------------
+********** Iteration 463 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.838      |
+| EVBefore  | 0.83       |
+| EpLenMean | 929        |
+| EpRewMean | 3.08e+03   |
+| EpRewSEM  | 170        |
+| KL        | 0.00189132 |
+--------------------------
+********** Iteration 464 ************
+kl too low
+---------------------------
+| EVAfter   | 0.794       |
+| EVBefore  | 0.781       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.3e+03     |
+| EpRewSEM  | 12.8        |
+| KL        | 0.000294838 |
+---------------------------
+********** Iteration 465 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.821      |
+| EVBefore  | 0.792      |
+| EpLenMean | 794        |
+| EpRewMean | 2.65e+03   |
+| EpRewSEM  | 378        |
+| KL        | 0.00161664 |
+--------------------------
+********** Iteration 466 ************
+kl too low
+---------------------------
+| EVAfter   | 0.79        |
+| EVBefore  | 0.778       |
+| EpLenMean | 989         |
+| EpRewMean | 3.29e+03    |
+| EpRewSEM  | 8.31        |
+| KL        | 0.000790363 |
+---------------------------
+********** Iteration 467 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.8        |
+| EVBefore  | 0.783      |
+| EpLenMean | 991        |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 8.85       |
+| KL        | 0.00174261 |
+--------------------------
+********** Iteration 468 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.848     |
+| EVBefore  | 0.84      |
+| EpLenMean | 931       |
+| EpRewMean | 3.1e+03   |
+| EpRewSEM  | 162       |
+| KL        | 0.0038304 |
+-------------------------
+********** Iteration 469 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.77      |
+| EVBefore  | 0.751     |
+| EpLenMean | 870       |
+| EpRewMean | 2.91e+03  |
+| EpRewSEM  | 381       |
+| KL        | 0.0017674 |
+-------------------------
+********** Iteration 470 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.825      |
+| EVBefore  | 0.817      |
+| EpLenMean | 857        |
+| EpRewMean | 2.85e+03   |
+| EpRewSEM  | 403        |
+| KL        | 0.00311263 |
+--------------------------
+********** Iteration 471 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.87       |
+| EVBefore  | 0.856      |
+| EpLenMean | 938        |
+| EpRewMean | 3.16e+03   |
+| EpRewSEM  | 68         |
+| KL        | 0.00347098 |
+--------------------------
+********** Iteration 472 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.876      |
+| EpLenMean | 663        |
+| EpRewMean | 2.22e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00333848 |
+--------------------------
+********** Iteration 473 ************
+kl too high
+--------------------------
+| EVAfter   | 0.851      |
+| EVBefore  | 0.843      |
+| EpLenMean | 876        |
+| EpRewMean | 2.94e+03   |
+| EpRewSEM  | 232        |
+| KL        | 0.00961536 |
+--------------------------
+********** Iteration 474 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.88       |
+| EVBefore  | 0.875      |
+| EpLenMean | 857        |
+| EpRewMean | 2.89e+03   |
+| EpRewSEM  | 236        |
+| KL        | 0.00380818 |
+--------------------------
+********** Iteration 475 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.86       |
+| EVBefore  | 0.855      |
+| EpLenMean | 912        |
+| EpRewMean | 3.06e+03   |
+| EpRewSEM  | 120        |
+| KL        | 0.00141658 |
+--------------------------
+********** Iteration 476 ************
+kl too high
+------------------------
+| EVAfter   | 0.911    |
+| EVBefore  | 0.904    |
+| EpLenMean | 677      |
+| EpRewMean | 2.27e+03 |
+| EpRewSEM  | 342      |
+| KL        | 0.013534 |
+------------------------
+********** Iteration 477 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.864     |
+| EVBefore  | 0.859     |
+| EpLenMean | 852       |
+| EpRewMean | 2.83e+03  |
+| EpRewSEM  | 393       |
+| KL        | 0.0032386 |
+-------------------------
+********** Iteration 478 ************
+kl too low
+---------------------------
+| EVAfter   | 0.804       |
+| EVBefore  | 0.795       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.31e+03    |
+| EpRewSEM  | 12.2        |
+| KL        | 0.000315326 |
+---------------------------
+********** Iteration 479 ************
+kl too high
+--------------------------
+| EVAfter   | -0.672     |
+| EVBefore  | 0.884      |
+| EpLenMean | 846        |
+| EpRewMean | 2.83e+03   |
+| EpRewSEM  | 213        |
+| KL        | 0.00553058 |
+--------------------------
+********** Iteration 480 ************
+kl too low
+-------------------------
+| EVAfter   | -1.29     |
+| EVBefore  | -1.03     |
+| EpLenMean | 792       |
+| EpRewMean | 2.59e+03  |
+| EpRewSEM  | 618       |
+| KL        | 0.0002487 |
+-------------------------
+********** Iteration 481 ************
+kl just right!
+--------------------------
+| EVAfter   | -0.291     |
+| EVBefore  | -0.509     |
+| EpLenMean | 632        |
+| EpRewMean | 2.11e+03   |
+| EpRewSEM  | 424        |
+| KL        | 0.00306051 |
+--------------------------
+********** Iteration 482 ************
+kl too low
+---------------------------
+| EVAfter   | 0.31        |
+| EVBefore  | -0.793      |
+| EpLenMean | 882         |
+| EpRewMean | 2.95e+03    |
+| EpRewSEM  | 326         |
+| KL        | 0.000716365 |
+---------------------------
+********** Iteration 483 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.646      |
+| EVBefore  | 0.315      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.3e+03    |
+| EpRewSEM  | 7.27       |
+| KL        | 0.00124298 |
+--------------------------
+********** Iteration 484 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.474      |
+| EVBefore  | 0.36       |
+| EpLenMean | 785        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 644        |
+| KL        | 0.00191565 |
+--------------------------
+********** Iteration 485 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.716      |
+| EVBefore  | 0.721      |
+| EpLenMean | 935        |
+| EpRewMean | 3.11e+03   |
+| EpRewSEM  | 145        |
+| KL        | 0.00372823 |
+--------------------------
+********** Iteration 486 ************
+kl too high
+--------------------------
+| EVAfter   | 0.702      |
+| EVBefore  | 0.629      |
+| EpLenMean | 732        |
+| EpRewMean | 2.45e+03   |
+| EpRewSEM  | 438        |
+| KL        | 0.00424622 |
+--------------------------
+********** Iteration 487 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.762      |
+| EVBefore  | 0.735      |
+| EpLenMean | 867        |
+| EpRewMean | 2.9e+03    |
+| EpRewSEM  | 234        |
+| KL        | 0.00127507 |
+--------------------------
+********** Iteration 488 ************
+kl too low
+---------------------------
+| EVAfter   | 0.767       |
+| EVBefore  | 0.74        |
+| EpLenMean | 856         |
+| EpRewMean | 2.85e+03    |
+| EpRewSEM  | 377         |
+| KL        | 0.000842847 |
+---------------------------
+********** Iteration 489 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.793      |
+| EVBefore  | 0.773      |
+| EpLenMean | 868        |
+| EpRewMean | 2.88e+03   |
+| EpRewSEM  | 369        |
+| KL        | 0.00159089 |
+--------------------------
+********** Iteration 490 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.455      |
+| EVBefore  | 0.43       |
+| EpLenMean | 695        |
+| EpRewMean | 2.32e+03   |
+| EpRewSEM  | 308        |
+| KL        | 0.00170333 |
+--------------------------
+********** Iteration 491 ************
+kl too high
+--------------------------
+| EVAfter   | 0.894      |
+| EVBefore  | 0.805      |
+| EpLenMean | 580        |
+| EpRewMean | 1.96e+03   |
+| EpRewSEM  | 298        |
+| KL        | 0.00406444 |
+--------------------------
+********** Iteration 492 ************
+kl too low
+---------------------------
+| EVAfter   | 0.82        |
+| EVBefore  | 0.798       |
+| EpLenMean | 827         |
+| EpRewMean | 2.76e+03    |
+| EpRewSEM  | 435         |
+| KL        | 0.000743406 |
+---------------------------
+********** Iteration 493 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.391      |
+| EVBefore  | 0.315      |
+| EpLenMean | 615        |
+| EpRewMean | 2.01e+03   |
+| EpRewSEM  | 552        |
+| KL        | 0.00188306 |
+--------------------------
+********** Iteration 494 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.784      |
+| EVBefore  | 0.765      |
+| EpLenMean | 863        |
+| EpRewMean | 2.89e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00224138 |
+--------------------------
+********** Iteration 495 ************
+kl too high
+-------------------------
+| EVAfter   | 0.902     |
+| EVBefore  | 0.869     |
+| EpLenMean | 454       |
+| EpRewMean | 1.52e+03  |
+| EpRewSEM  | 49.4      |
+| KL        | 0.0217838 |
+-------------------------
+********** Iteration 496 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.807      |
+| EVBefore  | 0.784      |
+| EpLenMean | 721        |
+| EpRewMean | 2.4e+03    |
+| EpRewSEM  | 458        |
+| KL        | 0.00158683 |
+--------------------------
+********** Iteration 497 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.922      |
+| EVBefore  | 0.912      |
+| EpLenMean | 574        |
+| EpRewMean | 1.95e+03   |
+| EpRewSEM  | 315        |
+| KL        | 0.00207155 |
+--------------------------
+********** Iteration 498 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.86       |
+| EVBefore  | 0.845      |
+| EpLenMean | 796        |
+| EpRewMean | 2.66e+03   |
+| EpRewSEM  | 334        |
+| KL        | 0.00176579 |
+--------------------------
+********** Iteration 499 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.895      |
+| EVBefore  | 0.888      |
+| EpLenMean | 674        |
+| EpRewMean | 2.28e+03   |
+| EpRewSEM  | 406        |
+| KL        | 0.00286114 |
+--------------------------
+********** Iteration 500 ************
+kl too low
+---------------------------
+| EVAfter   | 0.804       |
+| EVBefore  | 0.791       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.32e+03    |
+| EpRewSEM  | 8.31        |
+| KL        | 0.000603827 |
+---------------------------
+********** Iteration 501 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.869      |
+| EVBefore  | 0.857      |
+| EpLenMean | 699        |
+| EpRewMean | 2.32e+03   |
+| EpRewSEM  | 494        |
+| KL        | 0.00200202 |
+--------------------------
+********** Iteration 502 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.599      |
+| EVBefore  | 0.563      |
+| EpLenMean | 678        |
+| EpRewMean | 2.24e+03   |
+| EpRewSEM  | 564        |
+| KL        | 0.00242883 |
+--------------------------
+********** Iteration 503 ************
+kl too high
+--------------------------
+| EVAfter   | 0.922      |
+| EVBefore  | 0.914      |
+| EpLenMean | 854        |
+| EpRewMean | 2.89e+03   |
+| EpRewSEM  | 222        |
+| KL        | 0.00609744 |
+--------------------------
+********** Iteration 504 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.844      |
+| EVBefore  | 0.834      |
+| EpLenMean | 846        |
+| EpRewMean | 2.82e+03   |
+| EpRewSEM  | 277        |
+| KL        | 0.00140523 |
+--------------------------
+********** Iteration 505 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.853     |
+| EVBefore  | 0.844     |
+| EpLenMean | 912       |
+| EpRewMean | 3.04e+03  |
+| EpRewSEM  | 217       |
+| KL        | 0.0015036 |
+-------------------------
+********** Iteration 506 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.796      |
+| EVBefore  | 0.785      |
+| EpLenMean | 916        |
+| EpRewMean | 3.06e+03   |
+| EpRewSEM  | 211        |
+| KL        | 0.00109794 |
+--------------------------
+********** Iteration 507 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.873      |
+| EVBefore  | 0.862      |
+| EpLenMean | 843        |
+| EpRewMean | 2.84e+03   |
+| EpRewSEM  | 421        |
+| KL        | 0.00128913 |
+--------------------------
+********** Iteration 508 ************
+kl too low
+---------------------------
+| EVAfter   | 0.877       |
+| EVBefore  | 0.869       |
+| EpLenMean | 924         |
+| EpRewMean | 3.09e+03    |
+| EpRewSEM  | 184         |
+| KL        | 0.000733076 |
+---------------------------
+********** Iteration 509 ************
+kl too high
+--------------------------
+| EVAfter   | 0.888      |
+| EVBefore  | 0.87       |
+| EpLenMean | 710        |
+| EpRewMean | 2.41e+03   |
+| EpRewSEM  | 39.7       |
+| KL        | 0.00564438 |
+--------------------------
+********** Iteration 510 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.66       |
+| EVBefore  | 0.911      |
+| EpLenMean | 761        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 230        |
+| KL        | 0.00110875 |
+--------------------------
+********** Iteration 511 ************
+kl too low
+---------------------------
+| EVAfter   | 0.637       |
+| EVBefore  | 0.581       |
+| EpLenMean | 963         |
+| EpRewMean | 3.24e+03    |
+| EpRewSEM  | 72.5        |
+| KL        | 0.000967447 |
+---------------------------
+********** Iteration 512 ************
+kl too low
+---------------------------
+| EVAfter   | 0.808       |
+| EVBefore  | 0.763       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.32e+03    |
+| EpRewSEM  | 4.66        |
+| KL        | 0.000878333 |
+---------------------------
+********** Iteration 513 ************
+kl too high
+-------------------------
+| EVAfter   | 0.841     |
+| EVBefore  | 0.753     |
+| EpLenMean | 835       |
+| EpRewMean | 2.8e+03   |
+| EpRewSEM  | 425       |
+| KL        | 0.0053425 |
+-------------------------
+********** Iteration 514 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.855      |
+| EVBefore  | 0.828      |
+| EpLenMean | 842        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 405        |
+| KL        | 0.00125859 |
+--------------------------
+********** Iteration 515 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.842      |
+| EVBefore  | 0.827      |
+| EpLenMean | 764        |
+| EpRewMean | 2.56e+03   |
+| EpRewSEM  | 386        |
+| KL        | 0.00141006 |
+--------------------------
+********** Iteration 516 ************
+kl too high
+--------------------------
+| EVAfter   | 0.862      |
+| EVBefore  | 0.846      |
+| EpLenMean | 806        |
+| EpRewMean | 2.71e+03   |
+| EpRewSEM  | 371        |
+| KL        | 0.00527903 |
+--------------------------
+********** Iteration 517 ************
+kl too low
+---------------------------
+| EVAfter   | 0.864       |
+| EVBefore  | 0.851       |
+| EpLenMean | 732         |
+| EpRewMean | 2.45e+03    |
+| EpRewSEM  | 445         |
+| KL        | 0.000997341 |
+---------------------------
+********** Iteration 518 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.869      |
+| EVBefore  | 0.857      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.3e+03    |
+| EpRewSEM  | 4.3        |
+| KL        | 0.00113233 |
+--------------------------
+********** Iteration 519 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.893      |
+| EVBefore  | 0.872      |
+| EpLenMean | 758        |
+| EpRewMean | 2.57e+03   |
+| EpRewSEM  | 377        |
+| KL        | 0.00271668 |
+--------------------------
+********** Iteration 520 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.91       |
+| EVBefore  | 0.903      |
+| EpLenMean | 941        |
+| EpRewMean | 3.16e+03   |
+| EpRewSEM  | 136        |
+| KL        | 0.00152554 |
+--------------------------
+********** Iteration 521 ************
+kl too low
+--------------------------
+| EVAfter   | 0.864      |
+| EVBefore  | 0.856      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 13.1       |
+| KL        | 0.00093376 |
+--------------------------
+********** Iteration 522 ************
+kl too high
+--------------------------
+| EVAfter   | 0.935      |
+| EVBefore  | 0.927      |
+| EpLenMean | 840        |
+| EpRewMean | 2.81e+03   |
+| EpRewSEM  | 417        |
+| KL        | 0.00796121 |
+--------------------------
+********** Iteration 523 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.851      |
+| EVBefore  | 0.839      |
+| EpLenMean | 973        |
+| EpRewMean | 3.27e+03   |
+| EpRewSEM  | 57.1       |
+| KL        | 0.00134692 |
+--------------------------
+********** Iteration 524 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.836      |
+| EVBefore  | 0.824      |
+| EpLenMean | 874        |
+| EpRewMean | 2.95e+03   |
+| EpRewSEM  | 366        |
+| KL        | 0.00195477 |
+--------------------------
+********** Iteration 525 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.517      |
+| EVBefore  | 0.807      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 13.1       |
+| KL        | 0.00104936 |
+--------------------------
+********** Iteration 526 ************
+kl too high
+--------------------------
+| EVAfter   | 0.706      |
+| EVBefore  | 0.668      |
+| EpLenMean | 902        |
+| EpRewMean | 3.02e+03   |
+| EpRewSEM  | 251        |
+| KL        | 0.00861038 |
+--------------------------
+********** Iteration 527 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.77       |
+| EVBefore  | 0.637      |
+| EpLenMean | 836        |
+| EpRewMean | 2.85e+03   |
+| EpRewSEM  | 395        |
+| KL        | 0.00133288 |
+--------------------------
+********** Iteration 528 ************
+kl too low
+---------------------------
+| EVAfter   | 0.831       |
+| EVBefore  | 0.783       |
+| EpLenMean | 849         |
+| EpRewMean | 2.85e+03    |
+| EpRewSEM  | 385         |
+| KL        | 0.000960431 |
+---------------------------
+********** Iteration 529 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.863      |
+| EVBefore  | 0.832      |
+| EpLenMean | 806        |
+| EpRewMean | 2.75e+03   |
+| EpRewSEM  | 314        |
+| KL        | 0.00223123 |
+--------------------------
+********** Iteration 530 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.861      |
+| EVBefore  | 0.833      |
+| EpLenMean | 895        |
+| EpRewMean | 3.05e+03   |
+| EpRewSEM  | 145        |
+| KL        | 0.00227092 |
+--------------------------
+********** Iteration 531 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.92       |
+| EVBefore  | 0.907      |
+| EpLenMean | 616        |
+| EpRewMean | 2.11e+03   |
+| EpRewSEM  | 319        |
+| KL        | 0.00253886 |
+--------------------------
+********** Iteration 532 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.894     |
+| EVBefore  | 0.889     |
+| EpLenMean | 695       |
+| EpRewMean | 2.37e+03  |
+| EpRewSEM  | 392       |
+| KL        | 0.0015389 |
+-------------------------
+********** Iteration 533 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.864      |
+| EVBefore  | 0.852      |
+| EpLenMean | 934        |
+| EpRewMean | 3.19e+03   |
+| EpRewSEM  | 128        |
+| KL        | 0.00129003 |
+--------------------------
+********** Iteration 534 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.916      |
+| EpLenMean | 736        |
+| EpRewMean | 2.54e+03   |
+| EpRewSEM  | 308        |
+| KL        | 0.00260794 |
+--------------------------
+********** Iteration 535 ************
+kl too high
+-------------------------
+| EVAfter   | 0.717     |
+| EVBefore  | 0.677     |
+| EpLenMean | 475       |
+| EpRewMean | 1.61e+03  |
+| EpRewSEM  | 277       |
+| KL        | 0.0041725 |
+-------------------------
+********** Iteration 536 ************
+kl too low
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.888      |
+| EpLenMean | 753        |
+| EpRewMean | 2.56e+03   |
+| EpRewSEM  | 286        |
+| KL        | 0.00089912 |
+--------------------------
+********** Iteration 537 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.926      |
+| EpLenMean | 783        |
+| EpRewMean | 2.68e+03   |
+| EpRewSEM  | 273        |
+| KL        | 0.00351619 |
+--------------------------
+********** Iteration 538 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.905      |
+| EVBefore  | 0.895      |
+| EpLenMean | 788        |
+| EpRewMean | 2.66e+03   |
+| EpRewSEM  | 351        |
+| KL        | 0.00226191 |
+--------------------------
+********** Iteration 539 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.896     |
+| EVBefore  | 0.883     |
+| EpLenMean | 660       |
+| EpRewMean | 2.25e+03  |
+| EpRewSEM  | 311       |
+| KL        | 0.0031885 |
+-------------------------
+********** Iteration 540 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.939      |
+| EVBefore  | 0.929      |
+| EpLenMean | 650        |
+| EpRewMean | 2.25e+03   |
+| EpRewSEM  | 318        |
+| KL        | 0.00344655 |
+--------------------------
+********** Iteration 541 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.925      |
+| EpLenMean | 730        |
+| EpRewMean | 2.49e+03   |
+| EpRewSEM  | 268        |
+| KL        | 0.00165716 |
+--------------------------
+********** Iteration 542 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.914      |
+| EVBefore  | 0.909      |
+| EpLenMean | 843        |
+| EpRewMean | 2.83e+03   |
+| EpRewSEM  | 413        |
+| KL        | 0.00131957 |
+--------------------------
+********** Iteration 543 ************
+kl too high
+--------------------------
+| EVAfter   | 0.944      |
+| EVBefore  | 0.939      |
+| EpLenMean | 670        |
+| EpRewMean | 2.32e+03   |
+| EpRewSEM  | 355        |
+| KL        | 0.00453665 |
+--------------------------
+********** Iteration 544 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.895      |
+| EVBefore  | 0.883      |
+| EpLenMean | 844        |
+| EpRewMean | 2.9e+03    |
+| EpRewSEM  | 352        |
+| KL        | 0.00155362 |
+--------------------------
+********** Iteration 545 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.74       |
+| EVBefore  | 0.727      |
+| EpLenMean | 575        |
+| EpRewMean | 1.96e+03   |
+| EpRewSEM  | 404        |
+| KL        | 0.00170791 |
+--------------------------
+********** Iteration 546 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.89       |
+| EVBefore  | 0.884      |
+| EpLenMean | 844        |
+| EpRewMean | 2.85e+03   |
+| EpRewSEM  | 403        |
+| KL        | 0.00150226 |
+--------------------------
+********** Iteration 547 ************
+kl too low
+---------------------------
+| EVAfter   | 0.898       |
+| EVBefore  | 0.891       |
+| EpLenMean | 894         |
+| EpRewMean | 3.05e+03    |
+| EpRewSEM  | 286         |
+| KL        | 0.000996812 |
+---------------------------
+********** Iteration 548 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.931      |
+| EpLenMean | 647        |
+| EpRewMean | 2.2e+03    |
+| EpRewSEM  | 330        |
+| KL        | 0.00289739 |
+--------------------------
+********** Iteration 549 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.901      |
+| EVBefore  | 0.893      |
+| EpLenMean | 802        |
+| EpRewMean | 2.74e+03   |
+| EpRewSEM  | 358        |
+| KL        | 0.00256448 |
+--------------------------
+********** Iteration 550 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.966      |
+| EVBefore  | 0.963      |
+| EpLenMean | 644        |
+| EpRewMean | 2.23e+03   |
+| EpRewSEM  | 250        |
+| KL        | 0.00242103 |
+--------------------------
+********** Iteration 551 ************
+kl too high
+--------------------------
+| EVAfter   | 0.926      |
+| EVBefore  | 0.919      |
+| EpLenMean | 649        |
+| EpRewMean | 2.23e+03   |
+| EpRewSEM  | 387        |
+| KL        | 0.00506216 |
+--------------------------
+********** Iteration 552 ************
+kl too high
+--------------------------
+| EVAfter   | 0.943      |
+| EVBefore  | 0.937      |
+| EpLenMean | 765        |
+| EpRewMean | 2.64e+03   |
+| EpRewSEM  | 187        |
+| KL        | 0.00467884 |
+--------------------------
+********** Iteration 553 ************
+kl too low
+---------------------------
+| EVAfter   | 0.915       |
+| EVBefore  | 0.908       |
+| EpLenMean | 956         |
+| EpRewMean | 3.27e+03    |
+| EpRewSEM  | 39          |
+| KL        | 0.000396119 |
+---------------------------
+********** Iteration 554 ************
+kl too low
+---------------------------
+| EVAfter   | 0.902       |
+| EVBefore  | 0.896       |
+| EpLenMean | 963         |
+| EpRewMean | 3.3e+03     |
+| EpRewSEM  | 88          |
+| KL        | 0.000545239 |
+---------------------------
+********** Iteration 555 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.946      |
+| EVBefore  | 0.943      |
+| EpLenMean | 757        |
+| EpRewMean | 2.6e+03    |
+| EpRewSEM  | 377        |
+| KL        | 0.00348584 |
+--------------------------
+********** Iteration 556 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.912      |
+| EVBefore  | 0.907      |
+| EpLenMean | 727        |
+| EpRewMean | 2.46e+03   |
+| EpRewSEM  | 457        |
+| KL        | 0.00156349 |
+--------------------------
+********** Iteration 557 ************
+kl just right!
+------------------------
+| EVAfter   | 0.937    |
+| EVBefore  | 0.931    |
+| EpLenMean | 801      |
+| EpRewMean | 2.77e+03 |
+| EpRewSEM  | 260      |
+| KL        | 0.001702 |
+------------------------
+********** Iteration 558 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.942      |
+| EVBefore  | 0.937      |
+| EpLenMean | 856        |
+| EpRewMean | 2.92e+03   |
+| EpRewSEM  | 246        |
+| KL        | 0.00176894 |
+--------------------------
+********** Iteration 559 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.93       |
+| EpLenMean | 978        |
+| EpRewMean | 3.3e+03    |
+| EpRewSEM  | 24         |
+| KL        | 0.00208821 |
+--------------------------
+********** Iteration 560 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.923      |
+| EVBefore  | 0.915      |
+| EpLenMean | 975        |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 30.7       |
+| KL        | 0.00166526 |
+--------------------------
+********** Iteration 561 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.916      |
+| EVBefore  | 0.912      |
+| EpLenMean | 913        |
+| EpRewMean | 3.08e+03   |
+| EpRewSEM  | 218        |
+| KL        | 0.00143836 |
+--------------------------
+********** Iteration 562 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.918      |
+| EVBefore  | 0.911      |
+| EpLenMean | 930        |
+| EpRewMean | 3.15e+03   |
+| EpRewSEM  | 169        |
+| KL        | 0.00229538 |
+--------------------------
+********** Iteration 563 ************
+kl too low
+---------------------------
+| EVAfter   | 0.914       |
+| EVBefore  | 0.906       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.34e+03    |
+| EpRewSEM  | 5.71        |
+| KL        | 0.000966166 |
+---------------------------
+********** Iteration 564 ************
+kl too high
+--------------------------
+| EVAfter   | 0.949      |
+| EVBefore  | 0.942      |
+| EpLenMean | 880        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 310        |
+| KL        | 0.00471207 |
+--------------------------
+********** Iteration 565 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.921      |
+| EVBefore  | 0.917      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 7.55       |
+| KL        | 0.00103586 |
+--------------------------
+********** Iteration 566 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.926      |
+| EpLenMean | 912        |
+| EpRewMean | 3.1e+03    |
+| EpRewSEM  | 221        |
+| KL        | 0.00389353 |
+--------------------------
+********** Iteration 567 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.904      |
+| EVBefore  | 0.9        |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 29.3       |
+| KL        | 0.00129318 |
+--------------------------
+********** Iteration 568 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.908      |
+| EVBefore  | 0.897      |
+| EpLenMean | 959        |
+| EpRewMean | 3.29e+03   |
+| EpRewSEM  | 101        |
+| KL        | 0.00344537 |
+--------------------------
+********** Iteration 569 ************
+kl too low
+---------------------------
+| EVAfter   | 0.943       |
+| EVBefore  | 0.941       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.36e+03    |
+| EpRewSEM  | 26          |
+| KL        | 0.000745483 |
+---------------------------
+********** Iteration 570 ************
+kl too high
+------------------------
+| EVAfter   | 0.946    |
+| EVBefore  | 0.94     |
+| EpLenMean | 764      |
+| EpRewMean | 2.63e+03 |
+| EpRewSEM  | 293      |
+| KL        | 0.014268 |
+------------------------
+********** Iteration 571 ************
+kl too high
+--------------------------
+| EVAfter   | 0.64       |
+| EVBefore  | 0.928      |
+| EpLenMean | 705        |
+| EpRewMean | 2.38e+03   |
+| EpRewSEM  | 495        |
+| KL        | 0.00420075 |
+--------------------------
+********** Iteration 572 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.733      |
+| EVBefore  | 0.606      |
+| EpLenMean | 872        |
+| EpRewMean | 2.95e+03   |
+| EpRewSEM  | 326        |
+| KL        | 0.00311649 |
+--------------------------
+********** Iteration 573 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.851      |
+| EVBefore  | 0.664      |
+| EpLenMean | 924        |
+| EpRewMean | 3.15e+03   |
+| EpRewSEM  | 193        |
+| KL        | 0.00128315 |
+--------------------------
+********** Iteration 574 ************
+kl too low
+---------------------------
+| EVAfter   | 0.9         |
+| EVBefore  | 0.875       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.35e+03    |
+| EpRewSEM  | 5.92        |
+| KL        | 0.000236303 |
+---------------------------
+********** Iteration 575 ************
+kl too high
+------------------------
+| EVAfter   | 0.908    |
+| EVBefore  | 0.885    |
+| EpLenMean | 670      |
+| EpRewMean | 2.31e+03 |
+| EpRewSEM  | 267      |
+| KL        | 0.031036 |
+------------------------
+********** Iteration 576 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.885      |
+| EpLenMean | 994        |
+| EpRewMean | 3.35e+03   |
+| EpRewSEM  | 7.43       |
+| KL        | 0.00363164 |
+--------------------------
+********** Iteration 577 ************
+kl too low
+---------------------------
+| EVAfter   | 0.919       |
+| EVBefore  | 0.912       |
+| EpLenMean | 844         |
+| EpRewMean | 2.83e+03    |
+| EpRewSEM  | 443         |
+| KL        | 0.000622597 |
+---------------------------
+********** Iteration 578 ************
+kl too high
+--------------------------
+| EVAfter   | 0.901      |
+| EVBefore  | 0.88       |
+| EpLenMean | 872        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 185        |
+| KL        | 0.00441811 |
+--------------------------
+********** Iteration 579 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.878     |
+| EVBefore  | 0.861     |
+| EpLenMean | 991       |
+| EpRewMean | 3.39e+03  |
+| EpRewSEM  | 18.5      |
+| KL        | 0.0017498 |
+-------------------------
+********** Iteration 580 ************
+kl too low
+---------------------------
+| EVAfter   | 0.915       |
+| EVBefore  | 0.908       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.33e+03    |
+| EpRewSEM  | 14.9        |
+| KL        | 0.000584686 |
+---------------------------
+********** Iteration 581 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.919      |
+| EVBefore  | 0.915      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.36e+03   |
+| EpRewSEM  | 12.6       |
+| KL        | 0.00126081 |
+--------------------------
+********** Iteration 582 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.907      |
+| EVBefore  | 0.879      |
+| EpLenMean | 759        |
+| EpRewMean | 2.59e+03   |
+| EpRewSEM  | 230        |
+| KL        | 0.00367324 |
+--------------------------
+********** Iteration 583 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.932      |
+| EVBefore  | 0.928      |
+| EpLenMean | 938        |
+| EpRewMean | 3.21e+03   |
+| EpRewSEM  | 150        |
+| KL        | 0.00375238 |
+--------------------------
+********** Iteration 584 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.933      |
+| EVBefore  | 0.927      |
+| EpLenMean | 852        |
+| EpRewMean | 2.84e+03   |
+| EpRewSEM  | 414        |
+| KL        | 0.00121347 |
+--------------------------
+********** Iteration 585 ************
+kl too high
+-------------------------
+| EVAfter   | 0.9       |
+| EVBefore  | 0.887     |
+| EpLenMean | 669       |
+| EpRewMean | 2.28e+03  |
+| EpRewSEM  | 229       |
+| KL        | 0.0132843 |
+-------------------------
+********** Iteration 586 ************
+kl too high
+-------------------------
+| EVAfter   | 0.93      |
+| EVBefore  | 0.922     |
+| EpLenMean | 704       |
+| EpRewMean | 2.38e+03  |
+| EpRewSEM  | 318       |
+| KL        | 0.0172736 |
+-------------------------
+********** Iteration 587 ************
+kl too high
+--------------------------
+| EVAfter   | 0.918      |
+| EVBefore  | 0.91       |
+| EpLenMean | 847        |
+| EpRewMean | 2.86e+03   |
+| EpRewSEM  | 369        |
+| KL        | 0.00424861 |
+--------------------------
+********** Iteration 588 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.923      |
+| EVBefore  | 0.912      |
+| EpLenMean | 563        |
+| EpRewMean | 1.9e+03    |
+| EpRewSEM  | 290        |
+| KL        | 0.00347384 |
+--------------------------
+********** Iteration 589 ************
+kl too high
+--------------------------
+| EVAfter   | 0.899      |
+| EVBefore  | 0.884      |
+| EpLenMean | 710        |
+| EpRewMean | 2.41e+03   |
+| EpRewSEM  | 365        |
+| KL        | 0.00429054 |
+--------------------------
+********** Iteration 590 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.841      |
+| EVBefore  | 0.804      |
+| EpLenMean | 678        |
+| EpRewMean | 2.27e+03   |
+| EpRewSEM  | 493        |
+| KL        | 0.00354921 |
+--------------------------
+********** Iteration 591 ************
+kl too high
+--------------------------
+| EVAfter   | 0.896      |
+| EVBefore  | 0.872      |
+| EpLenMean | 519        |
+| EpRewMean | 1.73e+03   |
+| EpRewSEM  | 379        |
+| KL        | 0.00636126 |
+--------------------------
+********** Iteration 592 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.917      |
+| EVBefore  | 0.912      |
+| EpLenMean | 821        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 276        |
+| KL        | 0.00102227 |
+--------------------------
+********** Iteration 593 ************
+kl too low
+---------------------------
+| EVAfter   | 0.933       |
+| EVBefore  | 0.925       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.36e+03    |
+| EpRewSEM  | 6.1         |
+| KL        | 2.32273e-05 |
+---------------------------
+********** Iteration 594 ************
+kl too low
+---------------------------
+| EVAfter   | 0.909       |
+| EVBefore  | 0.891       |
+| EpLenMean | 504         |
+| EpRewMean | 1.68e+03    |
+| EpRewSEM  | 332         |
+| KL        | 0.000758413 |
+---------------------------
+********** Iteration 595 ************
+kl too high
+--------------------------
+| EVAfter   | 0.843      |
+| EVBefore  | 0.813      |
+| EpLenMean | 490        |
+| EpRewMean | 1.62e+03   |
+| EpRewSEM  | 373        |
+| KL        | 0.00459516 |
+--------------------------
+********** Iteration 596 ************
+kl too low
+--------------------------
+| EVAfter   | 0.906      |
+| EVBefore  | 0.901      |
+| EpLenMean | 756        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 373        |
+| KL        | 0.00091614 |
+--------------------------
+********** Iteration 597 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.891      |
+| EVBefore  | 0.88       |
+| EpLenMean | 705        |
+| EpRewMean | 2.35e+03   |
+| EpRewSEM  | 521        |
+| KL        | 0.00274118 |
+--------------------------
+********** Iteration 598 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.907      |
+| EVBefore  | 0.89       |
+| EpLenMean | 432        |
+| EpRewMean | 1.43e+03   |
+| EpRewSEM  | 183        |
+| KL        | 0.00275252 |
+--------------------------
+********** Iteration 599 ************
+kl too low
+---------------------------
+| EVAfter   | 0.916       |
+| EVBefore  | 0.907       |
+| EpLenMean | 849         |
+| EpRewMean | 2.87e+03    |
+| EpRewSEM  | 425         |
+| KL        | 0.000400253 |
+---------------------------
+********** Iteration 600 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.935      |
+| EVBefore  | 0.923      |
+| EpLenMean | 515        |
+| EpRewMean | 1.72e+03   |
+| EpRewSEM  | 227        |
+| KL        | 0.00270359 |
+--------------------------
+********** Iteration 601 ************
+kl just right!
+------------------------
+| EVAfter   | 0.936    |
+| EVBefore  | 0.928    |
+| EpLenMean | 517      |
+| EpRewMean | 1.75e+03 |
+| EpRewSEM  | 166      |
+| KL        | 0.003252 |
+------------------------
+********** Iteration 602 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.909      |
+| EVBefore  | 0.898      |
+| EpLenMean | 623        |
+| EpRewMean | 2.1e+03    |
+| EpRewSEM  | 297        |
+| KL        | 0.00353769 |
+--------------------------
+********** Iteration 603 ************
+kl too high
+--------------------------
+| EVAfter   | 0.892      |
+| EVBefore  | 0.91       |
+| EpLenMean | 681        |
+| EpRewMean | 2.28e+03   |
+| EpRewSEM  | 435        |
+| KL        | 0.00436248 |
+--------------------------
+********** Iteration 604 ************
+kl too low
+---------------------------
+| EVAfter   | 0.931       |
+| EVBefore  | 0.932       |
+| EpLenMean | 657         |
+| EpRewMean | 2.22e+03    |
+| EpRewSEM  | 413         |
+| KL        | 0.000719482 |
+---------------------------
+********** Iteration 605 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.92       |
+| EVBefore  | 0.905      |
+| EpLenMean | 659        |
+| EpRewMean | 2.2e+03    |
+| EpRewSEM  | 389        |
+| KL        | 0.00300986 |
+--------------------------
+********** Iteration 606 ************
+kl too low
+---------------------------
+| EVAfter   | 0.881       |
+| EVBefore  | 0.848       |
+| EpLenMean | 896         |
+| EpRewMean | 3.04e+03    |
+| EpRewSEM  | 289         |
+| KL        | 0.000909719 |
+---------------------------
+********** Iteration 607 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.87       |
+| EVBefore  | 0.852      |
+| EpLenMean | 907        |
+| EpRewMean | 3.04e+03   |
+| EpRewSEM  | 248        |
+| KL        | 0.00140509 |
+--------------------------
+********** Iteration 608 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.887      |
+| EVBefore  | 0.878      |
+| EpLenMean | 869        |
+| EpRewMean | 2.91e+03   |
+| EpRewSEM  | 392        |
+| KL        | 0.00124254 |
+--------------------------
+********** Iteration 609 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.914      |
+| EVBefore  | 0.906      |
+| EpLenMean | 963        |
+| EpRewMean | 3.24e+03   |
+| EpRewSEM  | 89.2       |
+| KL        | 0.00204242 |
+--------------------------
+********** Iteration 610 ************
+kl too low
+---------------------------
+| EVAfter   | 0.93        |
+| EVBefore  | 0.922       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 6.58        |
+| KL        | 0.000642224 |
+---------------------------
+********** Iteration 611 ************
+kl too high
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.875      |
+| EpLenMean | 793        |
+| EpRewMean | 2.68e+03   |
+| EpRewSEM  | 369        |
+| KL        | 0.00473066 |
+--------------------------
+********** Iteration 612 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.925      |
+| EVBefore  | 0.909      |
+| EpLenMean | 670        |
+| EpRewMean | 2.23e+03   |
+| EpRewSEM  | 566        |
+| KL        | 0.00145983 |
+--------------------------
+********** Iteration 613 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.879      |
+| EVBefore  | 0.866      |
+| EpLenMean | 840        |
+| EpRewMean | 2.82e+03   |
+| EpRewSEM  | 476        |
+| KL        | 0.00110957 |
+--------------------------
+********** Iteration 614 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.903      |
+| EVBefore  | 0.895      |
+| EpLenMean | 868        |
+| EpRewMean | 2.92e+03   |
+| EpRewSEM  | 353        |
+| KL        | 0.00115029 |
+--------------------------
+********** Iteration 615 ************
+kl too low
+---------------------------
+| EVAfter   | 0.905       |
+| EVBefore  | 0.895       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.38e+03    |
+| EpRewSEM  | 10.4        |
+| KL        | 0.000635609 |
+---------------------------
+********** Iteration 616 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.895      |
+| EVBefore  | 0.885      |
+| EpLenMean | 934        |
+| EpRewMean | 3.14e+03   |
+| EpRewSEM  | 186        |
+| KL        | 0.00262801 |
+--------------------------
+********** Iteration 617 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.898      |
+| EVBefore  | 0.889      |
+| EpLenMean | 974        |
+| EpRewMean | 3.3e+03    |
+| EpRewSEM  | 64.4       |
+| KL        | 0.00223564 |
+--------------------------
+********** Iteration 618 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.92       |
+| EVBefore  | 0.911      |
+| EpLenMean | 834        |
+| EpRewMean | 2.81e+03   |
+| EpRewSEM  | 451        |
+| KL        | 0.00236367 |
+--------------------------
+********** Iteration 619 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.876      |
+| EVBefore  | 0.899      |
+| EpLenMean | 853        |
+| EpRewMean | 2.85e+03   |
+| EpRewSEM  | 432        |
+| KL        | 0.00150839 |
+--------------------------
+********** Iteration 620 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.622      |
+| EVBefore  | 0.86       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 12.1       |
+| KL        | 0.00174218 |
+--------------------------
+********** Iteration 621 ************
+kl too low
+---------------------------
+| EVAfter   | 0.738       |
+| EVBefore  | 0.658       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.38e+03    |
+| EpRewSEM  | 6.54        |
+| KL        | 0.000922624 |
+---------------------------
+********** Iteration 622 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.799      |
+| EVBefore  | 0.721      |
+| EpLenMean | 860        |
+| EpRewMean | 2.88e+03   |
+| EpRewSEM  | 373        |
+| KL        | 0.00326471 |
+--------------------------
+********** Iteration 623 ************
+kl too high
+-------------------------
+| EVAfter   | 0.804     |
+| EVBefore  | 0.756     |
+| EpLenMean | 963       |
+| EpRewMean | 3.28e+03  |
+| EpRewSEM  | 72.4      |
+| KL        | 0.0091576 |
+-------------------------
+********** Iteration 624 ************
+kl too high
+--------------------------
+| EVAfter   | 0.837      |
+| EVBefore  | 0.795      |
+| EpLenMean | 867        |
+| EpRewMean | 2.95e+03   |
+| EpRewSEM  | 351        |
+| KL        | 0.00424884 |
+--------------------------
+********** Iteration 625 ************
+kl too low
+---------------------------
+| EVAfter   | 0.878       |
+| EVBefore  | 0.861       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.35e+03    |
+| EpRewSEM  | 16.2        |
+| KL        | 0.000429235 |
+---------------------------
+********** Iteration 626 ************
+kl too high
+-------------------------
+| EVAfter   | 0.884     |
+| EVBefore  | 0.852     |
+| EpLenMean | 817       |
+| EpRewMean | 2.77e+03  |
+| EpRewSEM  | 533       |
+| KL        | 0.0041082 |
+-------------------------
+********** Iteration 627 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.637      |
+| EVBefore  | 0.873      |
+| EpLenMean | 999        |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 17         |
+| KL        | 0.00127164 |
+--------------------------
+********** Iteration 628 ************
+kl too low
+---------------------------
+| EVAfter   | 0.752       |
+| EVBefore  | 0.7         |
+| EpLenMean | 854         |
+| EpRewMean | 2.89e+03    |
+| EpRewSEM  | 423         |
+| KL        | 0.000991688 |
+---------------------------
+********** Iteration 629 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.738      |
+| EVBefore  | 0.661      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 19         |
+| KL        | 0.00223428 |
+--------------------------
+********** Iteration 630 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.821      |
+| EVBefore  | 0.778      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.31e+03   |
+| EpRewSEM  | 8.15       |
+| KL        | 0.00143042 |
+--------------------------
+********** Iteration 631 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.832      |
+| EVBefore  | 0.795      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.35e+03   |
+| EpRewSEM  | 3.57       |
+| KL        | 0.00118653 |
+--------------------------
+********** Iteration 632 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.843      |
+| EVBefore  | 0.815      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 14.3       |
+| KL        | 0.00223927 |
+--------------------------
+********** Iteration 633 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.881      |
+| EVBefore  | 0.861      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.33e+03   |
+| EpRewSEM  | 24         |
+| KL        | 0.00252244 |
+--------------------------
+********** Iteration 634 ************
+kl too high
+--------------------------
+| EVAfter   | 0.875      |
+| EVBefore  | 0.842      |
+| EpLenMean | 830        |
+| EpRewMean | 2.79e+03   |
+| EpRewSEM  | 500        |
+| KL        | 0.00490288 |
+--------------------------
+********** Iteration 635 ************
+kl too low
+---------------------------
+| EVAfter   | 0.891       |
+| EVBefore  | 0.878       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 22.7        |
+| KL        | 0.000905428 |
+---------------------------
+********** Iteration 636 ************
+kl too high
+--------------------------
+| EVAfter   | 0.919      |
+| EVBefore  | 0.907      |
+| EpLenMean | 851        |
+| EpRewMean | 2.86e+03   |
+| EpRewSEM  | 408        |
+| KL        | 0.00407175 |
+--------------------------
+********** Iteration 637 ************
+kl too low
+---------------------------
+| EVAfter   | 0.884       |
+| EVBefore  | 0.871       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.32e+03    |
+| EpRewSEM  | 13.4        |
+| KL        | 0.000909558 |
+---------------------------
+********** Iteration 638 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.856      |
+| EVBefore  | 0.911      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 8.97       |
+| KL        | 0.00217027 |
+--------------------------
+********** Iteration 639 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.831      |
+| EVBefore  | 0.837      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 5.82       |
+| KL        | 0.00283119 |
+--------------------------
+********** Iteration 640 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.845     |
+| EVBefore  | 0.802     |
+| EpLenMean | 1e+03     |
+| EpRewMean | 3.38e+03  |
+| EpRewSEM  | 12.6      |
+| KL        | 0.0021574 |
+-------------------------
+********** Iteration 641 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.846     |
+| EVBefore  | 0.76      |
+| EpLenMean | 880       |
+| EpRewMean | 2.97e+03  |
+| EpRewSEM  | 327       |
+| KL        | 0.0036382 |
+-------------------------
+********** Iteration 642 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.907      |
+| EVBefore  | 0.888      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.39e+03   |
+| EpRewSEM  | 10.3       |
+| KL        | 0.00248101 |
+--------------------------
+********** Iteration 643 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.923      |
+| EVBefore  | 0.911      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 9.41       |
+| KL        | 0.00248407 |
+--------------------------
+********** Iteration 644 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.916      |
+| EVBefore  | 0.907      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 2.92       |
+| KL        | 0.00272362 |
+--------------------------
+********** Iteration 645 ************
+kl too high
+--------------------------
+| EVAfter   | 0.896      |
+| EVBefore  | 0.855      |
+| EpLenMean | 827        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 351        |
+| KL        | 0.00497208 |
+--------------------------
+********** Iteration 646 ************
+kl too low
+---------------------------
+| EVAfter   | 0.945       |
+| EVBefore  | 0.941       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.36e+03    |
+| EpRewSEM  | 2.5         |
+| KL        | 0.000907417 |
+---------------------------
+********** Iteration 647 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.921      |
+| EVBefore  | 0.916      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.36e+03   |
+| EpRewSEM  | 19.2       |
+| KL        | 0.00232616 |
+--------------------------
+********** Iteration 648 ************
+kl too high
+-------------------------
+| EVAfter   | 0.953     |
+| EVBefore  | 0.948     |
+| EpLenMean | 983       |
+| EpRewMean | 3.32e+03  |
+| EpRewSEM  | 34        |
+| KL        | 0.0125372 |
+-------------------------
+********** Iteration 649 ************
+kl too high
+--------------------------
+| EVAfter   | 0.864      |
+| EVBefore  | 0.842      |
+| EpLenMean | 784        |
+| EpRewMean | 2.63e+03   |
+| EpRewSEM  | 378        |
+| KL        | 0.00482006 |
+--------------------------
+********** Iteration 650 ************
+kl too low
+---------------------------
+| EVAfter   | 0.92        |
+| EVBefore  | 0.916       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.36e+03    |
+| EpRewSEM  | 13.4        |
+| KL        | 0.000371483 |
+---------------------------
+********** Iteration 651 ************
+kl too low
+---------------------------
+| EVAfter   | 0.938       |
+| EVBefore  | 0.936       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.39e+03    |
+| EpRewSEM  | 1.27        |
+| KL        | 0.000925823 |
+---------------------------
+********** Iteration 652 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.94       |
+| EVBefore  | 0.935      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 15.9       |
+| KL        | 0.00202836 |
+--------------------------
+********** Iteration 653 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.941      |
+| EVBefore  | 0.938      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 9.87       |
+| KL        | 0.00162315 |
+--------------------------
+********** Iteration 654 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.946      |
+| EVBefore  | 0.944      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.37e+03   |
+| EpRewSEM  | 12.4       |
+| KL        | 0.00148797 |
+--------------------------
+********** Iteration 655 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.931      |
+| EVBefore  | 0.928      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.34e+03   |
+| EpRewSEM  | 14.4       |
+| KL        | 0.00129759 |
+--------------------------
+********** Iteration 656 ************
+kl too high
+--------------------------
+| EVAfter   | 0.934      |
+| EVBefore  | 0.922      |
+| EpLenMean | 835        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 490        |
+| KL        | 0.00438981 |
+--------------------------
+********** Iteration 657 ************
+kl too low
+---------------------------
+| EVAfter   | 0.954       |
+| EVBefore  | 0.953       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 2.3         |
+| KL        | 0.000507762 |
+---------------------------
+********** Iteration 658 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.951      |
+| EVBefore  | 0.949      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.36e+03   |
+| EpRewSEM  | 11         |
+| KL        | 0.00133591 |
+--------------------------
+********** Iteration 659 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.947      |
+| EVBefore  | 0.943      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.35e+03   |
+| EpRewSEM  | 14.1       |
+| KL        | 0.00133974 |
+--------------------------
+********** Iteration 660 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.951      |
+| EVBefore  | 0.947      |
+| EpLenMean | 833        |
+| EpRewMean | 2.8e+03    |
+| EpRewSEM  | 492        |
+| KL        | 0.00239934 |
+--------------------------
+********** Iteration 661 ************
+kl too high
+-------------------------
+| EVAfter   | 0.926     |
+| EVBefore  | 0.885     |
+| EpLenMean | 869       |
+| EpRewMean | 2.91e+03  |
+| EpRewSEM  | 381       |
+| KL        | 0.0107219 |
+-------------------------
+********** Iteration 662 ************
+kl too low
+---------------------------
+| EVAfter   | 0.956       |
+| EVBefore  | 0.955       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 7.37        |
+| KL        | 0.000734597 |
+---------------------------
+********** Iteration 663 ************
+kl too high
+-------------------------
+| EVAfter   | 0.894     |
+| EVBefore  | 0.881     |
+| EpLenMean | 733       |
+| EpRewMean | 2.45e+03  |
+| EpRewSEM  | 462       |
+| KL        | 0.0540902 |
+-------------------------
+********** Iteration 664 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.962     |
+| EVBefore  | 0.945     |
+| EpLenMean | 688       |
+| EpRewMean | 2.34e+03  |
+| EpRewSEM  | 531       |
+| KL        | 0.0020865 |
+-------------------------
+********** Iteration 665 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.932     |
+| EVBefore  | 0.926     |
+| EpLenMean | 995       |
+| EpRewMean | 3.38e+03  |
+| EpRewSEM  | 34.8      |
+| KL        | 0.0015313 |
+-------------------------
+********** Iteration 666 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.909      |
+| EVBefore  | 0.897      |
+| EpLenMean | 838        |
+| EpRewMean | 2.81e+03   |
+| EpRewSEM  | 501        |
+| KL        | 0.00186544 |
+--------------------------
+********** Iteration 667 ************
+kl too high
+-------------------------
+| EVAfter   | 0.917     |
+| EVBefore  | 0.901     |
+| EpLenMean | 619       |
+| EpRewMean | 2.06e+03  |
+| EpRewSEM  | 485       |
+| KL        | 0.0315411 |
+-------------------------
+********** Iteration 668 ************
+kl too low
+---------------------------
+| EVAfter   | 0.939       |
+| EVBefore  | 0.934       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 1.25        |
+| KL        | 0.000273586 |
+---------------------------
+********** Iteration 669 ************
+kl too low
+---------------------------
+| EVAfter   | 0.944       |
+| EVBefore  | 0.94        |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.37e+03    |
+| EpRewSEM  | 5.19        |
+| KL        | 0.000654532 |
+---------------------------
+********** Iteration 670 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.953      |
+| EVBefore  | 0.95       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.36e+03   |
+| EpRewSEM  | 1.25       |
+| KL        | 0.00117157 |
+--------------------------
+********** Iteration 671 ************
+kl too low
+---------------------------
+| EVAfter   | 0.954       |
+| EVBefore  | 0.953       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.39e+03    |
+| EpRewSEM  | 5.59        |
+| KL        | 0.000912869 |
+---------------------------
+********** Iteration 672 ************
+kl too high
+-------------------------
+| EVAfter   | 0.943     |
+| EVBefore  | 0.935     |
+| EpLenMean | 827       |
+| EpRewMean | 2.8e+03   |
+| EpRewSEM  | 514       |
+| KL        | 0.0130507 |
+-------------------------
+********** Iteration 673 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.954      |
+| EVBefore  | 0.953      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.38e+03   |
+| EpRewSEM  | 0.977      |
+| KL        | 0.00117708 |
+--------------------------
+********** Iteration 674 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.951      |
+| EVBefore  | 0.949      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.39e+03   |
+| EpRewSEM  | 2.2        |
+| KL        | 0.00122493 |
+--------------------------
+********** Iteration 675 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.956     |
+| EVBefore  | 0.954     |
+| EpLenMean | 1e+03     |
+| EpRewMean | 3.4e+03   |
+| EpRewSEM  | 4.56      |
+| KL        | 0.0010433 |
+-------------------------
+********** Iteration 676 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.945      |
+| EVBefore  | 0.942      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.35e+03   |
+| EpRewSEM  | 15.2       |
+| KL        | 0.00148686 |
+--------------------------
+********** Iteration 677 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.951      |
+| EVBefore  | 0.949      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.41e+03   |
+| EpRewSEM  | 9.37       |
+| KL        | 0.00121193 |
+--------------------------
+********** Iteration 678 ************
+kl too high
+-------------------------
+| EVAfter   | 0.942     |
+| EVBefore  | 0.966     |
+| EpLenMean | 845       |
+| EpRewMean | 2.88e+03  |
+| EpRewSEM  | 451       |
+| KL        | 0.0179021 |
+-------------------------
+********** Iteration 679 ************
+kl too low
+---------------------------
+| EVAfter   | 0.894       |
+| EVBefore  | 0.895       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.4e+03     |
+| EpRewSEM  | 8.68        |
+| KL        | 0.000678038 |
+---------------------------
+********** Iteration 680 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.936      |
+| EVBefore  | 0.926      |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.4e+03    |
+| EpRewSEM  | 6.76       |
+| KL        | 0.00179679 |
+--------------------------
+********** Iteration 681 ************
+kl too high
+-------------------------
+| EVAfter   | 0.942     |
+| EVBefore  | 0.921     |
+| EpLenMean | 913       |
+| EpRewMean | 3.13e+03  |
+| EpRewSEM  | 216       |
+| KL        | 0.0180547 |
+-------------------------
+********** Iteration 682 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.942      |
+| EVBefore  | 0.933      |
+| EpLenMean | 742        |
+| EpRewMean | 2.58e+03   |
+| EpRewSEM  | 418        |
+| KL        | 0.00215492 |
+--------------------------
+********** Iteration 683 ************
+kl too high
+-------------------------
+| EVAfter   | 0.953     |
+| EVBefore  | 0.941     |
+| EpLenMean | 740       |
+| EpRewMean | 2.61e+03  |
+| EpRewSEM  | 250       |
+| KL        | 0.0280705 |
+-------------------------
+********** Iteration 684 ************
+kl too low
+---------------------------
+| EVAfter   | 0.936       |
+| EVBefore  | 0.929       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.4e+03     |
+| EpRewSEM  | 6.71        |
+| KL        | 0.000396934 |
+---------------------------
+********** Iteration 685 ************
+kl too low
+---------------------------
+| EVAfter   | 0.936       |
+| EVBefore  | 0.929       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.39e+03    |
+| EpRewSEM  | 2.3         |
+| KL        | 0.000890884 |
+---------------------------
+********** Iteration 686 ************
+kl too high
+-------------------------
+| EVAfter   | 0.592     |
+| EVBefore  | 0.887     |
+| EpLenMean | 997       |
+| EpRewMean | 3.46e+03  |
+| EpRewSEM  | 41.6      |
+| KL        | 0.0040787 |
+-------------------------
+********** Iteration 687 ************
+kl too high
+--------------------------
+| EVAfter   | 0.333      |
+| EVBefore  | 0.629      |
+| EpLenMean | 722        |
+| EpRewMean | 2.52e+03   |
+| EpRewSEM  | 306        |
+| KL        | 0.00563844 |
+--------------------------
+********** Iteration 688 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.682      |
+| EVBefore  | 0.311      |
+| EpLenMean | 834        |
+| EpRewMean | 2.86e+03   |
+| EpRewSEM  | 476        |
+| KL        | 0.00125855 |
+--------------------------
+********** Iteration 689 ************
+kl too low
+---------------------------
+| EVAfter   | 0.484       |
+| EVBefore  | 0.564       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.42e+03    |
+| EpRewSEM  | 4.39        |
+| KL        | 0.000334417 |
+---------------------------
+********** Iteration 690 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.662      |
+| EVBefore  | 0.587      |
+| EpLenMean | 923        |
+| EpRewMean | 3.22e+03   |
+| EpRewSEM  | 185        |
+| KL        | 0.00393396 |
+--------------------------
+********** Iteration 691 ************
+kl too high
+--------------------------
+| EVAfter   | 0.773      |
+| EVBefore  | 0.712      |
+| EpLenMean | 846        |
+| EpRewMean | 2.91e+03   |
+| EpRewSEM  | 440        |
+| KL        | 0.00409609 |
+--------------------------
+********** Iteration 692 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.754      |
+| EVBefore  | 0.686      |
+| EpLenMean | 939        |
+| EpRewMean | 3.25e+03   |
+| EpRewSEM  | 144        |
+| KL        | 0.00135233 |
+--------------------------
+********** Iteration 693 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.812      |
+| EVBefore  | 0.766      |
+| EpLenMean | 882        |
+| EpRewMean | 3.05e+03   |
+| EpRewSEM  | 296        |
+| KL        | 0.00334497 |
+--------------------------
+********** Iteration 694 ************
+kl too low
+---------------------------
+| EVAfter   | 0.837       |
+| EVBefore  | 0.793       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.41e+03    |
+| EpRewSEM  | 14.5        |
+| KL        | 0.000576001 |
+---------------------------
+********** Iteration 695 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.845      |
+| EVBefore  | 0.82       |
+| EpLenMean | 1e+03      |
+| EpRewMean | 3.42e+03   |
+| EpRewSEM  | 6.49       |
+| KL        | 0.00123297 |
+--------------------------
+********** Iteration 696 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.889      |
+| EVBefore  | 0.873      |
+| EpLenMean | 891        |
+| EpRewMean | 3.09e+03   |
+| EpRewSEM  | 273        |
+| KL        | 0.00346293 |
+--------------------------
+********** Iteration 697 ************
+kl too high
+-------------------------
+| EVAfter   | 0.915     |
+| EVBefore  | 0.904     |
+| EpLenMean | 847       |
+| EpRewMean | 2.93e+03  |
+| EpRewSEM  | 415       |
+| KL        | 0.0117043 |
+-------------------------
+********** Iteration 698 ************
+kl too high
+-------------------------
+| EVAfter   | 0.878     |
+| EVBefore  | 0.855     |
+| EpLenMean | 688       |
+| EpRewMean | 2.41e+03  |
+| EpRewSEM  | 409       |
+| KL        | 0.0302447 |
+-------------------------
+********** Iteration 699 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.905      |
+| EVBefore  | 0.887      |
+| EpLenMean | 836        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 236        |
+| KL        | 0.00224195 |
+--------------------------
+********** Iteration 700 ************
+kl just right!
+--------------------------
+| EVAfter   | 0.9        |
+| EVBefore  | 0.883      |
+| EpLenMean | 864        |
+| EpRewMean | 3.04e+03   |
+| EpRewSEM  | 180        |
+| KL        | 0.00252514 |
+--------------------------
+********** Iteration 701 ************
+kl too low
+---------------------------
+| EVAfter   | 0.923       |
+| EVBefore  | 0.918       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.44e+03    |
+| EpRewSEM  | 12.7        |
+| KL        | 0.000248157 |
+---------------------------
+********** Iteration 702 ************
+kl just right!
+-------------------------
+| EVAfter   | 0.92      |
+| EVBefore  | 0.908     |
+| EpLenMean | 714       |
+| EpRewMean | 2.5e+03   |
+| EpRewSEM  | 472       |
+| KL        | 0.0023093 |
+-------------------------
+********** Iteration 703 ************
+kl too low
+---------------------------
+| EVAfter   | 0.92        |
+| EVBefore  | 0.915       |
+| EpLenMean | 1e+03       |
+| EpRewMean | 3.42e+03    |
+| EpRewSEM  | 16.9        |
+| KL        | 0.000525322 |
+---------------------------
+********** Iteration 704 ************
+kl too high
+--------------------------
+| EVAfter   | 0.916      |
+| EVBefore  | 0.917      |
+| EpLenMean | 857        |
+| EpRewMean | 2.96e+03   |
+| EpRewSEM  | 409        |
+| KL        | 0.00629712 |
+--------------------------
+W tensorflow/core/kernels/queue_base.cc:294] _1_vf/fifo_queue: Skipping cancelled enqueue attempt with queue not closed
